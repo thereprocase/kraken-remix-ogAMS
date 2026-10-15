@@ -33,7 +33,7 @@ You need **one of each**. Use the 3MF files in your slicer, or STEP if you want 
 
 Print the bodies upright, with the feeder end at the top of the print. Move each body's lowest face onto the build plate. The front-bar files are already positioned flat on their broad mating face, with the bottom at Z=0; each bar is 8 mm tall in that orientation. Use humebeam's guidance as your starting point for material and print settings, then inspect these models in your slicer.
 
-**Spool-centering rings are different parts.** They fit the centre hole of the filament spool and snap onto the Kraken spool holder. They are not the orange front bars in the pictures. Obtain the rings and other holder parts from humebeam's model. A separate modified gear-side ring with a wider, thicker flange was also considered during this remix's development; that ring is not supplied here. The body-pocket dimensions describe the clearance added by these bodies alone, without assuming an extra clearance gain from a ring.
+**Spool-centering rings are different parts.** They fit the centre hole of the filament spool and snap onto the Kraken spool holder. They are not the orange front bars in the pictures. The [55.5 mm pentagon flange pair for the Polymaker cardboard-spool setup](rings/README.md) is available separately here. Obtain other ring sizes and holder parts from humebeam's model. The body-pocket dimensions describe the clearance added by these bodies alone, without assuming an extra clearance gain from a ring.
 
 ## Optional eight-spoke spool gear
 
