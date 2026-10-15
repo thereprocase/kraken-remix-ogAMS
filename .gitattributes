@@ -1,0 +1,6 @@
+# Preserve release hashes across checkouts; CAD exports are generated artifacts.
+* -text
+*.step binary
+*.3mf binary
+*.npz binary
+*.png binary

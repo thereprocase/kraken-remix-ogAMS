@@ -1,0 +1,8 @@
+build123d==0.13.0
+cadquery-ocp-proxy==8.0.1.1.0
+cadquery-ocp-novtk==8.0.1.1.0
+numpy==2.5.3
+scipy==1.18.1
+manifold3d==3.5.4
+ocpsvg==0.7.0
+ocp_gordon==0.3.1

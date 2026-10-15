@@ -1,0 +1,3202 @@
+[
+  {
+    "side": "right",
+    "tolerance_mm": 0.05,
+    "method": "Independent measured interface probes; BODY-GUIDE CAD probes use the owner-approved37.1mm nominal centered on the feeder screw pattern, with measured source faces checked separately. Every probe must be within 0.05 mm of both source and current CAD surface. Exhaustive triangle candidates within tolerance; sampled check only. Failed source coverage means the contact specification itself needs investigation.",
+    "checks": [
+      {
+        "id": "R-SP-1",
+        "purpose": "Spool axle bearing",
+        "received_part": "gear/cap peg",
+        "dimensions": {
+          "radius": 6.0,
+          "recess": 1.35,
+          "projection": 1.25
+        },
+        "samples": 82,
+        "source_probe_max_mm": 0.020410701075497157,
+        "cad_probe_max_mm": 0.017992088382268324,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-SP-1-BOSS-LAND",
+        "purpose": "Peg head axial contact annulus",
+        "received_part": "gear/cap head",
+        "dimensions": {
+          "projection": 1.25
+        },
+        "samples": 62,
+        "source_probe_max_mm": 0.00019880000000682688,
+        "cad_probe_max_mm": 0.01266539692562568,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-SP-1-BOSS-TAPER",
+        "purpose": "Tapered peg boss envelope",
+        "received_part": "gear/cap receiver",
+        "dimensions": {
+          "front_radius": 8.85,
+          "taper_angle": 45.0,
+          "projection": 1.25
+        },
+        "samples": 123,
+        "source_probe_max_mm": 0.006203317338402395,
+        "cad_probe_max_mm": 0.009119692280549176,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-SP-1-DEPTH",
+        "purpose": "Peg seat axial stop",
+        "received_part": "gear/cap peg head",
+        "dimensions": {
+          "recess": 1.35
+        },
+        "samples": 93,
+        "source_probe_max_mm": 0.0004948000000126741,
+        "cad_probe_max_mm": 0.023275604259339437,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-ROLLER-1",
+        "purpose": "Front roller axle bearing",
+        "received_part": "front roller",
+        "dimensions": {
+          "radius": 4.1,
+          "relief_depth": 1.55,
+          "pilot_depth": 1.3
+        },
+        "samples": 82,
+        "source_probe_max_mm": 0.015435556395394965,
+        "cad_probe_max_mm": 0.006592623933711894,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-ROLLER-1-SHOULDER",
+        "purpose": "Roller shoulder axial stop",
+        "received_part": "roller end shoulder",
+        "dimensions": {
+          "depth": 1.55,
+          "clearance_radius": 4.7
+        },
+        "samples": 81,
+        "source_probe_max_mm": 4.099999998175008e-06,
+        "cad_probe_max_mm": 0.004406000000003019,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-ROLLER-1-FRONT-LAND",
+        "purpose": "Roller lower bearing-face contact",
+        "received_part": "roller shoulder",
+        "dimensions": {
+          "land_x": -82.274406
+        },
+        "samples": 82,
+        "source_probe_max_mm": 4.00000004674439e-07,
+        "cad_probe_max_mm": 0.02082933010967204,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-ROLLER-1-DEPTH",
+        "purpose": "Front roller blind axial stop",
+        "received_part": "roller axle end",
+        "dimensions": {
+          "total_depth": 2.85
+        },
+        "samples": 216,
+        "source_probe_max_mm": 1.099999991538425e-06,
+        "cad_probe_max_mm": 0.03778792344075368,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-SP-2",
+        "purpose": "Spool axle bearing",
+        "received_part": "gear/cap peg",
+        "dimensions": {
+          "radius": 6.0,
+          "recess": 1.35,
+          "projection": 1.2
+        },
+        "samples": 82,
+        "source_probe_max_mm": 0.020410701075497167,
+        "cad_probe_max_mm": 0.0077379993887961105,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-SP-2-BOSS-LAND",
+        "purpose": "Peg head axial contact annulus",
+        "received_part": "gear/cap head",
+        "dimensions": {
+          "projection": 1.2
+        },
+        "samples": 62,
+        "source_probe_max_mm": 6.980000000211818e-06,
+        "cad_probe_max_mm": 0.01253185857259903,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-SP-2-BOSS-TAPER",
+        "purpose": "Tapered peg boss envelope",
+        "received_part": "gear/cap receiver",
+        "dimensions": {
+          "front_radius": 8.85,
+          "taper_angle": 45.0,
+          "projection": 1.2
+        },
+        "samples": 123,
+        "source_probe_max_mm": 0.006112253466255137,
+        "cad_probe_max_mm": 0.0031646290208341738,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-SP-2-DEPTH",
+        "purpose": "Peg seat axial stop",
+        "received_part": "gear/cap peg head",
+        "dimensions": {
+          "recess": 1.35
+        },
+        "samples": 93,
+        "source_probe_max_mm": 5.230000000189251e-06,
+        "cad_probe_max_mm": 0.023203209985635073,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-ROLLER-2",
+        "purpose": "Front roller axle bearing",
+        "received_part": "front roller",
+        "dimensions": {
+          "radius": 4.1,
+          "relief_depth": 1.55,
+          "pilot_depth": 1.3
+        },
+        "samples": 82,
+        "source_probe_max_mm": 0.015435556395394926,
+        "cad_probe_max_mm": 0.006646548323743651,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-ROLLER-2-SHOULDER",
+        "purpose": "Roller shoulder axial stop",
+        "received_part": "roller end shoulder",
+        "dimensions": {
+          "depth": 1.55,
+          "clearance_radius": 4.7
+        },
+        "samples": 81,
+        "source_probe_max_mm": 6.980000000211818e-06,
+        "cad_probe_max_mm": 0.005056874171675293,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-ROLLER-2-FRONT-LAND",
+        "purpose": "Roller lower bearing-face contact",
+        "received_part": "roller shoulder",
+        "dimensions": {
+          "land_x": -5.274006
+        },
+        "samples": 82,
+        "source_probe_max_mm": 3.920000000157132e-06,
+        "cad_probe_max_mm": 0.040618899115045834,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-ROLLER-2-DEPTH",
+        "purpose": "Front roller blind axial stop",
+        "received_part": "roller axle end",
+        "dimensions": {
+          "total_depth": 2.85
+        },
+        "samples": 216,
+        "source_probe_max_mm": 5.230000000189251e-06,
+        "cad_probe_max_mm": 0.037743375020847736,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-SP-3",
+        "purpose": "Spool axle bearing",
+        "received_part": "gear/cap peg",
+        "dimensions": {
+          "radius": 6.0,
+          "recess": 1.35,
+          "projection": 1.25
+        },
+        "samples": 82,
+        "source_probe_max_mm": 0.020410701075497147,
+        "cad_probe_max_mm": 0.018618916290184577,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-SP-3-BOSS-LAND",
+        "purpose": "Peg head axial contact annulus",
+        "received_part": "gear/cap head",
+        "dimensions": {
+          "projection": 1.25
+        },
+        "samples": 62,
+        "source_probe_max_mm": 0.0010031600000002252,
+        "cad_probe_max_mm": 0.012531858572598935,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-SP-3-BOSS-TAPER",
+        "purpose": "Tapered peg boss envelope",
+        "received_part": "gear/cap receiver",
+        "dimensions": {
+          "front_radius": 8.85,
+          "taper_angle": 45.0,
+          "projection": 1.25
+        },
+        "samples": 123,
+        "source_probe_max_mm": 0.0068017873308802625,
+        "cad_probe_max_mm": 0.008837069338143981,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-SP-3-DEPTH",
+        "purpose": "Peg seat axial stop",
+        "received_part": "gear/cap peg head",
+        "dimensions": {
+          "recess": 1.35
+        },
+        "samples": 93,
+        "source_probe_max_mm": 0.0009939999999999396,
+        "cad_probe_max_mm": 0.023203209985635163,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-ROLLER-3",
+        "purpose": "Front roller axle bearing",
+        "received_part": "front roller",
+        "dimensions": {
+          "radius": 4.1,
+          "relief_depth": 1.55,
+          "pilot_depth": 1.3
+        },
+        "samples": 82,
+        "source_probe_max_mm": 0.015435556395394949,
+        "cad_probe_max_mm": 0.006595187738725829,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-ROLLER-3-SHOULDER",
+        "purpose": "Roller shoulder axial stop",
+        "received_part": "roller end shoulder",
+        "dimensions": {
+          "depth": 1.55,
+          "clearance_radius": 4.7
+        },
+        "samples": 81,
+        "source_probe_max_mm": 8.730000000123362e-07,
+        "cad_probe_max_mm": 0.005056874171675366,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-ROLLER-3-FRONT-LAND",
+        "purpose": "Roller lower bearing-face contact",
+        "received_part": "roller shoulder",
+        "dimensions": {
+          "land_x": 1.725994
+        },
+        "samples": 82,
+        "source_probe_max_mm": 3.919999999935087e-06,
+        "cad_probe_max_mm": 0.0406188991150458,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-ROLLER-3-DEPTH",
+        "purpose": "Front roller blind axial stop",
+        "received_part": "roller axle end",
+        "dimensions": {
+          "total_depth": 2.85
+        },
+        "samples": 216,
+        "source_probe_max_mm": 2.1799999998517454e-06,
+        "cad_probe_max_mm": 0.037743375020847826,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-SP-4",
+        "purpose": "Spool axle bearing",
+        "received_part": "gear/cap peg",
+        "dimensions": {
+          "radius": 6.0,
+          "recess": 1.35,
+          "projection": 1.2
+        },
+        "samples": 82,
+        "source_probe_max_mm": 0.020410701075497167,
+        "cad_probe_max_mm": 0.007737999388795937,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-SP-4-BOSS-LAND",
+        "purpose": "Peg head axial contact annulus",
+        "received_part": "gear/cap head",
+        "dimensions": {
+          "projection": 1.2
+        },
+        "samples": 62,
+        "source_probe_max_mm": 6.9999999965375545e-06,
+        "cad_probe_max_mm": 0.012531858572600165,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-SP-4-BOSS-TAPER",
+        "purpose": "Tapered peg boss envelope",
+        "received_part": "gear/cap receiver",
+        "dimensions": {
+          "front_radius": 8.85,
+          "taper_angle": 45.0,
+          "projection": 1.2
+        },
+        "samples": 123,
+        "source_probe_max_mm": 0.006112248432274415,
+        "cad_probe_max_mm": 0.0031646290208347636,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-SP-4-DEPTH",
+        "purpose": "Peg seat axial stop",
+        "received_part": "gear/cap peg head",
+        "dimensions": {
+          "recess": 1.35
+        },
+        "samples": 93,
+        "source_probe_max_mm": 0.0009970999999922017,
+        "cad_probe_max_mm": 0.023203209985635763,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-ROLLER-4",
+        "purpose": "Front roller axle bearing",
+        "received_part": "front roller",
+        "dimensions": {
+          "radius": 4.1,
+          "relief_depth": 1.55,
+          "pilot_depth": 1.3
+        },
+        "samples": 82,
+        "source_probe_max_mm": 0.015435556395394972,
+        "cad_probe_max_mm": 0.006646548323743686,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-ROLLER-4-SHOULDER",
+        "purpose": "Roller shoulder axial stop",
+        "received_part": "roller end shoulder",
+        "dimensions": {
+          "depth": 1.55,
+          "clearance_radius": 4.7
+        },
+        "samples": 81,
+        "source_probe_max_mm": 6.9999999965375545e-06,
+        "cad_probe_max_mm": 0.00505687417167846,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-ROLLER-4-FRONT-LAND",
+        "purpose": "Roller lower bearing-face contact",
+        "received_part": "roller shoulder",
+        "dimensions": {
+          "land_x": 78.725994
+        },
+        "samples": 82,
+        "source_probe_max_mm": 3.8999999958377884e-06,
+        "cad_probe_max_mm": 0.027912088325407366,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-ROLLER-4-DEPTH",
+        "purpose": "Front roller blind axial stop",
+        "received_part": "roller axle end",
+        "dimensions": {
+          "total_depth": 2.85
+        },
+        "samples": 216,
+        "source_probe_max_mm": 5.199999989713434e-06,
+        "cad_probe_max_mm": 0.03774337502084816,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-FD1-A1-PILOT",
+        "purpose": "Feeder screw pilot",
+        "received_part": "stock feeder screw",
+        "dimensions": {
+          "diameter": 2.5,
+          "axis_x": -53.524006,
+          "axis_z": 64.51917
+        },
+        "samples": 360,
+        "source_probe_max_mm": 0.00533935794267879,
+        "cad_probe_max_mm": 0.005791200078970004,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-FD1-A1-SHOULDER",
+        "purpose": "Stepped screw shoulder",
+        "received_part": "feeder fastening",
+        "dimensions": {
+          "shoulder_y": 35.62765
+        },
+        "samples": 216,
+        "source_probe_max_mm": 1.1853027217512138e-06,
+        "cad_probe_max_mm": 0.006507199980638876,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-FD1-A1-LAND",
+        "purpose": "Feeder seating land",
+        "received_part": "front feeder",
+        "dimensions": {
+          "land_y": 31.62765
+        },
+        "samples": 144,
+        "source_probe_max_mm": 1.1853027324093548e-06,
+        "cad_probe_max_mm": 0.04966384941342327,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-FD1-B1-PILOT",
+        "purpose": "Feeder screw pilot",
+        "received_part": "stock feeder screw",
+        "dimensions": {
+          "diameter": 2.5,
+          "axis_x": -53.524006,
+          "axis_z": 90.21917
+        },
+        "samples": 360,
+        "source_probe_max_mm": 0.005336747792389554,
+        "cad_probe_max_mm": 0.006021480978220537,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-FD1-B1-SHOULDER",
+        "purpose": "Stepped screw shoulder",
+        "received_part": "feeder fastening",
+        "dimensions": {
+          "shoulder_y": 52.57765
+        },
+        "samples": 216,
+        "source_probe_max_mm": 1.8146972706745148e-06,
+        "cad_probe_max_mm": 0.006602987053168289,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-FD1-B1-LAND",
+        "purpose": "Feeder seating land",
+        "received_part": "front feeder",
+        "dimensions": {
+          "land_y": 50.52765
+        },
+        "samples": 144,
+        "source_probe_max_mm": 4.914697271374281e-06,
+        "cad_probe_max_mm": 0.04962963409562935,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-FD1-A2-PILOT",
+        "purpose": "Feeder screw pilot",
+        "received_part": "stock feeder screw",
+        "dimensions": {
+          "diameter": 2.5,
+          "axis_x": -34.124005999999994,
+          "axis_z": 64.51917
+        },
+        "samples": 360,
+        "source_probe_max_mm": 0.00534434992314009,
+        "cad_probe_max_mm": 0.005791200078969383,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-FD1-A2-SHOULDER",
+        "purpose": "Stepped screw shoulder",
+        "received_part": "feeder fastening",
+        "dimensions": {
+          "shoulder_y": 35.62765
+        },
+        "samples": 216,
+        "source_probe_max_mm": 1.1853027217512135e-06,
+        "cad_probe_max_mm": 0.006507199980638876,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-FD1-A2-LAND",
+        "purpose": "Feeder seating land",
+        "received_part": "front feeder",
+        "dimensions": {
+          "land_y": 31.62765
+        },
+        "samples": 144,
+        "source_probe_max_mm": 1.1853027324093548e-06,
+        "cad_probe_max_mm": 0.04988610627585274,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-FD1-B2-PILOT",
+        "purpose": "Feeder screw pilot",
+        "received_part": "stock feeder screw",
+        "dimensions": {
+          "diameter": 2.5,
+          "axis_x": -34.124005999999994,
+          "axis_z": 90.21917
+        },
+        "samples": 360,
+        "source_probe_max_mm": 0.0053417399145668934,
+        "cad_probe_max_mm": 0.0060214809782187335,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-FD1-B2-SHOULDER",
+        "purpose": "Stepped screw shoulder",
+        "received_part": "feeder fastening",
+        "dimensions": {
+          "shoulder_y": 52.57765
+        },
+        "samples": 216,
+        "source_probe_max_mm": 1.8146972706745148e-06,
+        "cad_probe_max_mm": 0.006602987053161768,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-FD1-B2-LAND",
+        "purpose": "Feeder seating land",
+        "received_part": "front feeder",
+        "dimensions": {
+          "land_y": 50.52765
+        },
+        "samples": 144,
+        "source_probe_max_mm": 4.914697271374281e-06,
+        "cad_probe_max_mm": 0.04962963409562935,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-FD2-A1-PILOT",
+        "purpose": "Feeder screw pilot",
+        "received_part": "stock feeder screw",
+        "dimensions": {
+          "diameter": 2.5,
+          "axis_x": 30.475994000000004,
+          "axis_z": 64.51917
+        },
+        "samples": 360,
+        "source_probe_max_mm": 0.005339357942684613,
+        "cad_probe_max_mm": 0.005791200078969383,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-FD2-A1-SHOULDER",
+        "purpose": "Stepped screw shoulder",
+        "received_part": "feeder fastening",
+        "dimensions": {
+          "shoulder_y": 35.62765
+        },
+        "samples": 216,
+        "source_probe_max_mm": 1.1853027217512135e-06,
+        "cad_probe_max_mm": 0.006526696727249956,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-FD2-A1-LAND",
+        "purpose": "Feeder seating land",
+        "received_part": "front feeder",
+        "dimensions": {
+          "land_y": 31.62765
+        },
+        "samples": 144,
+        "source_probe_max_mm": 1.1853027324093548e-06,
+        "cad_probe_max_mm": 0.04966384941341627,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-FD2-B1-PILOT",
+        "purpose": "Feeder screw pilot",
+        "received_part": "stock feeder screw",
+        "dimensions": {
+          "diameter": 2.5,
+          "axis_x": 30.475994000000004,
+          "axis_z": 90.21917
+        },
+        "samples": 360,
+        "source_probe_max_mm": 0.0053367477923953665,
+        "cad_probe_max_mm": 0.006021480978217724,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-FD2-B1-SHOULDER",
+        "purpose": "Stepped screw shoulder",
+        "received_part": "feeder fastening",
+        "dimensions": {
+          "shoulder_y": 52.57765
+        },
+        "samples": 216,
+        "source_probe_max_mm": 1.8146972706745148e-06,
+        "cad_probe_max_mm": 0.006526696727254669,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-FD2-B1-LAND",
+        "purpose": "Feeder seating land",
+        "received_part": "front feeder",
+        "dimensions": {
+          "land_y": 50.52765
+        },
+        "samples": 144,
+        "source_probe_max_mm": 4.914697271374281e-06,
+        "cad_probe_max_mm": 0.04962963409562935,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-FD2-A2-PILOT",
+        "purpose": "Feeder screw pilot",
+        "received_part": "stock feeder screw",
+        "dimensions": {
+          "diameter": 2.5,
+          "axis_x": 49.875994000000006,
+          "axis_z": 64.51917
+        },
+        "samples": 360,
+        "source_probe_max_mm": 0.00534434992314009,
+        "cad_probe_max_mm": 0.005791200078969383,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-FD2-A2-SHOULDER",
+        "purpose": "Stepped screw shoulder",
+        "received_part": "feeder fastening",
+        "dimensions": {
+          "shoulder_y": 35.62765
+        },
+        "samples": 216,
+        "source_probe_max_mm": 1.1853027217512135e-06,
+        "cad_probe_max_mm": 0.006507199980638876,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-FD2-A2-LAND",
+        "purpose": "Feeder seating land",
+        "received_part": "front feeder",
+        "dimensions": {
+          "land_y": 31.62765
+        },
+        "samples": 144,
+        "source_probe_max_mm": 1.1853027324093548e-06,
+        "cad_probe_max_mm": 0.04988610627585274,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-FD2-B2-PILOT",
+        "purpose": "Feeder screw pilot",
+        "received_part": "stock feeder screw",
+        "dimensions": {
+          "diameter": 2.5,
+          "axis_x": 49.875994000000006,
+          "axis_z": 90.21917
+        },
+        "samples": 360,
+        "source_probe_max_mm": 0.0053417399145668934,
+        "cad_probe_max_mm": 0.0060214809782187335,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-FD2-B2-SHOULDER",
+        "purpose": "Stepped screw shoulder",
+        "received_part": "feeder fastening",
+        "dimensions": {
+          "shoulder_y": 52.57765
+        },
+        "samples": 216,
+        "source_probe_max_mm": 1.8146972706745148e-06,
+        "cad_probe_max_mm": 0.006602987053161768,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-FD2-B2-LAND",
+        "purpose": "Feeder seating land",
+        "received_part": "front feeder",
+        "dimensions": {
+          "land_y": 50.52765
+        },
+        "samples": 144,
+        "source_probe_max_mm": 4.914697271374281e-06,
+        "cad_probe_max_mm": 0.04816008812938138,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-BOX-SCREW-BORE",
+        "purpose": "AMS fastening screw clearance",
+        "received_part": "stock AMS screw",
+        "dimensions": {
+          "diameter": 5
+        },
+        "samples": 216,
+        "source_probe_max_mm": 0.01252451630652076,
+        "cad_probe_max_mm": 0.004041531634406225,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-BOX-SCREW-HEAD",
+        "purpose": "Screw head recess",
+        "received_part": "stock AMS screw head",
+        "dimensions": {
+          "diameter": 9.0
+        },
+        "samples": 216,
+        "source_probe_max_mm": 0.019926250502980313,
+        "cad_probe_max_mm": 0.007569331061985186,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-BOX-SCREW-HEAD-SEAT",
+        "purpose": "Screw head seating annulus",
+        "received_part": "stock AMS screw head",
+        "dimensions": {
+          "land_y": 50.77765
+        },
+        "samples": 216,
+        "source_probe_max_mm": 4.914697271374281e-06,
+        "cad_probe_max_mm": 0.008358468356827051,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-BOX-SCREW-LAND",
+        "purpose": "AMS pillar contact",
+        "received_part": "AMS box pillar",
+        "dimensions": {
+          "land_y": 53.17765,
+          "outer_diameter": 14.0
+        },
+        "samples": 288,
+        "source_probe_max_mm": 4.285302729556407e-06,
+        "cad_probe_max_mm": 0.006711503231825107,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-HUB-1-PILOT",
+        "purpose": "Hub motor screw pilot",
+        "received_part": "stock hub screw/bushing",
+        "dimensions": {
+          "diameter": 1.8,
+          "depth": 4.0
+        },
+        "samples": 360,
+        "source_probe_max_mm": 0.0038206123345117496,
+        "cad_probe_max_mm": 0.04596563777874087,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-HUB-1-DEPTH",
+        "purpose": "Hub pilot stops on curved outside skin",
+        "received_part": "hub motor screw",
+        "dimensions": {
+          "center_depth": 5.024813097095382,
+          "preserved_skin": true
+        },
+        "samples": 216,
+        "source_probe_max_mm": 0.003216329528127138,
+        "cad_probe_max_mm": 0.014960834072331414,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-HUB-1-OD",
+        "purpose": "Hub bushing boss outer diameter",
+        "received_part": "rubber bushing",
+        "dimensions": {
+          "OD": 6.5
+        },
+        "samples": 144,
+        "source_probe_max_mm": 0.01250473515161537,
+        "cad_probe_max_mm": 0.012460460461194605,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-HUB-1-LAND",
+        "purpose": "Hub bushing contact",
+        "received_part": "stock rubber bushing",
+        "dimensions": {
+          "land_y": 40.98265,
+          "contact_OD": 6.0,
+          "nonfeed_contact_lead_run": 0.0
+        },
+        "samples": 216,
+        "source_probe_max_mm": 3.014697270486977e-06,
+        "cad_probe_max_mm": 0.0026947825121574993,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-HUB-2-PILOT",
+        "purpose": "Hub motor screw pilot",
+        "received_part": "stock hub screw/bushing",
+        "dimensions": {
+          "diameter": 1.8,
+          "depth": 4.0
+        },
+        "samples": 360,
+        "source_probe_max_mm": 0.0038146687601847877,
+        "cad_probe_max_mm": 0.04120410252507106,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-HUB-2-DEPTH",
+        "purpose": "Hub pilot stops on curved outside skin",
+        "received_part": "hub motor screw",
+        "dimensions": {
+          "center_depth": 4.804047037500293,
+          "preserved_skin": true
+        },
+        "samples": 216,
+        "source_probe_max_mm": 0.0013097659803509775,
+        "cad_probe_max_mm": 0.03730720732015768,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-HUB-2-OD",
+        "purpose": "Hub bushing boss outer diameter",
+        "received_part": "rubber bushing",
+        "dimensions": {
+          "OD": 6.0
+        },
+        "samples": 122,
+        "source_probe_max_mm": 0.011351181841088938,
+        "cad_probe_max_mm": 0.03974807830437466,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-HUB-2-LAND",
+        "purpose": "Hub bushing contact",
+        "received_part": "stock rubber bushing",
+        "dimensions": {
+          "land_y": 18.50265,
+          "contact_OD": 6.0,
+          "nonfeed_contact_lead_run": 1.9
+        },
+        "samples": 183,
+        "source_probe_max_mm": 0.00813622888343383,
+        "cad_probe_max_mm": 0.047622356405676976,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-PCB-S1-PILOT",
+        "purpose": "PCB fastening pilot",
+        "received_part": "board screw",
+        "dimensions": {
+          "diameter": 1.8
+        },
+        "samples": 216,
+        "source_probe_max_mm": 0.0038815700400627456,
+        "cad_probe_max_mm": 0.004903958418127914,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-PCB-S1-LAND",
+        "purpose": "PCB seating contact",
+        "received_part": "main board, assignment provisional",
+        "dimensions": {
+          "land_y": 55.77865,
+          "OD": 3.1
+        },
+        "samples": 144,
+        "source_probe_max_mm": 2.1853027263318836e-06,
+        "cad_probe_max_mm": 0.002135409824809126,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-PCB-S2-PILOT",
+        "purpose": "PCB fastening pilot",
+        "received_part": "board screw",
+        "dimensions": {
+          "diameter": 1.8
+        },
+        "samples": 216,
+        "source_probe_max_mm": 0.0037035455104861025,
+        "cad_probe_max_mm": 0.00501719265083475,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-PCB-S2-LAND",
+        "purpose": "PCB seating contact",
+        "received_part": "main board, assignment provisional",
+        "dimensions": {
+          "land_y": 55.77865,
+          "OD": 3.1
+        },
+        "samples": 144,
+        "source_probe_max_mm": 2.1853027263318836e-06,
+        "cad_probe_max_mm": 0.0019786408949241116,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-BOX-PAD-1",
+        "purpose": "Broad feed-end box support contact",
+        "received_part": "AMS box",
+        "dimensions": {
+          "single_land_width": 22.27,
+          "land_front": 80.0,
+          "land_end": 124.95,
+          "land_y": 56.07765,
+          "probe_patch": 1
+        },
+        "samples": 81,
+        "source_probe_max_mm": 1.8146972706745148e-06,
+        "cad_probe_max_mm": 0.0023499999999998526,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-BOX-PAD-2",
+        "purpose": "Broad feed-end box support contact",
+        "received_part": "AMS box",
+        "dimensions": {
+          "single_land_width": 22.27,
+          "land_front": 80.0,
+          "land_end": 124.95,
+          "land_y": 56.07765,
+          "probe_patch": 2
+        },
+        "samples": 81,
+        "source_probe_max_mm": 1.8146972706745148e-06,
+        "cad_probe_max_mm": 0.04628694446479347,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-PCB-EDGE-1-LIP",
+        "purpose": "PCB retaining underside",
+        "received_part": "main board edge",
+        "dimensions": {
+          "overlap": 0.7,
+          "underside_y": 58.69
+        },
+        "samples": 49,
+        "source_probe_max_mm": 0.0003523146972739255,
+        "cad_probe_max_mm": 0.0,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-PCB-EDGE-1-SIDE",
+        "purpose": "PCB edge location",
+        "received_part": "main board edge",
+        "dimensions": {
+          "side_x": -35.278
+        },
+        "samples": 49,
+        "source_probe_max_mm": 1.0000000116860976e-07,
+        "cad_probe_max_mm": 0.0020000000000024443,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-PCB-EDGE-2-LIP",
+        "purpose": "PCB retaining underside",
+        "received_part": "main board edge",
+        "dimensions": {
+          "overlap": 0.7,
+          "underside_y": 58.69
+        },
+        "samples": 49,
+        "source_probe_max_mm": 0.00035231469727392556,
+        "cad_probe_max_mm": 0.0,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-PCB-EDGE-2-SIDE",
+        "purpose": "PCB edge location",
+        "received_part": "main board edge",
+        "dimensions": {
+          "side_x": -35.278
+        },
+        "samples": 49,
+        "source_probe_max_mm": 1.0000000116860976e-07,
+        "cad_probe_max_mm": 0.0020000000000024447,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-BOX-LOCATE-1",
+        "purpose": "Lateral box location",
+        "received_part": "AMS box",
+        "dimensions": {
+          "contact_x": -83.651405,
+          "height": 4.0,
+          "length": 10.0
+        },
+        "samples": 81,
+        "source_probe_max_mm": 2.999999964004019e-07,
+        "cad_probe_max_mm": 0.0021658108326414426,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-BOX-LOCATE-2",
+        "purpose": "Lateral box location",
+        "received_part": "AMS box",
+        "dimensions": {
+          "contact_x": -83.651405,
+          "height": 4.0,
+          "length": 10.0
+        },
+        "samples": 81,
+        "source_probe_max_mm": 2.9999999640040187e-07,
+        "cad_probe_max_mm": 0.02337475732495043,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-BOX-CLIP-LOW",
+        "purpose": "Box front edge lower slot face",
+        "received_part": "AMS box front rim",
+        "dimensions": {
+          "slot_gap": 4.8
+        },
+        "samples": 81,
+        "source_probe_max_mm": 1.8146972706745148e-06,
+        "cad_probe_max_mm": 0.002349999999999852,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-BOX-CLIP-HIGH",
+        "purpose": "Box front edge upper slot face",
+        "received_part": "AMS box front rim",
+        "dimensions": {
+          "slot_gap": 4.8
+        },
+        "samples": 81,
+        "source_probe_max_mm": 1.1853027217512138e-06,
+        "cad_probe_max_mm": 0.002349999999999852,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-BOX-CLIP-STOP",
+        "purpose": "Box front edge insertion stop",
+        "received_part": "AMS box front rim",
+        "dimensions": {
+          "insertion_depth": 3.0
+        },
+        "samples": 81,
+        "source_probe_max_mm": 1.8146972706745148e-06,
+        "cad_probe_max_mm": 0.00016999999999711693,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-JOINT-LOWER-FLANK--1",
+        "purpose": "Lower dovetail mating flank",
+        "received_part": "other body half",
+        "dimensions": {
+          "draft_ratio": 0.25,
+          "normal_clearance": 0.2
+        },
+        "samples": 130,
+        "source_probe_max_mm": 0.002805716822133933,
+        "cad_probe_max_mm": 0.001285569089153337,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-JOINT-LOWER-FLANK-+1",
+        "purpose": "Lower dovetail mating flank",
+        "received_part": "other body half",
+        "dimensions": {
+          "draft_ratio": 0.25,
+          "normal_clearance": 0.2
+        },
+        "samples": 130,
+        "source_probe_max_mm": 0.0003739872251580725,
+        "cad_probe_max_mm": 0.001285569089153337,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-JOINT-UPPER-FLANK--1",
+        "purpose": "Upper dovetail mating flank",
+        "received_part": "other body half",
+        "dimensions": {
+          "draft_angle": 31.0,
+          "neck": 7.5
+        },
+        "samples": 135,
+        "source_probe_max_mm": 0.041299757966111114,
+        "cad_probe_max_mm": 0.002342294009248143,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-JOINT-UPPER-FLANK-+1",
+        "purpose": "Upper dovetail mating flank",
+        "received_part": "other body half",
+        "dimensions": {
+          "draft_angle": 31.0,
+          "neck": 7.5
+        },
+        "samples": 135,
+        "source_probe_max_mm": 0.0387732268184366,
+        "cad_probe_max_mm": 0.0023422940092473056,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-RFID-FACE-1",
+        "purpose": "RFID PCB friction face",
+        "received_part": "RFID board",
+        "dimensions": {
+          "gap": 1.8
+        },
+        "samples": 49,
+        "source_probe_max_mm": 3.0500000001154608e-06,
+        "cad_probe_max_mm": 0.004999999999999893,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-RFID-FACE-2",
+        "purpose": "RFID PCB friction face",
+        "received_part": "RFID board",
+        "dimensions": {
+          "gap": 1.8
+        },
+        "samples": 49,
+        "source_probe_max_mm": 0.0,
+        "cad_probe_max_mm": 0.005000000000000005,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-RFID-ACCESS-FACE",
+        "purpose": "PCB connector/insertion relief face",
+        "received_part": "RFID board connector clearance",
+        "dimensions": {
+          "extra_depth": 1.25
+        },
+        "samples": 49,
+        "source_probe_max_mm": 1.8210000000129514e-06,
+        "cad_probe_max_mm": 0.014010000000000022,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-BOX-BOTTOM-RIB",
+        "purpose": "Primary bottom support",
+        "received_part": "AMS box",
+        "dimensions": {
+          "height_y": 61.07765,
+          "rib_width": 5.0
+        },
+        "samples": 121,
+        "source_probe_max_mm": 1.8146972706745148e-06,
+        "cad_probe_max_mm": 0.02406497482756104,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-FD1-KEY-SOCKET",
+        "purpose": "Front feeder locating tab socket",
+        "received_part": "stock feeder tab, nominal6 by9",
+        "dimensions": {
+          "width": 6.15,
+          "length": 9.15,
+          "floor_y": 31.32965,
+          "edge_setback_from_bay_wall": 8.2
+        },
+        "samples": 405,
+        "source_probe_max_mm": 5.000000001587069e-06,
+        "cad_probe_max_mm": 0.004004000000000119,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-FD2-KEY-SOCKET",
+        "purpose": "Front feeder locating tab socket",
+        "received_part": "stock feeder tab, nominal6 by9",
+        "dimensions": {
+          "width": 6.15,
+          "length": 9.15,
+          "floor_y": 31.32965,
+          "edge_setback_from_bay_wall": 8.2
+        },
+        "samples": 405,
+        "source_probe_max_mm": 4.999999987376214e-06,
+        "cad_probe_max_mm": 0.0040039999999947895,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-FD1-BODY-GUIDE-1",
+        "purpose": "Feeder housing side guide and structural web",
+        "received_part": "stock feeder housing",
+        "dimensions": {
+          "clear_width": 37.1,
+          "source_clear_width": 37.0,
+          "web_width_nominal": 6.0,
+          "nominal_face_x": -62.374005999999994,
+          "source_face_x": -62.274002,
+          "owner_ruling": "One 37.1 mm install clearance for identical stock feeders; source37.0/37.1 is print allowance or measurement noise."
+        },
+        "samples": 81,
+        "source_probe_max_mm": 9.99999940631824e-08,
+        "cad_probe_max_mm": 0.004005999999996846,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-FD1-WEB-RAMP-1",
+        "purpose": "Feeder guide lead-in and printable brace",
+        "received_part": "stock feeder housing / structural brace",
+        "dimensions": {
+          "angle_deg": 45.0,
+          "end_station": 103.19,
+          "end_level": 43.68
+        },
+        "samples": 25,
+        "source_probe_max_mm": 0.0003429265079579659,
+        "cad_probe_max_mm": 0.0021213203435594815,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-FD1-BODY-GUIDE-2",
+        "purpose": "Feeder housing side guide and structural web",
+        "received_part": "stock feeder housing",
+        "dimensions": {
+          "clear_width": 37.1,
+          "source_clear_width": 37.0,
+          "web_width_nominal": 6.0,
+          "nominal_face_x": -25.274005999999996,
+          "source_face_x": -25.274002,
+          "owner_ruling": "One 37.1 mm install clearance for identical stock feeders; source37.0/37.1 is print allowance or measurement noise."
+        },
+        "samples": 81,
+        "source_probe_max_mm": 1.0000000116860976e-07,
+        "cad_probe_max_mm": 0.004005999999996846,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-FD1-WEB-RAMP-2",
+        "purpose": "Feeder guide lead-in and printable brace",
+        "received_part": "stock feeder housing / structural brace",
+        "dimensions": {
+          "angle_deg": 45.0,
+          "end_station": 103.19,
+          "end_level": 43.68
+        },
+        "samples": 25,
+        "source_probe_max_mm": 0.0003429265079579659,
+        "cad_probe_max_mm": 0.0021213203435594334,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-FD2-BODY-GUIDE-1",
+        "purpose": "Feeder housing side guide and structural web",
+        "received_part": "stock feeder housing",
+        "dimensions": {
+          "clear_width": 37.1,
+          "source_clear_width": 37.10000599999999,
+          "web_width_nominal": 6.0,
+          "nominal_face_x": 21.625994000000002,
+          "source_face_x": 21.625992,
+          "owner_ruling": "One 37.1 mm install clearance for identical stock feeders; source37.0/37.1 is print allowance or measurement noise."
+        },
+        "samples": 81,
+        "source_probe_max_mm": 1.9999999878450583e-07,
+        "cad_probe_max_mm": 0.004005999999996846,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-FD2-WEB-RAMP-1",
+        "purpose": "Feeder guide lead-in and printable brace",
+        "received_part": "stock feeder housing / structural brace",
+        "dimensions": {
+          "angle_deg": 45.0,
+          "end_station": 103.19,
+          "end_level": 43.68
+        },
+        "samples": 25,
+        "source_probe_max_mm": 0.00034292650795797,
+        "cad_probe_max_mm": 0.00212132034355953,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-FD2-BODY-GUIDE-2",
+        "purpose": "Feeder housing side guide and structural web",
+        "received_part": "stock feeder housing",
+        "dimensions": {
+          "clear_width": 37.1,
+          "source_clear_width": 37.10000599999999,
+          "web_width_nominal": 6.0,
+          "nominal_face_x": 58.725994,
+          "source_face_x": 58.725998,
+          "owner_ruling": "One 37.1 mm install clearance for identical stock feeders; source37.0/37.1 is print allowance or measurement noise."
+        },
+        "samples": 81,
+        "source_probe_max_mm": 9.99999940631824e-08,
+        "cad_probe_max_mm": 0.004005999999996846,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-FD2-WEB-RAMP-2",
+        "purpose": "Feeder guide lead-in and printable brace",
+        "received_part": "stock feeder housing / structural brace",
+        "dimensions": {
+          "angle_deg": 45.0,
+          "end_station": 103.19,
+          "end_level": 43.68
+        },
+        "samples": 25,
+        "source_probe_max_mm": 0.0003429265079579659,
+        "cad_probe_max_mm": 0.0021213203435594334,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-BOX-OUTER-RAIL",
+        "purpose": "Continuous outer case support and load path",
+        "received_part": "AMS box bottom",
+        "dimensions": {
+          "rail_width": 6.75,
+          "case_crown_radius": 1000.0
+        },
+        "samples": 41,
+        "source_probe_max_mm": 0.0036676120048339585,
+        "cad_probe_max_mm": 0.0021974903971664593,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-RFID-ROOF-1",
+        "purpose": "RFID board edge stop",
+        "received_part": "RFID board",
+        "dimensions": {
+          "fitted_plane_normal_yz": [
+            0.723471761,
+            0.690353975
+          ],
+          "fitted_plane_offset": -11.9618094,
+          "contact_scope": "Two working strips on roof1; Y-23..-21 includes a vent interruption, separately reported, not a mating face."
+        },
+        "samples": 38,
+        "source_probe_max_mm": 0.02152390093416365,
+        "cad_probe_max_mm": 0.018274230263546524,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-RFID-ROOF-2",
+        "purpose": "RFID board edge stop",
+        "received_part": "RFID board",
+        "dimensions": {
+          "fitted_plane_normal_yz": [
+            0.685152,
+            -0.7284
+          ],
+          "fitted_plane_offset": -48.15979,
+          "contact_scope": "Straight roof2 working strip"
+        },
+        "samples": 31,
+        "source_probe_max_mm": 0.0018668189467620938,
+        "cad_probe_max_mm": 0.023466408253164716,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-RFID-CORNER-STOP",
+        "purpose": "RFID corner insertion stop",
+        "received_part": "RFID board corner",
+        "dimensions": {
+          "stop_y": -39.04075
+        },
+        "samples": 81,
+        "source_probe_max_mm": 2.414697270580746e-06,
+        "cad_probe_max_mm": 0.0007500000000035812,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-FERRITE-1-BODY-SIDE",
+        "purpose": "Ferrite body side contact",
+        "received_part": "single stock cable ferrite",
+        "dimensions": {
+          "body_width": 12.15,
+          "axis_x": 72.101,
+          "rounded_corner_nominal": 2.5,
+          "contact_scope": "Straight body contact after Z28; earlier region is clipped by the source and native bay floor."
+        },
+        "samples": 81,
+        "source_probe_max_mm": 0.0,
+        "cad_probe_max_mm": 0.003999000000007414,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-FERRITE-2-BODY-SIDE",
+        "purpose": "Ferrite body side contact",
+        "received_part": "single stock cable ferrite",
+        "dimensions": {
+          "body_width": 12.15,
+          "axis_x": 72.101,
+          "rounded_corner_nominal": 2.5,
+          "contact_scope": "Straight body contact after Z28; earlier region is clipped by the source and native bay floor."
+        },
+        "samples": 81,
+        "source_probe_max_mm": 9.99999940631824e-08,
+        "cad_probe_max_mm": 0.0040050000000064765,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-FERRITE-1-LIP",
+        "purpose": "Ferrite retaining entrance lip",
+        "received_part": "single stock cable ferrite",
+        "dimensions": {
+          "entrance_width": 10.25,
+          "rail_width": 5.0
+        },
+        "samples": 81,
+        "source_probe_max_mm": 1.0000000827403711e-07,
+        "cad_probe_max_mm": 0.04109518854319317,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "R-FERRITE-2-LIP",
+        "purpose": "Ferrite retaining entrance lip",
+        "received_part": "single stock cable ferrite",
+        "dimensions": {
+          "entrance_width": 10.25,
+          "rail_width": 5.0
+        },
+        "samples": 81,
+        "source_probe_max_mm": 1.000000082740371e-07,
+        "cad_probe_max_mm": 0.04109518854319317,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      }
+    ],
+    "source_evidence_sha256": "e35a4bdc10d2e93c259848ca18894feb9804462419e78522df9a28e5758567ca"
+  },
+  {
+    "side": "left",
+    "tolerance_mm": 0.05,
+    "method": "Independent measured interface probes; BODY-GUIDE CAD probes use the owner-approved37.1mm nominal centered on the feeder screw pattern, with measured source faces checked separately. Every probe must be within 0.05 mm of both source and current CAD surface. Exhaustive triangle candidates within tolerance; sampled check only. Failed source coverage means the contact specification itself needs investigation.",
+    "checks": [
+      {
+        "id": "L-SP-1",
+        "purpose": "Spool axle bearing",
+        "received_part": "gear/cap peg",
+        "dimensions": {
+          "radius": 6.0,
+          "recess": 1.35,
+          "projection": 1.2
+        },
+        "samples": 82,
+        "source_probe_max_mm": 0.02166292864685752,
+        "cad_probe_max_mm": 0.009754991898648795,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-SP-1-BOSS-LAND",
+        "purpose": "Peg head axial contact annulus",
+        "received_part": "gear/cap head",
+        "dimensions": {
+          "projection": 1.2
+        },
+        "samples": 62,
+        "source_probe_max_mm": 0.011015530320818813,
+        "cad_probe_max_mm": 0.01884473752228249,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-SP-1-BOSS-TAPER",
+        "purpose": "Tapered peg boss envelope",
+        "received_part": "gear/cap receiver",
+        "dimensions": {
+          "front_radius": 8.85,
+          "taper_angle": 45.0,
+          "projection": 1.2
+        },
+        "samples": 123,
+        "source_probe_max_mm": 0.01368518863278075,
+        "cad_probe_max_mm": 0.009453888709473569,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-SP-1-DEPTH",
+        "purpose": "Peg seat axial stop",
+        "received_part": "gear/cap peg head",
+        "dimensions": {
+          "recess": 1.35
+        },
+        "samples": 93,
+        "source_probe_max_mm": 0.008268874340828347,
+        "cad_probe_max_mm": 0.02713789981994879,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-ROLLER-1",
+        "purpose": "Front roller axle bearing",
+        "received_part": "front roller",
+        "dimensions": {
+          "radius": 4.1,
+          "relief_depth": 1.55,
+          "pilot_depth": 1.3
+        },
+        "samples": 82,
+        "source_probe_max_mm": 0.016697458760312894,
+        "cad_probe_max_mm": 0.0067146941001402,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-ROLLER-1-SHOULDER",
+        "purpose": "Roller shoulder axial stop",
+        "received_part": "roller end shoulder",
+        "dimensions": {
+          "depth": 1.55,
+          "clearance_radius": 4.7
+        },
+        "samples": 81,
+        "source_probe_max_mm": 0.009041030001824879,
+        "cad_probe_max_mm": 0.014633000000003449,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-ROLLER-1-FRONT-LAND",
+        "purpose": "Roller lower bearing-face contact",
+        "received_part": "roller shoulder",
+        "dimensions": {
+          "land_x": 79.355367
+        },
+        "samples": 82,
+        "source_probe_max_mm": 4.243408255888426e-07,
+        "cad_probe_max_mm": 0.040533372569408505,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-ROLLER-1-DEPTH",
+        "purpose": "Front roller blind axial stop",
+        "received_part": "roller axle end",
+        "dimensions": {
+          "total_depth": 2.85
+        },
+        "samples": 216,
+        "source_probe_max_mm": 0.012214568360832347,
+        "cad_probe_max_mm": 0.04028199363194992,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-SP-2",
+        "purpose": "Spool axle bearing",
+        "received_part": "gear/cap peg",
+        "dimensions": {
+          "radius": 6.0,
+          "recess": 1.35,
+          "projection": 1.25
+        },
+        "samples": 82,
+        "source_probe_max_mm": 0.021662928646857527,
+        "cad_probe_max_mm": 0.009175792932156807,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-SP-2-BOSS-LAND",
+        "purpose": "Peg head axial contact annulus",
+        "received_part": "gear/cap head",
+        "dimensions": {
+          "projection": 1.25
+        },
+        "samples": 62,
+        "source_probe_max_mm": 0.0019981881668700296,
+        "cad_probe_max_mm": 0.012310521811995732,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-SP-2-BOSS-TAPER",
+        "purpose": "Tapered peg boss envelope",
+        "received_part": "gear/cap receiver",
+        "dimensions": {
+          "front_radius": 8.85,
+          "taper_angle": 45.0,
+          "projection": 1.25
+        },
+        "samples": 123,
+        "source_probe_max_mm": 0.00807484388879068,
+        "cad_probe_max_mm": 0.008300936352617853,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-SP-2-DEPTH",
+        "purpose": "Peg seat axial stop",
+        "received_part": "gear/cap peg head",
+        "dimensions": {
+          "recess": 1.35
+        },
+        "samples": 93,
+        "source_probe_max_mm": 0.00200112760076987,
+        "cad_probe_max_mm": 0.023084419456366665,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-ROLLER-2",
+        "purpose": "Front roller axle bearing",
+        "received_part": "front roller",
+        "dimensions": {
+          "radius": 4.1,
+          "relief_depth": 1.55,
+          "pilot_depth": 1.3
+        },
+        "samples": 82,
+        "source_probe_max_mm": 0.016697458760312874,
+        "cad_probe_max_mm": 0.006600046248519764,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-ROLLER-2-SHOULDER",
+        "purpose": "Roller shoulder axial stop",
+        "received_part": "roller end shoulder",
+        "dimensions": {
+          "depth": 1.55,
+          "clearance_radius": 4.7
+        },
+        "samples": 81,
+        "source_probe_max_mm": 0.0020043143425899634,
+        "cad_probe_max_mm": 0.004480339762580236,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-ROLLER-2-FRONT-LAND",
+        "purpose": "Roller lower bearing-face contact",
+        "received_part": "roller shoulder",
+        "dimensions": {
+          "land_x": 2.366752
+        },
+        "samples": 82,
+        "source_probe_max_mm": 4.0169225989927787e-07,
+        "cad_probe_max_mm": 0.040551158224128074,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-ROLLER-2-DEPTH",
+        "purpose": "Front roller blind axial stop",
+        "received_part": "roller axle end",
+        "dimensions": {
+          "total_depth": 2.85
+        },
+        "samples": 216,
+        "source_probe_max_mm": 2.5743620239881974e-05,
+        "cad_probe_max_mm": 0.03767046357511891,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-SP-3",
+        "purpose": "Spool axle bearing",
+        "received_part": "gear/cap peg",
+        "dimensions": {
+          "radius": 6.0,
+          "recess": 1.35,
+          "projection": 1.2
+        },
+        "samples": 82,
+        "source_probe_max_mm": 0.02166292864685751,
+        "cad_probe_max_mm": 0.01224095253424281,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-SP-3-BOSS-LAND",
+        "purpose": "Peg head axial contact annulus",
+        "received_part": "gear/cap head",
+        "dimensions": {
+          "projection": 1.2
+        },
+        "samples": 62,
+        "source_probe_max_mm": 0.0019416179235793864,
+        "cad_probe_max_mm": 0.012319536001149703,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-SP-3-BOSS-TAPER",
+        "purpose": "Tapered peg boss envelope",
+        "received_part": "gear/cap receiver",
+        "dimensions": {
+          "front_radius": 8.85,
+          "taper_angle": 45.0,
+          "projection": 1.2
+        },
+        "samples": 123,
+        "source_probe_max_mm": 0.005608535722605101,
+        "cad_probe_max_mm": 0.0036767228187262148,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-SP-3-DEPTH",
+        "purpose": "Peg seat axial stop",
+        "received_part": "gear/cap peg head",
+        "dimensions": {
+          "recess": 1.35
+        },
+        "samples": 93,
+        "source_probe_max_mm": 0.0019586858154294617,
+        "cad_probe_max_mm": 0.023089227826791403,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-ROLLER-3",
+        "purpose": "Front roller axle bearing",
+        "received_part": "front roller",
+        "dimensions": {
+          "radius": 4.1,
+          "relief_depth": 1.55,
+          "pilot_depth": 1.3
+        },
+        "samples": 82,
+        "source_probe_max_mm": 0.016697458760312877,
+        "cad_probe_max_mm": 0.006641906564252294,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-ROLLER-3-SHOULDER",
+        "purpose": "Roller shoulder axial stop",
+        "received_part": "roller end shoulder",
+        "dimensions": {
+          "depth": 1.55,
+          "clearance_radius": 4.7
+        },
+        "samples": 81,
+        "source_probe_max_mm": 5.313008851093316e-06,
+        "cad_probe_max_mm": 0.004505048766457475,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-ROLLER-3-FRONT-LAND",
+        "purpose": "Roller lower bearing-face contact",
+        "received_part": "roller shoulder",
+        "dimensions": {
+          "land_x": -4.633282
+        },
+        "samples": 82,
+        "source_probe_max_mm": 1.4210387888624612e-07,
+        "cad_probe_max_mm": 0.04055389566143148,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-ROLLER-3-DEPTH",
+        "purpose": "Front roller blind axial stop",
+        "received_part": "roller axle end",
+        "dimensions": {
+          "total_depth": 2.85
+        },
+        "samples": 216,
+        "source_probe_max_mm": 0.0019348088738397886,
+        "cad_probe_max_mm": 0.03767341033095298,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-SP-4",
+        "purpose": "Spool axle bearing",
+        "received_part": "gear/cap peg",
+        "dimensions": {
+          "radius": 6.0,
+          "recess": 1.35,
+          "projection": 1.25
+        },
+        "samples": 82,
+        "source_probe_max_mm": 0.021662928646857493,
+        "cad_probe_max_mm": 0.009209139648971729,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-SP-4-BOSS-LAND",
+        "purpose": "Peg head axial contact annulus",
+        "received_part": "gear/cap head",
+        "dimensions": {
+          "projection": 1.25
+        },
+        "samples": 62,
+        "source_probe_max_mm": 0.0009847088058307918,
+        "cad_probe_max_mm": 0.012628912988995817,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-SP-4-BOSS-TAPER",
+        "purpose": "Tapered peg boss envelope",
+        "received_part": "gear/cap receiver",
+        "dimensions": {
+          "front_radius": 8.85,
+          "taper_angle": 45.0,
+          "projection": 1.25
+        },
+        "samples": 123,
+        "source_probe_max_mm": 0.006114862590383612,
+        "cad_probe_max_mm": 0.009044809354852048,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-SP-4-DEPTH",
+        "purpose": "Peg seat axial stop",
+        "received_part": "gear/cap peg head",
+        "dimensions": {
+          "recess": 1.35
+        },
+        "samples": 93,
+        "source_probe_max_mm": 0.000981730001825554,
+        "cad_probe_max_mm": 0.023255771705909097,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-ROLLER-4",
+        "purpose": "Front roller axle bearing",
+        "received_part": "front roller",
+        "dimensions": {
+          "radius": 4.1,
+          "relief_depth": 1.55,
+          "pilot_depth": 1.3
+        },
+        "samples": 82,
+        "source_probe_max_mm": 0.016697458760312877,
+        "cad_probe_max_mm": 0.006593303338511749,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-ROLLER-4-SHOULDER",
+        "purpose": "Roller shoulder axial stop",
+        "received_part": "roller end shoulder",
+        "dimensions": {
+          "depth": 1.55,
+          "clearance_radius": 4.7
+        },
+        "samples": 81,
+        "source_probe_max_mm": 0.0009977637428164599,
+        "cad_probe_max_mm": 0.005292819701070556,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-ROLLER-4-FRONT-LAND",
+        "purpose": "Roller lower bearing-face contact",
+        "received_part": "roller shoulder",
+        "dimensions": {
+          "land_x": -81.6343
+        },
+        "samples": 82,
+        "source_probe_max_mm": 0.0009840338058211273,
+        "cad_probe_max_mm": 0.04219288416145563,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-ROLLER-4-DEPTH",
+        "purpose": "Front roller blind axial stop",
+        "received_part": "roller axle end",
+        "dimensions": {
+          "total_depth": 2.85
+        },
+        "samples": 216,
+        "source_probe_max_mm": 0.0009836479881926154,
+        "cad_probe_max_mm": 0.037775710740689486,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-FD1-A1-PILOT",
+        "purpose": "Feeder screw pilot",
+        "received_part": "stock feeder screw",
+        "dimensions": {
+          "diameter": 2.5,
+          "axis_x": 31.124006000000005,
+          "axis_z": 64.51917
+        },
+        "samples": 360,
+        "source_probe_max_mm": 0.013798387101333697,
+        "cad_probe_max_mm": 0.005791200078970094,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-FD1-A1-SHOULDER",
+        "purpose": "Stepped screw shoulder",
+        "received_part": "feeder fastening",
+        "dimensions": {
+          "shoulder_y": 35.62765
+        },
+        "samples": 216,
+        "source_probe_max_mm": 0.0006675317092899037,
+        "cad_probe_max_mm": 0.006507199980643506,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-FD1-A1-LAND",
+        "purpose": "Feeder seating land",
+        "received_part": "front feeder",
+        "dimensions": {
+          "land_y": 31.62765
+        },
+        "samples": 144,
+        "source_probe_max_mm": 0.000663943674688028,
+        "cad_probe_max_mm": 0.04988610627584609,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-FD1-B1-PILOT",
+        "purpose": "Feeder screw pilot",
+        "received_part": "stock feeder screw",
+        "dimensions": {
+          "diameter": 2.5,
+          "axis_x": 31.124006000000005,
+          "axis_z": 90.21917
+        },
+        "samples": 360,
+        "source_probe_max_mm": 0.01380056945321747,
+        "cad_probe_max_mm": 0.00602148097822335,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-FD1-B1-SHOULDER",
+        "purpose": "Stepped screw shoulder",
+        "received_part": "feeder fastening",
+        "dimensions": {
+          "shoulder_y": 52.57765
+        },
+        "samples": 216,
+        "source_probe_max_mm": 0.0006573944567946911,
+        "cad_probe_max_mm": 0.006602987053168297,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-FD1-B1-LAND",
+        "purpose": "Feeder seating land",
+        "received_part": "front feeder",
+        "dimensions": {
+          "land_y": 50.52765
+        },
+        "samples": 144,
+        "source_probe_max_mm": 0.0006608636627944976,
+        "cad_probe_max_mm": 0.04962963409562598,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-FD1-A2-PILOT",
+        "purpose": "Feeder screw pilot",
+        "received_part": "stock feeder screw",
+        "dimensions": {
+          "diameter": 2.5,
+          "axis_x": 50.524006,
+          "axis_z": 64.51917
+        },
+        "samples": 360,
+        "source_probe_max_mm": 0.013797242091371809,
+        "cad_probe_max_mm": 0.005791200078970004,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-FD1-A2-SHOULDER",
+        "purpose": "Stepped screw shoulder",
+        "received_part": "feeder fastening",
+        "dimensions": {
+          "shoulder_y": 35.62765
+        },
+        "samples": 216,
+        "source_probe_max_mm": 0.0006675317092899037,
+        "cad_probe_max_mm": 0.006507199980638821,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-FD1-A2-LAND",
+        "purpose": "Feeder seating land",
+        "received_part": "front feeder",
+        "dimensions": {
+          "land_y": 31.62765
+        },
+        "samples": 144,
+        "source_probe_max_mm": 0.000663943674688028,
+        "cad_probe_max_mm": 0.04966384941342326,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-FD1-B2-PILOT",
+        "purpose": "Feeder screw pilot",
+        "received_part": "stock feeder screw",
+        "dimensions": {
+          "diameter": 2.5,
+          "axis_x": 50.524006,
+          "axis_z": 90.21917
+        },
+        "samples": 360,
+        "source_probe_max_mm": 0.01379942444017776,
+        "cad_probe_max_mm": 0.006021480978220537,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-FD1-B2-SHOULDER",
+        "purpose": "Stepped screw shoulder",
+        "received_part": "feeder fastening",
+        "dimensions": {
+          "shoulder_y": 52.57765
+        },
+        "samples": 216,
+        "source_probe_max_mm": 0.0006573944567946911,
+        "cad_probe_max_mm": 0.006602987053168297,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-FD1-B2-LAND",
+        "purpose": "Feeder seating land",
+        "received_part": "front feeder",
+        "dimensions": {
+          "land_y": 50.52765
+        },
+        "samples": 144,
+        "source_probe_max_mm": 0.0006608636627944976,
+        "cad_probe_max_mm": 0.04962963409562935,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-FD2-A1-PILOT",
+        "purpose": "Feeder screw pilot",
+        "received_part": "stock feeder screw",
+        "dimensions": {
+          "diameter": 2.5,
+          "axis_x": -52.87599399999999,
+          "axis_z": 64.51917
+        },
+        "samples": 360,
+        "source_probe_max_mm": 0.01358722613518661,
+        "cad_probe_max_mm": 0.005791200078970624,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-FD2-A1-SHOULDER",
+        "purpose": "Stepped screw shoulder",
+        "received_part": "feeder fastening",
+        "dimensions": {
+          "shoulder_y": 35.62765
+        },
+        "samples": 216,
+        "source_probe_max_mm": 0.0006675317092899037,
+        "cad_probe_max_mm": 0.006507199980647971,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-FD2-A1-LAND",
+        "purpose": "Feeder seating land",
+        "received_part": "front feeder",
+        "dimensions": {
+          "land_y": 31.62765
+        },
+        "samples": 144,
+        "source_probe_max_mm": 0.000663943674688028,
+        "cad_probe_max_mm": 0.049886106275839844,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-FD2-B1-PILOT",
+        "purpose": "Feeder screw pilot",
+        "received_part": "stock feeder screw",
+        "dimensions": {
+          "diameter": 2.5,
+          "axis_x": -52.87599399999999,
+          "axis_z": 90.21917
+        },
+        "samples": 360,
+        "source_probe_max_mm": 0.013588485591295166,
+        "cad_probe_max_mm": 0.006021480978229982,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-FD2-B1-SHOULDER",
+        "purpose": "Stepped screw shoulder",
+        "received_part": "feeder fastening",
+        "dimensions": {
+          "shoulder_y": 52.57765
+        },
+        "samples": 216,
+        "source_probe_max_mm": 0.0006573944567946911,
+        "cad_probe_max_mm": 0.0066029870531748094,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-FD2-B1-LAND",
+        "purpose": "Feeder seating land",
+        "received_part": "front feeder",
+        "dimensions": {
+          "land_y": 50.52765
+        },
+        "samples": 144,
+        "source_probe_max_mm": 0.0006608636627944976,
+        "cad_probe_max_mm": 0.04816008812938811,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-FD2-A2-PILOT",
+        "purpose": "Feeder screw pilot",
+        "received_part": "stock feeder screw",
+        "dimensions": {
+          "diameter": 2.5,
+          "axis_x": -33.475994,
+          "axis_z": 64.51917
+        },
+        "samples": 360,
+        "source_probe_max_mm": 0.01358586901477615,
+        "cad_probe_max_mm": 0.005791200078970004,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-FD2-A2-SHOULDER",
+        "purpose": "Stepped screw shoulder",
+        "received_part": "feeder fastening",
+        "dimensions": {
+          "shoulder_y": 35.62765
+        },
+        "samples": 216,
+        "source_probe_max_mm": 0.0006675317092899037,
+        "cad_probe_max_mm": 0.006602987053170635,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-FD2-A2-LAND",
+        "purpose": "Feeder seating land",
+        "received_part": "front feeder",
+        "dimensions": {
+          "land_y": 31.62765
+        },
+        "samples": 144,
+        "source_probe_max_mm": 0.000663943674688028,
+        "cad_probe_max_mm": 0.04966384941342326,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-FD2-B2-PILOT",
+        "purpose": "Feeder screw pilot",
+        "received_part": "stock feeder screw",
+        "dimensions": {
+          "diameter": 2.5,
+          "axis_x": -33.475994,
+          "axis_z": 90.21917
+        },
+        "samples": 360,
+        "source_probe_max_mm": 0.013587128472760886,
+        "cad_probe_max_mm": 0.006021480978220537,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-FD2-B2-SHOULDER",
+        "purpose": "Stepped screw shoulder",
+        "received_part": "feeder fastening",
+        "dimensions": {
+          "shoulder_y": 52.57765
+        },
+        "samples": 216,
+        "source_probe_max_mm": 0.0006573944567946911,
+        "cad_probe_max_mm": 0.00634382920090343,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-FD2-B2-LAND",
+        "purpose": "Feeder seating land",
+        "received_part": "front feeder",
+        "dimensions": {
+          "land_y": 50.52765
+        },
+        "samples": 144,
+        "source_probe_max_mm": 0.0006608636627944976,
+        "cad_probe_max_mm": 0.0496296340956288,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-BOX-SCREW-BORE",
+        "purpose": "AMS fastening screw clearance",
+        "received_part": "stock AMS screw",
+        "dimensions": {
+          "diameter": 5
+        },
+        "samples": 216,
+        "source_probe_max_mm": 0.02182432797000951,
+        "cad_probe_max_mm": 0.004041531634406225,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-BOX-SCREW-HEAD",
+        "purpose": "Screw head recess",
+        "received_part": "stock AMS screw head",
+        "dimensions": {
+          "diameter": 9.0
+        },
+        "samples": 216,
+        "source_probe_max_mm": 0.02817947658066768,
+        "cad_probe_max_mm": 0.007569331061985189,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-BOX-SCREW-HEAD-SEAT",
+        "purpose": "Screw head seating annulus",
+        "received_part": "stock AMS screw head",
+        "dimensions": {
+          "land_y": 50.77765
+        },
+        "samples": 216,
+        "source_probe_max_mm": 0.0013132881512092356,
+        "cad_probe_max_mm": 0.00835846835682704,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-BOX-SCREW-LAND",
+        "purpose": "AMS pillar contact",
+        "received_part": "AMS box pillar",
+        "dimensions": {
+          "land_y": 53.17765,
+          "outer_diameter": 14.0
+        },
+        "samples": 288,
+        "source_probe_max_mm": 0.0026275439617862166,
+        "cad_probe_max_mm": 0.0067115032318263235,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-HUB-1-PILOT",
+        "purpose": "Hub motor screw pilot",
+        "received_part": "stock hub screw/bushing",
+        "dimensions": {
+          "diameter": 1.8,
+          "depth": 4.0
+        },
+        "samples": 360,
+        "source_probe_max_mm": 0.0050226816514425355,
+        "cad_probe_max_mm": 0.04694708975227927,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-HUB-1-DEPTH",
+        "purpose": "Hub pilot stops on curved outside skin",
+        "received_part": "hub motor screw",
+        "dimensions": {
+          "center_depth": 5.02468224915328,
+          "preserved_skin": true
+        },
+        "samples": 216,
+        "source_probe_max_mm": 0.004271246142686941,
+        "cad_probe_max_mm": 0.01453596081582334,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-HUB-1-OD",
+        "purpose": "Hub bushing boss outer diameter",
+        "received_part": "rubber bushing",
+        "dimensions": {
+          "OD": 6.5
+        },
+        "samples": 144,
+        "source_probe_max_mm": 0.013954246590224184,
+        "cad_probe_max_mm": 0.042936785965433114,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-HUB-1-LAND",
+        "purpose": "Hub bushing contact",
+        "received_part": "stock rubber bushing",
+        "dimensions": {
+          "land_y": 40.98265,
+          "contact_OD": 6.0,
+          "nonfeed_contact_lead_run": 0.0
+        },
+        "samples": 216,
+        "source_probe_max_mm": 0.0017282232607840344,
+        "cad_probe_max_mm": 0.0028635610202319257,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-HUB-2-PILOT",
+        "purpose": "Hub motor screw pilot",
+        "received_part": "stock hub screw/bushing",
+        "dimensions": {
+          "diameter": 1.8,
+          "depth": 4.0
+        },
+        "samples": 360,
+        "source_probe_max_mm": 0.0050608956085261385,
+        "cad_probe_max_mm": 0.04064754025842719,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-HUB-2-DEPTH",
+        "purpose": "Hub pilot stops on curved outside skin",
+        "received_part": "hub motor screw",
+        "dimensions": {
+          "center_depth": 4.8038560577145795,
+          "preserved_skin": true
+        },
+        "samples": 216,
+        "source_probe_max_mm": 0.0017730040084009328,
+        "cad_probe_max_mm": 0.04020654285277775,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-HUB-2-OD",
+        "purpose": "Hub bushing boss outer diameter",
+        "received_part": "rubber bushing",
+        "dimensions": {
+          "OD": 6.0
+        },
+        "samples": 122,
+        "source_probe_max_mm": 0.012239061713110488,
+        "cad_probe_max_mm": 0.04511089791370679,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-HUB-2-LAND",
+        "purpose": "Hub bushing contact",
+        "received_part": "stock rubber bushing",
+        "dimensions": {
+          "land_y": 18.50265,
+          "contact_OD": 6.0,
+          "nonfeed_contact_lead_run": 1.9
+        },
+        "samples": 183,
+        "source_probe_max_mm": 0.00953571910427205,
+        "cad_probe_max_mm": 0.04974919587193161,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-BOX-PAD-1",
+        "purpose": "Broad feed-end box support contact",
+        "received_part": "AMS box",
+        "dimensions": {
+          "single_land_width": 22.27,
+          "land_front": 80.0,
+          "land_end": 124.95,
+          "land_y": 56.07765,
+          "probe_patch": 1
+        },
+        "samples": 81,
+        "source_probe_max_mm": 0.0006495989417842907,
+        "cad_probe_max_mm": 0.002349999999999852,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-BOX-PAD-2",
+        "purpose": "Broad feed-end box support contact",
+        "received_part": "AMS box",
+        "dimensions": {
+          "single_land_width": 22.27,
+          "land_front": 80.0,
+          "land_end": 124.95,
+          "land_y": 56.07765,
+          "probe_patch": 2
+        },
+        "samples": 81,
+        "source_probe_max_mm": 0.0006495989417842908,
+        "cad_probe_max_mm": 0.0024839638390002617,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-PCB-EDGE-1-LIP",
+        "purpose": "PCB retaining underside",
+        "received_part": "main board edge",
+        "dimensions": {
+          "overlap": 0.7,
+          "underside_y": 58.69
+        },
+        "samples": 49,
+        "source_probe_max_mm": 0.0007770093472103667,
+        "cad_probe_max_mm": 0.0,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-PCB-EDGE-1-SIDE",
+        "purpose": "PCB edge location",
+        "received_part": "main board edge",
+        "dimensions": {
+          "side_x": -35.633
+        },
+        "samples": 49,
+        "source_probe_max_mm": 0.00027581122527919893,
+        "cad_probe_max_mm": 0.006999999999997898,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-PCB-EDGE-2-LIP",
+        "purpose": "PCB retaining underside",
+        "received_part": "main board edge",
+        "dimensions": {
+          "overlap": 0.7,
+          "underside_y": 58.69
+        },
+        "samples": 49,
+        "source_probe_max_mm": 0.0007770093472103667,
+        "cad_probe_max_mm": 0.0,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-PCB-EDGE-2-SIDE",
+        "purpose": "PCB edge location",
+        "received_part": "main board edge",
+        "dimensions": {
+          "side_x": -35.633
+        },
+        "samples": 49,
+        "source_probe_max_mm": 0.0002758112252791989,
+        "cad_probe_max_mm": 0.006999999999997898,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-BOX-LOCATE-1",
+        "purpose": "Lateral box location",
+        "received_part": "AMS box",
+        "dimensions": {
+          "contact_x": 81.04432,
+          "height": 4.0,
+          "length": 10.0
+        },
+        "samples": 81,
+        "source_probe_max_mm": 1.4859818264767457e-06,
+        "cad_probe_max_mm": 0.0006800000000026785,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-BOX-LOCATE-2",
+        "purpose": "Lateral box location",
+        "received_part": "AMS box",
+        "dimensions": {
+          "contact_x": 81.04432,
+          "height": 4.0,
+          "length": 10.0
+        },
+        "samples": 81,
+        "source_probe_max_mm": 1.4859818264767457e-06,
+        "cad_probe_max_mm": 0.0006800000000026785,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-BOX-CLIP-LOW",
+        "purpose": "Box front edge lower slot face",
+        "received_part": "AMS box front rim",
+        "dimensions": {
+          "slot_gap": 4.8
+        },
+        "samples": 81,
+        "source_probe_max_mm": 0.0006556959517922679,
+        "cad_probe_max_mm": 0.002349999999999852,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-BOX-CLIP-HIGH",
+        "purpose": "Box front edge upper slot face",
+        "received_part": "AMS box front rim",
+        "dimensions": {
+          "slot_gap": 4.8
+        },
+        "samples": 81,
+        "source_probe_max_mm": 0.00131421994520764,
+        "cad_probe_max_mm": 0.002349999999999852,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-BOX-CLIP-STOP",
+        "purpose": "Box front edge insertion stop",
+        "received_part": "AMS box front rim",
+        "dimensions": {
+          "insertion_depth": 3.0
+        },
+        "samples": 81,
+        "source_probe_max_mm": 0.0010784754665991159,
+        "cad_probe_max_mm": 0.00016999999999711693,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-JOINT-LOWER-FLANK--1",
+        "purpose": "Lower dovetail mating flank",
+        "received_part": "other body half",
+        "dimensions": {
+          "draft_ratio": 0.25,
+          "normal_clearance": 0.2
+        },
+        "samples": 130,
+        "source_probe_max_mm": 0.0037066570566001624,
+        "cad_probe_max_mm": 0.005762798088744494,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-JOINT-LOWER-FLANK-+1",
+        "purpose": "Lower dovetail mating flank",
+        "received_part": "other body half",
+        "dimensions": {
+          "draft_ratio": 0.25,
+          "normal_clearance": 0.2
+        },
+        "samples": 130,
+        "source_probe_max_mm": 0.0019020810992875176,
+        "cad_probe_max_mm": 0.005762798088744494,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-JOINT-UPPER-FLANK--1",
+        "purpose": "Upper dovetail mating flank",
+        "received_part": "other body half",
+        "dimensions": {
+          "draft_angle": 31.0,
+          "neck": 7.5
+        },
+        "samples": 135,
+        "source_probe_max_mm": 0.02449348398896073,
+        "cad_probe_max_mm": 0.011931567214499596,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-JOINT-UPPER-FLANK-+1",
+        "purpose": "Upper dovetail mating flank",
+        "received_part": "other body half",
+        "dimensions": {
+          "draft_angle": 31.0,
+          "neck": 7.5
+        },
+        "samples": 135,
+        "source_probe_max_mm": 0.030936822658925552,
+        "cad_probe_max_mm": 0.011931567214500267,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-RFID-FACE-1",
+        "purpose": "RFID PCB friction face",
+        "received_part": "RFID board",
+        "dimensions": {
+          "gap": 1.8
+        },
+        "samples": 49,
+        "source_probe_max_mm": 8.052040403327966e-07,
+        "cad_probe_max_mm": 0.003280000000000172,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-RFID-FACE-2",
+        "purpose": "RFID PCB friction face",
+        "received_part": "RFID board",
+        "dimensions": {
+          "gap": 1.8
+        },
+        "samples": 49,
+        "source_probe_max_mm": 1.9582442598031768e-07,
+        "cad_probe_max_mm": 0.005249999999999978,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-RFID-ACCESS-FACE",
+        "purpose": "PCB connector/insertion relief face",
+        "received_part": "RFID board connector clearance",
+        "dimensions": {
+          "extra_depth": 1.45
+        },
+        "samples": 49,
+        "source_probe_max_mm": 4.0552040398988964e-06,
+        "cad_probe_max_mm": 0.015249999999999988,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-BOX-BOTTOM-RIB",
+        "purpose": "Primary bottom support",
+        "received_part": "AMS box",
+        "dimensions": {
+          "height_y": 61.07765,
+          "rib_width": 5.0
+        },
+        "samples": 121,
+        "source_probe_max_mm": 0.0013141257392135233,
+        "cad_probe_max_mm": 0.032981274156933735,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-FD1-KEY-SOCKET",
+        "purpose": "Front feeder locating tab socket",
+        "received_part": "stock feeder tab, nominal6 by9",
+        "dimensions": {
+          "width": 6.15,
+          "length": 9.15,
+          "floor_y": 31.32965,
+          "edge_setback_from_bay_wall": 8.2
+        },
+        "samples": 405,
+        "source_probe_max_mm": 0.0010116830745801055,
+        "cad_probe_max_mm": 0.015225000000000934,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-FD2-KEY-SOCKET",
+        "purpose": "Front feeder locating tab socket",
+        "received_part": "stock feeder tab, nominal6 by9",
+        "dimensions": {
+          "width": 6.15,
+          "length": 9.15,
+          "floor_y": 31.32965,
+          "edge_setback_from_bay_wall": 8.2
+        },
+        "samples": 405,
+        "source_probe_max_mm": 0.0010116830745801055,
+        "cad_probe_max_mm": 0.0032790000000009205,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-FD1-BODY-GUIDE-1",
+        "purpose": "Feeder housing side guide and structural web",
+        "received_part": "stock feeder housing",
+        "dimensions": {
+          "clear_width": 37.1,
+          "source_clear_width": 37.099999999999994,
+          "web_width_nominal": 6.0,
+          "nominal_face_x": 59.37400600000001,
+          "source_face_x": 59.367,
+          "owner_ruling": "One 37.1 mm install clearance for identical stock feeders; source37.0/37.1 is print allowance or measurement noise."
+        },
+        "samples": 81,
+        "source_probe_max_mm": 0.00022447185517648907,
+        "cad_probe_max_mm": 0.004006000000011057,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-FD1-WEB-RAMP-1",
+        "purpose": "Feeder guide lead-in and printable brace",
+        "received_part": "stock feeder housing / structural brace",
+        "dimensions": {
+          "angle_deg": 45.0,
+          "end_station": 103.19,
+          "end_level": 43.68
+        },
+        "samples": 25,
+        "source_probe_max_mm": 0.0008650397521211277,
+        "cad_probe_max_mm": 0.0021213203435594334,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-FD1-BODY-GUIDE-2",
+        "purpose": "Feeder housing side guide and structural web",
+        "received_part": "stock feeder housing",
+        "dimensions": {
+          "clear_width": 37.1,
+          "source_clear_width": 37.099999999999994,
+          "web_width_nominal": 6.0,
+          "nominal_face_x": 22.274006000000004,
+          "source_face_x": 22.267,
+          "owner_ruling": "One 37.1 mm install clearance for identical stock feeders; source37.0/37.1 is print allowance or measurement noise."
+        },
+        "samples": 81,
+        "source_probe_max_mm": 0.00023840348967851813,
+        "cad_probe_max_mm": 0.004006000000003951,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-FD1-WEB-RAMP-2",
+        "purpose": "Feeder guide lead-in and printable brace",
+        "received_part": "stock feeder housing / structural brace",
+        "dimensions": {
+          "angle_deg": 45.0,
+          "end_station": 103.19,
+          "end_level": 43.68
+        },
+        "samples": 25,
+        "source_probe_max_mm": 0.0008650397521211286,
+        "cad_probe_max_mm": 0.00212132034355953,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-FD2-BODY-GUIDE-1",
+        "purpose": "Feeder housing side guide and structural web",
+        "received_part": "stock feeder housing",
+        "dimensions": {
+          "clear_width": 37.1,
+          "source_clear_width": 37.102000000000004,
+          "web_width_nominal": 6.0,
+          "nominal_face_x": -24.625993999999995,
+          "source_face_x": -24.633,
+          "owner_ruling": "One 37.1 mm install clearance for identical stock feeders; source37.0/37.1 is print allowance or measurement noise."
+        },
+        "samples": 81,
+        "source_probe_max_mm": 0.00027372949508119865,
+        "cad_probe_max_mm": 0.004006000000003951,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-FD2-WEB-RAMP-1",
+        "purpose": "Feeder guide lead-in and printable brace",
+        "received_part": "stock feeder housing / structural brace",
+        "dimensions": {
+          "angle_deg": 45.0,
+          "end_station": 103.19,
+          "end_level": 43.68
+        },
+        "samples": 25,
+        "source_probe_max_mm": 0.0008650397521211275,
+        "cad_probe_max_mm": 0.0021213203435594334,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-FD2-BODY-GUIDE-2",
+        "purpose": "Feeder housing side guide and structural web",
+        "received_part": "stock feeder housing",
+        "dimensions": {
+          "clear_width": 37.1,
+          "source_clear_width": 37.102000000000004,
+          "web_width_nominal": 6.0,
+          "nominal_face_x": -61.725994,
+          "source_face_x": -61.735,
+          "owner_ruling": "One 37.1 mm install clearance for identical stock feeders; source37.0/37.1 is print allowance or measurement noise."
+        },
+        "samples": 81,
+        "source_probe_max_mm": 0.00026781967918054766,
+        "cad_probe_max_mm": 0.004005999999996846,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-FD2-WEB-RAMP-2",
+        "purpose": "Feeder guide lead-in and printable brace",
+        "received_part": "stock feeder housing / structural brace",
+        "dimensions": {
+          "angle_deg": 45.0,
+          "end_station": 103.19,
+          "end_level": 43.68
+        },
+        "samples": 25,
+        "source_probe_max_mm": 0.0008650397521211275,
+        "cad_probe_max_mm": 0.0021213203435594716,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-BOX-OUTER-RAIL",
+        "purpose": "Continuous outer case support and load path",
+        "received_part": "AMS box bottom",
+        "dimensions": {
+          "rail_width": 6.75,
+          "case_crown_radius": 1000.0
+        },
+        "samples": 41,
+        "source_probe_max_mm": 0.005084981526825939,
+        "cad_probe_max_mm": 0.0022399736143368615,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-RFID-ROOF-1",
+        "purpose": "RFID board edge stop",
+        "received_part": "RFID board",
+        "dimensions": {
+          "fitted_plane_normal_yz": [
+            0.723471761,
+            0.690353975
+          ],
+          "fitted_plane_offset": -11.9618094,
+          "contact_scope": "Two working strips on roof1; Y-23..-21 includes a vent interruption, separately reported, not a mating face."
+        },
+        "samples": 38,
+        "source_probe_max_mm": 0.0223627169367285,
+        "cad_probe_max_mm": 0.01827421111766918,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-RFID-ROOF-2",
+        "purpose": "RFID board edge stop",
+        "received_part": "RFID board",
+        "dimensions": {
+          "fitted_plane_normal_yz": [
+            0.685152,
+            -0.7284
+          ],
+          "fitted_plane_offset": -48.15979,
+          "contact_scope": "Straight roof2 working strip"
+        },
+        "samples": 31,
+        "source_probe_max_mm": 0.0035689873222538027,
+        "cad_probe_max_mm": 0.023466408087649535,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      },
+      {
+        "id": "L-RFID-CORNER-STOP",
+        "purpose": "RFID corner insertion stop",
+        "received_part": "RFID board corner",
+        "dimensions": {
+          "stop_y": -39.04075
+        },
+        "samples": 81,
+        "source_probe_max_mm": 0.001554432040919096,
+        "cad_probe_max_mm": 0.0007500000000035812,
+        "source_coverage_percent": 100.0,
+        "cad_coverage_percent": 100.0,
+        "status": "PASS"
+      }
+    ],
+    "source_evidence_sha256": "5348021eef3617b56acaee3fd4343a443761d24ac8e684cd6a651b4a569b44b0"
+  }
+]

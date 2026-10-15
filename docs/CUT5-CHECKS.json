@@ -1,0 +1,128 @@
+[
+  {
+    "side": "right",
+    "status": "PASS",
+    "checks": [
+      {
+        "id": "DELIVERED-PARTS",
+        "status": "PASS"
+      },
+      {
+        "id": "CUT-HEIGHT",
+        "status": "PASS"
+      },
+      {
+        "id": "ASSEMBLY-IDENTITY",
+        "status": "PASS"
+      },
+      {
+        "id": "NO-NEW-ENVELOPE-MATERIAL",
+        "status": "PASS"
+      },
+      {
+        "id": "UNCHANGED-EXTERNAL-FUNCTIONS",
+        "status": "PASS"
+      },
+      {
+        "id": "KEY-DIMENSIONS-AND-FIT",
+        "status": "PASS"
+      },
+      {
+        "id": "SEPARATE-PART-HARDWARE",
+        "status": "PASS"
+      },
+      {
+        "id": "MISSEATED-INSERT-NEGATIVE-CHECK",
+        "status": "PASS"
+      },
+      {
+        "id": "INSERT-AXIAL-PATH",
+        "status": "PASS"
+      },
+      {
+        "id": "INSTALLED-FEEDER-ENVELOPES",
+        "status": "PASS"
+      },
+      {
+        "id": "XY-SEATING-REGISTRATION",
+        "status": "PASS"
+      },
+      {
+        "id": "BOX-RETAINED-STOP",
+        "status": "PASS"
+      },
+      {
+        "id": "PTFE-ROUTE",
+        "status": "PASS"
+      },
+      {
+        "id": "INSERT-FLAT-PRINT",
+        "status": "PASS"
+      }
+    ],
+    "source_evidence_sha256": "10e6eaeb894e2e19d38201b31daf2839e46899c2bfe44dabc437d2ab6936c465"
+  },
+  {
+    "side": "left",
+    "status": "PASS",
+    "checks": [
+      {
+        "id": "DELIVERED-PARTS",
+        "status": "PASS"
+      },
+      {
+        "id": "CUT-HEIGHT",
+        "status": "PASS"
+      },
+      {
+        "id": "ASSEMBLY-IDENTITY",
+        "status": "PASS"
+      },
+      {
+        "id": "NO-NEW-ENVELOPE-MATERIAL",
+        "status": "PASS"
+      },
+      {
+        "id": "UNCHANGED-EXTERNAL-FUNCTIONS",
+        "status": "PASS"
+      },
+      {
+        "id": "KEY-DIMENSIONS-AND-FIT",
+        "status": "PASS"
+      },
+      {
+        "id": "SEPARATE-PART-HARDWARE",
+        "status": "PASS"
+      },
+      {
+        "id": "MISSEATED-INSERT-NEGATIVE-CHECK",
+        "status": "PASS"
+      },
+      {
+        "id": "INSERT-AXIAL-PATH",
+        "status": "PASS"
+      },
+      {
+        "id": "INSTALLED-FEEDER-ENVELOPES",
+        "status": "PASS"
+      },
+      {
+        "id": "XY-SEATING-REGISTRATION",
+        "status": "PASS"
+      },
+      {
+        "id": "BOX-RETAINED-STOP",
+        "status": "PASS"
+      },
+      {
+        "id": "PTFE-ROUTE",
+        "status": "PASS"
+      },
+      {
+        "id": "INSERT-FLAT-PRINT",
+        "status": "PASS"
+      }
+    ],
+    "source_evidence_sha256": "74fb282b4627f18c23acb1f2c27656e759ea6c6d23074ce1d89bee3d63625239"
+  }
+]

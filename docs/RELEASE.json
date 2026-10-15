@@ -1,0 +1,100 @@
+{
+  "release": "Accepted 0.05 mm clearance-pocket cut5",
+  "date": "2026-10-15",
+  "source_manifest_sha256": "2e871508576ca4e7b8b694b8358af0eb499309b51a7f0e5eb1364f91ecc76cdb",
+  "files": [
+    {
+      "file": "models/right-body-pocket_cut5.step",
+      "sha256": "b4c7d60a6e3c4cd135248842339fa5bcec0e8876e382522481132fcfecd984cb",
+      "accepted_artifact": "right_M5_gear_edit_cut5.step"
+    },
+    {
+      "file": "models/right-body-pocket_cut5.3mf",
+      "sha256": "ba8afa8ced7824cdebe143eaa0d33f875ba74919b2757be088a8e01a80225df4",
+      "accepted_artifact": "right_M5_gear_edit_cut5.3mf"
+    },
+    {
+      "file": "models/right-front-bar-pocket_cut5.step",
+      "sha256": "5d1cce3d6e631fa422520aec2bceab0de5e8645cfb28a6adbd93c54092946efb",
+      "accepted_artifact": "right_M5_gear_edit_insert_flat_cut5.step"
+    },
+    {
+      "file": "models/right-front-bar-pocket_cut5.3mf",
+      "sha256": "7fbc04d99884dda30fc6c2f57a0c7705ab6895183dc2c102fe419286d0b34e19",
+      "accepted_artifact": "right_M5_gear_edit_insert_flat_cut5.3mf"
+    },
+    {
+      "file": "models/left-body-pocket_cut5.step",
+      "sha256": "9c1e51517e1d7c9fbba3f016106ab3f402a6e2f0d713439042477016e1354e8c",
+      "accepted_artifact": "left_M5_gear_edit_cut5.step"
+    },
+    {
+      "file": "models/left-body-pocket_cut5.3mf",
+      "sha256": "90e4e1dfa923292dd44c61bb19e15c6cda77004faede49193d7e6d9653c09c62",
+      "accepted_artifact": "left_M5_gear_edit_cut5.3mf"
+    },
+    {
+      "file": "models/left-front-bar-pocket_cut5.step",
+      "sha256": "d57a3615a833dd7514d9b6ee34d0de92fef938aef1d36b1d4d105c53a59d5979",
+      "accepted_artifact": "left_M5_gear_edit_insert_flat_cut5.step"
+    },
+    {
+      "file": "models/left-front-bar-pocket_cut5.3mf",
+      "sha256": "da320e78e617f4c1da8be50663c4bc4a34892c5f12f2d64cd53068bdd46c452a",
+      "accepted_artifact": "left_M5_gear_edit_insert_flat_cut5.3mf"
+    }
+  ],
+  "unfinished_002_changes_included": false,
+  "cad_source_provenance": {
+    "right.py": {
+      "packaged_sha256": "541fed44bc558fd0690808a889f8da36ab807a2fb4d08e60b64235617e42b4fb",
+      "accepted_sha256": "541fed44bc558fd0690808a889f8da36ab807a2fb4d08e60b64235617e42b4fb",
+      "adaptation": "Unchanged accepted source"
+    },
+    "left.py": {
+      "packaged_sha256": "77a543b92fcbe51d913e97b241fe84610f285c5c7fdb665c6652a02bd7126cd7",
+      "accepted_sha256": "77a543b92fcbe51d913e97b241fe84610f285c5c7fdb665c6652a02bd7126cd7",
+      "adaptation": "Unchanged accepted source"
+    },
+    "mechanical_body.py": {
+      "packaged_sha256": "bf69e29d14961a606e5bbc81064e6fea2e2cdc84cd422e47a33bd5547e14c70a",
+      "accepted_sha256": "bf69e29d14961a606e5bbc81064e6fea2e2cdc84cd422e47a33bd5547e14c70a",
+      "adaptation": "Unchanged accepted source"
+    },
+    "hardware_features.py": {
+      "packaged_sha256": "801194abaeebdae15d102a346f05ccec398f62b53b6f23c13d3de1c3abf56bf0",
+      "accepted_sha256": "801194abaeebdae15d102a346f05ccec398f62b53b6f23c13d3de1c3abf56bf0",
+      "adaptation": "Unchanged accepted source"
+    },
+    "hardware_datums.py": {
+      "packaged_sha256": "de91064c714f0240c6ce9ba71a2e843c5c422b1f0f4023501ab16f0749351bb7",
+      "accepted_sha256": "de91064c714f0240c6ce9ba71a2e843c5c422b1f0f4023501ab16f0749351bb7",
+      "adaptation": "Unchanged accepted source"
+    },
+    "native_features.py": {
+      "packaged_sha256": "3c57e02a0c272f1687a82871246ed0a97c747f7d0ded814e6bf84c636d7db0c8",
+      "accepted_sha256": "3c57e02a0c272f1687a82871246ed0a97c747f7d0ded814e6bf84c636d7db0c8",
+      "adaptation": "Unchanged accepted source"
+    },
+    "export_guards.py": {
+      "packaged_sha256": "d491d7417f0e86f1de8bcec84bce355c729979ec74c98877ffbb503e57d744de",
+      "accepted_sha256": "4960001dfdf2d6bb2628987980e12859ce28d762eb82cb98d15756617e44f6e1",
+      "adaptation": "Local imports and reference-file location only"
+    },
+    "validation_metadata.py": {
+      "packaged_sha256": "d1fa297c73224a8f896663d55e9dbf255d0e08fb4fdcfb01a290a6e3424a1c9d",
+      "accepted_sha256": "d1fa297c73224a8f896663d55e9dbf255d0e08fb4fdcfb01a290a6e3424a1c9d",
+      "adaptation": "Unchanged accepted source"
+    },
+    "feed_end_insert.py": {
+      "packaged_sha256": "d5171afed7ca8e435efef4c28a91950a6ebcd229165cc6ee147150ecc95b9660",
+      "accepted_sha256": "8527c592032585ac5df3b6326c323df7f7779382ff365481d8da1e3845dd483a",
+      "adaptation": "Local imports and reference-file location only"
+    },
+    "mesh_ops.py": {
+      "packaged_sha256": "8beab29e9f61b5741a5cb98306292e0df6ae6a144c004acb425b1abf88cc99c8",
+      "accepted_sha256": null,
+      "adaptation": "Portable mesh utility extraction"
+    }
+  }
+}
