@@ -1,10 +1,10 @@
-# Kraken body remix for the original Bambu Lab AMS
+# Kraken remix for the original Bambu Lab AMS
 
 **Replacement left and right chassis halves for [Kraken by humebeam](https://www.printables.com/model/1788417-kraken-revolutionary-bambu-lab-ams), with extra clearance beside the large spool gears and removable end sections for assembly.**
 
 Humebeam's Kraken replaces the original AMS's internal frame and supports each spool on a geared holder. This remix changes the two large printed bodies that hold those mechanisms. Each body carries two spool positions; the bodies join together to make the four-spool frame inside the AMS box.
 
-If you are following humebeam's build guide, use the **four parts below in place of the two main printed bodies**. Continue using the original Kraken spool holders, gears, bearing parts and other accessories, together with the feeders, motor, electronics, tubing, cables and screws transferred from your AMS. Follow humebeam's parts list and instructions, with the front-bar installation difference explained below.
+If you are following humebeam's build guide, use the **four parts below in place of the two main printed bodies**. An optional [eight-spoke replacement spool gear](gear/README.md) is also included. Continue using the original Kraken spool holders, bearing parts and other accessories, together with the feeders, motor, electronics, tubing, cables and screws transferred from your AMS. Follow humebeam's parts list and instructions, with the front-bar installation difference explained below.
 
 This repository targets the **original Bambu Lab AMS**. Its reference body files were `kraken-ams-left-100b.3mf` and `kraken-ams-right-100b.3mf`. It does not contain a complete Kraken kit or an AMS 2 Pro conversion.
 
@@ -34,6 +34,10 @@ You need **one of each**. Use the 3MF files in your slicer, or STEP if you want 
 Print the bodies upright, with the feeder end at the top of the print. Move each body's lowest face onto the build plate. The front-bar files are already positioned flat on their broad mating face, with the bottom at Z=0; each bar is 8 mm tall in that orientation. Use humebeam's guidance as your starting point for material and print settings, then inspect these models in your slicer.
 
 **Spool-centering rings are different parts.** They fit the centre hole of the filament spool and snap onto the Kraken spool holder. They are not the orange front bars in the pictures. Obtain the rings and other holder parts from humebeam's model. A separate modified gear-side ring with a wider, thicker flange was also considered during this remix's development; that ring is not supplied here. The body-pocket dimensions describe the clearance added by these bodies alone, without assuming an extra clearance gain from a ring.
+
+## Optional eight-spoke spool gear
+
+The [gear page](gear/README.md) includes STL and geometry-only 3MF downloads, compressed complete STEP, analytic web CAD, source and validation evidence. It replaces the small web openings with eight broad spokes while retaining the supplied teeth, shaft and bearing seats. In matched slices it uses about 9% more job filament, takes about 19% less estimated time and makes 75% fewer disc retract cycles. Comparative stiffness predictions and physical-test limits are documented there.
 
 ## How the front bars attach
 

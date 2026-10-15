@@ -1,0 +1,8 @@
+{
+  "rigid_modes": "PASS",
+  "plate_positive_nonrigid_modes": 9,
+  "constant_curvature_patch": "PASS",
+  "cantilever_measured_mm_per_N": 3.1276874993005532,
+  "cantilever_theory_mm_per_N": 3.128,
+  "relative_error": -9.990431567996616e-05
+}

@@ -1,0 +1,23 @@
+{
+  "constant_strain_patch": "PASS",
+  "annulus_torsion": [
+    {
+      "grid_mm": 2.0,
+      "measured_Nmm_per_rad": 16555698.627027405,
+      "theory_Nmm_per_rad": 15541018.730801681,
+      "relative_error": 0.0652904364766429
+    },
+    {
+      "grid_mm": 1.0,
+      "measured_Nmm_per_rad": 16096763.699607704,
+      "theory_Nmm_per_rad": 15541018.730801681,
+      "relative_error": 0.035759880251901244
+    },
+    {
+      "grid_mm": 0.5,
+      "measured_Nmm_per_rad": 15757770.137456499,
+      "theory_Nmm_per_rad": 15541018.730801681,
+      "relative_error": 0.01394705266169094
+    }
+  ]
+}

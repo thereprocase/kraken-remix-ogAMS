@@ -1,0 +1,32 @@
+[
+  {
+    "variant": "plain",
+    "step_valid": true,
+    "step_solids": 1,
+    "step_facets_match_stl": true,
+    "volume_difference_mm3": 1.1757947504520416e-08,
+    "three_mf_coordinates_and_triangles_exact": true,
+    "units_mm": true,
+    "orientation_unchanged": true,
+    "files": {
+      "gear-plain.stl": "0755982a63c40202b2cce0ed23dc044ef42bc7913f5e96c0b62344ff5786fb76",
+      "gear-plain.3mf": "a9f952a3eec835c2058986a3b020f6b188ffbcbf1e9f7d44f1a5c8ef490f1199",
+      "gear-plain.step": "df6ccc9f0e12a45d20aa9cfb331e74f6ec3bc181361de370c12810d190f6a130"
+    }
+  },
+  {
+    "variant": "spokes",
+    "step_valid": true,
+    "step_solids": 1,
+    "step_facets_match_stl": true,
+    "volume_difference_mm3": 2.4301698431372643e-08,
+    "three_mf_coordinates_and_triangles_exact": true,
+    "units_mm": true,
+    "orientation_unchanged": true,
+    "files": {
+      "gear-spokes.stl": "55412d03377e811d511f42ba6c5f10633756244d8f84644e89e8a15b82b46835",
+      "gear-spokes.3mf": "c04c2ef66864c8da741e0a1d8e6a0b1d5d34f6fb082f44af0aa5a3c2f2a95d62",
+      "gear-spokes.step": "a3e1823b06c30ced8c13eab5eb631a3914f83822d8bb37d3b6fff18c11353381"
+    }
+  }
+]

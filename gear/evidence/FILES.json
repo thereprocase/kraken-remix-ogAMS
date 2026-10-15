@@ -1,0 +1,11 @@
+{
+  "files": {
+    "gear-spokes.stl": "55412d03377e811d511f42ba6c5f10633756244d8f84644e89e8a15b82b46835",
+    "gear-spokes.3mf": "c04c2ef66864c8da741e0a1d8e6a0b1d5d34f6fb082f44af0aa5a3c2f2a95d62",
+    "gear-spokes-analytic-web.step": "65b6c83fd2230505bbea5573a1c22a6f3dd2b2c2b782d73708c3e9df6ee7ef20",
+    "gear-spokes.step.gz": "eeaeab91121a6a1848e6c494dcdc0c67fd7017baddd8b6c2630f732715cb5142"
+  },
+  "full_STEP_uncompressed_sha256": "a3e1823b06c30ced8c13eab5eb631a3914f83822d8bb37d3b6fff18c11353381",
+  "original_source_sha256": "e56cd06d14cc3cfb552dd9d6584f5049298e3480ca1ba61dfe9e44b1dbd09a9d",
+  "scope": "Frozen eight-spoke gear; geometry unchanged; gzip packaging only for full faceted STEP"
+}
