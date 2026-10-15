@@ -10,6 +10,17 @@
       "file": "models/kraken-spool-ring-55.5-mm-pentagon-cap-side.stl",
       "sha256": "3dcc8e6702b3918cd780cb1f89e879c2421c36b62a18258b527ca325b0260fb0",
       "bytes": 757484
+    },
+    {
+      "file": "models/kraken-spool-ring-55.5-mm-pentagon-cap-side.step",
+      "sha256": "99afe22140ab25c1c130f743fe20c6f6251ca04504699f7886bca04edd684068",
+      "bytes": 20157619
+    },
+    {
+      "file": "models/kraken-spool-ring-55.5-mm-pentagon-gear-side-1.5mm-flange.step",
+      "sha256": "a75c28bb8079564e30e6a359a1e258b8c895867b2b819fd565309f2d4c6ae2cd",
+      "bytes": 24853692
     }
-  ]
+  ],
+  "step_conversion": "See STEP-CHECKS.json: faceted solids with 0.00001 mm numerical topology cleanup; no added resolution."
 }
