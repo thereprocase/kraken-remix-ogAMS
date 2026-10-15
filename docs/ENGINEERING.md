@@ -1,6 +1,6 @@
 # Design and clearance notes
 
-This is the accepted **0.05 mm digital-interface** release. Dimensions are in millimetres. The clearance-pocket variant retains the interface locations and the existing hardware fits. It removes material from the gear-facing wall where the gear rim needs more room, then splits the feed end into a shorter body and a removable front bar.
+These notes explain the replacement Kraken bodies in the [README](../README.md). Each body supports two spool holders. The gear-clearance pocket is a shallow recess in the wall beside a holder’s large gear; the removable front bar is a separate end section of the body beside the filament feeders. The models retain the intended hardware locations and fits, checked digitally to 0.05 mm. Dimensions below are in millimetres.
 
 ![Sections of the actual released geometry](images/sections.png)
 
@@ -20,9 +20,9 @@ This is the accepted **0.05 mm digital-interface** release. Dimensions are in mi
 | Feeder guide clear width | 37.1 | One width for identical stock feeders |
 | Body print height | 244.9 | 5.0 shorter than the 249.9 original-height body |
 
-The true axle datum is Y−54.39/Z−24.18. The cradle uses a deliberately offset centre; the offset accommodates the source's varying clearance rather than forcing an arbitrary concentric silhouette. Hardware features hang from independent datums: gear radius or cradle-clearance edits must not move screw pilots, board retainers or axle seats.
+In the CAD coordinate system, the spool-holder axle centre is Y−54.39/Z−24.18. The curved body floor beneath the spool is called the cradle. Its centre is deliberately offset from the axle to follow the reference design’s varying clearance. Hardware features use independent positioning datums: gear radius or cradle-clearance edits must not move screw pilots, board retainers or axle seats.
 
-The gear-pocket design is intended to work with the **flange-ring approach**. The flange ring is a separate component and is not included or newly qualified by this repository. A ring's actual seating offset, spool position, bearing fit and end float must all be considered together.
+A **spool-centering ring** fits inside the filament spool’s centre hole and snaps onto the Kraken holder. A separate gear-side ring explored during development has a broader, thicker flange—the lip between the spool and the large gear—to support the spool’s clamping face. That ring is not a front bar, is not supplied here and is not qualified by the body checks. Its thickness changes how the spool seats on the holder; it must not automatically be counted as moving the bearing-located gear away from the body wall. Any claimed extra wall clearance requires checking the actual assembled holder and bearing positions.
 
 ## Radial runout versus axial wobble
 
@@ -34,7 +34,7 @@ The gear-pocket design is intended to work with the **flange-ring approach**. Th
 
 Pocket depth adds local axial clearance to the existing gap; it is not the total allowable wobble. The nominal cut is 0.6 mm, but **the bottom sector is wall-limited to 0.15 mm** in the delivered model. Actual exported right-body ray checks at Z−24.18 and radii 90, 97, 99.32, 99.82 and 100 all move the wall from X−82.27 to X−82.42. The sections above show that relief. The accepted full-rim gate checks the available wall sectors on both halves, including the bottom sector.
 
-The retained pocket-adjacent web measures about **1.23 mm** at the minimum sampled station, against the 1.2 mm design gate. That wall constraint explains why increasing the nominal pocket depth cannot supply the same gain at every azimuth. The separate cap-side locating-wall checks measured about 1.38 mm right / 1.67 mm left. These are sampled checks, not a proof of the minimum thickness at every mathematical point.
+The material remaining in the body wall behind the recess measures about **1.23 mm** at the minimum sampled station, against the 1.2 mm design gate. That wall constraint explains why increasing the nominal pocket depth cannot supply the same gain at every azimuth. The separate cap-side locating-wall checks measured about 1.38 mm right / 1.67 mm left. These are sampled checks, not a proof of the minimum thickness at every mathematical point.
 
 No total safe tilt, measured runout, maximum speed, or dynamic life is claimed. A full tolerance budget needs the installed ring's actual offset, axial gap, bearing/end float, gear face runout, spool geometry and load. The drawings make the clearance mechanism visible; they do not replace those measurements.
 
@@ -44,7 +44,7 @@ Each half has one bar, two repeated square keys and a broad seating shoulder. Th
 
 The body's shoulder is Z116.95; key tips end at Z119.95, making the body 244.9 mm tall. The bar restores the original Z124.95 feed end, with 3 mm overlap below the key-tip plane. It prints flat as an 8 mm-tall part; the supplied print model places its shoulder at Z0. The key pockets have a 6.3 mm roof span, so bridge performance still needs practical checking.
 
-Final retention uses the original AMS front-tab capture, not a new fastener. Fit the bars while the joined bodies are loosely placed, **before final front-tab engagement and body-screw tightening**. Removal requires releasing that capture and any PCB retention crossing the split. The local path checks support a 3.15 mm lift to clear the keys; no full AMS-box solid was available, so whole-unit installation and hand/tool access remain unverified.
+After installation, the front locating tabs engage the AMS box and are intended to retain the bars; no new fastener is added. Fit the bars while the joined bodies are loosely placed, **before final front-tab engagement and body-screw tightening**. Removal requires releasing that capture and any circuit-board edge holders crossing the body/bar split. The local path checks support a 3.15 mm lift to clear the keys; no full AMS-box solid was available, so whole-unit installation and hand/tool access remain unverified.
 
 ## Modeling and evidence boundaries
 
