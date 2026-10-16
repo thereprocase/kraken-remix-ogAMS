@@ -1,0 +1,262 @@
+{
+  "method": "Radial inward normal component < -0.1, with nondegenerate triangle area. Excludes near-tangential tessellation seams on the outside wall; source-core Boolean checks provide the preservation gate.",
+  "assumed_interface_bound_radius_mm": 20.3,
+  "all_selected_surfaces_inside_bound": true,
+  "sources": [
+    {
+      "source": "kraken-spool-ring-45-mm-100.3mf",
+      "radially_inward_interface_face_max_radius_mm": 20.223750848916485,
+      "selected_faces": 7555
+    },
+    {
+      "source": "kraken-spool-ring-46-mm-100.3mf",
+      "radially_inward_interface_face_max_radius_mm": 20.223752710145018,
+      "selected_faces": 7511
+    },
+    {
+      "source": "kraken-spool-ring-47-mm-100.3mf",
+      "radially_inward_interface_face_max_radius_mm": 20.22374991830222,
+      "selected_faces": 7511
+    },
+    {
+      "source": "kraken-spool-ring-48-mm-100.3mf",
+      "radially_inward_interface_face_max_radius_mm": 20.223749918302218,
+      "selected_faces": 7511
+    },
+    {
+      "source": "kraken-spool-ring-49-mm-100.3mf",
+      "radially_inward_interface_face_max_radius_mm": 20.22375457137358,
+      "selected_faces": 7469
+    },
+    {
+      "source": "kraken-spool-ring-50-mm-100.3mf",
+      "radially_inward_interface_face_max_radius_mm": 20.22374991830222,
+      "selected_faces": 7471
+    },
+    {
+      "source": "kraken-spool-ring-51-mm-100.3mf",
+      "radially_inward_interface_face_max_radius_mm": 20.223750848916477,
+      "selected_faces": 7443
+    },
+    {
+      "source": "kraken-spool-ring-52-mm-100.3mf",
+      "radially_inward_interface_face_max_radius_mm": 20.22375177953074,
+      "selected_faces": 7427
+    },
+    {
+      "source": "kraken-spool-ring-53-mm-100.3mf",
+      "radially_inward_interface_face_max_radius_mm": 20.223750848916477,
+      "selected_faces": 7427
+    },
+    {
+      "source": "kraken-spool-ring-54-mm-100.3mf",
+      "radially_inward_interface_face_max_radius_mm": 20.22375177953074,
+      "selected_faces": 7389
+    },
+    {
+      "source": "kraken-spool-ring-55-mm-100.3mf",
+      "radially_inward_interface_face_max_radius_mm": 20.22375271014501,
+      "selected_faces": 7387
+    },
+    {
+      "source": "kraken-spool-ring-56-mm-100.3mf",
+      "radially_inward_interface_face_max_radius_mm": 20.22375271014501,
+      "selected_faces": 7385
+    },
+    {
+      "source": "kraken-spool-ring-57-mm-100.3mf",
+      "radially_inward_interface_face_max_radius_mm": 20.22375271014501,
+      "selected_faces": 7357
+    },
+    {
+      "source": "kraken-spool-ring-58-mm-100.3mf",
+      "radially_inward_interface_face_max_radius_mm": 20.22375271014501,
+      "selected_faces": 7343
+    },
+    {
+      "source": "kraken-spool-ring-59-mm-100.3mf",
+      "radially_inward_interface_face_max_radius_mm": 20.22374991830222,
+      "selected_faces": 7343
+    },
+    {
+      "source": "kraken-spool-ring-60-mm-100.3mf",
+      "radially_inward_interface_face_max_radius_mm": 20.22375457137358,
+      "selected_faces": 7337
+    },
+    {
+      "source": "kraken-spool-ring-61-mm-100.3mf",
+      "radially_inward_interface_face_max_radius_mm": 20.223749918302218,
+      "selected_faces": 7305
+    },
+    {
+      "source": "kraken-spool-ring-62-mm-100.3mf",
+      "radially_inward_interface_face_max_radius_mm": 20.223750848916477,
+      "selected_faces": 7301
+    },
+    {
+      "source": "kraken-spool-ring-63-mm-100.3mf",
+      "radially_inward_interface_face_max_radius_mm": 20.22612186653685,
+      "selected_faces": 7295
+    },
+    {
+      "source": "kraken-spool-ring-64-mm-100.3mf",
+      "radially_inward_interface_face_max_radius_mm": 20.226156009592337,
+      "selected_faces": 7271
+    },
+    {
+      "source": "kraken-spool-ring-65-mm-100.3mf",
+      "radially_inward_interface_face_max_radius_mm": 20.226191314750835,
+      "selected_faces": 7259
+    },
+    {
+      "source": "kraken-spool-ring-66-mm-100.3mf",
+      "radially_inward_interface_face_max_radius_mm": 20.226225012839638,
+      "selected_faces": 7257
+    },
+    {
+      "source": "kraken-spool-ring-67-mm-100.3mf",
+      "radially_inward_interface_face_max_radius_mm": 20.226260762968746,
+      "selected_faces": 7251
+    },
+    {
+      "source": "kraken-spool-ring-68-mm-100.3mf",
+      "radially_inward_interface_face_max_radius_mm": 20.22565948646326,
+      "selected_faces": 7217
+    },
+    {
+      "source": "kraken-spool-ring-69-mm-100.3mf",
+      "radially_inward_interface_face_max_radius_mm": 20.22568667854938,
+      "selected_faces": 7217
+    },
+    {
+      "source": "kraken-spool-ring-70-mm-100.3mf",
+      "radially_inward_interface_face_max_radius_mm": 20.226365368036795,
+      "selected_faces": 7215
+    },
+    {
+      "source": "kraken-spool-ring-71-mm-100.3mf",
+      "radially_inward_interface_face_max_radius_mm": 20.22573734027823,
+      "selected_faces": 7211
+    },
+    {
+      "source": "kraken-spool-ring-72-mm-100.3mf",
+      "radially_inward_interface_face_max_radius_mm": 20.225764532365226,
+      "selected_faces": 7187
+    },
+    {
+      "source": "kraken-spool-ring-73-mm-100.3mf",
+      "radially_inward_interface_face_max_radius_mm": 20.225790992432657,
+      "selected_faces": 7175
+    },
+    {
+      "source": "kraken-spool-ring-74-mm-100.3mf",
+      "radially_inward_interface_face_max_radius_mm": 20.225818916539954,
+      "selected_faces": 7175
+    },
+    {
+      "source": "kraken-spool-ring-75-mm-100.3mf",
+      "radially_inward_interface_face_max_radius_mm": 20.225843118204814,
+      "selected_faces": 7169
+    },
+    {
+      "source": "kraken-spool-ring-76-mm-100.3mf",
+      "radially_inward_interface_face_max_radius_mm": 20.22586957827241,
+      "selected_faces": 7169
+    },
+    {
+      "source": "kraken-spool-ring-77-mm-100.3mf",
+      "radially_inward_interface_face_max_radius_mm": 20.22589603834001,
+      "selected_faces": 7133
+    },
+    {
+      "source": "kraken-spool-ring-78-mm-100.3mf",
+      "radially_inward_interface_face_max_radius_mm": 20.225922033102226,
+      "selected_faces": 7133
+    },
+    {
+      "source": "kraken-spool-ring-79-mm-100.3mf",
+      "radially_inward_interface_face_max_radius_mm": 20.22594670007426,
+      "selected_faces": 7133
+    },
+    {
+      "source": "kraken-spool-ring-80-mm-100.3mf",
+      "radially_inward_interface_face_max_radius_mm": 20.22597342685798,
+      "selected_faces": 7127
+    },
+    {
+      "source": "kraken-spool-ring-81-mm-100.3mf",
+      "radially_inward_interface_face_max_radius_mm": 20.22600035223104,
+      "selected_faces": 6851
+    },
+    {
+      "source": "kraken-spool-ring-82-mm-100.3mf",
+      "radially_inward_interface_face_max_radius_mm": 20.22602754432034,
+      "selected_faces": 6815
+    },
+    {
+      "source": "kraken-spool-ring-83-mm-100.3mf",
+      "radially_inward_interface_face_max_radius_mm": 20.22605101396773,
+      "selected_faces": 6815
+    },
+    {
+      "source": "kraken-spool-ring-84-mm-100.3mf",
+      "radially_inward_interface_face_max_radius_mm": 20.226077740752437,
+      "selected_faces": 6815
+    },
+    {
+      "source": "kraken-spool-ring-85-mm-100.3mf",
+      "radially_inward_interface_face_max_radius_mm": 20.226106130170333,
+      "selected_faces": 6809
+    },
+    {
+      "source": "kraken-spool-ring-86-mm-100.3mf",
+      "radially_inward_interface_face_max_radius_mm": 20.226132590238283,
+      "selected_faces": 6809
+    },
+    {
+      "source": "kraken-spool-ring-87-mm-100.3mf",
+      "radially_inward_interface_face_max_radius_mm": 20.226156059887526,
+      "selected_faces": 6785
+    },
+    {
+      "source": "kraken-spool-ring-88-mm-100.3mf",
+      "radially_inward_interface_face_max_radius_mm": 20.22618398400181,
+      "selected_faces": 6773
+    },
+    {
+      "source": "kraken-spool-ring-89-mm-100.3mf",
+      "radially_inward_interface_face_max_radius_mm": 20.22621044406989,
+      "selected_faces": 6773
+    },
+    {
+      "source": "kraken-spool-ring-90-mm-100.3mf",
+      "radially_inward_interface_face_max_radius_mm": 20.226237636161432,
+      "selected_faces": 6773
+    },
+    {
+      "source": "kraken-spool-ring-91-mm-100.3mf",
+      "radially_inward_interface_face_max_radius_mm": 20.22626037378875,
+      "selected_faces": 6767
+    },
+    {
+      "source": "kraken-spool-ring-92-mm-100.3mf",
+      "radially_inward_interface_face_max_radius_mm": 20.22628710057565,
+      "selected_faces": 6767
+    },
+    {
+      "source": "kraken-spool-ring-93-mm-100.3mf",
+      "radially_inward_interface_face_max_radius_mm": 20.2263150246921,
+      "selected_faces": 6767
+    },
+    {
+      "source": "kraken-spool-ring-94-mm-100.3mf",
+      "radially_inward_interface_face_max_radius_mm": 20.227201936848928,
+      "selected_faces": 6729
+    },
+    {
+      "source": "kraken-spool-ring-95-mm-100.3mf",
+      "radially_inward_interface_face_max_radius_mm": 20.226364954413015,
+      "selected_faces": 6731
+    }
+  ]
+}

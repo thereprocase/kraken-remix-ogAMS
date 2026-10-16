@@ -1,0 +1,217 @@
+{
+  "status": "PASS",
+  "parts": [
+    {
+      "part": "key_common",
+      "status": "PASS",
+      "native_valid": true,
+      "solids": 1,
+      "native_mesh_volume_error_mm3": 2.2737367544323206e-13,
+      "bounds_mm": [
+        [
+          -10.0,
+          -8.0,
+          0.0
+        ],
+        [
+          10.0,
+          8.0,
+          6.0
+        ]
+      ],
+      "bed_area_mm2": 320.0,
+      "unsupported_layer_islands": [],
+      "bridge_layers": []
+    },
+    {
+      "part": "socket_1_c010",
+      "status": "PASS",
+      "native_valid": true,
+      "solids": 1,
+      "native_mesh_volume_error_mm3": 1.3642420526593924e-12,
+      "bounds_mm": [
+        [
+          -10.0,
+          -8.0,
+          0.0
+        ],
+        [
+          10.0,
+          8.0,
+          8.0
+        ]
+      ],
+      "bed_area_mm2": 261.27039592572834,
+      "unsupported_layer_islands": [],
+      "bridge_layers": [
+        {
+          "z_mm": 3.2,
+          "area_mm2": 33.639999965429304
+        }
+      ]
+    },
+    {
+      "part": "socket_2_c015_nominal",
+      "status": "PASS",
+      "native_valid": true,
+      "solids": 1,
+      "native_mesh_volume_error_mm3": 1.4750245100003667e-05,
+      "bounds_mm": [
+        [
+          -10.0,
+          -8.0,
+          0.0
+        ],
+        [
+          10.0,
+          8.0,
+          8.0
+        ]
+      ],
+      "bed_area_mm2": 260.27039592605445,
+      "unsupported_layer_islands": [],
+      "bridge_layers": [
+        {
+          "z_mm": 3.2,
+          "area_mm2": 34.81000007033348
+        }
+      ]
+    },
+    {
+      "part": "socket_3_c020",
+      "status": "PASS",
+      "native_valid": true,
+      "solids": 1,
+      "native_mesh_volume_error_mm3": 1.3642420526593924e-12,
+      "bounds_mm": [
+        [
+          -10.0,
+          -8.0,
+          0.0
+        ],
+        [
+          10.0,
+          8.0,
+          8.0
+        ]
+      ],
+      "bed_area_mm2": 259.27039592572834,
+      "unsupported_layer_islands": [],
+      "bridge_layers": [
+        {
+          "z_mm": 3.2,
+          "area_mm2": 36.0
+        }
+      ]
+    }
+  ],
+  "fits": [
+    {
+      "socket": "socket_1_c010",
+      "status": "PASS",
+      "four_running_gaps_mm": [
+        0.10000000000000009,
+        0.10000000000000009,
+        0.10000000000000009,
+        0.10000000000000009
+      ],
+      "four_seated_taper_gaps_mm": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "socket_depth_mm": 3.1,
+      "roof_stock_mm": 4.9,
+      "ceiling_bridge_span_mm": 6.2,
+      "maximum_path_overlap_mm3": 2.0469737016526324e-16,
+      "path_samples": 41,
+      "mesh_intersection_tolerance_mm3": 0.001,
+      "maximum_native_path_overlap_mm3": 0.0,
+      "xy_005mm_obstruction_mm3": [
+        0.24920833333332562,
+        0.24920833333333417,
+        0.24920833333334366,
+        0.24920833333335415
+      ],
+      "down_005mm_obstruction_mm3": 14.027999999999931
+    },
+    {
+      "socket": "socket_2_c015_nominal",
+      "status": "PASS",
+      "four_running_gaps_mm": [
+        0.1499999999999999,
+        0.1499999999999999,
+        0.1499999999999999,
+        0.1499999999999999
+      ],
+      "four_seated_taper_gaps_mm": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "socket_depth_mm": 3.15,
+      "roof_stock_mm": 4.85,
+      "ceiling_bridge_span_mm": 6.3,
+      "maximum_path_overlap_mm3": 1.4750244166932013e-05,
+      "path_samples": 41,
+      "mesh_intersection_tolerance_mm3": 0.001,
+      "maximum_native_path_overlap_mm3": 0.0,
+      "xy_005mm_obstruction_mm3": [
+        0.2337193591591551,
+        0.23371935915916722,
+        0.2337193591591678,
+        0.2337193591591704
+      ],
+      "down_005mm_obstruction_mm3": 13.915514750244103
+    },
+    {
+      "socket": "socket_3_c020",
+      "status": "PASS",
+      "four_running_gaps_mm": [
+        0.20000000000000018,
+        0.20000000000000018,
+        0.20000000000000018,
+        0.20000000000000018
+      ],
+      "four_seated_taper_gaps_mm": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "socket_depth_mm": 3.2,
+      "roof_stock_mm": 4.8,
+      "ceiling_bridge_span_mm": 6.4,
+      "maximum_path_overlap_mm3": 1.3600232051658168e-15,
+      "path_samples": 41,
+      "mesh_intersection_tolerance_mm3": 0.001,
+      "maximum_native_path_overlap_mm3": 0.0,
+      "xy_005mm_obstruction_mm3": [
+        0.21795833333332598,
+        0.21795833333333198,
+        0.2179583333333338,
+        0.217958333333353
+      ],
+      "down_005mm_obstruction_mm3": 13.801999999999941
+    }
+  ],
+  "misaligned_negative_control_overlap_mm3": 6.78459242225482,
+  "accepted_release": {
+    "manifest_sha256": "2e871508576ca4e7b8b694b8358af0eb499309b51a7f0e5eb1364f91ecc76cdb",
+    "checked_files": 457,
+    "status": "PASS"
+  },
+  "scope": "Coupon geometry/print orientation only; no physical fit, full-body spacing or AMS capture certification.",
+  "hashes": {
+    "artifacts/key_common.3mf": "25ada91d9fc7d9f405e99cfe1124f54765ce29553751322c5907b44594a51e5f",
+    "artifacts/key_common.step": "bc435c6c76c987e29b6395b9145168690536774c5cf3150ee53e7e791c87b567",
+    "artifacts/socket_1_c010.3mf": "4f4c4201dc897fa4656fcefb0880b7719f1e9bb302a915dc54b8c7d4b98ab81d",
+    "artifacts/socket_1_c010.step": "5d948f379e792337ce4759b867f88ea1b107b6e870dd7f0a3d7910ad04d21f85",
+    "artifacts/socket_2_c015_nominal.3mf": "c84ebd646c975ac22d2ac8c5996bcde60a9b5d1d4aa301fd70fd2b6267687ab2",
+    "artifacts/socket_2_c015_nominal.step": "f7bee8e522d7fa2eaa0a04d5d68db52e72dacfd52b79eca4dda007bb58e5a50d",
+    "artifacts/socket_3_c020.3mf": "27c3aad7adda0475786dca8f18bb5a495f7bdaff6f4117cffbf5e78b1243fade",
+    "artifacts/socket_3_c020.step": "bf2b0f76ae056932cc5ed6ce6743abaef0ceb90406efc78f7ca8c7c5bd5855d5"
+  }
+}

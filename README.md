@@ -20,6 +20,21 @@ Blue: the two main bodies. Orange: the two removable front bars, shown lifted aw
 
 The filenames describe both changes: **`pocket`** means the added gear-wall recess; **`cut5`** means the 5 mm reduction in main-body print height. The front bars are part of the finished assembly, not optional trim.
 
+## Choose a body version
+
+The main downloads below are the **clearance-pocket bodies with removable front bars**, the selected configuration. Other finished versions and accessories are now included:
+
+| Collection | What it contains |
+|---|---|
+| [All body versions](docs/BODY-VARIANTS.md) | Standard or gear-pocket walls; full-height one-piece bodies or shortened bodies with bars |
+| [Pentagon flange pairs, every stock size](rings/stock-sizes/README.md) | Matched cap/gear rings for 45–95 mm cardboard-spool centre holes, in 1 mm steps |
+| [55.5 mm Polymaker pair](rings/README.md) | The existing specific-size pair, preserved unchanged |
+| [Round gear-side flanges](rings/round-flanges/README.md) | Earlier 45–95 mm round centering rings with wider flanges |
+| [Front-bar fit coupons](coupons/README.md) | Small single-key clearance samples and 84 mm two-key alignment pairs |
+| [Eight-spoke spool gear](gear/README.md) | The selected replacement gear, source and comparative evidence |
+
+New stock-size pentagon rings have passed geometry checks; physical fit has not been established for every size. Choose by the spool's measured centre hole rather than brand alone. The source and reproduction instructions accompany each collection. Large stock-size STEP files and bulk ZIPs are [GitHub Release downloads](https://github.com/thereprocase/kraken-remix-ogAMS/releases/tag/cad-library-2026-10-15), with [asset hashes](docs/DOWNLOADS.json).
+
 ## Download the four replacement parts
 
 You need **one of each**. Use the 3MF files in your slicer, or STEP if you want to inspect or edit the solid geometry. These 3MF files contain models only; they do not contain printer settings or ready-to-send toolpaths.
@@ -78,7 +93,7 @@ The [engineering notes](docs/ENGINEERING.md) explain the dimensions and calculat
 
 ## What has been checked
 
-The mounting and mating features were checked digitally to **0.05 mm** against the selected reference measurements. For the two body assemblies supplied here, all **109 right-side and 101 left-side hardware checks passed**. The checks include screw locations, bearing/peg seats, board retainers, AMS locating faces and the joint between the halves. The separate bars were also checked for seating, local insertion travel and assembly interference.
+The mounting and mating features were checked digitally to **0.05 mm** against the selected reference measurements. For the selected pocket cut5 pair, all **109 right-side and 101 left-side hardware checks passed**. The additional accepted body configurations and their reproduction evidence are listed on the [body versions page](docs/BODY-VARIANTS.md). The checks include screw locations, bearing/peg seats, board retainers, AMS locating faces and the joint between the halves. The separate bars were also checked for seating, local insertion travel and assembly interference.
 
 The RFID-reader board pockets retain a strict material-preservation check: the exporter refuses a model that adds material inside the protected reference pocket. This guards the space needed to slide in and retain the boards.
 
@@ -103,7 +118,7 @@ For a version with the same shortened bodies and front bars **but without the ad
 OPENBLAS_NUM_THREADS=1 python rebuild.py --variant standard --output build-standard
 ```
 
-`standard` is the code's name for that alternative; it is not humebeam's original mesh. The downloadable files and the reproduction comparison in this repository are the `pocket` version.
+`standard` is the code's name for that alternative; it is not humebeam's original mesh. The primary downloads are the `pocket` version. Standard downloads and their reproduction results are linked in the body-version table.
 
 Body dimensions are in [cad/right.py](cad/right.py), with the left-hand differences in [cad/left.py](cad/left.py). The removable-bar joint dimensions are in [cad/feed_end_insert.py](cad/feed_end_insert.py). The two NPZ files under `cad/reference/` contain geometry used only to check the protected RFID pocket. The body shapes are built from CAD features, not traced mesh outlines.
 

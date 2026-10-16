@@ -1,0 +1,104 @@
+{
+  "status": "PASS",
+  "scope": "Eight additional native body/bar parts, rebuilt from the published CAD source; original accepted models unchanged",
+  "checks": [
+    {
+      "configuration": "standard-full",
+      "status": "PASS",
+      "parts": [
+        {
+          "part": "left-body-standard_full",
+          "status": "PASS",
+          "native_valid": true,
+          "native_solids": 1,
+          "native_volume_difference_mm3": 0.0,
+          "native_vertex_hausdorff_mm": 0.0,
+          "native_faces": 1242,
+          "print_mesh_symmetric_difference_mm3": 0.0
+        },
+        {
+          "part": "right-body-standard_full",
+          "status": "PASS",
+          "native_valid": true,
+          "native_solids": 1,
+          "native_volume_difference_mm3": 0.0,
+          "native_vertex_hausdorff_mm": 0.0,
+          "native_faces": 1263,
+          "print_mesh_symmetric_difference_mm3": 7.883192875910693e-10
+        }
+      ]
+    },
+    {
+      "configuration": "standard-cut5",
+      "status": "PASS",
+      "parts": [
+        {
+          "part": "left-body-standard_cut5",
+          "status": "PASS",
+          "native_valid": true,
+          "native_solids": 1,
+          "native_volume_difference_mm3": 0.0,
+          "native_vertex_hausdorff_mm": 0.0,
+          "native_faces": 1251,
+          "print_mesh_symmetric_difference_mm3": 0.0
+        },
+        {
+          "part": "left-front-bar-standard_cut5",
+          "status": "PASS",
+          "native_valid": true,
+          "native_solids": 1,
+          "native_volume_difference_mm3": 6.184563972055912e-10,
+          "native_vertex_hausdorff_mm": 0.0,
+          "native_faces": 59,
+          "print_mesh_symmetric_difference_mm3": 7.375122084374297e-06
+        },
+        {
+          "part": "right-body-standard_cut5",
+          "status": "PASS",
+          "native_valid": true,
+          "native_solids": 1,
+          "native_volume_difference_mm3": 0.0,
+          "native_vertex_hausdorff_mm": 0.0,
+          "native_faces": 1272,
+          "print_mesh_symmetric_difference_mm3": 7.88319286452657e-10
+        },
+        {
+          "part": "right-front-bar-standard_cut5",
+          "status": "PASS",
+          "native_valid": true,
+          "native_solids": 1,
+          "native_volume_difference_mm3": 5.184119800105691e-10,
+          "native_vertex_hausdorff_mm": 0.0,
+          "native_faces": 60,
+          "print_mesh_symmetric_difference_mm3": 4.273867083487426e-06
+        }
+      ]
+    },
+    {
+      "configuration": "pocket-full",
+      "status": "PASS",
+      "parts": [
+        {
+          "part": "left-body-pocket_full",
+          "status": "PASS",
+          "native_valid": true,
+          "native_solids": 1,
+          "native_volume_difference_mm3": 0.0,
+          "native_vertex_hausdorff_mm": 0.0,
+          "native_faces": 1250,
+          "print_mesh_symmetric_difference_mm3": 0.0
+        },
+        {
+          "part": "right-body-pocket_full",
+          "status": "PASS",
+          "native_valid": true,
+          "native_solids": 1,
+          "native_volume_difference_mm3": 0.0,
+          "native_vertex_hausdorff_mm": 0.0,
+          "native_faces": 1266,
+          "print_mesh_symmetric_difference_mm3": 7.883192875910693e-10
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "files": [
+    {
+      "file": "kraken-spool-ring-55.5-mm-pentagon-cap-side.stl",
+      "sha256": "3dcc8e6702b3918cd780cb1f89e879c2421c36b62a18258b527ca325b0260fb0",
+      "byte_identical": true
+    },
+    {
+      "file": "kraken-spool-ring-55.5-mm-pentagon-gear-side-1.5mm-flange.stl",
+      "sha256": "fb6a69a1a3fb599ac8d4e7128d3dd725c3e4d06db61504dcced1cbb17976300d",
+      "byte_identical": true
+    }
+  ]
+}

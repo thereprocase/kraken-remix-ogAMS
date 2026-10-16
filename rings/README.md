@@ -23,6 +23,10 @@ OPENBLAS_NUM_THREADS=1 python rings/export_step.py rings-step-build
 
 Use a new output directory. This converts the existing meshes; it does not regenerate or redesign the rings.
 
+## More sizes and source
+
+[Matched pentagon pairs for all 45–95 mm stock sizes](stock-sizes/README.md) are available separately, along with the [earlier round flange family](round-flanges/README.md). The [portable generators and original reference inputs](source/README.md) reproduce these designs; the existing 55.5 mm pair regenerates byte-for-byte.
+
 ## Shape and fit
 
 The design targets a **55.5 mm spool centre hole**. A round support surface of radius 27.65 mm centres the spool, while five pentagon corners extend to radius 28.45 mm to grip the cardboard. The corners stand 0.7 mm beyond the nominal hole radius. A tapered lead-in eases entry. Check the actual spool hole; this is not a claim that every Polymaker spool uses the same dimensions, or that the interference suits a rigid plastic spool.

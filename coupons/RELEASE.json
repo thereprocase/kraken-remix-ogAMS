@@ -1,0 +1,69 @@
+{
+  "scope": "Original accepted local fit coupons; no production edits",
+  "files": [
+    {
+      "file": "cut5_fit/artifacts/key_common.step",
+      "sha256": "bc435c6c76c987e29b6395b9145168690536774c5cf3150ee53e7e791c87b567"
+    },
+    {
+      "file": "cut5_fit/artifacts/key_common.3mf",
+      "sha256": "25ada91d9fc7d9f405e99cfe1124f54765ce29553751322c5907b44594a51e5f"
+    },
+    {
+      "file": "cut5_fit/artifacts/socket_1_c010.step",
+      "sha256": "5d948f379e792337ce4759b867f88ea1b107b6e870dd7f0a3d7910ad04d21f85"
+    },
+    {
+      "file": "cut5_fit/artifacts/socket_1_c010.3mf",
+      "sha256": "4f4c4201dc897fa4656fcefb0880b7719f1e9bb302a915dc54b8c7d4b98ab81d"
+    },
+    {
+      "file": "cut5_fit/artifacts/socket_2_c015_nominal.step",
+      "sha256": "f7bee8e522d7fa2eaa0a04d5d68db52e72dacfd52b79eca4dda007bb58e5a50d"
+    },
+    {
+      "file": "cut5_fit/artifacts/socket_2_c015_nominal.3mf",
+      "sha256": "c84ebd646c975ac22d2ac8c5996bcde60a9b5d1d4aa301fd70fd2b6267687ab2"
+    },
+    {
+      "file": "cut5_fit/artifacts/socket_3_c020.step",
+      "sha256": "bf2b0f76ae056932cc5ed6ce6743abaef0ceb90406efc78f7ca8c7c5bd5855d5"
+    },
+    {
+      "file": "cut5_fit/artifacts/socket_3_c020.3mf",
+      "sha256": "27c3aad7adda0475786dca8f18bb5a495f7bdaff6f4117cffbf5e78b1243fade"
+    },
+    {
+      "file": "cut5_alignment84/artifacts/right_keys_84_nominal.step",
+      "sha256": "22e0e6d2a71c0b4def5815c78bae2e6b2ca1432934e5b04ae84ed515ede15050"
+    },
+    {
+      "file": "cut5_alignment84/artifacts/right_keys_84_nominal.3mf",
+      "sha256": "d68f92635135b57c9c3eac54c41dd36cfa26e2c68889a609b95c7ec4275dfbbc"
+    },
+    {
+      "file": "cut5_alignment84/artifacts/right_sockets_84_nominal.step",
+      "sha256": "64a5e80a16641fa6aeb867c56eac1a649950f02f9c3684a6d1f241d38eebe1e9"
+    },
+    {
+      "file": "cut5_alignment84/artifacts/right_sockets_84_nominal.3mf",
+      "sha256": "25e393ecaff1b6cc7348998f0706e150f52a08276a3a58652c5a34948a4da8d8"
+    },
+    {
+      "file": "cut5_alignment84/artifacts/left_keys_84_nominal.step",
+      "sha256": "739625b764348a70ea345f3ed13eb98c466d782babfe60bf90c364ab419d3234"
+    },
+    {
+      "file": "cut5_alignment84/artifacts/left_keys_84_nominal.3mf",
+      "sha256": "9fbd88a32a3c5675346a484e4f056ee1a46b516ee7ac402e2e0ed09d512831ad"
+    },
+    {
+      "file": "cut5_alignment84/artifacts/left_sockets_84_nominal.step",
+      "sha256": "82bf8ce67e1fb818d2b1cef5a3d6cc2935eac6c40811c40f4b5661221cb11468"
+    },
+    {
+      "file": "cut5_alignment84/artifacts/left_sockets_84_nominal.3mf",
+      "sha256": "de8573eea695398923afa68d5168d80e9c62c378bcc30fa9d6e55a8f2f29480a"
+    }
+  ]
+}

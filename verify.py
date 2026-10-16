@@ -21,19 +21,31 @@ def mesh(path):
  return shape
 
 def main():
- p=argparse.ArgumentParser(description=__doc__);p.add_argument('--build',type=Path);args=p.parse_args()
+ p=argparse.ArgumentParser(description=__doc__);p.add_argument('--build',type=Path)
+ p.add_argument('--download',type=Path,action='append',default=[],help='Verify a downloaded GitHub Release asset; may be repeated')
+ args=p.parse_args()
  count=0
  for line in (ROOT/'SHA256SUMS').read_text().splitlines():
   digest,name=line.split(None,1);path=ROOT/name
   assert hashlib.sha256(path.read_bytes()).hexdigest()==digest,f'Hash mismatch: {name}';count+=1
  print(f'{count} release file hashes PASS',flush=True)
+ if args.download:
+  assets={r['file']:r for r in json.loads((ROOT/'docs/DOWNLOADS.json').read_text())['assets']}
+  for path in args.download:
+   assert path.name in assets,f'Unknown release asset: {path.name}'
+   assert hashlib.sha256(path.read_bytes()).hexdigest()==assets[path.name]['sha256'],f'Download hash mismatch: {path.name}'
+   print('Download hash PASS:',path.name,flush=True)
  if args.build is None:return
  import numpy as np
  from scipy.spatial import cKDTree
  from build123d import import_step
  rows=[]
- for original in sorted((ROOT/'models').glob('*.3mf')):
-  name=original.stem;rebuilt=args.build/'models'/original.name
+ rebuilt_files=sorted((args.build/'models').glob('*.3mf'))
+ assert len(rebuilt_files) in (2,4),'Expected a complete two-body or four-part set'
+ for rebuilt in rebuilt_files:
+  original=ROOT/'models'/rebuilt.name
+  assert original.exists(),f'Unknown release model: {rebuilt.name}'
+  name=original.stem
   a,b=mesh(original),mesh(rebuilt);sym=abs((a-b).volume())+abs((b-a).volume())
   assert sym<.1,(name,'print mesh difference',sym)
   ref=import_step(original.with_suffix('.step'));got=import_step(rebuilt.with_suffix('.step'))

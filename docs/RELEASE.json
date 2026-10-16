@@ -1,5 +1,5 @@
 {
-  "release": "Accepted 0.05 mm clearance-pocket cut5",
+  "release": "Accepted 0.05 mm bodies: standard and pocket; full-height and cut5",
   "date": "2026-10-15",
   "source_manifest_sha256": "2e871508576ca4e7b8b694b8358af0eb499309b51a7f0e5eb1364f91ecc76cdb",
   "files": [
@@ -42,6 +42,86 @@
       "file": "models/left-front-bar-pocket_cut5.3mf",
       "sha256": "da320e78e617f4c1da8be50663c4bc4a34892c5f12f2d64cd53068bdd46c452a",
       "accepted_artifact": "left_M5_gear_edit_insert_flat_cut5.3mf"
+    },
+    {
+      "file": "models/right-body-standard_full.step",
+      "sha256": "e33ea50ce3962d90ae32682e7103c7e123b536e5d0eb5a1ea5ef5a04ccfe7391",
+      "accepted_artifact": "right_M3.step"
+    },
+    {
+      "file": "models/right-body-standard_full.3mf",
+      "sha256": "e824cf3141f8ccc339ac4c00e551609e81a938043b2e40ad21da4291b54f032f",
+      "accepted_artifact": "right_M3.3mf"
+    },
+    {
+      "file": "models/right-body-standard_cut5.step",
+      "sha256": "8db321629cd01bb5335d5a6725e1f5fb93a20265775779b65490da2f3323ce87",
+      "accepted_artifact": "right_M3_cut5.step"
+    },
+    {
+      "file": "models/right-body-standard_cut5.3mf",
+      "sha256": "92c276ece50e82b1d95f8dea6fcae710a9cc0cdac4bec012a3d6b6421fca46d4",
+      "accepted_artifact": "right_M3_cut5.3mf"
+    },
+    {
+      "file": "models/right-front-bar-standard_cut5.step",
+      "sha256": "4cb5ebedd9845790c3f134d655834b0a6e1b4b14aa63f0964be4fbf94023a72c",
+      "accepted_artifact": "right_M3_insert_flat_cut5.step"
+    },
+    {
+      "file": "models/right-front-bar-standard_cut5.3mf",
+      "sha256": "64dac40ac447886d16501ec3c013a6c066efcd246a99da9f983a7039bdf3a089",
+      "accepted_artifact": "right_M3_insert_flat_cut5.3mf"
+    },
+    {
+      "file": "models/right-body-pocket_full.step",
+      "sha256": "8deef5c3f0a6389fcd23dcd3295487b0633402669436f46c3048f65b7d68a08d",
+      "accepted_artifact": "right_M5_gear_edit.step"
+    },
+    {
+      "file": "models/right-body-pocket_full.3mf",
+      "sha256": "c5f6c202ae118935d2eeb2f50a9c10862770dc402c7371f6a2776e9f9101b1e9",
+      "accepted_artifact": "right_M5_gear_edit.3mf"
+    },
+    {
+      "file": "models/left-body-standard_full.step",
+      "sha256": "33720b2adc5995cf15d167457b5dcc6d86ae89f810f42bfe8c68aa355af99adf",
+      "accepted_artifact": "left_M4.step"
+    },
+    {
+      "file": "models/left-body-standard_full.3mf",
+      "sha256": "796a6abf533ff7a90c64e0b9793eee84844af442334f67be475b57ea7f095e4d",
+      "accepted_artifact": "left_M4.3mf"
+    },
+    {
+      "file": "models/left-body-standard_cut5.step",
+      "sha256": "ba08ee5e8d4ee7289cbd8d2a4f96fc6b58561ef074a01cf504364aecdc574937",
+      "accepted_artifact": "left_M4_cut5.step"
+    },
+    {
+      "file": "models/left-body-standard_cut5.3mf",
+      "sha256": "60624dd9981f8470cece4fa95d12207d8f7924f4edc02effb0ef693145e31a19",
+      "accepted_artifact": "left_M4_cut5.3mf"
+    },
+    {
+      "file": "models/left-front-bar-standard_cut5.step",
+      "sha256": "c9f348005b3dfbe5b2ac8f70cf3bf1994e23d8677b3dd3a697ede2bc26418cc9",
+      "accepted_artifact": "left_M4_insert_flat_cut5.step"
+    },
+    {
+      "file": "models/left-front-bar-standard_cut5.3mf",
+      "sha256": "8d70f8278668b2263f2d585376892bb9cd8c38271e376868dc0ae834246bf769",
+      "accepted_artifact": "left_M4_insert_flat_cut5.3mf"
+    },
+    {
+      "file": "models/left-body-pocket_full.step",
+      "sha256": "50090dcd9242feec8fb335ade4f6d3ce5ced496db0e0186fa2b1a2a67ba30fa7",
+      "accepted_artifact": "left_M5_gear_edit.step"
+    },
+    {
+      "file": "models/left-body-pocket_full.3mf",
+      "sha256": "0fa9b832381eaf7c1900c5037181e51be5b88e217e44fabe74419cb9d6f2e633",
+      "accepted_artifact": "left_M5_gear_edit.3mf"
     }
   ],
   "unfinished_002_changes_included": false,

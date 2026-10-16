@@ -1,0 +1,3164 @@
+[
+  {
+    "file": "kraken-spool-ring-45-mm-pentagon-cap-side.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 8770,
+    "source_triangles": 15044,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 7.943273588029067e-05,
+    "volume_comparison_budget_mm3": 0.047215112251452376,
+    "volume_mm3": 5270.917455944023,
+    "volume_difference_mm3": 3.238427780161146e-06,
+    "bounds_mm": [
+      [
+        -25.00000000000066,
+        -24.996437072750968,
+        -5.083322651699973e-12
+      ],
+      [
+        25.00000000000017,
+        24.996437072754077,
+        10.40000057220923
+      ]
+    ],
+    "bounds_difference_mm": 5.083322651699973e-12,
+    "stl_sha256": "4eb0689f92942575454c44e25d202979e59c6bcac80a680ceb6cabdc24b0a9f2",
+    "step_sha256": "e4cf095e2bfc932daf9d4ab7e8f19b41056a72d3274348af037f6bfe90d74287",
+    "compressed_sha256": "5401131cf39eab81814795199c1c8d60b85bd0108c86269aa33990f47fb7b5e6"
+  },
+  {
+    "file": "kraken-spool-ring-45-mm-pentagon-gear-side-1.5mm-flange.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 11012,
+    "source_triangles": 17168,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 0.00011422535427425037,
+    "volume_comparison_budget_mm3": 0.07948258499096966,
+    "volume_mm3": 8335.137543524617,
+    "volume_difference_mm3": 1.519832767371554e-05,
+    "bounds_mm": [
+      [
+        -32.75,
+        -32.75,
+        -3.4059421949450552e-12
+      ],
+      [
+        32.75,
+        32.75,
+        11.50000095367823
+      ]
+    ],
+    "bounds_difference_mm": 3.913314117198752e-12,
+    "stl_sha256": "9ba5c5c40c592f516cc7f1b5f2110647b4fff7e1d005c7f6d37aea4dda08e9aa",
+    "step_sha256": "47fc8bd76ca398e7f21d01a87a300d27e06ec9c8c4b299ce2b3dbb524f6c308a",
+    "compressed_sha256": "f40abb04ebc8ca58f978809a581ff13614810f5931b572790ff5e23439efc635"
+  },
+  {
+    "file": "kraken-spool-ring-46-mm-pentagon-cap-side.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 8704,
+    "source_triangles": 15058,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 9.23439880144428e-05,
+    "volume_comparison_budget_mm3": 0.049092372738797234,
+    "volume_mm3": 6008.322528418099,
+    "volume_difference_mm3": 4.833140337723307e-06,
+    "bounds_mm": [
+      [
+        -25.5,
+        -25.496360778800387,
+        -3.846811758023705e-12
+      ],
+      [
+        25.50000000000047,
+        25.496360778809084,
+        10.400000572211171
+      ]
+    ],
+    "bounds_difference_mm": 8.206768598029157e-12,
+    "stl_sha256": "dd556a90d60084e8f0ec37cb004605c6d6740933a727ccff8747cc5e05c13ef1",
+    "step_sha256": "db45479cc81e24e2747f28a6d4acaeb021afe02805e24ac051fb243b1b2203e1",
+    "compressed_sha256": "d575e259d3bf9c8a354afb9dc950089c5c388d73771d87312a9e1a891d9795ca"
+  },
+  {
+    "file": "kraken-spool-ring-46-mm-pentagon-gear-side-1.5mm-flange.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 10888,
+    "source_triangles": 17100,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 0.00012253546517206236,
+    "volume_comparison_budget_mm3": 0.08188143351182926,
+    "volume_mm3": 9196.319431558471,
+    "volume_difference_mm3": 4.547819662548136e-05,
+    "bounds_mm": [
+      [
+        -33.25,
+        -33.25,
+        -1.5900614158681492e-12
+      ],
+      [
+        33.25000000000027,
+        33.25000000000045,
+        11.500000953680171
+      ]
+    ],
+    "bounds_difference_mm": 5.8548721426632255e-12,
+    "stl_sha256": "c2c580521c6b5017ebbaff0ef7154fe9f6c54eb7ee06769679de56e52641745b",
+    "step_sha256": "ccffbdf577cd914ece3be65ddec1335013a095418482e0dfd783c81d602b0d80",
+    "compressed_sha256": "d8fdd0896ce99d23bd60ba582873054f1d7da60814c8af81f733be126707cc19"
+  },
+  {
+    "file": "kraken-spool-ring-47-mm-pentagon-cap-side.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 8692,
+    "source_triangles": 15074,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 9.009595954796788e-05,
+    "volume_comparison_budget_mm3": 0.05100081394246845,
+    "volume_mm3": 6761.940835370803,
+    "volume_difference_mm3": 1.2976960533706006e-05,
+    "bounds_mm": [
+      [
+        -26.0,
+        -25.99629402160005,
+        -3.944400361888256e-12
+      ],
+      [
+        26.000000000000373,
+        25.996294021606907,
+        10.40000057220946
+      ]
+    ],
+    "bounds_difference_mm": 6.394884621840902e-12,
+    "stl_sha256": "ef7cd08482997f139aa0e9771cb783172cf06588c4298078558c36d397f58f92",
+    "step_sha256": "7393954171fff5a5fa754629397deb1f7a3bacfc3d7bf3f23594a3d5673aaed5",
+    "compressed_sha256": "86519c0a34120648e69b2e62ece2dcefe7183c17364890d7fcf18983dcbbe734"
+  },
+  {
+    "file": "kraken-spool-ring-47-mm-pentagon-gear-side-1.5mm-flange.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 10872,
+    "source_triangles": 17072,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 0.00013284182460413058,
+    "volume_comparison_budget_mm3": 0.08431147541883934,
+    "volume_mm3": 10075.434780701313,
+    "volume_difference_mm3": 4.119341974728741e-05,
+    "bounds_mm": [
+      [
+        -33.750000000000014,
+        -33.75,
+        -2.348565786292056e-12
+      ],
+      [
+        33.75000000000125,
+        33.75,
+        11.50000095367846
+      ]
+    ],
+    "bounds_difference_mm": 4.144240506320784e-12,
+    "stl_sha256": "22873eb58f0bdd1cb07c6c6e90ecfe227c1589dc4b28968054443b824150f520",
+    "step_sha256": "77a162297a35eac36ce4013b6356390f377aea15b66a89f122ddcada5ccb24f5",
+    "compressed_sha256": "fb25dd98c7b0cce372d8a94606d653c3078feafe55aa5fb7c3bba1d6c11266a6"
+  },
+  {
+    "file": "kraken-spool-ring-48-mm-pentagon-cap-side.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 8656,
+    "source_triangles": 15132,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 9.358209804276953e-05,
+    "volume_comparison_budget_mm3": 0.05294075027574101,
+    "volume_mm3": 7531.911797391682,
+    "volume_difference_mm3": 8.97441350389272e-06,
+    "bounds_mm": [
+      [
+        -26.50000000000252,
+        -26.49622154235662,
+        -3.944400361888256e-12
+      ],
+      [
+        26.5,
+        26.496221542358157,
+        10.4000005722101
+      ]
+    ],
+    "bounds_difference_mm": 5.510258915819577e-12,
+    "stl_sha256": "42eb489780abce6a8e340a6139153dcd12f3c1b5da46cff01bf54edd8edd14d3",
+    "step_sha256": "f05cc268a587918f4d907417313b37be3926209be6000492d9ece4130654b692",
+    "compressed_sha256": "25eca5f5119b876f29c87457888d473dc1e2e9a9e4df9f4bca327411fff23e7d"
+  },
+  {
+    "file": "kraken-spool-ring-48-mm-pentagon-gear-side-1.5mm-flange.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 10836,
+    "source_triangles": 17062,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 0.0001328904461061295,
+    "volume_comparison_budget_mm3": 0.08677301326876169,
+    "volume_mm3": 10972.63035061623,
+    "volume_difference_mm3": 3.784911859838758e-05,
+    "bounds_mm": [
+      [
+        -34.25,
+        -34.25,
+        -1.7634782523145986e-12
+      ],
+      [
+        34.25000000000035,
+        34.25000000000025,
+        11.500000953679102
+      ]
+    ],
+    "bounds_difference_mm": 4.785505325344275e-12,
+    "stl_sha256": "40f2842c91592ae0c5378a22fe0662a3cf048225af669ff60f5bb40d173d98db",
+    "step_sha256": "dcfb36b558eb5350f487092de13115ce499028d454433275137bd90a625526c1",
+    "compressed_sha256": "d2f366ad4048aee19283db778be849e33c496d194ba5446988177dab6733792f"
+  },
+  {
+    "file": "kraken-spool-ring-49-mm-pentagon-cap-side.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 8614,
+    "source_triangles": 15062,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 8.473608032600053e-05,
+    "volume_comparison_budget_mm3": 0.05491221792740944,
+    "volume_mm3": 8318.312209076446,
+    "volume_difference_mm3": 4.0057930164039135e-06,
+    "bounds_mm": [
+      [
+        -27.0,
+        -26.99614715576,
+        -3.185618435708193e-12
+      ],
+      [
+        27.0,
+        26.996147155762,
+        10.400000572210175
+      ]
+    ],
+    "bounds_difference_mm": 5.5848659030743875e-12,
+    "stl_sha256": "1ebb9eddf236d720de7fc2676e9faa130f0445b2ac460712d1d30dba10448b4b",
+    "step_sha256": "4f8f16dc09d0fe1d5978b2e9428cad3da83665906be9684e85a01e9e2d325854",
+    "compressed_sha256": "18b27253fbd619ed3608cbf8d9d40255c175d2d6d9b3b8b7887efba243c3580d"
+  },
+  {
+    "file": "kraken-spool-ring-49-mm-pentagon-gear-side-1.5mm-flange.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 10780,
+    "source_triangles": 16984,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 0.00011772379223977308,
+    "volume_comparison_budget_mm3": 0.08926607682043067,
+    "volume_mm3": 11887.991282553065,
+    "volume_difference_mm3": 2.2572650777874514e-05,
+    "bounds_mm": [
+      [
+        -34.75,
+        -34.75000000000026,
+        -2.4515944829772707e-12
+      ],
+      [
+        34.75000000000034,
+        34.75,
+        11.500000953679175
+      ]
+    ],
+    "bounds_difference_mm": 4.858335955759685e-12,
+    "stl_sha256": "87b6370ebae2c3a0999eafd34fd564c90f8aa5f63ac7bb603b74d1974282b9cf",
+    "step_sha256": "3dd21b9368189a047d4f7d13cf2358dc60f3b75a8bbe135654f86b46a685a7d5",
+    "compressed_sha256": "10a37ee2a1abd959178085263fd8f6faa1e36148a978377560673be91b2d1dd6"
+  },
+  {
+    "file": "kraken-spool-ring-50-mm-pentagon-cap-side.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 8570,
+    "source_triangles": 15096,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 0.00010738690598228555,
+    "volume_comparison_budget_mm3": 0.056914974719687275,
+    "volume_mm3": 9120.953140213294,
+    "volume_difference_mm3": 2.319166378583759e-05,
+    "bounds_mm": [
+      [
+        -27.5,
+        -27.49607849121,
+        -3.4973135498717056e-12
+      ],
+      [
+        27.500000000000696,
+        27.496078491211,
+        10.400000572209485
+      ]
+    ],
+    "bounds_difference_mm": 4.89563944938709e-12,
+    "stl_sha256": "935430d1c29a13fd9b32ee595a265b27c4513ed8b65ee01c4c456587622bcf72",
+    "step_sha256": "5076d3594fb3643fc0bec6e6f7f23f75acce888c1559c6758ff0d36659ae97a5",
+    "compressed_sha256": "161860f84bfa9199fd3f07039c8e97a5be01b704f998e66e3caa8b0ee0f8b807"
+  },
+  {
+    "file": "kraken-spool-ring-50-mm-pentagon-gear-side-1.5mm-flange.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 10738,
+    "source_triangles": 16944,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 0.00014204602489423481,
+    "volume_comparison_budget_mm3": 0.09179044257031664,
+    "volume_mm3": 12821.312548023918,
+    "volume_difference_mm3": 5.3087915148353204e-05,
+    "bounds_mm": [
+      [
+        -35.250000000000234,
+        -35.250000000000234,
+        -1.325606291402437e-12
+      ],
+      [
+        35.250000000000234,
+        35.250000000000234,
+        11.500000953678487
+      ]
+    ],
+    "bounds_difference_mm": 4.170885858911788e-12,
+    "stl_sha256": "a00c8acbe0c3b816d08dfffb29b408886b529a67f6d99225e1194691c5900e6c",
+    "step_sha256": "14a643f82ca700666e82ccd9d5ca134282b6131e9bda6bba9c67377eccfad1e2",
+    "compressed_sha256": "95dc6b1669c76ef20e12d775b5d95792991c7f35ff97a653b1b6923aa5cae4e1"
+  },
+  {
+    "file": "kraken-spool-ring-51-mm-pentagon-cap-side.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 9038,
+    "source_triangles": 15064,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 8.044555860912913e-05,
+    "volume_comparison_budget_mm3": 0.05894912469919498,
+    "volume_mm3": 9939.82307002505,
+    "volume_difference_mm3": 1.1743541108444333e-06,
+    "bounds_mm": [
+      [
+        -28.0,
+        -27.99600791931025,
+        -4.249267604450324e-12
+      ],
+      [
+        28.000000000000135,
+        27.996007919312,
+        10.400000572209947
+      ]
+    ],
+    "bounds_difference_mm": 5.357492227631155e-12,
+    "stl_sha256": "283a65bba47da025db749c59306b3770d8caabf5efcd4df62907a877c915f6e9",
+    "step_sha256": "c6062ca2a8d33a433d82129951a896cb47770e8c31755f56c27f5e99eded22a7",
+    "compressed_sha256": "06ee4d26cbd3237649ee2fd0105fbae2156047ad653d3952bf9175cfb073cf24"
+  },
+  {
+    "file": "kraken-spool-ring-51-mm-pentagon-gear-side-1.5mm-flange.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 11170,
+    "source_triangles": 16848,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 0.00011825013580876387,
+    "volume_comparison_budget_mm3": 0.09434608844801734,
+    "volume_mm3": 13772.548701752597,
+    "volume_difference_mm3": 3.2317699151462875e-05,
+    "bounds_mm": [
+      [
+        -35.75,
+        -35.75,
+        -1.2028156248788946e-12
+      ],
+      [
+        35.750000000000014,
+        35.75,
+        11.50000095367895
+      ]
+    ],
+    "bounds_difference_mm": 4.632738637155853e-12,
+    "stl_sha256": "34275f9e3368b4ceb105ca84e32b1f8f7297a9242d7d45e31b2295496ed43e17",
+    "step_sha256": "ecbd81fac51ff2674741b08304cfcfb0ca467e1949e93ed93776110b3a7152d2",
+    "compressed_sha256": "1dc2960a43bf6345989feb047bed3256fe4cc277688e05ad52e5d482b5c28c2a"
+  },
+  {
+    "file": "kraken-spool-ring-52-mm-pentagon-cap-side.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 8562,
+    "source_triangles": 15216,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 9.150554989758748e-05,
+    "volume_comparison_budget_mm3": 0.0610147210672186,
+    "volume_mm3": 10775.303993104517,
+    "volume_difference_mm3": 1.4340181223815307e-05,
+    "bounds_mm": [
+      [
+        -28.500000000000078,
+        -28.495935440060002,
+        -4.253264407338975e-12
+      ],
+      [
+        28.500000000004185,
+        28.49593544006659,
+        10.400000572209374
+      ]
+    ],
+    "bounds_difference_mm": 4.7837289685048745e-12,
+    "stl_sha256": "c711730ce7f289f02daa0722a565fe6f3142a3861a5010746164fa7958d38ac3",
+    "step_sha256": "918ff273cdcb4c34928a3b8bad91e977595f0d041e40e50e76d7f8c61c33dc64",
+    "compressed_sha256": "55aa4fb73e8847ad677ad0881e054481f5e0bfc40053be7f3e4c0eacc9d225ae"
+  },
+  {
+    "file": "kraken-spool-ring-52-mm-pentagon-gear-side-1.5mm-flange.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 10652,
+    "source_triangles": 16822,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 0.00013530128281829997,
+    "volume_comparison_budget_mm3": 0.09693340182270972,
+    "volume_mm3": 14742.215884390993,
+    "volume_difference_mm3": 5.2029196012881584e-05,
+    "bounds_mm": [
+      [
+        -36.25,
+        -36.250000000002466,
+        -2.042588320705363e-12
+      ],
+      [
+        36.25000000000022,
+        36.250000000000476,
+        11.500000953678374
+      ]
+    ],
+    "bounds_difference_mm": 4.057199021190172e-12,
+    "stl_sha256": "44eceb506d4f989b5a1efbb6374a2677c6738055ccf525b92c910849cf18273f",
+    "step_sha256": "023b9268c49079c56debcf1d34edd29106fba0d8a733da595e8008087b2d7894",
+    "compressed_sha256": "eda10977d4df5c7034bad7c1df7f9a5194da1e46f34b234e8dbb48de6aaae3fc"
+  },
+  {
+    "file": "kraken-spool-ring-53-mm-pentagon-cap-side.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 8560,
+    "source_triangles": 15166,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 8.099064188715665e-05,
+    "volume_comparison_budget_mm3": 0.0631115922106709,
+    "volume_mm3": 11626.910907282321,
+    "volume_difference_mm3": 4.0278700907947496e-06,
+    "bounds_mm": [
+      [
+        -29.00000000000023,
+        -28.995862960812012,
+        -4.265643394063545e-12
+      ],
+      [
+        29.000000000004675,
+        28.995862960815767,
+        10.400000572209084
+      ]
+    ],
+    "bounds_difference_mm": 4.675371201301459e-12,
+    "stl_sha256": "f3611f178d1eeb1fd49a6c029e22b1cc55f8459b8aaf141b2fb0b2fd846ca75d",
+    "step_sha256": "5c3303c6807300740dccf5ce26926865a8523f93f558be5f827496668b183114",
+    "compressed_sha256": "047762c9e96e865c7bca73bac09aacac2d6206a4dc6ec4e4d6041788a69fd720"
+  },
+  {
+    "file": "kraken-spool-ring-53-mm-pentagon-gear-side-1.5mm-flange.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 10652,
+    "source_triangles": 16838,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 0.00011971730449518949,
+    "volume_comparison_budget_mm3": 0.09955189168235931,
+    "volume_mm3": 15729.686359310215,
+    "volume_difference_mm3": 3.47159930242924e-05,
+    "bounds_mm": [
+      [
+        -36.75,
+        -36.75,
+        -3.745670440480353e-12
+      ],
+      [
+        36.75,
+        36.75,
+        11.50000095367822
+      ]
+    ],
+    "bounds_difference_mm": 3.9044323330017505e-12,
+    "stl_sha256": "b7cf48b587cef0b15705798aa8a6533b28ae40f1042b8a2c3062a494b557b873",
+    "step_sha256": "85c1ac5b8286ece757c6e1df306ca91dbba124d62690b5f87e6411af92f1415f",
+    "compressed_sha256": "0833c1deaa0babf17192cd58c0adaf3f9dc6a0fa02fe125ba2e7a72c6e59bb74"
+  },
+  {
+    "file": "kraken-spool-ring-54-mm-pentagon-cap-side.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 8542,
+    "source_triangles": 15110,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 8.807404042375619e-05,
+    "volume_comparison_budget_mm3": 0.06524009236342478,
+    "volume_mm3": 12494.981562294539,
+    "volume_difference_mm3": 1.0826142897712998e-05,
+    "bounds_mm": [
+      [
+        -29.5,
+        -29.495792388914612,
+        -2.992051051364797e-12
+      ],
+      [
+        29.50000000000279,
+        29.495792388916115,
+        10.400000572210429
+      ]
+    ],
+    "bounds_difference_mm": 5.838884931108623e-12,
+    "stl_sha256": "8937d99d3af273addd62cbf0383f11ffd51ca20370881c0ff3aec36775975df8",
+    "step_sha256": "38f17f57afac28e475b3868c6427b22c472ff7e4a44a0cb27e33107a4c4b9d18",
+    "compressed_sha256": "f3bfd2e0be1c9e7dcc29e34aa7053f076b1cdca0a085376ca51d3601820aee31"
+  },
+  {
+    "file": "kraken-spool-ring-54-mm-pentagon-gear-side-1.5mm-flange.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 10620,
+    "source_triangles": 16656,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 0.00012920995190973043,
+    "volume_comparison_budget_mm3": 0.10220200042706884,
+    "volume_mm3": 16735.357636129545,
+    "volume_difference_mm3": 2.2180167434271425e-05,
+    "bounds_mm": [
+      [
+        -37.250000000000014,
+        -37.25,
+        -1.6966428262321642e-12
+      ],
+      [
+        37.250000000000206,
+        37.25000000000048,
+        11.500000953679429
+      ]
+    ],
+    "bounds_difference_mm": 5.112354983793921e-12,
+    "stl_sha256": "6fdcbb9bf6ba27c52132c0385095514303e8e4e27fcad5c13ea6e8cc015e66d1",
+    "step_sha256": "747bef74129119fe47caf5596d3317327f9517e6ff8817129f4cc308eac46f34",
+    "compressed_sha256": "827ec5a55c0a428f661b3ec5876d81281e8e10d10d21b6b31916e2f27219863b"
+  },
+  {
+    "file": "kraken-spool-ring-55-mm-pentagon-cap-side.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 8534,
+    "source_triangles": 15146,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 8.03476845565437e-05,
+    "volume_comparison_budget_mm3": 0.06739978135816423,
+    "volume_mm3": 13379.256772133238,
+    "volume_difference_mm3": 1.1140982678625733e-06,
+    "bounds_mm": [
+      [
+        -30.0,
+        -29.99572181701665,
+        -3.978872786802867e-12
+      ],
+      [
+        30.00000000000647,
+        29.99572181701715,
+        10.400000572208645
+      ]
+    ],
+    "bounds_difference_mm": 6.469491609095712e-12,
+    "stl_sha256": "25bd233f7b8289ea3b73bac97b8c1ca789e4938d461b7655cff934afe6105538",
+    "step_sha256": "fb6513ce3c67e84d3d85f403102a54249272273eae31b7108b8ba4394912bc3b",
+    "compressed_sha256": "09ccbd268dc983a9c16a0b28601bc31900166ea9181973cb43f5303a998e2630"
+  },
+  {
+    "file": "kraken-spool-ring-55-mm-pentagon-gear-side-1.5mm-flange.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 10614,
+    "source_triangles": 16660,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 0.00011758844001448726,
+    "volume_comparison_budget_mm3": 0.10488330976988507,
+    "volume_mm3": 17758.951779961313,
+    "volume_difference_mm3": 3.430957076488994e-05,
+    "bounds_mm": [
+      [
+        -37.75000000000001,
+        -37.75,
+        -3.947731030962132e-12
+      ],
+      [
+        37.75,
+        37.75000000000025,
+        11.500000953677645
+      ]
+    ],
+    "bounds_difference_mm": 3.947731030962132e-12,
+    "stl_sha256": "6f085be7693e62b887d3893abf13b36dc783faae8ba106b66e8fce27e0ca50b4",
+    "step_sha256": "3a4609a8bcb7481f695e0d6b2f9b67874b038e553f0e24ec6c908bab9665e492",
+    "compressed_sha256": "ccf9ade6c3f93c954a42e89998f95a9b8b94789e75f7b3d3743dd7e448241d8d"
+  },
+  {
+    "file": "kraken-spool-ring-56-mm-pentagon-cap-side.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 8532,
+    "source_triangles": 15286,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 8.22697799462037e-05,
+    "volume_comparison_budget_mm3": 0.06959087727511884,
+    "volume_mm3": 14279.867156649665,
+    "volume_difference_mm3": 4.401972546475008e-07,
+    "bounds_mm": [
+      [
+        -30.5,
+        -30.495649337766608,
+        -3.181122032458461e-12
+      ],
+      [
+        30.500000000000142,
+        30.495649337769,
+        10.40000057220957
+      ]
+    ],
+    "bounds_difference_mm": 4.980904577678302e-12,
+    "stl_sha256": "b2bf28774b170253335de55239542a0b583888648de01e647e85987671152c9b",
+    "step_sha256": "2fb5ccf27139b9bc63230af33e1ba9b3d2d97611539adee463f3284767735259",
+    "compressed_sha256": "9152e9a684d31d067a05077462ac2c278e8533ad76d2b2c3fd8a10d434083759"
+  },
+  {
+    "file": "kraken-spool-ring-56-mm-pentagon-gear-side-1.5mm-flange.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 10612,
+    "source_triangles": 16690,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 0.00011685718776288408,
+    "volume_comparison_budget_mm3": 0.10759603153425702,
+    "volume_mm3": 18800.608982362603,
+    "volume_difference_mm3": 3.619084236561321e-05,
+    "bounds_mm": [
+      [
+        -38.25,
+        -38.25000000000239,
+        -2.942091015256665e-12
+      ],
+      [
+        38.25000000000019,
+        38.250000000000405,
+        11.50000095367857
+      ]
+    ],
+    "bounds_difference_mm": 4.2543746303636e-12,
+    "stl_sha256": "9897b35128da783b66c7a05f9abad8edf6b95e9cb6317c999abf2454306cdc49",
+    "step_sha256": "f8acce5f76c4f6e463e0f9c624c7b2973ab48e0473acf490417fa67e77f081de",
+    "compressed_sha256": "aac1f1405bc877cbd30d01ada0d88459331a05569a23790ddbcc571cbbb46720"
+  },
+  {
+    "file": "kraken-spool-ring-57-mm-pentagon-cap-side.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 8978,
+    "source_triangles": 15262,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 8.09539324831557e-05,
+    "volume_comparison_budget_mm3": 0.07181344464387739,
+    "volume_mm3": 15196.721343192326,
+    "volume_difference_mm3": 2.3873872123658657e-07,
+    "bounds_mm": [
+      [
+        -31.000000000000238,
+        -30.99557685852,
+        -4.3968162444230074e-12
+      ],
+      [
+        31.000000000001297,
+        30.99557685852113,
+        10.400000572210297
+      ]
+    ],
+    "bounds_difference_mm": 5.707434524993005e-12,
+    "stl_sha256": "c7ccc494ef403ad2c76a83702479bd0c45bfc8664685a45879821ce7932584b3",
+    "step_sha256": "09f967cd723e3ad261690edfd2c610503a9e6ffb56b9447e0cac0c564f87f9ec",
+    "compressed_sha256": "1cd62d4c4ed4e08304219a97f9b050d49cd99f471139bc2dbe20c5be4212ad49"
+  },
+  {
+    "file": "kraken-spool-ring-57-mm-pentagon-gear-side-1.5mm-flange.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 11058,
+    "source_triangles": 16762,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 0.00012441600959322148,
+    "volume_comparison_budget_mm3": 0.11034010370934161,
+    "volume_mm3": 19860.194550843255,
+    "volume_difference_mm3": 2.4640448827994987e-05,
+    "bounds_mm": [
+      [
+        -38.75,
+        -38.750000000000256,
+        -2.994271497414047e-12
+      ],
+      [
+        38.7500000000004,
+        38.75,
+        11.500000953679297
+      ]
+    ],
+    "bounds_difference_mm": 4.980904577678302e-12,
+    "stl_sha256": "89d4ccfc77efac6a72df145523db8560723e25810473de4ae66a42a8eb7e1181",
+    "step_sha256": "784d5b25aa1336e2479485ef550981bb2393219785a2316241c1fd4a554c8f3a",
+    "compressed_sha256": "fc3966955b3937b442f74aea9f133ed1bcb0cf449c00085708af47dd00989a92"
+  },
+  {
+    "file": "kraken-spool-ring-58-mm-pentagon-cap-side.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 8518,
+    "source_triangles": 15316,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 8.094360923366058e-05,
+    "volume_comparison_budget_mm3": 0.0740675343998354,
+    "volume_mm3": 16130.230408342195,
+    "volume_difference_mm3": 4.850957338931039e-06,
+    "bounds_mm": [
+      [
+        -31.5,
+        -31.49550437927251,
+        -4.3968162444230074e-12
+      ],
+      [
+        31.5,
+        31.495504379272187,
+        10.40000057220923
+      ]
+    ],
+    "bounds_difference_mm": 4.639844064513454e-12,
+    "stl_sha256": "d965501bf903afc99a85c3b2fa403c78b111ad6f1a800493d458e767a153ab4b",
+    "step_sha256": "1fb4ba6c2263b8103b5e6defee25722b47f14197cbed22aec577d6e74dfda4bc",
+    "compressed_sha256": "0dbbc8f34c471a3a6b30baa22fac8b26300b5d7418d53c3ec72bd9663febb2ca"
+  },
+  {
+    "file": "kraken-spool-ring-58-mm-pentagon-gear-side-1.5mm-flange.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 10562,
+    "source_triangles": 16650,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 0.00011955610614318347,
+    "volume_comparison_budget_mm3": 0.11311593619205126,
+    "volume_mm3": 20938.259275103937,
+    "volume_difference_mm3": 2.7436526579549536e-05,
+    "bounds_mm": [
+      [
+        -39.25,
+        -39.250000000000725,
+        -1.5900614158681492e-12
+      ],
+      [
+        39.250000000000696,
+        39.25000000000018,
+        11.50000095367823
+      ]
+    ],
+    "bounds_difference_mm": 3.913314117198752e-12,
+    "stl_sha256": "7185cc597a4091bc7b6e4d153fa05f8df625d13f5048b5ea3f7cb75f75a37ddd",
+    "step_sha256": "576df61d04057a68bcef9cc322fe345dec189e56053eabc39020833ff2e18847",
+    "compressed_sha256": "89789e9e800349ed27a8d979912ccf179c7143698fc6d399ce46fd706a7ec6a4"
+  },
+  {
+    "file": "kraken-spool-ring-59-mm-pentagon-cap-side.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 8518,
+    "source_triangles": 15342,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 8.857097257920791e-05,
+    "volume_comparison_budget_mm3": 0.07635288561744406,
+    "volume_mm3": 17079.843367795413,
+    "volume_difference_mm3": 1.2680815416388214e-05,
+    "bounds_mm": [
+      [
+        -32.0,
+        -31.99543762207,
+        -3.549494032029088e-12
+      ],
+      [
+        32.00000000000039,
+        31.995437622070405,
+        10.400000572209551
+      ]
+    ],
+    "bounds_difference_mm": 4.9613646524448995e-12,
+    "stl_sha256": "3924e367ad984d423e373956c634f03100e9cfceeb665f3ef91f7421b42504b3",
+    "step_sha256": "f92b9db39557b71cea4edddc118dfb441831122a527ec7469238eb56e51f8b79",
+    "compressed_sha256": "95733b6d432aa699545c2c7c6164e6f075528ff53ff68576eb0e0efedbc07f15"
+  },
+  {
+    "file": "kraken-spool-ring-59-mm-pentagon-gear-side-1.5mm-flange.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 10552,
+    "source_triangles": 16602,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 0.00013579496715787815,
+    "volume_comparison_budget_mm3": 0.11592291979411447,
+    "volume_mm3": 22034.10224877041,
+    "volume_difference_mm3": 1.766720015439205e-05,
+    "bounds_mm": [
+      [
+        -39.75,
+        -39.750000000000426,
+        -3.3499869545039473e-12
+      ],
+      [
+        39.75000000000071,
+        39.7500000000002,
+        11.500000953678551
+      ]
+    ],
+    "bounds_difference_mm": 4.234834705130197e-12,
+    "stl_sha256": "fb679231a6f1de403b9731c8b4df77e74a107ad9be0c31058d896e8a0ba43717",
+    "step_sha256": "c8f2df912af0537da629e02295022b3293dd04268904aaa90d22ae1debd2895d",
+    "compressed_sha256": "a74e86aa231dc2915c962b521681a82f238249ce394e2a86b091c26d1d71fd17"
+  },
+  {
+    "file": "kraken-spool-ring-60-mm-pentagon-cap-side.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 8510,
+    "source_triangles": 15406,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 8.277816228083944e-05,
+    "volume_comparison_budget_mm3": 0.0786697345004614,
+    "volume_mm3": 18045.767272104848,
+    "volume_difference_mm3": 7.93388971942477e-06,
+    "bounds_mm": [
+      [
+        -32.5,
+        -32.495361328120005,
+        -3.3455460624054467e-12
+      ],
+      [
+        32.50000000000028,
+        32.49536132812521,
+        10.400000572209084
+      ]
+    ],
+    "bounds_difference_mm": 4.995115432393504e-12,
+    "stl_sha256": "bcbf789c36f2aa720dce3e19c88fdfbb1920f91a07601504bd9617142f214a68",
+    "step_sha256": "574f167ce352eeffb58d9db32a9a1639e8dde39ebeb7ae38acce2467df5e0576",
+    "compressed_sha256": "69604441de3e8b2329d2ee5aa2e9f64062272cd8fd49319cbd044c26474faa79"
+  },
+  {
+    "file": "kraken-spool-ring-60-mm-pentagon-gear-side-1.5mm-flange.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 10550,
+    "source_triangles": 16516,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 0.00011990776806990145,
+    "volume_comparison_budget_mm3": 0.11876127764403624,
+    "volume_mm3": 23147.940066903393,
+    "volume_difference_mm3": 1.490418435423635e-05,
+    "bounds_mm": [
+      [
+        -40.25000000000016,
+        -40.25000000000016,
+        -3.0870861422727103e-12
+      ],
+      [
+        40.25000000000016,
+        40.25000000000021,
+        11.500000953678082
+      ]
+    ],
+    "bounds_difference_mm": 3.765876499528531e-12,
+    "stl_sha256": "70b0e02b561fbc7043b3d3b77a2bd0a987e88498a4b9784e4ec67ad37769160f",
+    "step_sha256": "e19e1594a0eecfe2820a45ad8360ad34ddd81459982406d7e6351f94a3e6037e",
+    "compressed_sha256": "3fe632bc8235a44c6327357db11476aa5053193bb9def5412c10473a63d7740e"
+  },
+  {
+    "file": "kraken-spool-ring-61-mm-pentagon-cap-side.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 8500,
+    "source_triangles": 15366,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 9.268229584438322e-05,
+    "volume_comparison_budget_mm3": 0.08101806296171285,
+    "volume_mm3": 19028.224090104384,
+    "volume_difference_mm3": 3.3968342904699966e-05,
+    "bounds_mm": [
+      [
+        -33.0,
+        -32.99529266357076,
+        -4.476641279893556e-12
+      ],
+      [
+        33.000000000000384,
+        32.99529266357423,
+        10.400000572209636
+      ]
+    ],
+    "bounds_difference_mm": 5.0466297807361116e-12,
+    "stl_sha256": "b076d8de2b183706668a86b3982c01d2bb17fc477bb01a7148158e250b38b81a",
+    "step_sha256": "6f0ca92887939bcbb0aa39148e3a0605783163d14cff434e04f792e3f72a59d2",
+    "compressed_sha256": "4fcf9c13b6661083599a0489c0c701e5b4bedbebef2791467a05fe354ef4687e"
+  },
+  {
+    "file": "kraken-spool-ring-61-mm-pentagon-gear-side-1.5mm-flange.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 10518,
+    "source_triangles": 16508,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 0.0001355512455329451,
+    "volume_comparison_budget_mm3": 0.12163136046873373,
+    "volume_mm3": 24280.137204713505,
+    "volume_difference_mm3": 2.0753468561451882e-05,
+    "bounds_mm": [
+      [
+        -40.75,
+        -40.75,
+        -1.340261235327489e-12
+      ],
+      [
+        40.75000000000057,
+        40.75,
+        11.500000953678637
+      ]
+    ],
+    "bounds_difference_mm": 4.320099833421409e-12,
+    "stl_sha256": "4145bb762abaa3f8a6ca5924d82b7eeea539cea805fee78f91ff85497f0217fd",
+    "step_sha256": "9aacbc30e9c66f106c63f9751397aa161049990247e0c2f340391b4fddb3a84e",
+    "compressed_sha256": "b0c222b61b7fc97a2a112a89d655b11fa68df019ae21bad4a40d92efa78a9b73"
+  },
+  {
+    "file": "kraken-spool-ring-62-mm-pentagon-cap-side.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 8500,
+    "source_triangles": 15454,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 7.853469235561577e-05,
+    "volume_comparison_budget_mm3": 0.08339763720490107,
+    "volume_mm3": 20026.84075611866,
+    "volume_difference_mm3": 1.6890880942810327e-06,
+    "bounds_mm": [
+      [
+        -33.5,
+        -33.49522399902169,
+        -3.869682352330983e-12
+      ],
+      [
+        33.5,
+        33.4952239990233,
+        10.400000572209812
+      ]
+    ],
+    "bounds_difference_mm": 5.222489107836736e-12,
+    "stl_sha256": "4b506794d51eecaf418dc96ca5fb05aa36725867cc5502bb7d09708c9ed528a9",
+    "step_sha256": "30dc79464e1e3bfcf288587d79df802d772abb9ada5319b3017434c118f973ff",
+    "compressed_sha256": "50b422c140b60c8dab64bb71284cbc8ce7a7461656d8b0b71ddd43da0a46e4d0"
+  },
+  {
+    "file": "kraken-spool-ring-62-mm-pentagon-gear-side-1.5mm-flange.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 10530,
+    "source_triangles": 16514,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 0.00011405016160345976,
+    "volume_comparison_budget_mm3": 0.12453257776112973,
+    "volume_mm3": 25430.167322490375,
+    "volume_difference_mm3": 2.1644893422489986e-05,
+    "bounds_mm": [
+      [
+        -41.25,
+        -41.250000000002245,
+        -2.2668533716796446e-12
+      ],
+      [
+        41.25000000000081,
+        41.25000000000014,
+        11.50000095367881
+      ]
+    ],
+    "bounds_difference_mm": 4.494182803682634e-12,
+    "stl_sha256": "39444675eaea009da3a163d721a3c43a2ce651a3f6a1c2637b6afaa7d12f4ff4",
+    "step_sha256": "9a68452f38064a01048126572d9c338946e6dbef252cba99516923ac5735d0f4",
+    "compressed_sha256": "e191d3bb91bec0246941f034670a2802f06c97e8f09f8779586c5978ccf1c940"
+  },
+  {
+    "file": "kraken-spool-ring-63-mm-pentagon-cap-side.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 8506,
+    "source_triangles": 15478,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 9.986781715142198e-05,
+    "volume_comparison_budget_mm3": 0.08580886912161877,
+    "volume_mm3": 21041.770085557346,
+    "volume_difference_mm3": 1.2595453881658614e-05,
+    "bounds_mm": [
+      [
+        -33.99760055542,
+        -33.99879837036102,
+        -5.06422681567642e-12
+      ],
+      [
+        33.99760055542017,
+        33.998798370361044,
+        10.400000572209919
+      ]
+    ],
+    "bounds_difference_mm": 5.329070518200751e-12,
+    "stl_sha256": "3eda986cab598d5f2aa33ef6d92c25dabce2997af3cd92c8293ff86dd69d21f7",
+    "step_sha256": "a9cf08ae0030a69f0dfdc9601d14d672344753d3a65845907aabb70a256364c2",
+    "compressed_sha256": "229c79b3282f8559d5f412babca37badd93f8598908ef6b2126178a5c63606d8"
+  },
+  {
+    "file": "kraken-spool-ring-63-mm-pentagon-gear-side-1.5mm-flange.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 10422,
+    "source_triangles": 16344,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 0.00015057661319641333,
+    "volume_comparison_budget_mm3": 0.1274651732576083,
+    "volume_mm3": 26598.19023611872,
+    "volume_difference_mm3": 2.72262332146056e-06,
+    "bounds_mm": [
+      [
+        -41.75,
+        -41.7500000000008,
+        -2.263300658000844e-12
+      ],
+      [
+        41.75000000000037,
+        41.75,
+        11.500000953678919
+      ]
+    ],
+    "bounds_difference_mm": 4.602540570886049e-12,
+    "stl_sha256": "be56987f6b5b1b2b4cdc2b11f571edacae46e62d48e68209b74543d32b180a1c",
+    "step_sha256": "65af9998c578e9636cd8d746561b4b5d10d98f860dfca89fa4f6b9d41bdac139",
+    "compressed_sha256": "2662b7f9f697d50927f6089e34133920af4e97b1f0f48f1cd076a49ebf88f6f4"
+  },
+  {
+    "file": "kraken-spool-ring-64-mm-pentagon-cap-side.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 8930,
+    "source_triangles": 15600,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 0.00010270137431378108,
+    "volume_comparison_budget_mm3": 0.0882512366363871,
+    "volume_mm3": 22072.9875010458,
+    "volume_difference_mm3": 1.071991937351413e-05,
+    "bounds_mm": [
+      [
+        -34.4975662231401,
+        -34.49877929687,
+        -3.6665115388245795e-12
+      ],
+      [
+        34.497566223145,
+        34.49877929687517,
+        10.400000572210187
+      ]
+    ],
+    "bounds_difference_mm": 5.597300400950189e-12,
+    "stl_sha256": "4cbdd22957c56b1305d1e8bed7997b1cb2092dca7ec3fd1ae665210b8e7e19e6",
+    "step_sha256": "62eba70467cf846f21a28ee5bc072e6ad526d749267c64eb043135eda2c8a376",
+    "compressed_sha256": "dcda2e90f8059210f6551200ba9c4e932b9b3dd836d7ad4c57a87df1f35cf06e"
+  },
+  {
+    "file": "kraken-spool-ring-64-mm-pentagon-gear-side-1.5mm-flange.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 10846,
+    "source_triangles": 16380,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 0.00014839558410535813,
+    "volume_comparison_budget_mm3": 0.13042918419598185,
+    "volume_mm3": 27784.27635646359,
+    "volume_difference_mm3": 4.8560090363025665e-05,
+    "bounds_mm": [
+      [
+        -42.250000000000526,
+        -42.25000000000203,
+        -1.8833823389741156e-12
+      ],
+      [
+        42.25000000000024,
+        42.250000000000355,
+        11.500000953679187
+      ]
+    ],
+    "bounds_difference_mm": 4.870770453635487e-12,
+    "stl_sha256": "2e844f9e6777cd63af82a9ff109739d7591fe81d4c3078b02b27cc4a53001ad1",
+    "step_sha256": "58dea3c1e88981a4841d1b659f063e308fddcbba0f342132192d6ab2c5df1224",
+    "compressed_sha256": "8f3ba2a838003bb72fbb1fb3b4ae81fd1fdadcc7276feac3312dbf11d474c88a"
+  },
+  {
+    "file": "kraken-spool-ring-65-mm-pentagon-cap-side.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 8484,
+    "source_triangles": 15510,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 7.732531584090846e-05,
+    "volume_comparison_budget_mm3": 0.09072524390754046,
+    "volume_mm3": 23120.86338087839,
+    "volume_difference_mm3": 9.465482435189188e-06,
+    "bounds_mm": [
+      [
+        -34.997531890868835,
+        -34.9987678527825,
+        -4.5393688807848775e-12
+      ],
+      [
+        34.997531890876,
+        34.99876785278317,
+        10.400000572210997
+      ]
+    ],
+    "bounds_difference_mm": 6.856737400084967e-12,
+    "stl_sha256": "c311041cb26bc2fd1562386067a4f069aca3011560d01d628a1edfb37f12472f",
+    "step_sha256": "4508eef8db170f3d3998af3ad264e8e4b57def321fdbbe0e5263323d011f5776",
+    "compressed_sha256": "30f0698d911341b6961b75a40b84d2137fe166a86795fbfa14d16e856a64a713"
+  },
+  {
+    "file": "kraken-spool-ring-65-mm-pentagon-gear-side-1.5mm-flange.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 10376,
+    "source_triangles": 16316,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 0.0001082603234174224,
+    "volume_comparison_budget_mm3": 0.1334249587172843,
+    "volume_mm3": 28988.80533727053,
+    "volume_difference_mm3": 1.7109992768382654e-05,
+    "bounds_mm": [
+      [
+        -42.75000000000732,
+        -42.75000000000019,
+        -3.454792008028562e-12
+      ],
+      [
+        42.75000000000048,
+        42.75000000000048,
+        11.500000953679997
+      ]
+    ],
+    "bounds_difference_mm": 7.318590178329032e-12,
+    "stl_sha256": "3cb124d5a160c7eebd81a649a7db72ea4a9e5705687246e178d571aaafc5e83e",
+    "step_sha256": "6d8729ee84c1779415ac9e7cc68d80b89724fef17f5687c94890b43429c58063",
+    "compressed_sha256": "d835c45f2bea82142492553ce6f107923d6151290a371b9b8ccfb073d94b6089"
+  },
+  {
+    "file": "kraken-spool-ring-66-mm-pentagon-cap-side.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 8496,
+    "source_triangles": 15638,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 0.00010219379032246921,
+    "volume_comparison_budget_mm3": 0.0932304628541116,
+    "volume_mm3": 24184.81762920918,
+    "volume_difference_mm3": 1.773846088326536e-05,
+    "bounds_mm": [
+      [
+        -35.4974975585936,
+        -35.49874877929586,
+        -3.778977131219108e-12
+      ],
+      [
+        35.49749755859768,
+        35.498748779297,
+        10.4000005722089
+      ]
+    ],
+    "bounds_difference_mm": 4.309441692385008e-12,
+    "stl_sha256": "05ce894c36bc4e06dc6a4a4775c64faa4c42441bbfe8b7e73f146c1f862ad2c8",
+    "step_sha256": "a435a40ef49e69179c2ae32230491923c7794a55440f565e26525d38ca149f9f",
+    "compressed_sha256": "f11f2418e1ee48a1440eaccc4ca4e02c2a25d6fcfb6025e1f7ecf5ed201deea8"
+  },
+  {
+    "file": "kraken-spool-ring-66-mm-pentagon-gear-side-1.5mm-flange.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 10370,
+    "source_triangles": 16276,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 0.00013788154611398077,
+    "volume_comparison_budget_mm3": 0.1364518258803843,
+    "volume_mm3": 30211.08386698188,
+    "volume_difference_mm3": 3.7311401683837175e-06,
+    "bounds_mm": [
+      [
+        -43.25000000000181,
+        -43.25,
+        -2.708500090875532e-12
+      ],
+      [
+        43.25000000000017,
+        43.2500000000002,
+        11.500000953678105
+      ]
+    ],
+    "bounds_difference_mm": 3.788969138440734e-12,
+    "stl_sha256": "5f93761f60117de668eeb47be9c71e3b6adc0419ba55e80571257300b97d3f9a",
+    "step_sha256": "a423299b7acc4339429d1915a8f80349d43f81df510d4f2daa9328254fc54c67",
+    "compressed_sha256": "6e40e3c814e40ac1086a5a2c6d8481dfed826b2c2b00a8c6dc255b2bd59182ea"
+  },
+  {
+    "file": "kraken-spool-ring-67-mm-pentagon-cap-side.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 8480,
+    "source_triangles": 15634,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 8.863688148026158e-05,
+    "volume_comparison_budget_mm3": 0.09576721779141971,
+    "volume_mm3": 25265.082303592968,
+    "volume_difference_mm3": 8.950766641646624e-06,
+    "bounds_mm": [
+      [
+        -35.99745941162,
+        -35.998733520502334,
+        -3.650524327269977e-12
+      ],
+      [
+        35.99745941162356,
+        35.998733520508,
+        10.400000572209288
+      ]
+    ],
+    "bounds_difference_mm": 5.4782844927103724e-12,
+    "stl_sha256": "307a8ea756d90ef5ebfadde7e16a70686ab5771c27951bfbab3a448c7e6d56d8",
+    "step_sha256": "0e0f5db538a34d71d195b06fcc3b9ef0e663268a035afc0c8a9525a14cb7fb40",
+    "compressed_sha256": "42749f5610aaf0e6f30f6452f75d9f39428dcdf54bdb89e73a52cafb795a0e61"
+  },
+  {
+    "file": "kraken-spool-ring-67-mm-pentagon-gear-side-1.5mm-flange.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 10378,
+    "source_triangles": 16308,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 0.0001191706133860436,
+    "volume_comparison_budget_mm3": 0.13951009489815935,
+    "volume_mm3": 31451.355378628643,
+    "volume_difference_mm3": 2.793658131849952e-05,
+    "bounds_mm": [
+      [
+        -43.75000000000745,
+        -43.75,
+        -2.2246648967438887e-12
+      ],
+      [
+        43.75000000000047,
+        43.75000000000047,
+        11.500000953678288
+      ]
+    ],
+    "bounds_difference_mm": 7.44648787076585e-12,
+    "stl_sha256": "a6e63e30716ec395eb12e89e0738e517e21025dec99ecab9522ad7ea53bb6efe",
+    "step_sha256": "4d5cf1f5bd568722961bf61f4d7efd9c171949629c3b3ee8f52d0d92116ed531",
+    "compressed_sha256": "3a90653db2ff454bc7aa614103fc7ebbe4f284d94ff146a9c20cd982cbfab975"
+  },
+  {
+    "file": "kraken-spool-ring-68-mm-pentagon-cap-side.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 8468,
+    "source_triangles": 15690,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 9.956805042607303e-05,
+    "volume_comparison_budget_mm3": 0.09833546639981317,
+    "volume_mm3": 26361.908048844365,
+    "volume_difference_mm3": 1.6455192962894216e-05,
+    "bounds_mm": [
+      [
+        -36.49856948852061,
+        -36.498138427733416,
+        -3.5816904997432175e-12
+      ],
+      [
+        36.49856948852549,
+        36.498138427734695,
+        10.400000572209617
+      ]
+    ],
+    "bounds_difference_mm": 5.027089855502709e-12,
+    "stl_sha256": "2da0bc009f217a074b204a092c8d95e7e2f290f954b94dd49d5b06730ff28fae",
+    "step_sha256": "cd8dfeb334ba256ec45e9ee64fc8beb455b1c392e7300b214694bee10f3b901d",
+    "compressed_sha256": "fe87757bf528192d0d228f057639a0da2ec667895076774029ee9509bb7f1488"
+  },
+  {
+    "file": "kraken-spool-ring-68-mm-pentagon-gear-side-1.5mm-flange.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 10340,
+    "source_triangles": 16290,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 0.00014346795736262585,
+    "volume_comparison_budget_mm3": 0.14260011920741789,
+    "volume_mm3": 32710.018973991693,
+    "volume_difference_mm3": 4.638652899302542e-05,
+    "bounds_mm": [
+      [
+        -44.25,
+        -44.25,
+        -4.107825191113079e-12
+      ],
+      [
+        44.25000000000117,
+        44.2500000000001,
+        11.500000953678617
+      ]
+    ],
+    "bounds_difference_mm": 4.300559908188006e-12,
+    "stl_sha256": "b3c48f7c66cb45e04ecb8091964be4d15dca7aa7eb6c44c22a0d084c8907731f",
+    "step_sha256": "2da5e1ec64a85ae08ccf79dffa2b7ea75041ec25038ce76584240dd8b1b57aa3",
+    "compressed_sha256": "b871e5300288e66d4feb5dea53ac7b22f76595b80115af7d22cadf4d5751342f"
+  },
+  {
+    "file": "kraken-spool-ring-69-mm-pentagon-cap-side.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 8476,
+    "source_triangles": 15644,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 7.985372108852053e-05,
+    "volume_comparison_budget_mm3": 0.10093493072277479,
+    "volume_mm3": 27474.86535948645,
+    "volume_difference_mm3": 4.910791176371276e-06,
+    "bounds_mm": [
+      [
+        -36.998550415036334,
+        -36.99811553955,
+        -4.199918191005736e-12
+      ],
+      [
+        36.99855041503953,
+        36.998115539551,
+        10.400000572209766
+      ]
+    ],
+    "bounds_difference_mm": 5.17630383001233e-12,
+    "stl_sha256": "08a86fdb14b3c2198f10e52d252a6d657e62975671c83f5f0e85873bf53f83b6",
+    "step_sha256": "7a3922b6575d7ceda0f1ad64c8c872973908e188231914b8abb81c4194657454",
+    "compressed_sha256": "a1bf0cc5701f7a2baacab485b3f4a996f51ee860435f6106fbe0dcfe4e132e54"
+  },
+  {
+    "file": "kraken-spool-ring-69-mm-pentagon-gear-side-1.5mm-flange.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 10358,
+    "source_triangles": 16274,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 0.00011473201882962198,
+    "volume_comparison_budget_mm3": 0.14572124109327458,
+    "volume_mm3": 33986.48380832032,
+    "volume_difference_mm3": 2.685796789592132e-05,
+    "bounds_mm": [
+      [
+        -44.750000000000355,
+        -44.75,
+        -3.5158542743829457e-12
+      ],
+      [
+        44.750000000000455,
+        44.750000000000455,
+        11.500000953678766
+      ]
+    ],
+    "bounds_difference_mm": 4.4497738826976274e-12,
+    "stl_sha256": "24f991c11e81e36636cf2a678fd696b349a6b7f5be2c8cc0bdf745ea58d75b94",
+    "step_sha256": "a48112e8a96665f5ccd218e1da594c7abfacfb9015a8892e26212a0f807939a1",
+    "compressed_sha256": "28b1c89313f20f2f71b1adaf2c866ab640c2594fadefc95074cc0b7af2b67fc3"
+  },
+  {
+    "file": "kraken-spool-ring-70-mm-pentagon-cap-side.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 8468,
+    "source_triangles": 15780,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 9.901675230330573e-05,
+    "volume_comparison_budget_mm3": 0.10356580302833815,
+    "volume_mm3": 28604.15738268384,
+    "volume_difference_mm3": 2.505493102944456e-05,
+    "bounds_mm": [
+      [
+        -37.49735260009697,
+        -37.49868011474179,
+        -3.84614562420893e-12
+      ],
+      [
+        37.497352600098786,
+        37.49868011474613,
+        10.400000572209104
+      ]
+    ],
+    "bounds_difference_mm": 4.5137227289160364e-12,
+    "stl_sha256": "de6fc6c5939ad0cd66e7a143fb98b3f39823cb45f59bb7382cefbc6fd783637e",
+    "step_sha256": "f2b24ef9b010fd7ff4acae3c8d76676ad3251f9aabd49e864b34463531bf6b38",
+    "compressed_sha256": "b96e3c996adc63c44433d2cceeb20b57cbf8fd760a3cdf5a40a559e1334a8ed2"
+  },
+  {
+    "file": "kraken-spool-ring-70-mm-pentagon-gear-side-1.5mm-flange.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 10350,
+    "source_triangles": 16254,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 0.0001455686220427224,
+    "volume_comparison_budget_mm3": 0.1488737764993783,
+    "volume_mm3": 35281.01124331725,
+    "volume_difference_mm3": 5.613357643596828e-06,
+    "bounds_mm": [
+      [
+        -45.250000000002856,
+        -45.25000000000074,
+        -3.135935955356217e-12
+      ],
+      [
+        45.25000000000008,
+        45.25000000000008,
+        11.500000953678104
+      ]
+    ],
+    "bounds_difference_mm": 3.787192781601334e-12,
+    "stl_sha256": "eff3a0df8fc8550ff4b37f099f1e8cd3c0d8bb558d5024da819c48a88e85f4cd",
+    "step_sha256": "794a1656e582bf95118535ff4d4f90cd515ad48708704a6952fabd4fb89d9f6c",
+    "compressed_sha256": "fd4e8ddb10f3a458afee230fa298dae93a6e0110ce9cbb36ef6fc08682cc760e"
+  },
+  {
+    "file": "kraken-spool-ring-71-mm-pentagon-cap-side.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 8454,
+    "source_triangles": 15832,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 0.00010705025525514742,
+    "volume_comparison_budget_mm3": 0.1062282056971634,
+    "volume_mm3": 29749.759606142114,
+    "volume_difference_mm3": 2.4546025088056922e-05,
+    "bounds_mm": [
+      [
+        -37.99850845336852,
+        -37.99806213378944,
+        -4.311218049224408e-12
+      ],
+      [
+        37.998508453372544,
+        37.998062133789,
+        10.400000572208821
+      ]
+    ],
+    "bounds_difference_mm": 4.311218049224408e-12,
+    "stl_sha256": "0712d45fa437fd2573d43fdba475eca16974b652b9182a7e87794218f15907e7",
+    "step_sha256": "7eef03dcf4b58ac92dc9ce57f249946f779205da2093ccea0fcb7cac6eadc4b4",
+    "compressed_sha256": "7507c44148621e1e4a0965201a0cda5d5ff632edf1e60b87abffaacbd4eb9e5f"
+  },
+  {
+    "file": "kraken-spool-ring-71-mm-pentagon-gear-side-1.5mm-flange.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 10318,
+    "source_triangles": 16140,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 0.00014184627106276563,
+    "volume_comparison_budget_mm3": 0.1520576933480609,
+    "volume_mm3": 36593.53039233013,
+    "volume_difference_mm3": 2.400331140961498e-06,
+    "bounds_mm": [
+      [
+        -45.75,
+        -45.75000000000333,
+        -2.5082158572331537e-12
+      ],
+      [
+        45.75000000000044,
+        45.75000000000044,
+        11.500000953677821
+      ]
+    ],
+    "bounds_difference_mm": 3.504752044136694e-12,
+    "stl_sha256": "42130523b9229010735a9fe54f3ec0507db642235c973a62c3e6a1998b263db7",
+    "step_sha256": "880e7155ff5e81b29c051646373d99e047f0dc8c80586d86b8f0f804ee38af28",
+    "compressed_sha256": "14b747deaada4020b7a280a9f5909b6c9b2deb4ed217c961a0661fee59953b6b"
+  },
+  {
+    "file": "kraken-spool-ring-72-mm-pentagon-cap-side.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 8850,
+    "source_triangles": 15910,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 8.856477207961357e-05,
+    "volume_comparison_budget_mm3": 0.10892186669133373,
+    "volume_mm3": 30911.65260466696,
+    "volume_difference_mm3": 1.6034857253544033e-05,
+    "bounds_mm": [
+      [
+        -38.49848937988,
+        -38.49803924560265,
+        -3.3607561178428114e-12
+      ],
+      [
+        38.49848937988324,
+        38.498039245605945,
+        10.400000572209345
+      ]
+    ],
+    "bounds_difference_mm": 4.7553072590744705e-12,
+    "stl_sha256": "b560cc10312578f2630218dee15c5df1e556487ba969f37f33c961e12085b859",
+    "step_sha256": "1e52d66659345a879a7b0013855cf752cf25c4f8d053adfd5b31a99526950b46",
+    "compressed_sha256": "f43445dd578f0d2b11a8bdd314261b594184070b9576e791b2d24ae4608358a6"
+  },
+  {
+    "file": "kraken-spool-ring-72-mm-pentagon-gear-side-1.5mm-flange.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 10720,
+    "source_triangles": 16160,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 0.00011800160266420051,
+    "volume_comparison_budget_mm3": 0.1552730207174587,
+    "volume_mm3": 37924.114254449596,
+    "volume_difference_mm3": 2.5395442207809538e-05,
+    "bounds_mm": [
+      [
+        -46.25000000000561,
+        -46.25000000000284,
+        -2.8981261834815086e-12
+      ],
+      [
+        46.25000000000008,
+        46.25000000000008,
+        11.500000953678345
+      ]
+    ],
+    "bounds_difference_mm": 5.6132876125047915e-12,
+    "stl_sha256": "cfedf2f414ed2f54739c6845e74ff90602fead449ec8b827f24b771369a83e72",
+    "step_sha256": "df187107fac25a7484f9ac58053f5f62477de6db436bb6ae4cf4e4245c1d09dc",
+    "compressed_sha256": "057d986b3e4c74643ac26c676f0516f80dfe22c8cd328666c431226b1b2580f2"
+  },
+  {
+    "file": "kraken-spool-ring-73-mm-pentagon-cap-side.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 8438,
+    "source_triangles": 15846,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 9.576740726634125e-05,
+    "volume_comparison_budget_mm3": 0.11164720792182325,
+    "volume_mm3": 32090.23381244889,
+    "volume_difference_mm3": 7.771093805786222e-06,
+    "bounds_mm": [
+      [
+        -38.99847030639,
+        -38.998012542720396,
+        -3.789302205348122e-12
+      ],
+      [
+        38.99847030639682,
+        38.998012542725185,
+        10.400000572210157
+      ]
+    ],
+    "bounds_difference_mm": 6.487255177489715e-12,
+    "stl_sha256": "85504e38423c25801a698b16e25604da0985d972911407b913756162f6d057da",
+    "step_sha256": "a777a978aae89d37cfdf054d1ce1a873188cda28d5f09b1068fd1e431d738d86",
+    "compressed_sha256": "70a08e82cf8f67c6c0fee11a320bb509b675d70d53f758bbfa7ecb3d9265a1c7"
+  },
+  {
+    "file": "kraken-spool-ring-73-mm-pentagon-gear-side-1.5mm-flange.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 10268,
+    "source_triangles": 16122,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 0.0001245524624037879,
+    "volume_comparison_budget_mm3": 0.15852016065011423,
+    "volume_mm3": 39273.17424786981,
+    "volume_difference_mm3": 1.873035216704011e-06,
+    "bounds_mm": [
+      [
+        -46.7500000000059,
+        -46.75000000000249,
+        -2.723599124010434e-12
+      ],
+      [
+        46.75000000000042,
+        46.75000000000042,
+        11.500000953679157
+      ]
+    ],
+    "bounds_difference_mm": 5.8975047068088315e-12,
+    "stl_sha256": "e6dab9e355c033b4804432b809f40dbfbde462612e9dd34fe5dfe382a99f477f",
+    "step_sha256": "ef7d7b2eda27ae4eeebf491e1664b908fa87d87a4b8bf39f2e17ffec6c4ec924",
+    "compressed_sha256": "e78dab956cca121ac62955d0b1dda0ef1717e79aaee2725565932700e13da5d4"
+  },
+  {
+    "file": "kraken-spool-ring-74-mm-pentagon-cap-side.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 8454,
+    "source_triangles": 15984,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 9.506495274874598e-05,
+    "volume_comparison_budget_mm3": 0.11440371777268611,
+    "volume_mm3": 33284.864631218006,
+    "volume_difference_mm3": 9.757561201695353e-06,
+    "bounds_mm": [
+      [
+        -39.49845504760004,
+        -39.49798965454265,
+        -3.0674629503124606e-12
+      ],
+      [
+        39.498455047607415,
+        39.4979896545412,
+        10.400000572209862
+      ]
+    ],
+    "bounds_difference_mm": 7.382539024547441e-12,
+    "stl_sha256": "5d589d5b10924374983bbb2b52e11c10d48a5c40819f9cfe196bd96f6092d8b4",
+    "step_sha256": "81927db1b29d08cecc3410f76fb2068236ca3cf953066cfcc9cd96d0bbf57c0b",
+    "compressed_sha256": "5fb47b3ec1ed20c2f410651d46bfd1cd2532cd69f57beb7ea8dab3c83c660996"
+  },
+  {
+    "file": "kraken-spool-ring-74-mm-pentagon-gear-side-1.5mm-flange.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 10284,
+    "source_triangles": 16132,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 0.00014416411766268681,
+    "volume_comparison_budget_mm3": 0.16179834171765484,
+    "volume_mm3": 40639.95143244377,
+    "volume_difference_mm3": 2.835233317455277e-05,
+    "bounds_mm": [
+      [
+        -47.25000000000544,
+        -47.25000000000169,
+        -3.0235813852641513e-12
+      ],
+      [
+        47.25000000000006,
+        47.25000000000052,
+        11.500000953678864
+      ]
+    ],
+    "bounds_difference_mm": 5.4427573559223674e-12,
+    "stl_sha256": "7d2dfc85ac506bc96cf6c3304395f6551676f0d322b194d740ee9c9c0803e8a5",
+    "step_sha256": "fd7e6470f3a5d9ebb549ebd2a211be61cb6b6f243c6be5108f5902f660774577",
+    "compressed_sha256": "a68588229403d1cee6f04b10121a8f0a3eed3eadc7eddcba3b067df5695bc34c"
+  },
+  {
+    "file": "kraken-spool-ring-75-mm-pentagon-cap-side.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 8444,
+    "source_triangles": 15980,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 8.175289042816974e-05,
+    "volume_comparison_budget_mm3": 0.11719176428798841,
+    "volume_mm3": 34495.80419888032,
+    "volume_difference_mm3": 1.0556395864114165e-05,
+    "bounds_mm": [
+      [
+        -39.99843215942,
+        -39.99795913696,
+        -4.2379433295991475e-12
+      ],
+      [
+        39.99843215942458,
+        39.997959136963,
+        10.400000572209239
+      ]
+    ],
+    "bounds_difference_mm": 4.6487258487104555e-12,
+    "stl_sha256": "e2bf4d2faf39595a4e5642d1fbe2ec49adf7df07429fcd5bd0c20e1f76fffcda",
+    "step_sha256": "7c2a27b1cfb3f3f7e4fea0b96efcdff6ff8c1a4dbf6546d948d18060b195c429",
+    "compressed_sha256": "6507c03b31b78e85ed8e51ab9d3493f523be5f4b23160eee238f416916c97df8"
+  },
+  {
+    "file": "kraken-spool-ring-75-mm-pentagon-gear-side-1.5mm-flange.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 10278,
+    "source_triangles": 16098,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 0.00011201078462192552,
+    "volume_comparison_budget_mm3": 0.16510790783775478,
+    "volume_mm3": 42024.718058783335,
+    "volume_difference_mm3": 2.882502303691581e-05,
+    "bounds_mm": [
+      [
+        -47.750000000000995,
+        -47.7500000000001,
+        -1.7910117833253025e-12
+      ],
+      [
+        47.75000000000041,
+        47.75000000000045,
+        11.500000953678239
+      ]
+    ],
+    "bounds_difference_mm": 3.922195901395753e-12,
+    "stl_sha256": "0f0be1e51ed73f3e4e050c0513646d40b866e06d573c0678f623ae7cf7ec22e4",
+    "step_sha256": "bae41157b4e1bd7c0d7084d1bfb6fba54b6c0562f8ef17e59a2b4a4f242755e7",
+    "compressed_sha256": "8e950130711b4676bbbe21d7bbd2c59e3e1e89d933870a3cfbcfd9e3541be323"
+  },
+  {
+    "file": "kraken-spool-ring-76-mm-pentagon-cap-side.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 8438,
+    "source_triangles": 16132,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 8.699839356615042e-05,
+    "volume_comparison_budget_mm3": 0.12001109322429719,
+    "volume_mm3": 35723.10292476425,
+    "volume_difference_mm3": 1.0568139259703457e-05,
+    "bounds_mm": [
+      [
+        -40.49841308593,
+        -40.49793624877672,
+        -4.200417791366817e-12
+      ],
+      [
+        40.498413085938,
+        40.497936248779,
+        10.400000572210216
+      ]
+    ],
+    "bounds_difference_mm": 7.503331289626658e-12,
+    "stl_sha256": "1d758d820307cd7abae714f2487909ffc871234175eee70196e2f941b761e524",
+    "step_sha256": "507dcf4df501b8dd41661e41638bde0aa24495a03bbd8f5513ed24d1e2e06828",
+    "compressed_sha256": "77924028571e03aa3ee7bd4c9b148511a1facc73f2d3e7f6cd6c56d0eef1662f"
+  },
+  {
+    "file": "kraken-spool-ring-76-mm-pentagon-gear-side-1.5mm-flange.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 10282,
+    "source_triangles": 16106,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 0.00011160786638471135,
+    "volume_comparison_budget_mm3": 0.16844891509403362,
+    "volume_mm3": 43427.61880838294,
+    "volume_difference_mm3": 2.3135355149861425e-05,
+    "bounds_mm": [
+      [
+        -48.250000000003595,
+        -48.250000000000774,
+        -9.29034627006331e-13
+      ],
+      [
+        48.25,
+        48.25000000000058,
+        11.500000953679216
+      ]
+    ],
+    "bounds_difference_mm": 4.899192163065891e-12,
+    "stl_sha256": "8c08b9dfeab905550cb98d865f41bef73fa1d335563bb9999a7a44cd9c0a9a60",
+    "step_sha256": "08163252678558f1e5d00e5ce9bcba104c71a9fdae04a5f021dc39dd79134595",
+    "compressed_sha256": "d4476930570bb3ab54d330de2b5c748e4525a7aac8adb4898db6d446da2099a1"
+  },
+  {
+    "file": "kraken-spool-ring-77-mm-pentagon-cap-side.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 8442,
+    "source_triangles": 16100,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 8.322116665527253e-05,
+    "volume_comparison_budget_mm3": 0.12286206920992221,
+    "volume_mm3": 36966.97161423347,
+    "volume_difference_mm3": 1.8254642782267183e-05,
+    "bounds_mm": [
+      [
+        -40.99839019775383,
+        -40.99790954589608,
+        -4.347189275222263e-12
+      ],
+      [
+        40.99839019775442,
+        40.997909545898736,
+        10.400000572209693
+      ]
+    ],
+    "bounds_difference_mm": 5.1034731995969196e-12,
+    "stl_sha256": "2e6f577f5206effe7a42018380a0addb7d221940f996a4c6b51b8edf33a41c18",
+    "step_sha256": "da2466d1021e112f65e9a464680ded6cbe0e3d3da6eea11adef16b7e1009e3f6",
+    "compressed_sha256": "d5b85fa0eb27502e6f8d131a41af858b92e2607c579470f32fa0d33726c7644b"
+  },
+  {
+    "file": "kraken-spool-ring-77-mm-pentagon-gear-side-1.5mm-flange.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 10254,
+    "source_triangles": 16024,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 0.0001176274876906801,
+    "volume_comparison_budget_mm3": 0.17182170539273217,
+    "volume_mm3": 44848.87912153859,
+    "volume_difference_mm3": 4.2598447180353105e-05,
+    "bounds_mm": [
+      [
+        -48.75000000000589,
+        -48.75000000000407,
+        -3.3517633113433476e-12
+      ],
+      [
+        48.7500000000004,
+        48.7500000000004,
+        11.500000953678835
+      ]
+    ],
+    "bounds_difference_mm": 5.8903992794512305e-12,
+    "stl_sha256": "c9584d12b3d0a6e99777a221986b5058fd3a15aaeffa229cdb2801b126666364",
+    "step_sha256": "49ddf5d978fcca8ec24a461c99ce874f741301ff9c1456db7daeaa42743e2548",
+    "compressed_sha256": "389e3cccb33faedc7257fd9e22f14ece0b1038d857229b6fa4d8c3050f1f6ba0"
+  },
+  {
+    "file": "kraken-spool-ring-78-mm-pentagon-cap-side.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 8436,
+    "source_triangles": 16188,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 9.741186460334293e-05,
+    "volume_comparison_budget_mm3": 0.1257442386382238,
+    "volume_mm3": 38226.939858912134,
+    "volume_difference_mm3": 3.86776082450524e-06,
+    "bounds_mm": [
+      [
+        -41.49837493896,
+        -41.49788665771,
+        -4.200417791366817e-12
+      ],
+      [
+        41.4983749389652,
+        41.497886657715,
+        10.400000572209164
+      ]
+    ],
+    "bounds_difference_mm": 4.845901457883883e-12,
+    "stl_sha256": "fa7524d381a6e4932a32625f2991eeb86b88cc054d4aa80d99f0b84a3142cdf0",
+    "step_sha256": "76920da72ea91d46a346ce024544809d56b936615c364cd2209e8f8f83829b32",
+    "compressed_sha256": "646b83742ee9d2bc1938f42621f0eb84266d48d0da7a9648cb7dc00990fc46da"
+  },
+  {
+    "file": "kraken-spool-ring-78-mm-pentagon-gear-side-1.5mm-flange.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 10250,
+    "source_triangles": 16002,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 0.00014064250124167708,
+    "volume_comparison_budget_mm3": 0.17522555821896318,
+    "volume_mm3": 46287.90489370646,
+    "volume_difference_mm3": 3.4469368983991444e-05,
+    "bounds_mm": [
+      [
+        -49.25,
+        -49.25,
+        -1.6509016376176078e-12
+      ],
+      [
+        49.25,
+        49.25,
+        11.500000953678164
+      ]
+    ],
+    "bounds_difference_mm": 3.8475889141409425e-12,
+    "stl_sha256": "1c25751b9afd740f19ded2733dcb578269890f6f7b9d5a6b9437b13e81716ca0",
+    "step_sha256": "3d0dfc30f2141e5986a50d62f99eb06fb40527e86d674143e49619372d926862",
+    "compressed_sha256": "88deff156f8d2a18807e5056d69728cfb1a55af7b6ad7c8ebd8a215db6d00afe"
+  },
+  {
+    "file": "kraken-spool-ring-79-mm-pentagon-cap-side.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 8440,
+    "source_triangles": 16216,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 9.296115401215862e-05,
+    "volume_comparison_budget_mm3": 0.12865781590391184,
+    "volume_mm3": 39503.24331269134,
+    "volume_difference_mm3": 1.2510237866081297e-05,
+    "bounds_mm": [
+      [
+        -41.99835205078,
+        -41.99785614013415,
+        -2.9185542871346115e-12
+      ],
+      [
+        41.99835205078171,
+        41.99785614013707,
+        10.4000005722088
+      ]
+    ],
+    "bounds_difference_mm": 4.209965709378594e-12,
+    "stl_sha256": "267e75d353b80cf17b1d9408a2e74fe434cb25dc5fdbd4afe3fbf178d44e9d22",
+    "step_sha256": "d06e767286c488d05524ff2faa5efc423b5160832ba0927b2cf11d2a7525ce4b",
+    "compressed_sha256": "064cc92013cdd3d53cb88ad43d2e23a945e6c964d5673621146aeb6768b0c334"
+  },
+  {
+    "file": "kraken-spool-ring-79-mm-pentagon-gear-side-1.5mm-flange.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 10244,
+    "source_triangles": 16002,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 0.00012860194087795126,
+    "volume_comparison_budget_mm3": 0.17866081850119847,
+    "volume_mm3": 47744.993295453576,
+    "volume_difference_mm3": 1.985870039789006e-05,
+    "bounds_mm": [
+      [
+        -49.75,
+        -49.75000000000001,
+        -1.5754064719430971e-12
+      ],
+      [
+        49.750000000000384,
+        49.750000000000384,
+        11.500000953678615
+      ]
+    ],
+    "bounds_difference_mm": 4.298783551348606e-12,
+    "stl_sha256": "c5ba2d263cff5019b4a93fb78e10789f2a02762c4c953f29dfceba7ad28b9cb2",
+    "step_sha256": "385805514e52d12f48b87b5e3ef8453fdf19db15deaea82e1cdfa492e7e31853",
+    "compressed_sha256": "a51ef1cd60da0aad8c3d1e3596b63081483ce0c2083e965bd6cb2820bd6b668e"
+  },
+  {
+    "file": "kraken-spool-ring-80-mm-pentagon-cap-side.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 8416,
+    "source_triangles": 16268,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 8.973188348301132e-05,
+    "volume_comparison_budget_mm3": 0.1316581650552319,
+    "volume_mm3": 40795.85499092842,
+    "volume_difference_mm3": 2.2928434191271663e-06,
+    "bounds_mm": [
+      [
+        -42.49833297729,
+        -42.49783325195,
+        -3.748723553798072e-12
+      ],
+      [
+        42.498332977295135,
+        42.49783325195715,
+        10.400000572210525
+      ]
+    ],
+    "bounds_difference_mm": 5.934808200436237e-12,
+    "stl_sha256": "d89f115bfa535fd97975cd9ae94710be6f244a9fa70e5ff8a752268fdb61855c",
+    "step_sha256": "8f2b9cad78dcb1334469d1f15ef7163127f5f073313c12f551c29dd802895b3d",
+    "compressed_sha256": "c37db980bbc3984b1e01e339035cda0be917d6b7371663042061786230e64a26"
+  },
+  {
+    "file": "kraken-spool-ring-80-mm-pentagon-gear-side-1.5mm-flange.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 10222,
+    "source_triangles": 15894,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 0.00011972287551786493,
+    "volume_comparison_budget_mm3": 0.18218269639594126,
+    "volume_mm3": 49220.070449867395,
+    "volume_difference_mm3": 2.7839792892336845e-05,
+    "bounds_mm": [
+      [
+        -50.25,
+        -50.25000000000001,
+        -2.9307667404054882e-12
+      ],
+      [
+        50.25000000000001,
+        50.25,
+        11.500000953679525
+      ]
+    ],
+    "bounds_difference_mm": 5.208278253121534e-12,
+    "stl_sha256": "7652299b906687f0170a636aaa418fd0c428bd7af3e9dabe11260ee04747a03b",
+    "step_sha256": "01172acab0b0b8810654ee6e3e5807a5e7457e1e54381c749d1f829ea358ea06",
+    "compressed_sha256": "40f6ab5dcf6e94cd8b11696cc65b609a98a98c9e938b12ecc6cc79787962b19d"
+  },
+  {
+    "file": "kraken-spool-ring-81-mm-pentagon-cap-side.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 8480,
+    "source_triangles": 15718,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 7.814185828382386e-05,
+    "volume_comparison_budget_mm3": 0.13457934751550518,
+    "volume_mm3": 42104.827400777605,
+    "volume_difference_mm3": 1.935630280058831e-06,
+    "bounds_mm": [
+      [
+        -42.998313903800394,
+        -42.99781036377104,
+        -4.618860849348039e-12
+      ],
+      [
+        42.998313903809,
+        42.997810363770135,
+        10.400000572210159
+      ]
+    ],
+    "bounds_difference_mm": 8.199663170671556e-12,
+    "stl_sha256": "3332b52374dbfe3ba1cb97e187c3952e0a275f094905f28b985d32dd65c52dd2",
+    "step_sha256": "4da94fa69edff4e554eb77cee6ab02dac2d55b13355b6dbead67567c1664c78d",
+    "compressed_sha256": "21aef1e44538739366ba697a9a21517765445b4396287fb1b8408049f5b158e0"
+  },
+  {
+    "file": "kraken-spool-ring-81-mm-pentagon-gear-side-1.5mm-flange.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 10296,
+    "source_triangles": 15374,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 0.00011516216360585658,
+    "volume_comparison_budget_mm3": 0.18562556594091706,
+    "volume_mm3": 50713.283355746804,
+    "volume_difference_mm3": 2.6687441277317703e-05,
+    "bounds_mm": [
+      [
+        -50.75,
+        -50.75000000000001,
+        -2.283284672444097e-12
+      ],
+      [
+        50.75000000000036,
+        50.75000000000036,
+        11.500000953679159
+      ]
+    ],
+    "bounds_difference_mm": 4.842348744205083e-12,
+    "stl_sha256": "146cb765be28fd012666241d3cdfd4ff55fea626d0c738f77fee90fab80fa0db",
+    "step_sha256": "d980730c532794b96f19406309b996dedd1317f21d802488f4e7c3919481b04f",
+    "compressed_sha256": "a211e47e469f43eb65f3680ec3b48051e25a45a95924f7c35738e594e017b12f"
+  },
+  {
+    "file": "kraken-spool-ring-82-mm-pentagon-cap-side.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 8502,
+    "source_triangles": 15858,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 9.342111906635741e-05,
+    "volume_comparison_budget_mm3": 0.13758739964852304,
+    "volume_mm3": 43430.388047019915,
+    "volume_difference_mm3": 4.349341907072812e-06,
+    "bounds_mm": [
+      [
+        -43.49829483032203,
+        -43.497783660882824,
+        -4.313882584483508e-12
+      ],
+      [
+        43.49829483032235,
+        43.49778366088913,
+        10.400000572211411
+      ]
+    ],
+    "bounds_difference_mm": 6.821210263296962e-12,
+    "stl_sha256": "f5c8ddafceb598ff27073ec3588dc5e60e09f2b694c8df3232ae5792696385ac",
+    "step_sha256": "2f99cc6dd0a807817a015d4d46fa1eacb30f10d702e2055dea72ad13c5d52f20",
+    "compressed_sha256": "6c7785c7d7f12da67c0c28ce7779c299707180ba141ddc4c65ebf993d8e0e31d"
+  },
+  {
+    "file": "kraken-spool-ring-82-mm-pentagon-gear-side-1.5mm-flange.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 10270,
+    "source_triangles": 15360,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 0.00013380732002601348,
+    "volume_comparison_budget_mm3": 0.18915545585201501,
+    "volume_mm3": 52224.87685951951,
+    "volume_difference_mm3": 4.781582538271323e-05,
+    "bounds_mm": [
+      [
+        -51.25,
+        -51.25,
+        -2.403188759103614e-12
+      ],
+      [
+        51.250000000000064,
+        51.250000000000014,
+        11.500000953680413
+      ]
+    ],
+    "bounds_difference_mm": 6.0964566728216596e-12,
+    "stl_sha256": "2042818921192c7c2fb0f5c6fff5a24248b28a103f36cddf271cfd7b8ab6097f",
+    "step_sha256": "ecffed337903ed704df11cafb7b17b14dead146c3bd79feeb325e5d60d64f1aa",
+    "compressed_sha256": "0a54371870f75fb31c00f377f6013c22a259a60d31faf165df6a21adb57b0663"
+  },
+  {
+    "file": "kraken-spool-ring-83-mm-pentagon-cap-side.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 8504,
+    "source_triangles": 15918,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 9.167591569695402e-05,
+    "volume_comparison_budget_mm3": 0.14062661646195418,
+    "volume_mm3": 44772.02843099316,
+    "volume_difference_mm3": 2.103194856317714e-05,
+    "bounds_mm": [
+      [
+        -43.99827575683367,
+        -43.99775695800147,
+        -4.132250097654833e-12
+      ],
+      [
+        43.99827575683624,
+        43.99775695800804,
+        10.400000572209402
+      ]
+    ],
+    "bounds_difference_mm": 6.345146630337695e-12,
+    "stl_sha256": "d8cf38e701ec8f63661ff869309ef1fc360f559a99e25a00d9ddf117ace4ebac",
+    "step_sha256": "f8fbc7785a70fedd4d4a50adeaa387e2f62adf55e3db8ddd8ce1fc59c65cb1f4",
+    "compressed_sha256": "01bf7324ccf02632dae6078d248b10dd5d90c12f4dd6dddfe6ecdfa33c936fda"
+  },
+  {
+    "file": "kraken-spool-ring-83-mm-pentagon-gear-side-1.5mm-flange.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 10270,
+    "source_triangles": 15332,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 0.00011919696074248545,
+    "volume_comparison_budget_mm3": 0.19271636766352193,
+    "volume_mm3": 53754.213316514695,
+    "volume_difference_mm3": 2.502279676264152e-05,
+    "bounds_mm": [
+      [
+        -51.75,
+        -51.75000000000001,
+        -3.425704164783383e-12
+      ],
+      [
+        51.75000000000034,
+        51.75000000000034,
+        11.500000953678402
+      ]
+    ],
+    "bounds_difference_mm": 4.085620730620576e-12,
+    "stl_sha256": "c0130dee124121260e45cf42a7b746901e233048ca0d22908e840ad2fb2c7706",
+    "step_sha256": "7543904a51665bc14f42896efaa24b5d2994f9d816500065fdbb264965995112",
+    "compressed_sha256": "5ff88fe4916fdb0f620d5511719f564b99cdcfbc18f4c83b01e8de514b1659dd"
+  },
+  {
+    "file": "kraken-spool-ring-84-mm-pentagon-cap-side.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 8506,
+    "source_triangles": 16024,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 8.7145174752187e-05,
+    "volume_comparison_budget_mm3": 0.1436972419045775,
+    "volume_mm3": 46130.00349710421,
+    "volume_difference_mm3": 1.4995806850492954e-05,
+    "bounds_mm": [
+      [
+        -44.49825286865066,
+        -44.497730255124345,
+        -3.0780933357732465e-12
+      ],
+      [
+        44.49825286865282,
+        44.497730255134776,
+        10.400000572208604
+      ]
+    ],
+    "bounds_difference_mm": 7.823075520718703e-12,
+    "stl_sha256": "af0dbd9315d6699642a223cab4aefb15294cb0b363014e814892a9adc0560a03",
+    "step_sha256": "c13aa54fcd2bd8247e8701f688930373d9d316e139ba46ef547efb4d63ac5cfb",
+    "compressed_sha256": "aef15134eb3de109f498c69341304f525db873eeb5cae91330747390986063c7"
+  },
+  {
+    "file": "kraken-spool-ring-84-mm-pentagon-gear-side-1.5mm-flange.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 10280,
+    "source_triangles": 15354,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 0.0001253618249647036,
+    "volume_comparison_budget_mm3": 0.1963086932082409,
+    "volume_mm3": 55301.6124074426,
+    "volume_difference_mm3": 3.527560329530388e-05,
+    "bounds_mm": [
+      [
+        -52.25,
+        -52.25000000000001,
+        -1.1086687123906813e-12
+      ],
+      [
+        52.25000000000009,
+        52.25000000000009,
+        11.500000953677713
+      ]
+    ],
+    "bounds_difference_mm": 3.396394276933279e-12,
+    "stl_sha256": "737fa88960d5181f56d621058fcbf0578c16e7ec0336c2153c4f62741fc54063",
+    "step_sha256": "18816309c76ff47ac9d1233c88355de4a81051069449cac30a907844b1c9a070",
+    "compressed_sha256": "bbf12f90fb910ad834b0a926911148d4860b997583e475c662369c03eb9c155c"
+  },
+  {
+    "file": "kraken-spool-ring-85-mm-pentagon-cap-side.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 8486,
+    "source_triangles": 15950,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 9.308061648987854e-05,
+    "volume_comparison_budget_mm3": 0.14679942976126956,
+    "volume_mm3": 47504.288054219745,
+    "volume_difference_mm3": 1.931407314259559e-05,
+    "bounds_mm": [
+      [
+        -44.998237609863416,
+        -44.99770736694242,
+        -3.436029238912397e-12
+      ],
+      [
+        44.998237609863374,
+        44.99770736694384,
+        10.400000572209123
+      ]
+    ],
+    "bounds_difference_mm": 4.533262654149439e-12,
+    "stl_sha256": "e89708a9241d10638be289eb0da7f57b1962660bc148e775031aa65eb1b682bb",
+    "step_sha256": "1119a59ffc711aaf9ba520be134df5fbb5767bec447e884d7377b6bc2b481ddf",
+    "compressed_sha256": "7060c4ae02e648934daac23673e10ce0afd2fd2ffd1b4ee999e10f0821cf6420"
+  },
+  {
+    "file": "kraken-spool-ring-85-mm-pentagon-gear-side-1.5mm-flange.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 10234,
+    "source_triangles": 15310,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 0.0001421654419593436,
+    "volume_comparison_budget_mm3": 0.19993240768072576,
+    "volume_mm3": 56867.00003680023,
+    "volume_difference_mm3": 3.816057869698852e-05,
+    "bounds_mm": [
+      [
+        -52.75,
+        -52.750000000000014,
+        -3.5234037909503968e-12
+      ],
+      [
+        52.75000000000032,
+        52.75000000000044,
+        11.500000953678125
+      ]
+    ],
+    "bounds_difference_mm": 3.808509063674137e-12,
+    "stl_sha256": "b2e3ddbfd1cf10c7c19b5fbade494f9e5d4f4f7878a2c17d85140d64fb9f3201",
+    "step_sha256": "726c0fed1ecf0e151f6a21c2dc67061a86bf43a409c0e6e3fcf1a7bb05d020c2",
+    "compressed_sha256": "7de466a8c36bff2476f5914ecd9fe1209ea9e795f2136d27ec8a6bfa22e36725"
+  },
+  {
+    "file": "kraken-spool-ring-86-mm-pentagon-cap-side.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 8488,
+    "source_triangles": 16136,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 7.494404070783701e-05,
+    "volume_comparison_budget_mm3": 0.14998809307152083,
+    "volume_mm3": 48894.93195307948,
+    "volume_difference_mm3": 2.4476321414113045e-08,
+    "bounds_mm": [
+      [
+        -45.49821853637406,
+        -45.497680664061384,
+        -3.4436897777823106e-12
+      ],
+      [
+        45.498218536377266,
+        45.497680664062806,
+        10.400000572210814
+      ]
+    ],
+    "bounds_difference_mm": 6.224354365258478e-12,
+    "stl_sha256": "5a2e4171c8737ae84c4827c51fe54fb9e467d334d9f16c9ed4b4439c1efe0775",
+    "step_sha256": "d9c38c7cf984b9c76696c235ecd1911251f68725000e35629241929db6645310",
+    "compressed_sha256": "c8f3d87f4aee4ecef4f2a37d8b4f846710b50c5d9361c04e6248a367db45324b"
+  },
+  {
+    "file": "kraken-spool-ring-86-mm-pentagon-gear-side-1.5mm-flange.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 10250,
+    "source_triangles": 15320,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 0.0001125149850539584,
+    "volume_comparison_budget_mm3": 0.2036427783938659,
+    "volume_mm3": 58450.523468647385,
+    "volume_difference_mm3": 3.101214679190889e-05,
+    "bounds_mm": [
+      [
+        -53.25,
+        -53.25,
+        -1.5638601524869955e-12
+      ],
+      [
+        53.25000000000037,
+        53.25,
+        11.500000953679814
+      ]
+    ],
+    "bounds_difference_mm": 5.497824417943775e-12,
+    "stl_sha256": "978177d0c3312a51d552eca4975d1320363f1d7b96b62ff40b17f4817a9a600c",
+    "step_sha256": "75d7d8b4628b0bd32c232aa9d239ed69135784f609422426cf253e945c41f4e5",
+    "compressed_sha256": "7a6e082a4673dab35e1d9292840c6e5dae4353c0c72631bb66cbe95a07a3ee55"
+  },
+  {
+    "file": "kraken-spool-ring-87-mm-pentagon-cap-side.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 8874,
+    "source_triangles": 16164,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 8.621518935527243e-05,
+    "volume_comparison_budget_mm3": 0.15309768712801144,
+    "volume_mm3": 50301.84593539636,
+    "volume_difference_mm3": 4.81247843708843e-06,
+    "bounds_mm": [
+      [
+        -45.99819946289,
+        -45.997653961183225,
+        -2.3028245976774997e-12
+      ],
+      [
+        45.99819946289127,
+        45.997653961182,
+        10.400000572209493
+      ]
+    ],
+    "bounds_difference_mm": 4.902744876744691e-12,
+    "stl_sha256": "153f633fcb415ad918f2951466cb6d038d5d02429cfca1408e3b966dacba3aae",
+    "step_sha256": "93eca2e9cb7a900ce98f11eecb51c55c71309d995eccca46ce554745aead92ce",
+    "compressed_sha256": "7caa80793e821b6ff609c7565a23c226dddef8c0f1ba5c263163c782a2054de5"
+  },
+  {
+    "file": "kraken-spool-ring-87-mm-pentagon-gear-side-1.5mm-flange.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 10628,
+    "source_triangles": 15266,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 0.00012870802838181432,
+    "volume_comparison_budget_mm3": 0.20727407703367917,
+    "volume_mm3": 60052.04454749644,
+    "volume_difference_mm3": 2.319103805348277e-05,
+    "bounds_mm": [
+      [
+        -53.750000000000014,
+        -53.750000000000725,
+        -3.148148408627094e-12
+      ],
+      [
+        53.750000000000306,
+        53.750000000000426,
+        11.500000953678493
+      ]
+    ],
+    "bounds_difference_mm": 4.176214929429989e-12,
+    "stl_sha256": "e6682ffb71bc6339482307bfe37a79526d95a0292e37b9fbd288a1326fd4968d",
+    "step_sha256": "af364c086abf10c5f4d9df64a22f44b8e2abb824770d067b6b3aa67b4cec9023",
+    "compressed_sha256": "c150febe460a9735fd5eab501e72fa3457116c99c033605a5a27da5d81c29bae"
+  },
+  {
+    "file": "kraken-spool-ring-88-mm-pentagon-cap-side.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 8488,
+    "source_triangles": 16272,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 8.159878473352897e-05,
+    "volume_comparison_budget_mm3": 0.1562942606904376,
+    "volume_mm3": 51725.502152903166,
+    "volume_difference_mm3": 7.725975592620671e-07,
+    "bounds_mm": [
+      [
+        -46.49817657470281,
+        -46.4976310729911,
+        -3.0405677975409162e-12
+      ],
+      [
+        46.498176574707,
+        46.497631072998104,
+        10.400000572210173
+      ]
+    ],
+    "bounds_difference_mm": 6.94910795573378e-12,
+    "stl_sha256": "3b340be6c0bf27b1bbf39435e8c8742085ed734aacf46faf4fec07185e8aa74f",
+    "step_sha256": "e9e33b67570f512b55e773e856e1bb29f32e13bea8527120f5ca43a8ae039050",
+    "compressed_sha256": "fb2a0e5a1c2e606951fee6e2970c3d7bd0e779652d9ab7e4f985936e39f2f9df"
+  },
+  {
+    "file": "kraken-spool-ring-88-mm-pentagon-gear-side-1.5mm-flange.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 10220,
+    "source_triangles": 15324,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 0.00013906404353889682,
+    "volume_comparison_budget_mm3": 0.21099251201359656,
+    "volume_mm3": 61672.10241224163,
+    "volume_difference_mm3": 3.144156653434038e-05,
+    "bounds_mm": [
+      [
+        -54.25,
+        -54.25000000000264,
+        -3.798961145662361e-12
+      ],
+      [
+        54.25,
+        54.250000000000476,
+        11.500000953679173
+      ]
+    ],
+    "bounds_difference_mm": 4.856559598920285e-12,
+    "stl_sha256": "1f702e4cc41b9fd6a515e401a0be758ad8b3f65cc53bdd501573695a136c5528",
+    "step_sha256": "33422a38b8d3e621f3260f7593c0baf6c323c06145e321152e6b59b759bacb43",
+    "compressed_sha256": "0428deffd34a64cc05c8f5dc1b6ac1759102ca68cf097dec19e29ce33a0180a5"
+  },
+  {
+    "file": "kraken-spool-ring-89-mm-pentagon-cap-side.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 8478,
+    "source_triangles": 16224,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 0.00010332709789086364,
+    "volume_comparison_budget_mm3": 0.15952193381935284,
+    "volume_mm3": 53165.14951165515,
+    "volume_difference_mm3": 1.391902333125472e-05,
+    "bounds_mm": [
+      [
+        -46.99815750122,
+        -46.997604370111574,
+        -3.491540390143655e-12
+      ],
+      [
+        46.998157501221,
+        46.99760437011721,
+        10.40000057220978
+      ]
+    ],
+    "bounds_difference_mm": 5.6132876125047915e-12,
+    "stl_sha256": "720105b3decb51270f75ec17db789ac2c9741fe9f85cbab86b749fa35954768d",
+    "step_sha256": "2625ec462bda6d6379fd53167516587210508a7505290485b0c58bccb5bc74e7",
+    "compressed_sha256": "77c39841a1ceb5bce9f901c2a625595505709157e772ece8fee5a6d9701bbcf1"
+  },
+  {
+    "file": "kraken-spool-ring-89-mm-pentagon-gear-side-1.5mm-flange.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 10214,
+    "source_triangles": 15342,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 0.000145587169312938,
+    "volume_comparison_budget_mm3": 0.2147418981298195,
+    "volume_mm3": 63309.81249365576,
+    "volume_difference_mm3": 4.937587073072791e-05,
+    "bounds_mm": [
+      [
+        -54.75,
+        -54.750000000000185,
+        -5.512923451078677e-12
+      ],
+      [
+        54.750000000000306,
+        54.75000000000031,
+        11.50000095367878
+      ]
+    ],
+    "bounds_difference_mm": 5.512923451078677e-12,
+    "stl_sha256": "b14b7acdd496d73c70f5a100ee2e9dea01684461826b6e00e167049247812664",
+    "step_sha256": "df83622b75ba26c91155a7a913cb1db27d9b21ebf9c17dc56ff8a19b1274aab8",
+    "compressed_sha256": "5fd64576e09c6c7f321d45fae051929e4bf339ac4fae79e7c78cb6ba728fb01b"
+  },
+  {
+    "file": "kraken-spool-ring-90-mm-pentagon-cap-side.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 8504,
+    "source_triangles": 16418,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 0.00010040255413761457,
+    "volume_comparison_budget_mm3": 0.1628362381951349,
+    "volume_mm3": 54621.13222669147,
+    "volume_difference_mm3": 1.8529659428168088e-05,
+    "bounds_mm": [
+      [
+        -47.498138427733366,
+        -47.49758148193204,
+        -3.856692742942869e-12
+      ],
+      [
+        47.49813842773449,
+        47.49758148193432,
+        10.400000572210695
+      ]
+    ],
+    "bounds_difference_mm": 6.105338457018661e-12,
+    "stl_sha256": "f18dbb7cc75ad160b5ecdb815f7b8ba79a0672532f1a67d3718ef34880c073d3",
+    "step_sha256": "3e303ed121d789558db29e9dd41d65c1d1e94c2dc0c8afd69c35b701fb1693a4",
+    "compressed_sha256": "6b074334c058f427271d29869e29a9c725604f2dd814d66e029a47fcb99ae1bf"
+  },
+  {
+    "file": "kraken-spool-ring-90-mm-pentagon-gear-side-1.5mm-flange.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 10224,
+    "source_triangles": 15348,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 0.00014234868130032503,
+    "volume_comparison_budget_mm3": 0.21857791986991143,
+    "volume_mm3": 64965.58577926095,
+    "volume_difference_mm3": 2.698434400372207e-06,
+    "bounds_mm": [
+      [
+        -55.25,
+        -55.2500000000023,
+        -2.0106138975961585e-12
+      ],
+      [
+        55.250000000000014,
+        55.25,
+        11.500000953679695
+      ]
+    ],
+    "bounds_difference_mm": 5.3788085097039584e-12,
+    "stl_sha256": "9a7c02b857f6926e5b17e3f52d81154a5057b2aa4b792674c8c929a6707c2814",
+    "step_sha256": "64d63c7be74cea914f310fb3c1468b8904d7e9f6e205746d32f99b04af82a07a",
+    "compressed_sha256": "f001b873852ad38d929b157b6544e3e549e4506e7c7f4db7057289b2bb2220e7"
+  },
+  {
+    "file": "kraken-spool-ring-91-mm-pentagon-cap-side.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 8462,
+    "source_triangles": 16326,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 8.530995209220059e-05,
+    "volume_comparison_budget_mm3": 0.1660716745137698,
+    "volume_mm3": 56093.423103627334,
+    "volume_difference_mm3": 1.297164271818474e-05,
+    "bounds_mm": [
+      [
+        -47.99811935424452,
+        -47.997550964352214,
+        -3.1846747461372615e-12
+      ],
+      [
+        47.99811935424876,
+        47.997550964355234,
+        10.400000572209573
+      ]
+    ],
+    "bounds_difference_mm": 4.9826809345177026e-12,
+    "stl_sha256": "66cf47dc24c56d18eedda64fe6ff9f0c6a54ceb320a7facfb305670058f11d12",
+    "step_sha256": "890694829561e823bd39d95f1ed329b77999c97d17f9bc20fd781121b21a400d",
+    "compressed_sha256": "2aa9dbbf11b8ad3a45524c9afbc0da4f3c1a6aad3bfedebb793370e30ee2b332"
+  },
+  {
+    "file": "kraken-spool-ring-91-mm-pentagon-gear-side-1.5mm-flange.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 10192,
+    "source_triangles": 15188,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 0.00012300740692719884,
+    "volume_comparison_budget_mm3": 0.22233488988032948,
+    "volume_mm3": 66639.34554561973,
+    "volume_difference_mm3": 4.028856346849352e-05,
+    "bounds_mm": [
+      [
+        -55.750000000000014,
+        -55.75000000000128,
+        -4.427347377600199e-12
+      ],
+      [
+        55.75000000000029,
+        55.75000000000029,
+        11.500000953678573
+      ]
+    ],
+    "bounds_difference_mm": 4.427347377600199e-12,
+    "stl_sha256": "10ef0969037974e1f76ccf25e7505798ed4642ef337eefd2506d1c43eb23619c",
+    "step_sha256": "83dc56148d0fdded7ea6632b69ce98922e5b0a6d03b6825c2d5beb2d90d4b467",
+    "compressed_sha256": "8b1063a9f8e2fa84a37e17ba2343c152481a56f302b4c4a69cb037c8023cc09a"
+  },
+  {
+    "file": "kraken-spool-ring-92-mm-pentagon-cap-side.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 8482,
+    "source_triangles": 16558,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 8.637222318833118e-05,
+    "volume_comparison_budget_mm3": 0.1693935853695482,
+    "volume_mm3": 57582.07430698044,
+    "volume_difference_mm3": 1.3988785212859511e-05,
+    "bounds_mm": [
+      [
+        -48.49810028076,
+        -48.4975280761712,
+        -4.201028414030361e-12
+      ],
+      [
+        48.498100280762614,
+        48.4975280761723,
+        10.400000572210887
+      ]
+    ],
+    "bounds_difference_mm": 6.297184995673888e-12,
+    "stl_sha256": "a08a2392dbf70a27048345942a8d9ac3c16710b226d68deec75b2498d16ca75e",
+    "step_sha256": "bfb59672b6364bce251a71b8a0551b4678b2bd40d76a0c160cd32d58ef4185c9",
+    "compressed_sha256": "2dce73493c213a6149ff6edd4b3bd36ae3906c5b46c5759ef172c28ada683989"
+  },
+  {
+    "file": "kraken-spool-ring-92-mm-pentagon-gear-side-1.5mm-flange.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 10216,
+    "source_triangles": 15218,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 0.0001341672738168772,
+    "volume_comparison_budget_mm3": 0.2261785216326947,
+    "volume_mm3": 68331.24278673626,
+    "volume_difference_mm3": 9.393072105012834e-06,
+    "bounds_mm": [
+      [
+        -56.25,
+        -56.25000000000293,
+        -1.1570744362643381e-12
+      ],
+      [
+        56.25000000000004,
+        56.250000000000014,
+        11.500000953679887
+      ]
+    ],
+    "bounds_difference_mm": 5.5706550483591855e-12,
+    "stl_sha256": "bad2c6419fb3f5d802fe6bb760a26d94c72c74ec1bacf227b2f85f6fa3502a2a",
+    "step_sha256": "5ed5e6bf4990c620ebdc173d8ad3ec87c05488c074f8ff42a5a26e41df64611d",
+    "compressed_sha256": "b27d30e0a7ab4611d1e93d8b5a380ba7f5a1a39ed45950bc2f34e426938f2004"
+  },
+  {
+    "file": "kraken-spool-ring-93-mm-pentagon-cap-side.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 8462,
+    "source_triangles": 16490,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 8.015911061913148e-05,
+    "volume_comparison_budget_mm3": 0.1727469110663123,
+    "volume_mm3": 59087.06022511406,
+    "volume_difference_mm3": 1.6460813640151173e-05,
+    "bounds_mm": [
+      [
+        -48.99807739257767,
+        -48.99750518798098,
+        -3.1924463073096376e-12
+      ],
+      [
+        48.998077392578,
+        48.99750518798845,
+        10.400000572210391
+      ]
+    ],
+    "bounds_difference_mm": 7.30437932361383e-12,
+    "stl_sha256": "790a48aba6487de5e9686bbc2744d3ebb60b875b0a014b48620c4ca933f26055",
+    "step_sha256": "076349dde93eef227b3895da50ed0a7df1ec4a37102634f13452d27af9a1b9c9",
+    "compressed_sha256": "48d720f2af3cb2e8d8b940f254341fba263241386c7ac322c3e770742f6763cc"
+  },
+  {
+    "file": "kraken-spool-ring-93-mm-pentagon-gear-side-1.5mm-flange.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 10190,
+    "source_triangles": 15258,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 0.00012315011745605382,
+    "volume_comparison_budget_mm3": 0.2300535734450697,
+    "volume_mm3": 70041.20250244667,
+    "volume_difference_mm3": 1.5788667951710522e-05,
+    "bounds_mm": [
+      [
+        -56.75,
+        -56.750000000001826,
+        -2.4489299477181703e-12
+      ],
+      [
+        56.75000000000027,
+        56.75000000000027,
+        11.50000095367939
+      ]
+    ],
+    "bounds_difference_mm": 5.073275133327115e-12,
+    "stl_sha256": "22aea8775336b66091b762ab9039e0a4b564aef240245eff44b0d35f23f784fa",
+    "step_sha256": "c69777913a31fb764e31d9da1ba2e8d77567485068ae60864576feafdfb43086",
+    "compressed_sha256": "94a0152f48633eecacf8ead12db687f5f446a400cb9794557aaef5c8d614dec1"
+  },
+  {
+    "file": "kraken-spool-ring-94-mm-pentagon-cap-side.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 8462,
+    "source_triangles": 16646,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 8.190632875027391e-05,
+    "volume_comparison_budget_mm3": 0.1761319481949471,
+    "volume_mm3": 60608.68225039749,
+    "volume_difference_mm3": 1.682963193161413e-05,
+    "bounds_mm": [
+      [
+        -49.49650955200069,
+        -49.49825668335,
+        -3.764877298806368e-12
+      ],
+      [
+        49.49650955200467,
+        49.49825668335007,
+        10.400000572209876
+      ]
+    ],
+    "bounds_difference_mm": 5.286437954055145e-12,
+    "stl_sha256": "c31624984e2abeb047c25ebadd21e3cab8b4e633c2efef14351e7f1834c3897f",
+    "step_sha256": "f9c747c5b852d87aa806e4dba98ceedeb4a6096d89a579cce0883f3d7ca2b7e2",
+    "compressed_sha256": "68dc21446f0fcb635913a66259fb23ee6a7801925ee2df3961f51b602c47ac3a"
+  },
+  {
+    "file": "kraken-spool-ring-94-mm-pentagon-gear-side-1.5mm-flange.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 10164,
+    "source_triangles": 15202,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 0.00011822860385444958,
+    "volume_comparison_budget_mm3": 0.233960501191813,
+    "volume_mm3": 71769.595685172,
+    "volume_difference_mm3": 3.6504497984424233e-06,
+    "bounds_mm": [
+      [
+        -57.250000000000014,
+        -57.25000000000108,
+        -2.5086599464430037e-12
+      ],
+      [
+        57.25000000000007,
+        57.250000000000014,
+        11.500000953678875
+      ]
+    ],
+    "bounds_difference_mm": 4.558131649901043e-12,
+    "stl_sha256": "f0a0884c415cc79fd514ad6317b130d2e6f632ea75246a2d35c23942991db4a6",
+    "step_sha256": "3fd968a106d4b98fe29c407087804deedf201a5111719be94c258c54a58557c2",
+    "compressed_sha256": "0b949eb5236d74d6512e2e70a6373e05a33c377baf20362aa555ce559b5ee9c6"
+  },
+  {
+    "file": "kraken-spool-ring-95-mm-pentagon-cap-side.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 8466,
+    "source_triangles": 16680,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 8.067229595738688e-05,
+    "volume_comparison_budget_mm3": 0.17954809725711404,
+    "volume_mm3": 62146.338114919075,
+    "volume_difference_mm3": 5.181915184948593e-06,
+    "bounds_mm": [
+      [
+        -49.9980392456,
+        -49.99745178222533,
+        -4.001909914563839e-12
+      ],
+      [
+        49.99803924560565,
+        49.997451782227,
+        10.400000572210338
+      ]
+    ],
+    "bounds_difference_mm": 5.7482907322992105e-12,
+    "stl_sha256": "7168b152ce3cf803f1c3084bdeb2b93fd5c8e975df64d49ff65b1027a0b8f697",
+    "step_sha256": "4f6ce3d8942c16e7646f6f8f708bb4449d9c2e7520f8cd989eb04bd96701fba4",
+    "compressed_sha256": "a4d1c075d2436531f05fc648ee827a6a5b23a7bccbf0d1154a26edf097976535"
+  },
+  {
+    "file": "kraken-spool-ring-95-mm-pentagon-gear-side-1.5mm-flange.step.gz",
+    "representation": "faceted BRep with numerical topology cleanup; no smoothing or added resolution",
+    "valid": true,
+    "solids": 1,
+    "faces": 10168,
+    "source_triangles": 15198,
+    "cleanup_tolerance_mm": 1e-05,
+    "all_exported_triangles_match_cleaned_mesh_to_mm": 1e-07,
+    "cleaned_vertices_subset_of_original": true,
+    "source_cleanup_symmetric_difference_mm3": 0.00012607787998896298,
+    "volume_comparison_budget_mm3": 0.23789837290191704,
+    "volume_mm3": 73515.68044020631,
+    "volume_difference_mm3": 2.909130125772208e-05,
+    "bounds_mm": [
+      [
+        -57.750000000000014,
+        -57.750000000000064,
+        -3.071543019927958e-12
+      ],
+      [
+        57.750000000000256,
+        57.750000000000256,
+        11.50000095367934
+      ]
+    ],
+    "bounds_difference_mm": 5.023537141823908e-12,
+    "stl_sha256": "9500d9036b7361cbb397729187a1c573b12d2f826b72a6bfa0fca3db44feaa16",
+    "step_sha256": "39c78f73237d1f36cb0010bf5b33b751d7d000cbcd234c92ccad13a34d64bc62",
+    "compressed_sha256": "b8b17ae9049e710ce41be307395527b4e9c3d8f9d6bf06dce464c221f5b27377"
+  }
+]

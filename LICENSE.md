@@ -15,3 +15,5 @@ The reference meshes under `cad/reference/` are derived validation fixtures. The
 The original gear mesh under `gear/source/reference/` is an attributed source input for rebuilding the replacement gear. The remixed gear retains its original teeth, hub, threads and bearing-seat facets. Gear source, model downloads and diagrams share this license.
 
 The centering-ring pair under `rings/` derives from humebeam's 55 mm spool ring, with a 55.5 mm nominal cardboard-hole centering profile, five gripping corners and a wider 1.5 mm gear-side flange. These downloads share this license.
+
+The stock ring inputs in `rings/source/reference/`, all stock-size pentagon derivatives and earlier round flanges carry the same attribution and license. Added body variants and local joint coupons are derivatives of the native body reconstruction; their source and documentation share this license.

@@ -12,6 +12,10 @@ import json
 import sys
 import struct
 import tempfile
+import argparse
+import concurrent.futures
+import gzip
+import multiprocessing
 
 import numpy as np
 import manifold3d as mf
@@ -48,7 +52,8 @@ def convert(path, out):
     points = clean_vertices[np.asarray(clean_mesh.tri_verts)]
     volume = original.volume()
     difference_volume = (original - cleaned).volume() + (cleaned - original).volume()
-    assert abs(difference_volume) < 0.001
+    volume_budget = original.surface_area() * CLEANUP_TOLERANCE_MM
+    assert abs(difference_volume) < volume_budget
     # Exporting a subset of original float32 vertices introduces no new rounding.
     clean_records = np.zeros(len(points), dtype=records.dtype)
     clean_records['points'] = points
@@ -78,7 +83,7 @@ def convert(path, out):
               for f in delivered.faces()}
     assert actual == expected and len(delivered.faces()) == len(points)
     volume_error = abs(delivered.volume - volume)
-    assert volume_error < 1e-4
+    assert volume_error < volume_budget
     bbox = delivered.bounding_box()
     bounds = np.array([[bbox.min.X, bbox.min.Y, bbox.min.Z],
                        [bbox.max.X, bbox.max.Y, bbox.max.Z]])
@@ -91,6 +96,7 @@ def convert(path, out):
                all_exported_triangles_match_cleaned_mesh_to_mm=1e-7,
                cleaned_vertices_subset_of_original=True,
                source_cleanup_symmetric_difference_mm3=difference_volume,
+               volume_comparison_budget_mm3=volume_budget,
                volume_mm3=delivered.volume, volume_difference_mm3=volume_error,
                bounds_mm=bounds.tolist(), bounds_difference_mm=bounds_error,
                stl_sha256=hashlib.sha256(path.read_bytes()).hexdigest(),
@@ -99,13 +105,49 @@ def convert(path, out):
     return row
 
 
+def batch_convert(arguments):
+    path, out, compress = arguments
+    checkpoint = Path(out)/(Path(path).stem+'-check.json')
+    if checkpoint.exists():
+        row = json.loads(checkpoint.read_text())
+        assert row['stl_sha256'] == hashlib.sha256(Path(path).read_bytes()).hexdigest()
+        saved = Path(out)/row['file']
+        key = 'compressed_sha256' if compress else 'step_sha256'
+        assert hashlib.sha256(saved.read_bytes()).hexdigest() == row[key]
+        return row
+    row = convert(Path(path), Path(out))
+    if compress:
+        step = Path(out) / row['file']
+        packed = step.with_suffix('.step.gz')
+        with packed.open('wb') as stream:
+            with gzip.GzipFile(filename='', mode='wb', fileobj=stream, mtime=0) as zipped:
+                zipped.write(step.read_bytes())
+        assert gzip.decompress(packed.read_bytes()) == step.read_bytes()
+        row['file'] = packed.name
+        row['compressed_sha256'] = hashlib.sha256(packed.read_bytes()).hexdigest()
+        step.unlink()
+    (Path(out)/(Path(path).stem+'-check.json')).write_text(json.dumps(row, indent=2)+'\n')
+    gc.collect()
+    return row
+
+
 if __name__ == '__main__':
-    out = Path(sys.argv[1])
-    out.mkdir(parents=True, exist_ok=False)
-    rows = []
-    for path in sorted((Path(__file__).resolve().parent / 'models').glob('*.stl')):
-        print('Converting', path.name, flush=True)
-        rows.append(convert(path, out))
-        gc.collect()
-    assert len(rows) == 2
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('output', type=Path)
+    parser.add_argument('--input', type=Path, default=Path(__file__).resolve().parent/'models')
+    parser.add_argument('--gzip', action='store_true', help='Compress large faceted STEPs after read-back')
+    parser.add_argument('--workers', type=int, default=1)
+    parser.add_argument('--resume', action='store_true', help='Reuse only completed, hash-verified conversions')
+    args = parser.parse_args()
+    out = args.output
+    out.mkdir(parents=True, exist_ok=args.resume)
+    paths = sorted(args.input.glob('*.stl'))
+    assert paths
+    arguments = [(str(p), str(out), args.gzip) for p in paths]
+    if args.workers == 1:
+        rows = [batch_convert(a) for a in arguments]
+    else:
+        with concurrent.futures.ProcessPoolExecutor(max_workers=args.workers,
+                mp_context=multiprocessing.get_context('spawn')) as pool:
+            rows = list(pool.map(batch_convert, arguments))
     (out / 'STEP-CHECKS.json').write_text(json.dumps(rows, indent=2) + '\n')

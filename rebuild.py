@@ -14,6 +14,8 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--output', type=Path, default=Path('build'))
     parser.add_argument('--variant', choices=['pocket','standard'], default='pocket')
+    parser.add_argument('--body-height', choices=['cut5','full'], default='cut5',
+                        help='244.9 mm body plus bar, or one-piece 249.9 mm body')
     args = parser.parse_args()
     output = args.output.resolve()
     if output.exists():
@@ -32,24 +34,31 @@ def main():
         base = 'M5_gear_edit' if pocket else standard
         # Match the accepted release path: split the native build directly.
         # An intermediate STEP import can split/merge trims and change tessellation.
-        commands = [['feed_end_insert.py',side,args.variant]]
+        commands = [['feed_end_insert.py',side,args.variant]] if args.body_height == 'cut5' else \
+            [[side+'.py', '--stage', stage] + (['--gear-pocket'] if pocket else [])]
         for index,command in enumerate(commands):
-            print('Building',side,args.variant,'body and removable bar from native CAD',flush=True)
+            print('Building',side,args.variant,args.body_height,'from native CAD',flush=True)
             with (output/f'{side}-{index+1}.log').open('w') as log:
                 subprocess.run([sys.executable,*command],cwd=work,env=env,stdout=log,stderr=subprocess.STDOUT,check=True)
-        for source,part in [(f'{base}_cut5','body'),(f'{base}_insert_flat_cut5','front-bar')]:
+        parts = [(f'{base}_cut5','body'),(f'{base}_insert_flat_cut5','front-bar')] if args.body_height == 'cut5' else [(base,'body')]
+        for source,part in parts:
             for suffix in ['step','3mf']:
-                dst=models/f'{side}-{part}-{args.variant}_cut5.{suffix}'
+                dst=models/f'{side}-{part}-{args.variant}_{args.body_height}.{suffix}'
                 shutil.copy2(work/'artifacts'/f'{side}_{source}.{suffix}',dst)
-        split=json.loads((work/'reports'/f'{side}_{base}_cut5_build.json').read_text())
-        build=split['exports'][f'{base}_cut5']
+        if args.body_height == 'cut5':
+            split=json.loads((work/'reports'/f'{side}_{base}_cut5_build.json').read_text())
+            build=split['exports'][f'{base}_cut5']
+            height=split['body_height']; overlap=split['native_body_insert_overlap_mm3']
+            assert abs(height-244.9)<1e-6 and overlap<=1e-6
+        else:
+            build=json.loads((work/'reports'/f'{side}_{base}_build.json').read_text())
+            height=build['length_mm']; overlap=0.0
+            assert abs(height-249.9)<1e-5
         assert build['valid'] and build['solids']==1
         assert build['rfid_export_gate']['no_added_pocket_material_pass']
-        assert abs(split['body_height']-244.9)<1e-6
-        assert split['native_body_insert_overlap_mm3']<=1e-6
-        summary.append(dict(side=side,variant=args.variant,body_height_mm=split['body_height'],
+        summary.append(dict(side=side,variant=args.variant,body_height_mm=height,
                             native_valid=True,rfid_scope_gate='PASS',
-                            body_insert_overlap_mm3=split['native_body_insert_overlap_mm3']))
+                            body_insert_overlap_mm3=overlap))
     (output/'BUILD.json').write_text(json.dumps(summary,indent=2)+'\n')
     manifest=[]
     for path in sorted(models.iterdir()):

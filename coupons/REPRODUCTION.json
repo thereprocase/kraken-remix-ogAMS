@@ -1,0 +1,66 @@
+[
+  {
+    "set": "cut5_fit",
+    "part": "key_common",
+    "status": "PASS",
+    "native_valid": true,
+    "native_volume_difference_mm3": 0.0,
+    "mesh_symmetric_difference_mm3": 0.0
+  },
+  {
+    "set": "cut5_fit",
+    "part": "socket_1_c010",
+    "status": "PASS",
+    "native_valid": true,
+    "native_volume_difference_mm3": 0.0,
+    "mesh_symmetric_difference_mm3": 0.0
+  },
+  {
+    "set": "cut5_fit",
+    "part": "socket_2_c015_nominal",
+    "status": "PASS",
+    "native_valid": true,
+    "native_volume_difference_mm3": 0.0,
+    "mesh_symmetric_difference_mm3": 0.0
+  },
+  {
+    "set": "cut5_fit",
+    "part": "socket_3_c020",
+    "status": "PASS",
+    "native_valid": true,
+    "native_volume_difference_mm3": 0.0,
+    "mesh_symmetric_difference_mm3": 0.0
+  },
+  {
+    "set": "cut5_alignment84",
+    "part": "left_keys_84_nominal",
+    "status": "PASS",
+    "native_valid": true,
+    "native_volume_difference_mm3": 0.0,
+    "mesh_symmetric_difference_mm3": 0.0
+  },
+  {
+    "set": "cut5_alignment84",
+    "part": "left_sockets_84_nominal",
+    "status": "PASS",
+    "native_valid": true,
+    "native_volume_difference_mm3": 9.094947017729282e-13,
+    "mesh_symmetric_difference_mm3": 0.0
+  },
+  {
+    "set": "cut5_alignment84",
+    "part": "right_keys_84_nominal",
+    "status": "PASS",
+    "native_valid": true,
+    "native_volume_difference_mm3": 0.0,
+    "mesh_symmetric_difference_mm3": 0.0
+  },
+  {
+    "set": "cut5_alignment84",
+    "part": "right_sockets_84_nominal",
+    "status": "PASS",
+    "native_valid": true,
+    "native_volume_difference_mm3": 0.0,
+    "mesh_symmetric_difference_mm3": 0.0
+  }
+]

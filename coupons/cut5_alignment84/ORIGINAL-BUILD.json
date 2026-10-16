@@ -1,0 +1,127 @@
+{
+  "status": "PASS",
+  "coupon_parameters": {
+    "pad_width": 20.0,
+    "pad_depth": 16.0,
+    "strip_width": 4.0,
+    "base_height": 3.0,
+    "id_notch_width": 1.0,
+    "id_notch_depth": 0.6,
+    "id_notch_pitch": 3.0
+  },
+  "joint_parameters": {
+    "cut_height": 5.0,
+    "rail_width": 6.0,
+    "rail_depth": 6.0,
+    "rail_engagement": 3.0,
+    "fit_clearance": 0.15,
+    "seating_taper": 0.8,
+    "tip_lead": 0.4,
+    "rail_wall_margin": 4.0
+  },
+  "configurations": [
+    {
+      "side": "right",
+      "source_base": "M3",
+      "source_centers_x_mm": [
+        -13.069999999999997,
+        70.93
+      ],
+      "source_y_mm": 48.88,
+      "source_shoulder_z_mm": 116.95,
+      "spacing_mm": 84.0,
+      "parts": [
+        {
+          "name": "right_keys_84_nominal",
+          "source": "artifacts/right_M3_cut5.step",
+          "source_sha256": "8db321629cd01bb5335d5a6725e1f5fb93a20265775779b65490da2f3323ce87",
+          "print_translation_mm": [
+            13.069999999999997,
+            -48.88,
+            -113.95
+          ],
+          "source_z_crop_mm": [
+            113.95,
+            119.95
+          ],
+          "native_volume_mm3": 1999.9537950189942,
+          "native_valid": true,
+          "solids": 1
+        },
+        {
+          "name": "right_sockets_84_nominal",
+          "source": "artifacts/right_M3_insert_cut5.step",
+          "source_sha256": "696b526751c18dee7073563194d4c883ad4b4d585dde0746f0b2bf6abd2c5aa8",
+          "print_translation_mm": [
+            13.069999999999997,
+            -48.88,
+            -116.95
+          ],
+          "source_z_crop_mm": [
+            116.95,
+            124.95
+          ],
+          "native_volume_mm3": 5041.956897893286,
+          "native_valid": true,
+          "solids": 1
+        }
+      ]
+    },
+    {
+      "side": "left",
+      "source_base": "M4",
+      "source_centers_x_mm": [
+        -73.83000000000001,
+        10.169999999999996
+      ],
+      "source_y_mm": 48.88,
+      "source_shoulder_z_mm": 116.95,
+      "spacing_mm": 84.00000000000001,
+      "parts": [
+        {
+          "name": "left_keys_84_nominal",
+          "source": "artifacts/left_M4_cut5.step",
+          "source_sha256": "ba08ee5e8d4ee7289cbd8d2a4f96fc6b58561ef074a01cf504364aecdc574937",
+          "print_translation_mm": [
+            73.83000000000001,
+            -48.88,
+            -113.95
+          ],
+          "source_z_crop_mm": [
+            113.95,
+            119.95
+          ],
+          "native_volume_mm3": 2033.2306433049564,
+          "native_valid": true,
+          "solids": 1
+        },
+        {
+          "name": "left_sockets_84_nominal",
+          "source": "artifacts/left_M4_insert_cut5.step",
+          "source_sha256": "bc90ddb3aadc9351ab03a00a4cd00b552c2cba9d358bf1ed23998de0514059d9",
+          "print_translation_mm": [
+            73.83000000000001,
+            -48.88,
+            -116.95
+          ],
+          "source_z_crop_mm": [
+            116.95,
+            124.95
+          ],
+          "native_volume_mm3": 4980.261808740983,
+          "native_valid": true,
+          "solids": 1
+        }
+      ]
+    }
+  ],
+  "preserved": {
+    "production": {
+      "manifest_sha256": "2e871508576ca4e7b8b694b8358af0eb499309b51a7f0e5eb1364f91ecc76cdb",
+      "checked_files": 457,
+      "status": "PASS"
+    },
+    "single_key_manifest_sha256": "a1b20e12a3d6d72493af305e8bc85557a52039499126441794539d9b93578b1a",
+    "single_key_archive_sha256": "dbcbf98123080b094caea7618774f86d6600fbc36a2f68f937359cac83717ddd"
+  }
+}

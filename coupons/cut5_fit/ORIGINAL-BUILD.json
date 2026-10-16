@@ -1,0 +1,74 @@
+{
+  "parts": [
+    {
+      "name": "key_common",
+      "native_volume_mm3": 1074.5280000000002,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "socket_1_c010",
+      "native_volume_mm3": 2426.302666666667,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "socket_2_c015_nominal",
+      "native_volume_mm3": 2413.2868333333327,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "socket_3_c020",
+      "native_volume_mm3": 2400.0319999999983,
+      "valid": true,
+      "solids": 1
+    }
+  ],
+  "coupon_parameters": {
+    "width": 20.0,
+    "depth": 16.0,
+    "base_height": 3.0,
+    "notch_width": 1.0,
+    "notch_depth": 1.0,
+    "notch_pitch": 3.0
+  },
+  "joint_parameters": {
+    "cut_height": 5.0,
+    "rail_width": 6.0,
+    "rail_depth": 6.0,
+    "rail_engagement": 3.0,
+    "fit_clearance": 0.15,
+    "seating_taper": 0.8,
+    "tip_lead": 0.4,
+    "rail_wall_margin": 4.0
+  },
+  "cases": [
+    [
+      "socket_1_c010",
+      0.1,
+      1
+    ],
+    [
+      "socket_2_c015_nominal",
+      0.15,
+      2
+    ],
+    [
+      "socket_3_c020",
+      0.2,
+      3
+    ]
+  ],
+  "accepted_release_before": {
+    "manifest_sha256": "2e871508576ca4e7b8b694b8358af0eb499309b51a7f0e5eb1364f91ecc76cdb",
+    "checked_files": 457,
+    "status": "PASS"
+  },
+  "accepted_release_after": {
+    "manifest_sha256": "2e871508576ca4e7b8b694b8358af0eb499309b51a7f0e5eb1364f91ecc76cdb",
+    "checked_files": 457,
+    "status": "PASS"
+  },
+  "joint_source_sha256": "8527c592032585ac5df3b6326c323df7f7779382ff365481d8da1e3845dd483a"
+}

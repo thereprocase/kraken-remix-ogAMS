@@ -1,0 +1,18 @@
+{
+  "right": {
+    "rail_centers_canonical": [
+      -13.069999999999997,
+      70.93
+    ],
+    "shoulder_plane": 116.95,
+    "rail_tip": 119.95
+  },
+  "left": {
+    "rail_centers_canonical": [
+      -13.069999999999997,
+      70.93
+    ],
+    "shoulder_plane": 116.95,
+    "rail_tip": 119.95
+  }
+}

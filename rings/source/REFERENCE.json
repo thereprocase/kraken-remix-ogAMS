@@ -1,0 +1,264 @@
+{
+  "designer": "humebeam",
+  "source": "https://www.printables.com/model/1788417-kraken-revolutionary-bambu-lab-ams",
+  "license": "CC BY-NC 4.0",
+  "stock_sizes_mm": [
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95
+  ],
+  "files": [
+    {
+      "file": "kraken-spool-ring-45-mm-100.3mf",
+      "sha256": "e737b0c46ed63064137d2d728a71cbd6dab4859194e901eabc6b27a4ef31956f"
+    },
+    {
+      "file": "kraken-spool-ring-46-mm-100.3mf",
+      "sha256": "fa381dcce354ad8b92bbc8e5e8e99a393e83869bfeceb1e8778d89565ac7fdcc"
+    },
+    {
+      "file": "kraken-spool-ring-47-mm-100.3mf",
+      "sha256": "d2c39fe5d6095490d1887e1c26a4e3ca0ce0fa9c77d95de538b2cfe82d9f9dd3"
+    },
+    {
+      "file": "kraken-spool-ring-48-mm-100.3mf",
+      "sha256": "908a7b811d051eeae02d9b2bd5628a54581ce23f15b43c85c057cb48187b8ce2"
+    },
+    {
+      "file": "kraken-spool-ring-49-mm-100.3mf",
+      "sha256": "36aa3af62a5fcb759eed350c856cb597702f681025a79efe593d54767b1d8230"
+    },
+    {
+      "file": "kraken-spool-ring-50-mm-100.3mf",
+      "sha256": "e74069daff0eea9af0df013a2c13127ce090d1cadf82d8c5083d41be13af2c98"
+    },
+    {
+      "file": "kraken-spool-ring-51-mm-100.3mf",
+      "sha256": "0388c7945c5b60727b248f7bcc77d3014c7a0650b924ab62e9da63c926e868de"
+    },
+    {
+      "file": "kraken-spool-ring-52-mm-100.3mf",
+      "sha256": "bc123f2ad9baf75d370381434c11c60c254031a3d0be5004b7ca253b137ffa8f"
+    },
+    {
+      "file": "kraken-spool-ring-53-mm-100.3mf",
+      "sha256": "2c8ebc1c810a91d741183d50ca780147a187ec3c7fad00661a39acb2d668c100"
+    },
+    {
+      "file": "kraken-spool-ring-54-mm-100.3mf",
+      "sha256": "1066c0dd7f65370ae5305f94d2c6ebdeb5fb9dd49db0338308c3ac245d02c749"
+    },
+    {
+      "file": "kraken-spool-ring-55-mm-100.3mf",
+      "sha256": "4107e23567976c87801373636546ecbc94dc4919c85f1e3ef1aa8c26a04a7c34"
+    },
+    {
+      "file": "kraken-spool-ring-56-mm-100.3mf",
+      "sha256": "57d0f2456d79738f88befe76469af248f0d1a6038566acb28f194f97b4032f23"
+    },
+    {
+      "file": "kraken-spool-ring-57-mm-100.3mf",
+      "sha256": "800370d3d5c90d5fe705dc480f6e5dd0bbca11d46765687b79fc97483730e98b"
+    },
+    {
+      "file": "kraken-spool-ring-58-mm-100.3mf",
+      "sha256": "161259af709c4e55efd888c4159b2c8ecb8c5f5c6303d006ca1ad37ff9473af1"
+    },
+    {
+      "file": "kraken-spool-ring-59-mm-100.3mf",
+      "sha256": "f4f7331f15835cef0692eab1cbda43707666f914c9a5074c663468c5f935aa72"
+    },
+    {
+      "file": "kraken-spool-ring-60-mm-100.3mf",
+      "sha256": "8853edf3e440ade33793b13a3cf960f3ebe36bbedfcca1fce9fd4089e2a3aba1"
+    },
+    {
+      "file": "kraken-spool-ring-61-mm-100.3mf",
+      "sha256": "a28aa18684f7d67cc51048e5520ccda13c625c8257196b711e6c16cafc3d8e54"
+    },
+    {
+      "file": "kraken-spool-ring-62-mm-100.3mf",
+      "sha256": "994dce0598e4881105cae210cd0a691a488f8f24e06de4ddff4f555210b51bde"
+    },
+    {
+      "file": "kraken-spool-ring-63-mm-100.3mf",
+      "sha256": "def0c484db99ff9a9b169240605d4e3e01f2353d5660f4c3287a141618d73d0f"
+    },
+    {
+      "file": "kraken-spool-ring-64-mm-100.3mf",
+      "sha256": "55b2492ef786646b9018da11950a7be9a9b9a465098e58a3410ae94ff5a9b783"
+    },
+    {
+      "file": "kraken-spool-ring-65-mm-100.3mf",
+      "sha256": "8e55e52ef1fe3da0a7976d64b0be24a9f613c8b8b9a352e49a80468ba6a39f16"
+    },
+    {
+      "file": "kraken-spool-ring-66-mm-100.3mf",
+      "sha256": "cb8bb4dc97a98e5b0005161c006ba2385173e87f1249c8cb39b4418d33fb02ae"
+    },
+    {
+      "file": "kraken-spool-ring-67-mm-100.3mf",
+      "sha256": "ddbb712c3e96e198cf758ea00359eb3adde3f5e0dcd1fbb25030d2b1f3746ac9"
+    },
+    {
+      "file": "kraken-spool-ring-68-mm-100.3mf",
+      "sha256": "0be5916e56b9da88fdc125bd5b7d6cb1c1817d39fecd6cd6f27b4a8cf8c2224d"
+    },
+    {
+      "file": "kraken-spool-ring-69-mm-100.3mf",
+      "sha256": "a90ffd640a9ac72f6943e67375515e0fbfe070a8499d4fc05c09b8ea8ce2c82a"
+    },
+    {
+      "file": "kraken-spool-ring-70-mm-100.3mf",
+      "sha256": "dcdfcfe371f74049eec06ca116ab50676f784c53b3a1fac61eb43ff1bed5e013"
+    },
+    {
+      "file": "kraken-spool-ring-71-mm-100.3mf",
+      "sha256": "74a940f1b528ac7fa807f7cf6bd26e353a0130168db36229187199c4e93ed79d"
+    },
+    {
+      "file": "kraken-spool-ring-72-mm-100.3mf",
+      "sha256": "c9f94f5b2afae2185bc7d773ec503261eca7b7664313a9fadadce8ab07f3bd87"
+    },
+    {
+      "file": "kraken-spool-ring-73-mm-100.3mf",
+      "sha256": "3bb1e5fa97bb8450d413e0e1d229a1c8d3ca770aca0075d70bcffdcda8a8a95d"
+    },
+    {
+      "file": "kraken-spool-ring-74-mm-100.3mf",
+      "sha256": "55196cfa656a5f93b7c2dce2835644bcaabc4307e484d3df1cc067de980302bc"
+    },
+    {
+      "file": "kraken-spool-ring-75-mm-100.3mf",
+      "sha256": "d544b591af58c7e23e92c0bac13f5b3c8c2778f5bdbd1abbe2eac34c186d5cb7"
+    },
+    {
+      "file": "kraken-spool-ring-76-mm-100.3mf",
+      "sha256": "4f2d974dc12ceb24a8de1088047172c1327e13410693a84cfbe7a9642c3184a2"
+    },
+    {
+      "file": "kraken-spool-ring-77-mm-100.3mf",
+      "sha256": "99b2a4dd3f537502e2ed7c8189f574fbc22fb50fda5cc3e583a19d49b58b7697"
+    },
+    {
+      "file": "kraken-spool-ring-78-mm-100.3mf",
+      "sha256": "ba8fd4048c7e08e99b1faf3db9697eba3674875530c908a070accc6679df9642"
+    },
+    {
+      "file": "kraken-spool-ring-79-mm-100.3mf",
+      "sha256": "edefc72e75f1ef6261a1d5426030bf805581119d1d8a237c53d149b9a85a5ed5"
+    },
+    {
+      "file": "kraken-spool-ring-80-mm-100.3mf",
+      "sha256": "2bd7532225f0d514728714b918237433172ddf46d81d1412164b2bc8f02d70b7"
+    },
+    {
+      "file": "kraken-spool-ring-81-mm-100.3mf",
+      "sha256": "b06ea71798b57a332d0280e82003c1b53b9eacbc4d9840aa5b3ad3e3eb52ed42"
+    },
+    {
+      "file": "kraken-spool-ring-82-mm-100.3mf",
+      "sha256": "0b504119ac013d9bce032a6e494013128f2647951fbde22c6a83ac48935467ac"
+    },
+    {
+      "file": "kraken-spool-ring-83-mm-100.3mf",
+      "sha256": "82885a1edd4d3790d373f86a38fca3071dabc07ee649d4464666592975e5c8c0"
+    },
+    {
+      "file": "kraken-spool-ring-84-mm-100.3mf",
+      "sha256": "c47633ad65d0ce42662de096ae029285b9e4f660006c0d5f122506213802e71d"
+    },
+    {
+      "file": "kraken-spool-ring-85-mm-100.3mf",
+      "sha256": "750df5fff7da2afe6ca3827f8c69b8ae1359ce49ce02b32ef0febfaa790792ef"
+    },
+    {
+      "file": "kraken-spool-ring-86-mm-100.3mf",
+      "sha256": "7eb490377a93d8fdbdae16f267ed412e0fb86d541042ab0a9a125462a40405ec"
+    },
+    {
+      "file": "kraken-spool-ring-87-mm-100.3mf",
+      "sha256": "b4fad08e089d097d1a443f0eff0d9619d881da10888ad6236ecb47f5e1cfda27"
+    },
+    {
+      "file": "kraken-spool-ring-88-mm-100.3mf",
+      "sha256": "de588177445a957a86422e9f958af77cf56a0bc403b43272c8b1c2006f1a8db2"
+    },
+    {
+      "file": "kraken-spool-ring-89-mm-100.3mf",
+      "sha256": "7dcd19692cf498de2dafde7a33b578eea5cf687414203db2addf1ac04237cdb0"
+    },
+    {
+      "file": "kraken-spool-ring-90-mm-100.3mf",
+      "sha256": "a429def11c2f000f2a2e2a80b839b50a835a6ab5b24856922d678ab8e5fbd663"
+    },
+    {
+      "file": "kraken-spool-ring-91-mm-100.3mf",
+      "sha256": "d4683e3495aedb35a5bc3e45343b91eac8067f0757bdd6a27e03dfd66602030f"
+    },
+    {
+      "file": "kraken-spool-ring-92-mm-100.3mf",
+      "sha256": "7aa91d415fff384ae1f213f4579959103b7b332ea2843f1d4a7e82bd4f68bb5a"
+    },
+    {
+      "file": "kraken-spool-ring-93-mm-100.3mf",
+      "sha256": "c33c5d882cab5d3d0a2fa493a293440ce53528aaaa4f876ae3011d41e8f59263"
+    },
+    {
+      "file": "kraken-spool-ring-94-mm-100.3mf",
+      "sha256": "faf2b389f8fc867818557d0b8ca2e86c23ebdef79043a1da1b94000fd759b9f2"
+    },
+    {
+      "file": "kraken-spool-ring-95-mm-100.3mf",
+      "sha256": "f2a4187fce0d9f9ae71725ffcd7a434e664babcb4cfe9f5c0f241e147b09c8b7"
+    }
+  ]
+}

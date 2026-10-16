@@ -1,6 +1,6 @@
 # Validation scope
 
-The distributed models are the accepted **0.05 mm** clearance-pocket cut5 release. Their hashes and original artifact identities are in [RELEASE.json](RELEASE.json). No acceptance is inferred from image appearance or a global volume-match percentage.
+The distributed bodies are the accepted **0.05 mm** standard and clearance-pocket releases, in full-height and cut5 forms. The table below describes the primary pocket cut5 pair; all variants are indexed in [body versions](BODY-VARIANTS.md). Their hashes and original artifact identities are in [RELEASE.json](RELEASE.json). No acceptance is inferred from image appearance or a global volume-match percentage.
 
 | Gate | Evidence / result |
 |---|---|
@@ -16,7 +16,7 @@ The distributed models are the accepted **0.05 mm** clearance-pocket cut5 releas
 | Gear pocket | Removal only; native 6° taper; R100.32 coverage checks including bottom azimuth; minimum sampled adjoining web about 1.23 mm |
 | Printability checks | Flat-bar layer connectivity, socket side/roof stock, cable-ledge chamfer, nose feet and whole-body thin-patch screening |
 
-[INTERFACE-CHECKS.json](INTERFACE-CHECKS.json) lists each interface's purpose, received part, dimensions, sample count, source and CAD probe deviations, and result. The evidence is a curated copy of the accepted checks with source-report hashes, excluding local paths and development logs. The full accepted cut5 study also covered the standard configuration: 420 hardware checks across four configurations. Only the two pocket configurations are distributed here.
+[INTERFACE-CHECKS.json](INTERFACE-CHECKS.json) lists each interface's purpose, received part, dimensions, sample count, source and CAD probe deviations, and result. The evidence is a curated copy of the accepted checks with source-report hashes, excluding local paths and development logs. The full accepted cut5 study also covered the standard configuration: 420 hardware checks across four configurations. All four cut5 configurations and the four accepted full-height configurations are now distributed. [Additional reproduction evidence](REPRODUCTION-ADDITIONAL.json) covers the newly packaged sets. No body geometry was revised for this expansion.
 
 The accepted uncut parameter matrix exercised radial clearance 3.0/3.5/4.0 mm, gear radius 98.32/100.32 mm and combined maximum 100.32 + clearance 4.0 on both halves. Hardware datums remain independent of those changes. A separate 72 mm spool-width regression moved the related bay features together. These checks support the original parameter ranges; they do not qualify arbitrary future edits.
 
@@ -36,3 +36,7 @@ The reproduction check requires valid one-solid STEP parts, matching native face
 - **Runout and strength:** pocket envelope checks do not certify dynamic runout, spool-clamp loads, creep, fatigue or maximum operating speed. See [engineering notes](ENGINEERING.md).
 
 Check the seam and front-bar fit before committing to the large body prints. The zero-gap seated tapers, first-layer flare and 6.3 mm socket-roof bridges need the chosen printer/material to behave as intended. No complete body print or complete AMS installation is certified by this release.
+
+## Separate rings and fit coupons
+
+The stock-size pentagon ring family has its own source-interface and mesh/STEP export checks. It does not inherit the body's 0.05 mm hardware acceptance or a claim of physical fit across all sizes. The original 55.5 mm pair and earlier round flanges are preserved byte-for-byte. Coupon acceptance covers only the local joint and print orientation; their complete reports and isolated reproduction results are under [coupons](../coupons/README.md).
