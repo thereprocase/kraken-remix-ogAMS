@@ -20,6 +20,10 @@ Blue: the two main bodies. Orange: the two removable front bars, shown lifted aw
 
 The filenames describe both changes: **`pocket`** means the added gear-wall recess; **`cut5`** means the 5 mm reduction in main-body print height. The front bars are part of the finished assembly, not optional trim.
 
+## Ready-sliced ASA plates
+
+The [ASA print package](prints/asa-2026-10-16/README.md) contains the printable-underside v4 bodies, front bars, editable local reinforcement, fit coupons and instructions. **About 562 g for both body/bar plates**, using 2 walls / 15% overall with dense roots. Prepared for a P1S with a 0.4 mm hardened-steel nozzle; first full-size physical fit and warp checks remain. [Illustrated project site](https://thereprocase.github.io/kraken/).
+
 ## Choose a body version
 
 The main downloads below are the **clearance-pocket bodies with removable front bars**, the selected configuration. Other finished versions and accessories are now included:
