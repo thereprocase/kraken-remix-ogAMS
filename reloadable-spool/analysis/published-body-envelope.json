@@ -1,0 +1,463 @@
+{
+  "status": "PASS body geometry only; OEM drive hardware unavailable",
+  "circular_envelope_sides": 512,
+  "max_inscribed_radial_deficit_mm": 0.0018824717398890911,
+  "cases": [
+    {
+      "source": "models/right-body-standard_full.3mf",
+      "sha256": "e824cf3141f8ccc339ac4c00e551609e81a938043b2e40ad21da4291b54f032f",
+      "checks": [
+        {
+          "bay": 1,
+          "axial_shift_mm": -0.79,
+          "envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": -0.79,
+          "envelope": "sleeve_webs_key",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": -0.79,
+          "envelope": "far_flange_ribs_lug",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0,
+          "envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0,
+          "envelope": "sleeve_webs_key",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0,
+          "envelope": "far_flange_ribs_lug",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0.79,
+          "envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0.79,
+          "envelope": "sleeve_webs_key",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0.79,
+          "envelope": "far_flange_ribs_lug",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": -0.79,
+          "envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": -0.79,
+          "envelope": "sleeve_webs_key",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": -0.79,
+          "envelope": "far_flange_ribs_lug",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0,
+          "envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0,
+          "envelope": "sleeve_webs_key",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0,
+          "envelope": "far_flange_ribs_lug",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0.79,
+          "envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0.79,
+          "envelope": "sleeve_webs_key",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0.79,
+          "envelope": "far_flange_ribs_lug",
+          "overlap_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "source": "models/right-body-pocket_full.3mf",
+      "sha256": "c5f6c202ae118935d2eeb2f50a9c10862770dc402c7371f6a2776e9f9101b1e9",
+      "checks": [
+        {
+          "bay": 1,
+          "axial_shift_mm": -0.79,
+          "envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": -0.79,
+          "envelope": "sleeve_webs_key",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": -0.79,
+          "envelope": "far_flange_ribs_lug",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0,
+          "envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0,
+          "envelope": "sleeve_webs_key",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0,
+          "envelope": "far_flange_ribs_lug",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0.79,
+          "envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0.79,
+          "envelope": "sleeve_webs_key",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0.79,
+          "envelope": "far_flange_ribs_lug",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": -0.79,
+          "envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": -0.79,
+          "envelope": "sleeve_webs_key",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": -0.79,
+          "envelope": "far_flange_ribs_lug",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0,
+          "envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0,
+          "envelope": "sleeve_webs_key",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0,
+          "envelope": "far_flange_ribs_lug",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0.79,
+          "envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0.79,
+          "envelope": "sleeve_webs_key",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0.79,
+          "envelope": "far_flange_ribs_lug",
+          "overlap_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "source": "models/left-body-standard_full.3mf",
+      "sha256": "796a6abf533ff7a90c64e0b9793eee84844af442334f67be475b57ea7f095e4d",
+      "checks": [
+        {
+          "bay": 1,
+          "axial_shift_mm": -0.79,
+          "envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": -0.79,
+          "envelope": "sleeve_webs_key",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": -0.79,
+          "envelope": "far_flange_ribs_lug",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0,
+          "envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0,
+          "envelope": "sleeve_webs_key",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0,
+          "envelope": "far_flange_ribs_lug",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0.79,
+          "envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0.79,
+          "envelope": "sleeve_webs_key",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0.79,
+          "envelope": "far_flange_ribs_lug",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": -0.79,
+          "envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": -0.79,
+          "envelope": "sleeve_webs_key",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": -0.79,
+          "envelope": "far_flange_ribs_lug",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0,
+          "envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0,
+          "envelope": "sleeve_webs_key",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0,
+          "envelope": "far_flange_ribs_lug",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0.79,
+          "envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0.79,
+          "envelope": "sleeve_webs_key",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0.79,
+          "envelope": "far_flange_ribs_lug",
+          "overlap_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "source": "models/left-body-pocket_full.3mf",
+      "sha256": "0fa9b832381eaf7c1900c5037181e51be5b88e217e44fabe74419cb9d6f2e633",
+      "checks": [
+        {
+          "bay": 1,
+          "axial_shift_mm": -0.79,
+          "envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": -0.79,
+          "envelope": "sleeve_webs_key",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": -0.79,
+          "envelope": "far_flange_ribs_lug",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0,
+          "envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0,
+          "envelope": "sleeve_webs_key",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0,
+          "envelope": "far_flange_ribs_lug",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0.79,
+          "envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0.79,
+          "envelope": "sleeve_webs_key",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0.79,
+          "envelope": "far_flange_ribs_lug",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": -0.79,
+          "envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": -0.79,
+          "envelope": "sleeve_webs_key",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": -0.79,
+          "envelope": "far_flange_ribs_lug",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0,
+          "envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0,
+          "envelope": "sleeve_webs_key",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0,
+          "envelope": "far_flange_ribs_lug",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0.79,
+          "envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0.79,
+          "envelope": "sleeve_webs_key",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0.79,
+          "envelope": "far_flange_ribs_lug",
+          "overlap_mm3": 0.0
+        }
+      ]
+    }
+  ]
+}

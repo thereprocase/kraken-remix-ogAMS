@@ -1,0 +1,4 @@
+__pycache__/
+artifacts/*.npz
+renders/*-work/
+analysis/*.npz

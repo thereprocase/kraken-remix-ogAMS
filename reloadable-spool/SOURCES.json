@@ -1,0 +1,41 @@
+{
+  "units": "mm",
+  "gear": {
+    "url": "https://github.com/thereprocase/kraken-remix-ogAMS/blob/main/gear/models/gear-spokes.stl",
+    "sha256": "55412d03377e811d511f42ba6c5f10633756244d8f84644e89e8a15b82b46835",
+    "redistribution": "Existing repository gear linked; exact geometry appears in assembly reference only."
+  },
+  "nut": {
+    "url": "https://www.printables.com/model/1788417-kraken-revolutionary-bambu-lab-ams",
+    "file": "reference/nut.stl",
+    "sha256": "05ae08765d7d8e6ee5e03ea6fefc6ab912d8aafd9a8bf1ef8ecee6ae4f922cd0",
+    "license": "CC BY-NC 4.0; humebeam"
+  },
+  "tool": {
+    "url": "https://www.printables.com/model/1788417-kraken-revolutionary-bambu-lab-ams",
+    "file": "reference/tool.npz",
+    "sha256": "3f2135365c815bf7f2515e74dabafcf7cdac3d48e6fe8e5e531a26db5fcbba86",
+    "license": "CC BY-NC 4.0; humebeam"
+  },
+  "bambu": [
+    {
+      "name": "wide",
+      "url": "https://wiki.bambulab.com/knowledge-sharing/print-volume-limitations/bambulab_spool_wide.stl",
+      "sha256": "e5c88dcfd9b1c615925581b2165fbe3f970b17ea29b4cfc3810cd530e600c492",
+      "bytes": 821984
+    },
+    {
+      "name": "narrow",
+      "url": "https://wiki.bambulab.com/knowledge-sharing/print-volume-limitations/bambulab_spool_narrow.stl",
+      "sha256": "f02ad60233f9287a4396d55307e9bc30470eceb8c20366610cf27b5776a81ba6",
+      "bytes": 735284
+    },
+    {
+      "name": "spacing-shim",
+      "url": "https://wiki.bambulab.com/knowledge-sharing/print-volume-limitations/bambulab_spool_spacing_shim.stl",
+      "sha256": "76b854dd0b11526ac44b984be580bee8590a9b5e16d241e2d4752c3b90936af8",
+      "bytes": 107484
+    }
+  ],
+  "bambu_reference_license": "Not established; original downloaded STLs excluded from publication."
+}

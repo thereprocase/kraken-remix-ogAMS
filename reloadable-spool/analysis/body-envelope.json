@@ -1,0 +1,926 @@
+{
+  "frame": "Gear local Z maps to body +X; axis Y-54.39 Z-24.18; gear base is wall+2.15 mm. +/-0.79 mm axial sensitivity. 512-side rotation envelopes are inscribed, radial deficit <=0.001883 mm at R100.",
+  "cases": [
+    {
+      "body": "source-right",
+      "path": "right_source.npz",
+      "sha256": "830d023331d9c93d303d498ea29a984ba6b85690d5b4ddb2e9ed2ed3d4413aa2",
+      "checks": [
+        {
+          "bay": 1,
+          "axial_shift_mm": -0.79,
+          "part_full_rotation_envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": -0.79,
+          "part_full_rotation_envelope": "sleeve_and_webs",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": -0.79,
+          "part_full_rotation_envelope": "far_flange",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0,
+          "part_full_rotation_envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0,
+          "part_full_rotation_envelope": "sleeve_and_webs",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0,
+          "part_full_rotation_envelope": "far_flange",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0.79,
+          "part_full_rotation_envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0.79,
+          "part_full_rotation_envelope": "sleeve_and_webs",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0.79,
+          "part_full_rotation_envelope": "far_flange",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": -0.79,
+          "part_full_rotation_envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": -0.79,
+          "part_full_rotation_envelope": "sleeve_and_webs",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": -0.79,
+          "part_full_rotation_envelope": "far_flange",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0,
+          "part_full_rotation_envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0,
+          "part_full_rotation_envelope": "sleeve_and_webs",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0,
+          "part_full_rotation_envelope": "far_flange",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0.79,
+          "part_full_rotation_envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0.79,
+          "part_full_rotation_envelope": "sleeve_and_webs",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0.79,
+          "part_full_rotation_envelope": "far_flange",
+          "overlap_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "body": "source-left",
+      "path": "left_source.npz",
+      "sha256": "3e6a5faad11144a6c1bd846cc7f7724f369b885f559ad95f4e08b995c50bac15",
+      "checks": [
+        {
+          "bay": 1,
+          "axial_shift_mm": -0.79,
+          "part_full_rotation_envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": -0.79,
+          "part_full_rotation_envelope": "sleeve_and_webs",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": -0.79,
+          "part_full_rotation_envelope": "far_flange",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0,
+          "part_full_rotation_envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0,
+          "part_full_rotation_envelope": "sleeve_and_webs",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0,
+          "part_full_rotation_envelope": "far_flange",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0.79,
+          "part_full_rotation_envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0.79,
+          "part_full_rotation_envelope": "sleeve_and_webs",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0.79,
+          "part_full_rotation_envelope": "far_flange",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": -0.79,
+          "part_full_rotation_envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": -0.79,
+          "part_full_rotation_envelope": "sleeve_and_webs",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": -0.79,
+          "part_full_rotation_envelope": "far_flange",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0,
+          "part_full_rotation_envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0,
+          "part_full_rotation_envelope": "sleeve_and_webs",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0,
+          "part_full_rotation_envelope": "far_flange",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0.79,
+          "part_full_rotation_envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0.79,
+          "part_full_rotation_envelope": "sleeve_and_webs",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0.79,
+          "part_full_rotation_envelope": "far_flange",
+          "overlap_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "body": "standard-right",
+      "path": "right_M3_display.npz",
+      "sha256": "94fe70ae60ee939ffcbe1e81ecc4e398c024480f836469d0cf9d8d5cf47d81a2",
+      "checks": [
+        {
+          "bay": 1,
+          "axial_shift_mm": -0.79,
+          "part_full_rotation_envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": -0.79,
+          "part_full_rotation_envelope": "sleeve_and_webs",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": -0.79,
+          "part_full_rotation_envelope": "far_flange",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0,
+          "part_full_rotation_envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0,
+          "part_full_rotation_envelope": "sleeve_and_webs",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0,
+          "part_full_rotation_envelope": "far_flange",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0.79,
+          "part_full_rotation_envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0.79,
+          "part_full_rotation_envelope": "sleeve_and_webs",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0.79,
+          "part_full_rotation_envelope": "far_flange",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": -0.79,
+          "part_full_rotation_envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": -0.79,
+          "part_full_rotation_envelope": "sleeve_and_webs",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": -0.79,
+          "part_full_rotation_envelope": "far_flange",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0,
+          "part_full_rotation_envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0,
+          "part_full_rotation_envelope": "sleeve_and_webs",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0,
+          "part_full_rotation_envelope": "far_flange",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0.79,
+          "part_full_rotation_envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0.79,
+          "part_full_rotation_envelope": "sleeve_and_webs",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0.79,
+          "part_full_rotation_envelope": "far_flange",
+          "overlap_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "body": "standard-left",
+      "path": "left_M4_display.npz",
+      "sha256": "662f09acee4e3769365905e3167ddd97be535d59b857440355e7d425315d4ecb",
+      "checks": [
+        {
+          "bay": 1,
+          "axial_shift_mm": -0.79,
+          "part_full_rotation_envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": -0.79,
+          "part_full_rotation_envelope": "sleeve_and_webs",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": -0.79,
+          "part_full_rotation_envelope": "far_flange",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0,
+          "part_full_rotation_envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0,
+          "part_full_rotation_envelope": "sleeve_and_webs",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0,
+          "part_full_rotation_envelope": "far_flange",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0.79,
+          "part_full_rotation_envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0.79,
+          "part_full_rotation_envelope": "sleeve_and_webs",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0.79,
+          "part_full_rotation_envelope": "far_flange",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": -0.79,
+          "part_full_rotation_envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": -0.79,
+          "part_full_rotation_envelope": "sleeve_and_webs",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": -0.79,
+          "part_full_rotation_envelope": "far_flange",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0,
+          "part_full_rotation_envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0,
+          "part_full_rotation_envelope": "sleeve_and_webs",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0,
+          "part_full_rotation_envelope": "far_flange",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0.79,
+          "part_full_rotation_envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0.79,
+          "part_full_rotation_envelope": "sleeve_and_webs",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0.79,
+          "part_full_rotation_envelope": "far_flange",
+          "overlap_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "body": "pocket-right",
+      "path": "right_M5_gear_edit_display.npz",
+      "sha256": "aab09995a1db027086fa35e04a410e02afe1588ed441a69c8641ce95330c82d8",
+      "checks": [
+        {
+          "bay": 1,
+          "axial_shift_mm": -0.79,
+          "part_full_rotation_envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": -0.79,
+          "part_full_rotation_envelope": "sleeve_and_webs",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": -0.79,
+          "part_full_rotation_envelope": "far_flange",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0,
+          "part_full_rotation_envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0,
+          "part_full_rotation_envelope": "sleeve_and_webs",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0,
+          "part_full_rotation_envelope": "far_flange",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0.79,
+          "part_full_rotation_envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0.79,
+          "part_full_rotation_envelope": "sleeve_and_webs",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0.79,
+          "part_full_rotation_envelope": "far_flange",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": -0.79,
+          "part_full_rotation_envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": -0.79,
+          "part_full_rotation_envelope": "sleeve_and_webs",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": -0.79,
+          "part_full_rotation_envelope": "far_flange",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0,
+          "part_full_rotation_envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0,
+          "part_full_rotation_envelope": "sleeve_and_webs",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0,
+          "part_full_rotation_envelope": "far_flange",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0.79,
+          "part_full_rotation_envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0.79,
+          "part_full_rotation_envelope": "sleeve_and_webs",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0.79,
+          "part_full_rotation_envelope": "far_flange",
+          "overlap_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "body": "pocket-left",
+      "path": "left_M5_gear_edit_display.npz",
+      "sha256": "076b20f3fc57b3ba519604c25bf0cf2db1a722085e0f6c51c1faf10f6d45bd9f",
+      "checks": [
+        {
+          "bay": 1,
+          "axial_shift_mm": -0.79,
+          "part_full_rotation_envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": -0.79,
+          "part_full_rotation_envelope": "sleeve_and_webs",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": -0.79,
+          "part_full_rotation_envelope": "far_flange",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0,
+          "part_full_rotation_envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0,
+          "part_full_rotation_envelope": "sleeve_and_webs",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0,
+          "part_full_rotation_envelope": "far_flange",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0.79,
+          "part_full_rotation_envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0.79,
+          "part_full_rotation_envelope": "sleeve_and_webs",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0.79,
+          "part_full_rotation_envelope": "far_flange",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": -0.79,
+          "part_full_rotation_envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": -0.79,
+          "part_full_rotation_envelope": "sleeve_and_webs",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": -0.79,
+          "part_full_rotation_envelope": "far_flange",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0,
+          "part_full_rotation_envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0,
+          "part_full_rotation_envelope": "sleeve_and_webs",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0,
+          "part_full_rotation_envelope": "far_flange",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0.79,
+          "part_full_rotation_envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0.79,
+          "part_full_rotation_envelope": "sleeve_and_webs",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0.79,
+          "part_full_rotation_envelope": "far_flange",
+          "overlap_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "body": "printable-v4-right",
+      "path": "right_body_pocket_cut5_printable_display.npz",
+      "sha256": "c87d48e17e88fac3eeeecccf4d46f1ea4e9edac65136f8effad08aac3eaa0c58",
+      "checks": [
+        {
+          "bay": 1,
+          "axial_shift_mm": -0.79,
+          "part_full_rotation_envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": -0.79,
+          "part_full_rotation_envelope": "sleeve_and_webs",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": -0.79,
+          "part_full_rotation_envelope": "far_flange",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0,
+          "part_full_rotation_envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0,
+          "part_full_rotation_envelope": "sleeve_and_webs",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0,
+          "part_full_rotation_envelope": "far_flange",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0.79,
+          "part_full_rotation_envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0.79,
+          "part_full_rotation_envelope": "sleeve_and_webs",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0.79,
+          "part_full_rotation_envelope": "far_flange",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": -0.79,
+          "part_full_rotation_envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": -0.79,
+          "part_full_rotation_envelope": "sleeve_and_webs",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": -0.79,
+          "part_full_rotation_envelope": "far_flange",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0,
+          "part_full_rotation_envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0,
+          "part_full_rotation_envelope": "sleeve_and_webs",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0,
+          "part_full_rotation_envelope": "far_flange",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0.79,
+          "part_full_rotation_envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0.79,
+          "part_full_rotation_envelope": "sleeve_and_webs",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0.79,
+          "part_full_rotation_envelope": "far_flange",
+          "overlap_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "body": "printable-v4-left",
+      "path": "left_body_pocket_cut5_printable_display.npz",
+      "sha256": "5afc0f0d1a69cdb7ef9c7aeb3a9d284e129b7b5d675ada1b440e1844d593ece1",
+      "checks": [
+        {
+          "bay": 1,
+          "axial_shift_mm": -0.79,
+          "part_full_rotation_envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": -0.79,
+          "part_full_rotation_envelope": "sleeve_and_webs",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": -0.79,
+          "part_full_rotation_envelope": "far_flange",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0,
+          "part_full_rotation_envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0,
+          "part_full_rotation_envelope": "sleeve_and_webs",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0,
+          "part_full_rotation_envelope": "far_flange",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0.79,
+          "part_full_rotation_envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0.79,
+          "part_full_rotation_envelope": "sleeve_and_webs",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 1,
+          "axial_shift_mm": 0.79,
+          "part_full_rotation_envelope": "far_flange",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": -0.79,
+          "part_full_rotation_envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": -0.79,
+          "part_full_rotation_envelope": "sleeve_and_webs",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": -0.79,
+          "part_full_rotation_envelope": "far_flange",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0,
+          "part_full_rotation_envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0,
+          "part_full_rotation_envelope": "sleeve_and_webs",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0,
+          "part_full_rotation_envelope": "far_flange",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0.79,
+          "part_full_rotation_envelope": "backing",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0.79,
+          "part_full_rotation_envelope": "sleeve_and_webs",
+          "overlap_mm3": 0.0
+        },
+        {
+          "bay": 2,
+          "axial_shift_mm": 0.79,
+          "part_full_rotation_envelope": "far_flange",
+          "overlap_mm3": 0.0
+        }
+      ]
+    }
+  ],
+  "drive_hardware": "Not included: installed AMS drive gear solid/envelope unavailable."
+}

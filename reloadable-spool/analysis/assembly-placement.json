@@ -1,0 +1,68 @@
+{
+  "units": "mm",
+  "gear_source_sha256": "55412d03377e811d511f42ba6c5f10633756244d8f84644e89e8a15b82b46835",
+  "gear_assembly_transform": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "nut_source_sha256": "05ae08765d7d8e6ee5e03ea6fefc6ab912d8aafd9a8bf1ef8ecee6ae4f922cd0",
+  "nut_assembly_transform": [
+    [
+      0.18639440272738378,
+      -0.9824750005124313,
+      0.0,
+      -1.1894676789642722
+    ],
+    [
+      -0.9824750005124313,
+      -0.18639440272738378,
+      0.0,
+      -0.22813241340847623
+    ],
+    [
+      0.0,
+      0.0,
+      -1.0,
+      70.69999999999999
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "native_step_scope": "added-parts-assembly.step contains the two new analytic parts. Retained gear STEP is linked from existing gear/models/gear-spokes.step.gz; no duplicate huge faceted gear STEP. Full display assembly is provided in 3MF/STL, not for printing as one part.",
+  "individual_print_files": [
+    "backing-sleeve.3mf",
+    "removable-flange.3mf"
+  ],
+  "assembly_mesh_objects": [
+    "retained-eight-spoke-gear",
+    "backing-sleeve",
+    "removable-flange",
+    "retained-stock-nut"
+  ]
+}

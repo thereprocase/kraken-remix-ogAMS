@@ -1,0 +1,11 @@
+{
+  "geometry_change": false,
+  "hull_push_distance_factor": 0.0,
+  "surface_normals": "Exact per-triangle normals, display-only duplicated vertices",
+  "line_clip_depth_bias": 6e-06,
+  "near_far_distance_factors": [
+    0.5,
+    1.5
+  ],
+  "reason": "Thin 1.2 mm backing requires reduced silhouette hull extrusion and edge depth bias to prevent hidden gear facets showing through."
+}

@@ -1,0 +1,44 @@
+{
+  "backing-sleeve": {
+    "native_valid": true,
+    "native_solid_count": 1,
+    "native_volume_mm3": 71944.65351309194,
+    "mesh_volume_mm3": 71942.14855057537,
+    "mesh_manifold_status": "Error.NoError",
+    "print_bounds": [
+      -99.99805,
+      -99.99951,
+      0.0,
+      100.0,
+      99.99951,
+      60.4
+    ],
+    "assembly_translation": [
+      0.00014838691738904228,
+      -0.0019023696147351943,
+      4.0
+    ],
+    "triangles": 11172
+  },
+  "removable-flange": {
+    "native_valid": true,
+    "native_solid_count": 1,
+    "native_volume_mm3": 53270.02916218923,
+    "mesh_volume_mm3": 53269.21264616611,
+    "mesh_manifold_status": "Error.NoError",
+    "print_bounds": [
+      -100.0,
+      -99.99994,
+      0.0,
+      100.0,
+      99.99994,
+      4.8
+    ],
+    "assembly_translation": [
+      0.00014838691738904228,
+      -0.0019023696147351943,
+      67.6
+    ],
+    "triangles": 10362
+  }
+}

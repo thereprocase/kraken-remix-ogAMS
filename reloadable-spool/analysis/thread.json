@@ -1,0 +1,53 @@
+{
+  "axis_provenance": "analysis/interfaces.json; fitted outer barrels, source facets unchanged",
+  "configurations": [
+    {
+      "core_width": 60.0,
+      "nut_outer_face_z": 68.3,
+      "nut_inner_tip_z": 56.4,
+      "nut_phase_deg": 137.35802013269262,
+      "thread_overlap_axial_mm": 11.9,
+      "radial_sample_min_clearance_mm": 0.0892495548851997,
+      "radial_sample_max_clearance_mm": 0.12991916262994785,
+      "sampling": "0.5 deg rays, 0.25 mm axial; explicit mesh Boolean supplements samples",
+      "gear_nut_interference_mm3": 0.0,
+      "shaft_tip_above_nut_mm": 3.59999389650001
+    },
+    {
+      "core_width": 61.2,
+      "nut_outer_face_z": 69.5,
+      "nut_inner_tip_z": 57.6,
+      "nut_phase_deg": 208.19594536656197,
+      "thread_overlap_axial_mm": 11.9,
+      "radial_sample_min_clearance_mm": 0.08933171748698854,
+      "radial_sample_max_clearance_mm": 0.1310197969003717,
+      "sampling": "0.5 deg rays, 0.25 mm axial; explicit mesh Boolean supplements samples",
+      "gear_nut_interference_mm3": 0.0,
+      "shaft_tip_above_nut_mm": 2.399993896500007
+    },
+    {
+      "core_width": 62.4,
+      "nut_outer_face_z": 70.69999999999999,
+      "nut_inner_tip_z": 58.79999999999999,
+      "nut_phase_deg": 280.7424399777195,
+      "thread_overlap_axial_mm": 11.9,
+      "radial_sample_min_clearance_mm": 0.09003420324845735,
+      "radial_sample_max_clearance_mm": 0.12633843602922923,
+      "sampling": "0.5 deg rays, 0.25 mm axial; explicit mesh Boolean supplements samples",
+      "gear_nut_interference_mm3": 0.0,
+      "shaft_tip_above_nut_mm": 1.1999938965000183
+    }
+  ],
+  "pitch_from_rising_midflank_crossings": {
+    "crossings_z": [
+      24.045038758320324,
+      30.041974589757267,
+      36.04508298215688,
+      42.04287078317146,
+      48.045261616427005,
+      54.04531360640455,
+      60.044071358099494
+    ],
+    "median_pitch_mm": 5.999404870836244
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "status": "GEOMETRIC CHECKS PASS; PROTOTYPE, NOT INSTALL-CERTIFIED",
+  "exports": {
+    "backing-sleeve": {
+      "step_reread_valid": true,
+      "step_solid_count": 1,
+      "step_volume_mm3": 71944.65351308699,
+      "stl_manifold": "Error.NoError",
+      "stl_volume_mm3": 71942.14759437233,
+      "stl_components": 1,
+      "three_mf_manifold": "Error.NoError",
+      "three_mf_vertex_max_deviation_mm": 0.0,
+      "three_mf_faces_identical_to_native_tessellation": true,
+      "native_to_stl_volume_relative_error": 3.483120137896784e-05
+    },
+    "removable-flange": {
+      "step_reread_valid": true,
+      "step_solid_count": 1,
+      "step_volume_mm3": 53270.02916218304,
+      "stl_manifold": "Error.NoError",
+      "stl_volume_mm3": 53269.21247306777,
+      "stl_components": 1,
+      "three_mf_manifold": "Error.NoError",
+      "three_mf_vertex_max_deviation_mm": 0.0,
+      "three_mf_faces_identical_to_native_tessellation": true,
+      "native_to_stl_volume_relative_error": 1.533111823133912e-05
+    }
+  },
+  "pairwise_actual_mesh_checks": [
+    {
+      "a": "backing-sleeve",
+      "b": "removable-flange",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "backing-sleeve",
+      "b": "gear",
+      "overlap_mm3": 6.727269505614698e-15
+    },
+    {
+      "a": "backing-sleeve",
+      "b": "nut",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "removable-flange",
+      "b": "gear",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "removable-flange",
+      "b": "nut",
+      "overlap_mm3": 0.010968020049125558,
+      "axial_intersection_depth_mm": 2.0265579223632812e-06,
+      "classification": "Source-float32 coplanar contact rounding; <=0.00001 mm, no CAD adjustment"
+    },
+    {
+      "a": "gear",
+      "b": "nut",
+      "overlap_mm3": 0.0
+    }
+  ],
+  "cardboard_proxy": {
+    "id_mm": 82.0,
+    "wall_mm": 2.0,
+    "notch_width_mm": 3.5,
+    "notch_depth_mm": 5.3,
+    "source": "ID/wall assumptions; notch based on Bambu plastic key envelope, NOT measured cardboard.",
+    "part_overlap_mm3": {
+      "backing-sleeve": 3.6895393312236815e-15,
+      "removable-flange": 0.0,
+      "gear": 0.0,
+      "nut": 0.0
+    },
+    "nominal_radial_clearance_mm": 0.14999999999999858,
+    "key_tip_recess_inside_assumed_core_od_mm": 0.15,
+    "sleeve_to_flange_end_gap_nominal_mm": 3.1999999999999957
+  },
+  "tail_hole_interior_overlap_mm3": [
+    0.0,
+    0.0
+  ],
+  "assembly_3mf_object_count": 4,
+  "assembly_3mf_gear_vertices_and_faces_exactly_equal_to_retained_source": true,
+  "retained_source_hashes_verified": true,
+  "installed_drive_hardware": "UNVERIFIED: no installed OEM drive gear/hub geometry. Must check backing at gear engagement before operation.",
+  "physical_cardboard_fit": "UNVERIFIED",
+  "physical_clamp_torque_and_strength": "UNVERIFIED; no new FEA or test"
+}

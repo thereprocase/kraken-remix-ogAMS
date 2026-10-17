@@ -1,0 +1,13 @@
+{
+  "tool_source": "reference/tool.npz",
+  "tool_rotation_z_deg_after_flip": 0.6687675783447522,
+  "tool_open_face_z": 69.19999999999999,
+  "tool_top_z": 83.69999999999999,
+  "retained_nut_overlap_mm3": 0.0,
+  "gear_overlap_mm3": 0.0,
+  "new_flange_overlap_mm3": 3.3355100365756174e-14,
+  "sampled_nut_cavity_min_radial_clearance": 0.9373607683939582,
+  "tool_outer_envelope_radius": 53.00118266736289,
+  "radial_ribs_start": 54,
+  "note": "Tool used outside AMS before installation; only rigid registration; no tool or nut surface altered."
+}

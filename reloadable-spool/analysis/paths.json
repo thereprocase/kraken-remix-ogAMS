@@ -1,0 +1,467 @@
+{
+  "nut_helical_path": [
+    {
+      "lift_mm": 0.0,
+      "rotation_deg": 280.7424399777195,
+      "gear_overlap_mm3": 0.0,
+      "backing_overlap_mm3": 0.0,
+      "flange_overlap_mm3": 0.010968020048591974
+    },
+    {
+      "lift_mm": 0.3,
+      "rotation_deg": 298.7424399777195,
+      "gear_overlap_mm3": 0.0,
+      "backing_overlap_mm3": 0.0,
+      "flange_overlap_mm3": 0.0
+    },
+    {
+      "lift_mm": 0.6,
+      "rotation_deg": 316.7424399777195,
+      "gear_overlap_mm3": 0.0,
+      "backing_overlap_mm3": 0.0,
+      "flange_overlap_mm3": 0.0
+    },
+    {
+      "lift_mm": 0.8999999999999999,
+      "rotation_deg": 334.7424399777195,
+      "gear_overlap_mm3": 0.0,
+      "backing_overlap_mm3": 0.0,
+      "flange_overlap_mm3": 0.0
+    },
+    {
+      "lift_mm": 1.2,
+      "rotation_deg": 352.7424399777195,
+      "gear_overlap_mm3": 0.0,
+      "backing_overlap_mm3": 0.0,
+      "flange_overlap_mm3": 0.0
+    },
+    {
+      "lift_mm": 1.5,
+      "rotation_deg": 370.7424399777195,
+      "gear_overlap_mm3": 0.0,
+      "backing_overlap_mm3": 0.0,
+      "flange_overlap_mm3": 0.0
+    },
+    {
+      "lift_mm": 1.7999999999999998,
+      "rotation_deg": 388.7424399777195,
+      "gear_overlap_mm3": 0.0,
+      "backing_overlap_mm3": 0.0,
+      "flange_overlap_mm3": 0.0
+    },
+    {
+      "lift_mm": 2.1,
+      "rotation_deg": 406.7424399777195,
+      "gear_overlap_mm3": 0.0,
+      "backing_overlap_mm3": 0.0,
+      "flange_overlap_mm3": 0.0
+    },
+    {
+      "lift_mm": 2.4,
+      "rotation_deg": 424.7424399777195,
+      "gear_overlap_mm3": 0.0,
+      "backing_overlap_mm3": 0.0,
+      "flange_overlap_mm3": 0.0
+    },
+    {
+      "lift_mm": 2.6999999999999997,
+      "rotation_deg": 442.7424399777195,
+      "gear_overlap_mm3": 0.0,
+      "backing_overlap_mm3": 0.0,
+      "flange_overlap_mm3": 0.0
+    },
+    {
+      "lift_mm": 3.0,
+      "rotation_deg": 460.7424399777195,
+      "gear_overlap_mm3": 0.0,
+      "backing_overlap_mm3": 0.0,
+      "flange_overlap_mm3": 0.0
+    },
+    {
+      "lift_mm": 3.3,
+      "rotation_deg": 478.7424399777195,
+      "gear_overlap_mm3": 0.0,
+      "backing_overlap_mm3": 0.0,
+      "flange_overlap_mm3": 0.0
+    },
+    {
+      "lift_mm": 3.5999999999999996,
+      "rotation_deg": 496.7424399777195,
+      "gear_overlap_mm3": 0.0,
+      "backing_overlap_mm3": 0.0,
+      "flange_overlap_mm3": 0.0
+    },
+    {
+      "lift_mm": 3.9,
+      "rotation_deg": 514.7424399777195,
+      "gear_overlap_mm3": 0.0,
+      "backing_overlap_mm3": 0.0,
+      "flange_overlap_mm3": 0.0
+    },
+    {
+      "lift_mm": 4.2,
+      "rotation_deg": 532.7424399777195,
+      "gear_overlap_mm3": 0.0,
+      "backing_overlap_mm3": 0.0,
+      "flange_overlap_mm3": 0.0
+    },
+    {
+      "lift_mm": 4.5,
+      "rotation_deg": 550.7424399777195,
+      "gear_overlap_mm3": 0.0,
+      "backing_overlap_mm3": 0.0,
+      "flange_overlap_mm3": 0.0
+    },
+    {
+      "lift_mm": 4.8,
+      "rotation_deg": 568.7424399777195,
+      "gear_overlap_mm3": 0.0,
+      "backing_overlap_mm3": 0.0,
+      "flange_overlap_mm3": 0.0
+    },
+    {
+      "lift_mm": 5.1,
+      "rotation_deg": 586.7424399777194,
+      "gear_overlap_mm3": 0.0,
+      "backing_overlap_mm3": 0.0,
+      "flange_overlap_mm3": 0.0
+    },
+    {
+      "lift_mm": 5.3999999999999995,
+      "rotation_deg": 604.7424399777194,
+      "gear_overlap_mm3": 0.0,
+      "backing_overlap_mm3": 0.0,
+      "flange_overlap_mm3": 0.0
+    },
+    {
+      "lift_mm": 5.7,
+      "rotation_deg": 622.7424399777195,
+      "gear_overlap_mm3": 0.0,
+      "backing_overlap_mm3": 0.0,
+      "flange_overlap_mm3": 0.0
+    },
+    {
+      "lift_mm": 6.0,
+      "rotation_deg": 640.7424399777195,
+      "gear_overlap_mm3": 0.0,
+      "backing_overlap_mm3": 0.0,
+      "flange_overlap_mm3": 0.0
+    },
+    {
+      "lift_mm": 6.3,
+      "rotation_deg": 658.7424399777195,
+      "gear_overlap_mm3": 0.0,
+      "backing_overlap_mm3": 0.0,
+      "flange_overlap_mm3": 0.0
+    },
+    {
+      "lift_mm": 6.6,
+      "rotation_deg": 676.7424399777195,
+      "gear_overlap_mm3": 0.0,
+      "backing_overlap_mm3": 0.0,
+      "flange_overlap_mm3": 0.0
+    },
+    {
+      "lift_mm": 6.8999999999999995,
+      "rotation_deg": 694.7424399777195,
+      "gear_overlap_mm3": 0.0,
+      "backing_overlap_mm3": 0.0,
+      "flange_overlap_mm3": 0.0
+    },
+    {
+      "lift_mm": 7.199999999999999,
+      "rotation_deg": 712.7424399777194,
+      "gear_overlap_mm3": 0.0,
+      "backing_overlap_mm3": 0.0,
+      "flange_overlap_mm3": 0.0
+    },
+    {
+      "lift_mm": 7.5,
+      "rotation_deg": 730.7424399777195,
+      "gear_overlap_mm3": 0.0,
+      "backing_overlap_mm3": 0.0,
+      "flange_overlap_mm3": 0.0
+    },
+    {
+      "lift_mm": 7.8,
+      "rotation_deg": 748.7424399777195,
+      "gear_overlap_mm3": 0.0,
+      "backing_overlap_mm3": 0.0,
+      "flange_overlap_mm3": 0.0
+    },
+    {
+      "lift_mm": 8.1,
+      "rotation_deg": 766.7424399777195,
+      "gear_overlap_mm3": 0.0,
+      "backing_overlap_mm3": 0.0,
+      "flange_overlap_mm3": 0.0
+    },
+    {
+      "lift_mm": 8.4,
+      "rotation_deg": 784.7424399777195,
+      "gear_overlap_mm3": 0.0,
+      "backing_overlap_mm3": 0.0,
+      "flange_overlap_mm3": 0.0
+    },
+    {
+      "lift_mm": 8.7,
+      "rotation_deg": 802.7424399777194,
+      "gear_overlap_mm3": 0.0,
+      "backing_overlap_mm3": 0.0,
+      "flange_overlap_mm3": 0.0
+    },
+    {
+      "lift_mm": 9.0,
+      "rotation_deg": 820.7424399777195,
+      "gear_overlap_mm3": 0.0,
+      "backing_overlap_mm3": 0.0,
+      "flange_overlap_mm3": 0.0
+    },
+    {
+      "lift_mm": 9.299999999999999,
+      "rotation_deg": 838.7424399777194,
+      "gear_overlap_mm3": 0.0,
+      "backing_overlap_mm3": 0.0,
+      "flange_overlap_mm3": 0.0
+    },
+    {
+      "lift_mm": 9.6,
+      "rotation_deg": 856.7424399777195,
+      "gear_overlap_mm3": 0.0,
+      "backing_overlap_mm3": 0.0,
+      "flange_overlap_mm3": 0.0
+    },
+    {
+      "lift_mm": 9.9,
+      "rotation_deg": 874.7424399777195,
+      "gear_overlap_mm3": 0.0,
+      "backing_overlap_mm3": 0.0,
+      "flange_overlap_mm3": 0.0
+    },
+    {
+      "lift_mm": 10.2,
+      "rotation_deg": 892.7424399777194,
+      "gear_overlap_mm3": 0.0,
+      "backing_overlap_mm3": 0.0,
+      "flange_overlap_mm3": 0.0
+    },
+    {
+      "lift_mm": 10.5,
+      "rotation_deg": 910.7424399777195,
+      "gear_overlap_mm3": 0.0,
+      "backing_overlap_mm3": 0.0,
+      "flange_overlap_mm3": 0.0
+    },
+    {
+      "lift_mm": 10.799999999999999,
+      "rotation_deg": 928.7424399777194,
+      "gear_overlap_mm3": 0.0,
+      "backing_overlap_mm3": 0.0,
+      "flange_overlap_mm3": 0.0
+    },
+    {
+      "lift_mm": 11.1,
+      "rotation_deg": 946.7424399777195,
+      "gear_overlap_mm3": 0.0,
+      "backing_overlap_mm3": 0.0,
+      "flange_overlap_mm3": 0.0
+    },
+    {
+      "lift_mm": 11.4,
+      "rotation_deg": 964.7424399777195,
+      "gear_overlap_mm3": 0.0,
+      "backing_overlap_mm3": 0.0,
+      "flange_overlap_mm3": 0.0
+    },
+    {
+      "lift_mm": 11.7,
+      "rotation_deg": 982.7424399777195,
+      "gear_overlap_mm3": 0.0,
+      "backing_overlap_mm3": 0.0,
+      "flange_overlap_mm3": 0.0
+    },
+    {
+      "lift_mm": 12.0,
+      "rotation_deg": 1000.7424399777195,
+      "gear_overlap_mm3": 0.0,
+      "backing_overlap_mm3": 0.0,
+      "flange_overlap_mm3": 0.0
+    },
+    {
+      "lift_mm": 12.299999999999999,
+      "rotation_deg": 1018.7424399777195,
+      "gear_overlap_mm3": 0.0,
+      "backing_overlap_mm3": 0.0,
+      "flange_overlap_mm3": 0.0
+    },
+    {
+      "lift_mm": 12.6,
+      "rotation_deg": 1036.7424399777196,
+      "gear_overlap_mm3": 0.0,
+      "backing_overlap_mm3": 0.0,
+      "flange_overlap_mm3": 0.0
+    },
+    {
+      "lift_mm": 12.9,
+      "rotation_deg": 1054.7424399777196,
+      "gear_overlap_mm3": 0.0,
+      "backing_overlap_mm3": 0.0,
+      "flange_overlap_mm3": 0.0
+    },
+    {
+      "lift_mm": 13.2,
+      "rotation_deg": 1072.7424399777196,
+      "gear_overlap_mm3": 0.0,
+      "backing_overlap_mm3": 0.0,
+      "flange_overlap_mm3": 0.0
+    }
+  ],
+  "path_sampling_limit": "45 positions over 13.2 mm, pitch 6 mm. Finite samples supplemented by source matching thread profiles, not a rigorous swept Boolean or physical friction test.",
+  "sliding_install_paths": {
+    "backing-sleeve": [
+      {
+        "lift_mm": 0.0,
+        "gear_intersection_mm3": 6.727269505614698e-15
+      },
+      {
+        "lift_mm": 5.0,
+        "gear_intersection_mm3": 0.0
+      },
+      {
+        "lift_mm": 10.0,
+        "gear_intersection_mm3": 0.0
+      },
+      {
+        "lift_mm": 15.0,
+        "gear_intersection_mm3": 0.0
+      },
+      {
+        "lift_mm": 20.0,
+        "gear_intersection_mm3": 0.0
+      },
+      {
+        "lift_mm": 25.0,
+        "gear_intersection_mm3": 0.0
+      },
+      {
+        "lift_mm": 30.0,
+        "gear_intersection_mm3": 0.0
+      },
+      {
+        "lift_mm": 35.0,
+        "gear_intersection_mm3": 0.0
+      },
+      {
+        "lift_mm": 40.0,
+        "gear_intersection_mm3": 0.0
+      },
+      {
+        "lift_mm": 45.0,
+        "gear_intersection_mm3": 0.0
+      },
+      {
+        "lift_mm": 50.0,
+        "gear_intersection_mm3": 0.0
+      },
+      {
+        "lift_mm": 55.0,
+        "gear_intersection_mm3": 0.0
+      },
+      {
+        "lift_mm": 60.0,
+        "gear_intersection_mm3": 0.0
+      },
+      {
+        "lift_mm": 65.0,
+        "gear_intersection_mm3": 0.0
+      },
+      {
+        "lift_mm": 70.0,
+        "gear_intersection_mm3": 0.0
+      },
+      {
+        "lift_mm": 75.0,
+        "gear_intersection_mm3": 0.0
+      }
+    ],
+    "removable-flange": [
+      {
+        "lift_mm": 0.0,
+        "gear_intersection_mm3": 0.0
+      },
+      {
+        "lift_mm": 5.0,
+        "gear_intersection_mm3": 0.0
+      },
+      {
+        "lift_mm": 10.0,
+        "gear_intersection_mm3": 0.0
+      },
+      {
+        "lift_mm": 15.0,
+        "gear_intersection_mm3": 0.0
+      },
+      {
+        "lift_mm": 20.0,
+        "gear_intersection_mm3": 0.0
+      },
+      {
+        "lift_mm": 25.0,
+        "gear_intersection_mm3": 0.0
+      },
+      {
+        "lift_mm": 30.0,
+        "gear_intersection_mm3": 0.0
+      },
+      {
+        "lift_mm": 35.0,
+        "gear_intersection_mm3": 0.0
+      },
+      {
+        "lift_mm": 40.0,
+        "gear_intersection_mm3": 0.0
+      },
+      {
+        "lift_mm": 45.0,
+        "gear_intersection_mm3": 0.0
+      },
+      {
+        "lift_mm": 50.0,
+        "gear_intersection_mm3": 0.0
+      },
+      {
+        "lift_mm": 55.0,
+        "gear_intersection_mm3": 0.0
+      },
+      {
+        "lift_mm": 60.0,
+        "gear_intersection_mm3": 0.0
+      },
+      {
+        "lift_mm": 65.0,
+        "gear_intersection_mm3": 0.0
+      },
+      {
+        "lift_mm": 70.0,
+        "gear_intersection_mm3": 0.0
+      },
+      {
+        "lift_mm": 75.0,
+        "gear_intersection_mm3": 0.0
+      }
+    ]
+  },
+  "sampled_flank_contact_limits_at_fixed_seating_z": [
+    {
+      "phase_deg": 269.3920636680658,
+      "relative_rotation_deg": -11.350376309653711,
+      "sampled_min_radial_gap_mm": 0.0
+    },
+    {
+      "phase_deg": 291.1001287611092,
+      "relative_rotation_deg": 10.357688783389676,
+      "sampled_min_radial_gap_mm": 0.0
+    }
+  ],
+  "no_stress_or_clamp_force_certification": true
+}
