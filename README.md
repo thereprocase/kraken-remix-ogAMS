@@ -36,7 +36,7 @@ The main downloads below are the **clearance-pocket bodies with removable front 
 | [Round gear-side flanges](rings/round-flanges/README.md) | Earlier 45–95 mm round centering rings with wider flanges |
 | [Front-bar fit coupons](coupons/README.md) | Small single-key clearance samples and 84 mm two-key alignment pairs |
 | [Eight-spoke spool gear](gear/README.md) | The selected replacement gear, source and comparative evidence |
-| [Reloadable Bambu-refill spool prototype](reloadable-spool/README.md) | Two added parts for the existing eight-spoke gear and stock nut; installed drive clearance, real-core fit and clamping remain unverified |
+| [Reloadable Bambu-refill spool prototype](reloadable-spool/revisions/uniform-flange-6mm/README.md) | Two added parts for the existing eight-spoke gear and stock nut; installed drive clearance, real-core fit and clamping remain unverified |
 
 New stock-size pentagon rings have passed geometry checks; physical fit has not been established for every size. Choose by the spool's measured centre hole rather than brand alone. The source and reproduction instructions accompany each collection. Large stock-size STEP files and bulk ZIPs are [GitHub Release downloads](https://github.com/thereprocase/kraken-remix-ogAMS/releases/tag/cad-library-2026-10-15), with [asset hashes](docs/DOWNLOADS.json).
 

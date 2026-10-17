@@ -1,0 +1,46 @@
+{
+  "title": "Removable flange with inward reinforcement",
+  "subtitle": "2.45 mm face \u00b7 6 mm inward annulus \u00b7 1 mm \u00d7 45\u00b0 lead-in",
+  "caption": "Six \u00d88 mm holes; pairs spaced 3 inches (76.2 mm) center-to-center. Flat nut face underneath.",
+  "camera": {
+    "yaw": -0.65,
+    "pitch": 0.65,
+    "zoom": 0.83
+  },
+  "parts": [
+    {
+      "mesh": "artifacts/removable-flange-stiff-annulus.npz",
+      "color": [
+        0.98,
+        0.63,
+        0.28
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "method": "Equal-curvature radial rib-sector section comparison using parallel-axis theorem",
+  "same_material_and_solid_section_assumed": true,
+  "sector_radius_mm": 54.0,
+  "sector_width_mm": 28.274333882308138,
+  "old_skin_mm": 1.6,
+  "old_rib_width_mm": 2,
+  "old_rib_height_mm": 2,
+  "neutral_axis_mm": 0.9462257482878291,
+  "old_sector_I_mm4": 22.891480577488814,
+  "target_ratio": 1.5,
+  "calculated_uniform_thickness_mm": 2.4425942774858744,
+  "chosen_uniform_thickness_mm": 2.45,
+  "section_stiffness_ratio": 1.5136849964678456,
+  "center_thickness_mm": 8.45,
+  "stack_increase_mm": 0.85,
+  "nominal_axial_thread_overlap_mm": 11.05,
+  "limitations": [
+    "Distributed radial bending surrogate, not whole-assembly FEA or physical certification.",
+    "Old continuous outer rim R98..100 has 3.6 mm section; local hoop/rim loading is not matched by this section criterion.",
+    "Six holes and FDM structure are not represented in section algebra.",
+    "Nut and cardboard compliance are not included."
+  ],
+  "inward_reinforcement_mm": 6.0
+}
