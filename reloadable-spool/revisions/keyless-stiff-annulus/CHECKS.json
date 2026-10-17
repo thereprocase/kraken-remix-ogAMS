@@ -1,0 +1,97 @@
+{
+  "status": "native geometry checks PASS; physical fit and stiffness unverified",
+  "parameters": {
+    "annulus_outer_radius_mm": 38.45,
+    "annulus_inner_radius_mm": 18.275,
+    "added_depth_mm": 3.0,
+    "total_central_thickness_mm": 4.6,
+    "sleeve_radial_clearance_mm": 0.4,
+    "outer_skin_mm": 1.6,
+    "outer_ribs_removed": true,
+    "key_removed": true
+  },
+  "parts": [
+    {
+      "name": "backing-sleeve-keyless",
+      "native_valid": true,
+      "solids": 1,
+      "volume_mm3": 71918.88635913742,
+      "bounds_print_mm": [
+        [
+          -99.99805,
+          -99.99951,
+          0.0
+        ],
+        [
+          100.0,
+          99.99951,
+          60.4
+        ]
+      ]
+    },
+    {
+      "name": "removable-flange-stiff-annulus",
+      "native_valid": true,
+      "solids": 1,
+      "volume_mm3": 58890.15842309259,
+      "bounds_print_mm": [
+        [
+          -99.99805,
+          -99.99951,
+          0.0
+        ],
+        [
+          100.0,
+          99.99951,
+          4.6
+        ]
+      ]
+    }
+  ],
+  "cardboard_contact_delta_mm3": 0,
+  "hole_centers": [
+    [
+      89.2608941076935,
+      17.705727409375935
+    ],
+    [
+      86.15506556646326,
+      29.296837324844752
+    ],
+    [
+      -59.96405678284875,
+      68.44933815708733
+    ],
+    [
+      -68.44933815708731,
+      59.96405678284876
+    ],
+    [
+      -29.29683732484482,
+      -86.15506556646324
+    ],
+    [
+      -17.705727409376006,
+      -89.2608941076935
+    ]
+  ],
+  "core_width_checks": [
+    {
+      "core_width_mm": 60,
+      "added_parts_overlap_mm3": 0
+    },
+    {
+      "core_width_mm": 61.2,
+      "added_parts_overlap_mm3": 0
+    },
+    {
+      "core_width_mm": 62.4,
+      "added_parts_overlap_mm3": 0
+    }
+  ],
+  "source_sha256": {
+    "artifacts/backing-sleeve.step": "a0d769e7e89e895260f56da21cd1c2a8646a5cb43fb09b59f4f41216db6cb88b",
+    "artifacts/removable-flange.step": "0c3e91aec546f6c0b60422db6cd8a1ee22fbe5ceb8ebd2956d0fe33f4ec6a0cd"
+  },
+  "limits": "See EXPORT-CHECKS.json for independent mesh/nut/tool/gear checks; no physical strength claim. Clamping friction is owner-selected, not measured."
+}

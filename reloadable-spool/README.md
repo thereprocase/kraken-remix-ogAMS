@@ -1,5 +1,7 @@
 # Reloadable refill spool for Kraken — prototype
 
+**Current correction:** use the [keyless sleeve and reinforced flange](revisions/keyless-stiff-annulus/) for the owner-reported notch interference and nut-induced dishing. The files and pictures below are the retained original prototype.
+
 Two added parts let [humebeam's Kraken AMS](https://www.printables.com/model/1788417-kraken-revolutionary-bambu-lab-ams) carry a Bambu 1 kg filament refill on **one existing regular eight-spoke gear**. A smooth backing and keyed sleeve support the cardboard core; a removable smooth flange is retained by the original stock nut, inverted. Teeth, shaft, threads, bearing seats and nut are unchanged.
 
 **Not ready-to-use: installed drive-gear/backing clearance is UNVERIFIED.** No installed OEM drive-gear/hub solid or verified axial envelope was available. The prototype passes the available body, thread, tool and export checks, but needs that installed check, an actual cardboard-core fit test and a clamping/slip test before operation. It does not claim verified Bambu cardboard tolerances or physical strength.

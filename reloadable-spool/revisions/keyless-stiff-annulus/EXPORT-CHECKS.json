@@ -1,0 +1,19 @@
+{
+  "backing-sleeve-keyless": {
+    "triangles": 11152,
+    "closed_edges": true,
+    "bed_min_z": 0.0
+  },
+  "removable-flange-stiff-annulus": {
+    "triangles": 18132,
+    "closed_edges": true,
+    "bed_min_z": 0.0
+  },
+  "assembly_overlap_mm3": {
+    "nut": 0.010968020063932887,
+    "tool": 2.3089921178757586e-14,
+    "gear": 0.0,
+    "lower_gear": 6.727269505614698e-15
+  },
+  "limits": "Physical clamp/friction and stiffness not measured; CAD thickening is not strength certification."
+}

@@ -1,0 +1,7 @@
+{
+  "stl_byte_identical": {
+    "backing-sleeve-keyless.stl": true,
+    "removable-flange-stiff-annulus.stl": true
+  },
+  "source": "Rebuilt using retained public package inputs"
+}
