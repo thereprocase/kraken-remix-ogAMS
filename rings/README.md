@@ -25,6 +25,8 @@ Use a new output directory. This converts the existing meshes; it does not regen
 
 ## Which size to print
 
+The [Kraken ring generator](https://thereprocase.github.io/kraken-rings/) builds any size from 45 to 95 mm to 0.1 mm in the browser, with a to-scale diagram of the support circle and pentagon points.
+
 Measure the spool's centre hole with calipers in a few directions and use the smallest reading. Print the nominal size **equal to that reading or up to 0.9 mm below it**. The round support surface sits 0.1 mm inside the nominal radius, so a ring larger than the hole will not enter; the five corners stand 0.7 mm proud of the nominal radius, so they still grip a hole up to about 1 mm wider than the nominal size.
 
 | Cardboard spool | Centre hole | Ring to print | Where the figure comes from |
