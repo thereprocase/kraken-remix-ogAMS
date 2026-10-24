@@ -1,0 +1,84 @@
+{
+  "status": "PASS",
+  "generator": "rings/source/generate_family.py --sizes 53.4",
+  "parameters": {
+    "radial_running_clearance": 0.1,
+    "corner_interference": 0.7,
+    "lead_radial_reduction": 1.9,
+    "lead_height": 2.0,
+    "lip_thickness": 0.4,
+    "gear_flange_thickness": 1.5,
+    "flange_radial_reach": 10.25,
+    "maximum_preserved_radius": 22.5,
+    "preserved_region_overlap": 0.1,
+    "circular_segments": 256,
+    "corners": 5,
+    "phase_degrees": 90.0
+  },
+  "sizes": [
+    {
+      "target_hole_mm": 53.4,
+      "source_height_mm": 10.400001000000001,
+      "preserved_radius_mm": 22.5,
+      "corner_radius_mm": 27.4,
+      "support_radius_mm": 26.599999999999998,
+      "top_scale": 0.9306569343065694,
+      "gear_flange_od_mm": 73.9,
+      "source_cap_interface_pass": true,
+      "source_gear_interface_above_flange_pass": true,
+      "source_flange_bore_section_pass": true,
+      "source": "kraken-spool-ring-53-mm-100.3mf",
+      "source_sha256": "2c8ebc1c810a91d741183d50ca780147a187ec3c7fad00661a39acb2d668c100",
+      "parts": [
+        {
+          "stem": "kraken-spool-ring-53.4-mm-pentagon-cap-side",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 11957.503218717564,
+          "bounds_mm": [
+            [
+              -29.0,
+              -28.995863,
+              0.0
+            ],
+            [
+              29.0,
+              28.995862999999996,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.0014204111717134606,
+          "exported_protected_region_difference_mm3": 0.0006425376299677482,
+          "files": {
+            "kraken-spool-ring-53.4-mm-pentagon-cap-side.stl": "91e62209214581776a9ea5e7844f1c0af58d7e06402f4a3b16bd4e7082d313bc",
+            "kraken-spool-ring-53.4-mm-pentagon-cap-side.3mf": "fcb2e60bfeba3c52e60ae1a476175f821c30a5bda965bc82ab453ef0713ee322"
+          }
+        },
+        {
+          "stem": "kraken-spool-ring-53.4-mm-pentagon-gear-side-1.5mm-flange",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 16129.731833111233,
+          "bounds_mm": [
+            [
+              -36.95000000298023,
+              -36.95000000298023,
+              0.0
+            ],
+            [
+              36.95000000298023,
+              36.95000000298023,
+              11.500001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.0012554076131181448,
+          "exported_protected_region_difference_mm3": 0.0004995171945375963,
+          "files": {
+            "kraken-spool-ring-53.4-mm-pentagon-gear-side-1.5mm-flange.stl": "1a874e3895ec65c839ed2045dc9ac7708cc90965d6431de6b6683a3c1e0bbee9",
+            "kraken-spool-ring-53.4-mm-pentagon-gear-side-1.5mm-flange.3mf": "e0f158a40af741e993c285ffd29295db6e73e6960d9c7a5e714f46f2e484eb9a"
+          }
+        }
+      ]
+    }
+  ]
+}

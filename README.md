@@ -33,6 +33,7 @@ The main downloads below are the **clearance-pocket bodies with removable front 
 | [All body versions](docs/BODY-VARIANTS.md) | Standard or gear-pocket walls; full-height one-piece bodies or shortened bodies with bars |
 | [Pentagon flange pairs, every stock size](rings/stock-sizes/README.md) | Matched cap/gear rings for 45–95 mm cardboard-spool centre holes, in 1 mm steps |
 | [55.5 mm Polymaker pair](rings/README.md) | The existing specific-size pair, preserved unchanged |
+| [53.4 mm Elegoo pair](rings/brand-sizes/README.md) | For Elegoo Rapid PETG cardboard spools; the [rings page](rings/README.md#which-size-to-print) lists which size to print for other brands |
 | [Round gear-side flanges](rings/round-flanges/README.md) | Earlier 45–95 mm round centering rings with wider flanges |
 | [Front-bar fit coupons](coupons/README.md) | Small single-key clearance samples and 84 mm two-key alignment pairs |
 | [Eight-spoke spool gear](gear/README.md) | The selected replacement gear, source and comparative evidence |

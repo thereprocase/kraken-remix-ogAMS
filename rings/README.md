@@ -23,9 +23,24 @@ OPENBLAS_NUM_THREADS=1 python rings/export_step.py rings-step-build
 
 Use a new output directory. This converts the existing meshes; it does not regenerate or redesign the rings.
 
+## Which size to print
+
+Measure the spool's centre hole with calipers in a few directions and use the smallest reading. Print the nominal size **equal to that reading or up to 0.9 mm below it**. The round support surface sits 0.1 mm inside the nominal radius, so a ring larger than the hole will not enter; the five corners stand 0.7 mm proud of the nominal radius, so they still grip a hole up to about 1 mm wider than the nominal size.
+
+| Cardboard spool | Centre hole | Ring to print | Where the figure comes from |
+|---|---:|---|---|
+| Polymaker | 55.5 mm | [55.5 mm pair](#555-mm-pentagon-spool-flange-pair) | Measured for this remix |
+| Elegoo Rapid PETG | 53.4 mm | [53.4 mm pair](brand-sizes/README.md) | Measured for this remix |
+| Bambu Lab | about 55 mm | [55 mm](stock-sizes/README.md) | [Community report](https://forum.bambulab.com/t/bambu-spool-dimensions/123480) |
+| eSun | 52–54.3 mm, varies | Measure; [52 or 54 mm](stock-sizes/README.md) | Community reports disagree ([52 mm](https://community.ultimaker.com/topic/22434-ultimaker-question-help-us-help-you/), [54.3 mm](https://www.printables.com/model/1506017-ams-cardboard-spool-adapter-esun-anycubic)) |
+| Overture, Duramic | about 53.5 mm | [53 mm](stock-sizes/README.md) or the 53.4 mm pair | Inferred from a [bushing designed for them](https://www.printables.com/model/596930-filament-spool-bushing) |
+| Other brands | 52–58 mm is typical | Measure first | — |
+
+Spool makers change cores between batches, so treat the brand column as a starting point and the caliper reading as the deciding figure.
+
 ## More sizes and source
 
-[Matched pentagon pairs for all 45–95 mm stock sizes](stock-sizes/README.md) are available separately, along with the [earlier round flange family](round-flanges/README.md). The [portable generators and original reference inputs](source/README.md) reproduce these designs; the existing 55.5 mm pair regenerates byte-for-byte.
+[Matched pentagon pairs for all 45–95 mm stock sizes](stock-sizes/README.md) and [specific-spool sizes such as 53.4 mm](brand-sizes/README.md) are available separately, along with the [earlier round flange family](round-flanges/README.md). The [portable generators and original reference inputs](source/README.md) reproduce these designs; the existing 55.5 mm pair regenerates byte-for-byte.
 
 ## Shape and fit
 

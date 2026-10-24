@@ -5,7 +5,7 @@ The 51 geometry-only 3MF files under `reference/` are humebeam's original `krake
 | Generator | Purpose |
 |---|---|
 | `rings_555.py` | Reproduce the existing 55.5 mm pentagon pair from the original 55 mm input |
-| `generate_family.py` | Build pentagon pairs for all 51 stock sizes, each using its own source interface |
+| `generate_family.py` | Build pentagon pairs for all 51 stock sizes, each using its own source interface; a fractional size such as 53.4 uses the next smaller stock interface |
 | `round_flange.py` | Reproduce the earlier round gear-side flange family |
 | `mesh3mf.py` | Read the source geometry; no printing presets or machine integration |
 
@@ -14,6 +14,7 @@ From the repository root with its CAD dependencies:
 ```sh
 python rings/source/rings_555.py ring-555-build
 python rings/source/generate_family.py --output pentagon-build
+python rings/source/generate_family.py --output brand-build --sizes 53.4
 python rings/source/round_flange.py rings/source/reference round-flange-build
 ```
 

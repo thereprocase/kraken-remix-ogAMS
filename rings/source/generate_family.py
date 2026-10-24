@@ -107,13 +107,14 @@ def build_pair(stock, size):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--output', type=Path, required=True)
-    parser.add_argument('--sizes', nargs='+', type=int, default=list(range(45, 96)))
+    parser.add_argument('--sizes', nargs='+', type=float, default=list(range(45, 96)))
     args = parser.parse_args()
     args.output.mkdir(parents=True, exist_ok=False)
     models = args.output / 'models'; models.mkdir()
     rows = []
     for size in args.sizes:
-        source = ROOT / 'reference' / f'kraken-spool-ring-{size}-mm-100.3mf'
+        # A fractional size keeps the holder interface of the next smaller stock ring.
+        source = ROOT / 'reference' / f'kraken-spool-ring-{int(size)}-mm-100.3mf'
         v, t = load(source)
         shift = np.r_[(v.min(0)+v.max(0))[:2]/2, v[:, 2].min()]
         stock = manifold_of(v-shift, t)
@@ -122,9 +123,9 @@ def main():
         row.update(source=source.name, source_sha256=sha(source), parts=[])
         for side, body in pair.items():
             assert body.status() == mf.Error.NoError and len(body.decompose()) == 1 and body.volume() > 0
-            name = f'kraken-spool-ring-{size}-mm-pentagon-{side}'
+            name = f'kraken-spool-ring-{size:g}-mm-pentagon-{side}'
             stl, three = models/(name+'.stl'), models/(name+'.3mf')
-            write_stl(stl, body, f'Kraken spool ring {size} mm pentagon {side}')
+            write_stl(stl, body, f'Kraken spool ring {size:g} mm pentagon {side}')
             write_3mf(three, body)
             delivered = read_stl(stl)
             vv, tt = load(three); precise = manifold_of(vv, tt)
@@ -148,7 +149,7 @@ def main():
                 exported_protected_region_difference_mm3=interface_error,
                 files={p.name: sha(p) for p in [stl, three]}))
         rows.append(row)
-        print(size, 'both parts PASS', flush=True)
+        print(f'{size:g}', 'both parts PASS', flush=True)
         (args.output/'VALIDATION.json').write_text(json.dumps(dict(status='PASS' if len(rows)==len(args.sizes) else 'IN_PROGRESS', expected_sizes_mm=args.sizes, parameters=P, sizes=rows), indent=2)+'\n')
 
 
