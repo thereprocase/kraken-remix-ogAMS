@@ -55,6 +55,8 @@ def allow_list(side):
     A.append(dict(id='A3c',reason='v4 constant-width feeder-nose channels (added pedestal stock)',diff='both',bounds=[-90,90,25.0,42.0,46,60]))
     A.append(dict(id='A3d',reason='v4 platform step underside chamfer (removal)',diff='his-minus-ours',bounds=[-90,90,53.0,57.0,80,84]))
     A.append(dict(id='A4',reason='v5 rear face: square wall feet and +3 mm web flanges (SPEC rev 2 section 3)',diff='both',bounds=[-90,90,3.0,62.0,ZF-0.1,ZF+34.0]))
+    A.append(dict(id='A4b',reason='v5 F2b: middle support web widened to the cap-bay wall face from the bed end to 5 mm before the RFID pocket entry (owner, slit beside the web); floor-side band where it merges with the B2/B5 accepted-release regions',diff='ours-minus-his',bounds=[-92,92,-45.0,62.0,ZF-0.1,-44.0]))   # floor-side band; the widened web joins the B2/B5 regions here
+    A.append(dict(id='A4c',reason='v5 F3b: seam wall filled beside the 1.25 mm toe down to the 1.4 mm floor relief over the seam support run (owner, slot at layer 82.5)',diff='ours-minus-his',bounds=[*X(77.0,84.0),42.0,62.0,-62.0,43.0]))
     A.append(dict(id='A5',reason='cable-bundle entry opening at the middle wall / deep-tray corner (accepted release)',diff='his-minus-ours',bounds=[*X(-6.0,18.0),42.0,62.0,-26,-9]))
     A.append(dict(id='A6',reason='trough cable exit slot, 20 x 5 mm at 30 deg (tray underpass, accepted release)',diff='his-minus-ours',bounds=[*X(14.0,36.0),42.0,62.0,-5,32]))
     A.append(dict(id='A7a',reason='cap-bay base rib (to Z 41) and end support web (to Z 103.8) reach the floor (base_rib, support_web end_web_rear); accepted release load paths',diff='both',bounds=[*X(-83.0,-38.0),25.0,62.0,-110,104]))

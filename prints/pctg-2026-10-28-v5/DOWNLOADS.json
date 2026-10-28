@@ -4,14 +4,14 @@
   "assets": [
     {
       "file": "left-body-v5-model.3mf",
-      "sha256": "0fc1bf8a6f3a816af2de348c95bd4a2f6f3f572dde95a24c0e2404c42fa43fa3",
-      "bytes": 1721505,
+      "sha256": "f7654c937d079bd099cbb75207e11219a2a6122c4517fa6260fcc9480d947ffe",
+      "bytes": 1719133,
       "url": null
     },
     {
       "file": "right-body-v5-model.3mf",
-      "sha256": "4bb27f80517543abbb63fbb87854e2db767fee71f0fc3fb6fc509fb7e75c4c44",
-      "bytes": 2005437,
+      "sha256": "5be2dbf1d2c7e06b87f09d98b4a5cd4231c6c3ab9ed89946c691af477197f509",
+      "bytes": 2004900,
       "url": null
     },
     {
@@ -28,14 +28,14 @@
     },
     {
       "file": "left-body-v5.step",
-      "sha256": "a4ae8fa9aaa3d49ed1cedececcdc2346c1942f3b7d9094eb8698966c97c3f5be",
-      "bytes": 5424102,
+      "sha256": "c764cd752db030802fea11643f42217703aacdff84425ecaa0a741857b994351",
+      "bytes": 5487687,
       "url": null
     },
     {
       "file": "right-body-v5.step",
-      "sha256": "a1beb7d4b6d6ebbc24c169b262d48a6b9b771407d0be1c506eab21f88bd676b9",
-      "bytes": 5851004,
+      "sha256": "3cfc3695ccb6cd89572ec394091487d920b6df1ed29be617f5b3fb0e6182a9d1",
+      "bytes": 5935503,
       "url": null
     },
     {

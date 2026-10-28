@@ -1,7 +1,7 @@
 {
 	"plates": [
 		{
-			"estimated_time_s": 37903.0,
+			"estimated_time_s": 38232.0,
 			"feature_types": [
 				"Inner wall",
 				"Outer wall",
@@ -19,9 +19,9 @@
 				{
 					"color": "#F2D7DC",
 					"id": 1,
-					"length_m": 167.104,
+					"length_m": 168.257,
 					"type": "PCTG",
-					"weight_g": 494.377
+					"weight_g": 497.788
 				}
 			],
 			"has_brim": true,

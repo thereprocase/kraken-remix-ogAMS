@@ -43,9 +43,21 @@
       }
     },
     {
+      "name": "middle web widened to the wall face",
+      "operation": "union",
+      "added_mm3": 2868.8693646252505,
+      "drivers": {
+        "x": [
+          -5.269999999999996,
+          -2.619999999999996
+        ],
+        "rear": -46.629999999999995
+      }
+    },
+    {
       "name": "seam wall foot",
       "operation": "union",
-      "added_mm3": 71.48839502834016,
+      "added_mm3": 71.488367226033,
       "drivers": {
         "x": [
           78.73,
@@ -57,9 +69,28 @@
       }
     },
     {
+      "name": "seam wall floor-side fill beside the toe",
+      "operation": "union",
+      "added_mm3": 3036.263049752568,
+      "drivers": {
+        "x": [
+          78.73,
+          82.23
+        ],
+        "y": [
+          44.0,
+          59.68
+        ],
+        "z": [
+          -60.22,
+          41.550000000000004
+        ]
+      }
+    },
+    {
       "name": "end web widened foot",
       "operation": "union",
-      "added_mm3": 78.82337604573695,
+      "added_mm3": 78.8233644112479,
       "drivers": {
         "x": [
           -82.27,
@@ -76,7 +107,7 @@
     {
       "name": "cap-bay rib widened foot",
       "operation": "union",
-      "added_mm3": 157.65997140068794,
+      "added_mm3": 157.6596792547498,
       "drivers": {
         "x": [
           -46.769999999999996,
@@ -93,7 +124,7 @@
     {
       "name": "middle wall flanges widened foot",
       "operation": "union",
-      "added_mm3": 127.58638458349742,
+      "added_mm3": 127.07002413546434,
       "drivers": {
         "x": [
           -5.269999999999996,
@@ -110,7 +141,7 @@
     {
       "name": "aux web widened foot",
       "operation": "union",
-      "added_mm3": 173.92768455168698,
+      "added_mm3": 173.92677992855897,
       "drivers": {
         "x": [
           46.480000000000004,
@@ -126,10 +157,10 @@
     }
   ],
   "initial_volume_mm3": 512131.7808114432,
-  "volume_mm3": 516666.3064572998,
+  "volume_mm3": 522570.9212750237,
   "native_valid": true,
   "native_solids": 1,
-  "export_roundtrip_volume_error_mm3": -1.2165401130914688e-08,
+  "export_roundtrip_volume_error_mm3": -1.2048985809087753e-08,
   "rfid_gate": {
     "side": "left",
     "stage": "left_body_pocket_cut5_v5",
@@ -167,27 +198,27 @@
   },
   "bed_face": {
     "0.15": {
-      "area_mm2": 2026.4527082661464,
+      "area_mm2": 2026.4537314226006,
       "regions": 1
     },
     "1": {
-      "area_mm2": 2015.1730388104238,
+      "area_mm2": 2015.1798594741608,
       "regions": 1
     },
     "2": {
-      "area_mm2": 2002.4911991057802,
+      "area_mm2": 2002.5048411875728,
       "regions": 1
     },
     "3": {
-      "area_mm2": 1987.4643882010223,
+      "area_mm2": 1987.648034284066,
       "regions": 1
     },
     "6": {
-      "area_mm2": 2276.5988887934323,
+      "area_mm2": 2276.7850543572426,
       "regions": 1
     },
     "10": {
-      "area_mm2": 2628.5187383644984,
+      "area_mm2": 2628.708196745738,
       "regions": 1
     }
   },
@@ -199,10 +230,10 @@
     "corner_run_z": 32.74406540961725,
     "front_lip_y": 17.587754365413332
   },
-  "elapsed_s": 145.67438793182373,
+  "elapsed_s": 161.31923174858093,
   "files": {
-    "left_body_pocket_cut5_v5.step": "a4ae8fa9aaa3d49ed1cedececcdc2346c1942f3b7d9094eb8698966c97c3f5be",
-    "left_body_pocket_cut5_v5.3mf": "0fc1bf8a6f3a816af2de348c95bd4a2f6f3f572dde95a24c0e2404c42fa43fa3",
-    "left_body_pocket_cut5_v5_display.npz": "3c5286b8c4074e786547e8ff661b4bec0724f8a974eb6fe940fe8f8d753d6592"
+    "left_body_pocket_cut5_v5.step": "c764cd752db030802fea11643f42217703aacdff84425ecaa0a741857b994351",
+    "left_body_pocket_cut5_v5.3mf": "f7654c937d079bd099cbb75207e11219a2a6122c4517fa6260fcc9480d947ffe",
+    "left_body_pocket_cut5_v5_display.npz": "a3fdd96423f2f4c8dae89402c06413f8d6f06b75acdcdc3c7b47bef078200d0f"
   }
 }

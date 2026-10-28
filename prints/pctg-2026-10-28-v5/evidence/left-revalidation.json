@@ -4,7 +4,7 @@
   "install_status": "PASS",
   "native_valid": true,
   "native_solids": 1,
-  "step_to_mesh_sampled_bidirectional_error_mm": 0.049109634949669065,
+  "step_to_mesh_sampled_bidirectional_error_mm": 0.04936081608260238,
   "unchanged_feed_end_native_symmetric_difference_mm3": 0,
   "unchanged_feed_end_region_z_mm": [
     84,
@@ -209,8 +209,8 @@
       "overlap_mm3": 0.0
     }
   ],
-  "added_mm3": 5798.667881601153,
-  "removed_mm3": 7989.436357997578,
+  "added_mm3": 11703.769484481898,
+  "removed_mm3": 7989.379691868368,
   "added_bounds": [
     -85.13,
     -56.80849,
@@ -228,10 +228,10 @@
     119.95
   ],
   "provenance": {
-    "/home/repro/lab/kraken-ams/body-v5-agent/work/v5chk/artifacts/left_body_pocket_cut5_printable_display.npz": "3c5286b8c4074e786547e8ff661b4bec0724f8a974eb6fe940fe8f8d753d6592",
+    "/home/repro/lab/kraken-ams/body-v5-agent/work/v5chk/artifacts/left_body_pocket_cut5_printable_display.npz": "a3fdd96423f2f4c8dae89402c06413f8d6f06b75acdcdc3c7b47bef078200d0f",
     "/home/repro/lab/kraken-ams/body-v5-agent/work/full/artifacts/left_M5_gear_edit_cut5_display.npz": "ee3ef514cae6efffd205442c085ba0e4e8a769f0c0bf3e92931cd379cb4a5938",
     "/home/repro/lab/kraken-ams/body-v5-agent/work/full/artifacts/left_M5_gear_edit_insert_cut5_display.npz": "cf70fc3bfa0824b9d88d3eb6b87d8fc3617fff333b2e7a966ea572b81f550e16",
-    "/home/repro/lab/kraken-ams/body-v5-agent/work/v5chk/artifacts/left_body_pocket_cut5_printable.step": "a4ae8fa9aaa3d49ed1cedececcdc2346c1942f3b7d9094eb8698966c97c3f5be"
+    "/home/repro/lab/kraken-ams/body-v5-agent/work/v5chk/artifacts/left_body_pocket_cut5_printable.step": "c764cd752db030802fea11643f42217703aacdff84425ecaa0a741857b994351"
   },
   "limits": "Sampled export fidelity; no full AMS-box solid or physical tolerance certification. Native identity above Z84 preserves all cut5 and bar interface geometry; separate hardware and tube gates still apply.",
   "status": "PASS"

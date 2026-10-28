@@ -12,7 +12,7 @@ import numpy as np
 ROOT=Path(__file__).resolve().parent;FULL=ROOT.parent
 sys.path.insert(0,str(FULL))
 from build123d import import_step,export_step,Plane,Solid,Face,Wire,Edge,Vector
-from mechanical_body import resolve_design,prism,norm,cut,union,case_locating_land
+from mechanical_body import resolve_design,prism,norm,cut,union,case_locating_land,support_web,cylinder
 from native_features import triangulate,export_3mf,box_bounds
 from export_guards import rfid_no_addition
 
@@ -65,9 +65,25 @@ def build(side,out,source=None):
     foot=[(y0,front),(support_y,front),(p['bottom_y'],front+run),(y0,front+run)]
     for name,(a,b) in (('end wall foot',intervals[0]),('middle wall foot',intervals[1])):
         add(name,prism(foot,a,b),dict(x=[a,b],y_top=y0,y_bed=support_y,slope_deg_from_print_axis=p['front_support_angle'],z_run=run))
+    # F2b (owner, 2026-10-28 evening): the middle support web stops middle_web_offset (2.65 mm) short of the cap-bay
+    # wall face, so beside the web the v5 skin fill stood as a separate slab ending in a step. Widen the web to the
+    # wall face over its whole length with the web's own profile: one 7.65 mm web, no slab, no step.
+    # Stop before the RFID pocket and its access relief (strict no-addition gate): entry at axle_z - rfid_entry_axle_offset.
+    web_rear=min(p['middle_web_rear'],p['axle_z']-p['rfid_entry_axle_offset']-p['rfid_access_entry_extra']-5.0)
+    web=support_web(p,inner[1]-e,inner[1]+p['middle_web_offset']+e,web_rear)
+    add('middle web widened to the wall face',web,dict(x=[inner[1],inner[1]+p['middle_web_offset']],rear=web_rear))
     a,b=intervals[2]
     seam=[(y0,front),(d['seam_foot_y'],front),(d['seam_foot_top_y'],front+d['seam_foot_run']),(y0,front+d['seam_foot_run'])]
     add('seam wall foot',prism(seam,a,b),dict(x=[a,b],y_top=y0,y_bed=d['seam_foot_y'],run=d['seam_foot_run']))
+
+    # F3b (owner, 2026-10-28 evening, layer 82.5): beside the 1.25 mm seam toe the seam wall is cut away at the tub
+    # floor, leaving a 2.3 x 5 mm slot between the toe and the trough plate. Fill the seam wall interval from Y 50 to the
+    # toe's 1.4 mm floor relief over the seam support run, outside the spool envelope, as seam_support does.
+    a,b=intervals[2]
+    zf=p['axle_z']-p['seam_foot_front_run'];zr=p['axle_z']+p['seam_foot_rear_run']
+    fill=box_bounds(a,b,44.0,p['bottom_y']-p['seam_bottom_relief'],zf,zr)
+    fill=cut(fill,cylinder(p['cradle_radius']+p['cradle_skin']-p['web_overlap'],a-e,b+e,p['floor_y'],p['floor_z']))
+    add('seam wall floor-side fill beside the toe',fill,dict(x=[a,b],y=[44.0,p['bottom_y']-p['seam_bottom_relief']],z=[zf,zr]))
 
     # Widened web feet: 45 degree loft from +widen at the bed to the nominal web at Z front+taper.
     # Y range is the web's own bed-face extent (front lip to the corner-clearance start).

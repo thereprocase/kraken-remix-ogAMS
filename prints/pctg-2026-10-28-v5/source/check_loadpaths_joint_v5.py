@@ -20,15 +20,19 @@ for side in ['right','left']:
  regions=[]
  for name,z in [('shaft',p['axle_z']),('roller',p['roller_axis_z'])]:
   regions.append((name+' load section',box_bounds(-150,150,-150,150,z-10,z+10)))
+ web_x=sorted((p['bay_datum']+p['bay_width']-1,p['bay_datum']+p['bay_width']+p['middle_web_offset']+1));webzone=handed(box_bounds(web_x[0],web_x[1],-150,150,-130,p['middle_web_rear']+1));sx=p['bay_datum']+2*p['bay_width']+p['middle_wall'];seamzone=handed(box_bounds(sx-1,sx+p['seam_wall']+1,42,62,-62,43))
  # Preserve all material in the whole outer locating wall and feed seating
  # strip; stronger than the individual retained hardware probe patches.
  a=p['bay_datum'];b=a+2*p['bay_width']+p['middle_wall']
  regions.extend([('cap box locating wall above the v5 foot zone',handed(box_bounds(a-100,a,-150,150,-91,130))),
   ('broad box seating land',handed(box_bounds(a,a+p['box_feed_land_width'],p['platform_y']+p['platform_depth'],p['bottom_y']+1,p['z_feed']-p['box_feed_land_front_offset'],130)))])
  rows=[]
+ sa=norm(s.intersect(seamzone));sb=norm(old.intersect(seamzone));seam_change=volume(norm(sa.cut(sb)))+volume(norm(sb.cut(sa)))
+ wa=norm(s.intersect(webzone));wb=norm(old.intersect(webzone));web_change=volume(norm(wa.cut(wb)))+volume(norm(wb.cut(wa)))
  foot=handed(box_bounds(a-100,a,-150,150,-130,-91));fa=norm(s.intersect(foot));fb=norm(old.intersect(foot))
  foot_change=volume(norm(fa.cut(fb)))+volume(norm(fb.cut(fa)))
  for name,region in regions:
+  if name in ('shaft load section','roller load section'):region=norm(region.cut(union([webzone,seamzone])))
   aa=norm(s.intersect(region));bb=norm(old.intersect(region));change=volume(norm(aa.cut(bb)))+volume(norm(bb.cut(aa)))
   rows.append(dict(region=name,native_symmetric_difference_mm3=change,status='PASS' if change<.001 else 'FAIL'))
  # Cable bundle entry receives a removal-only roof; preserve its already
@@ -36,6 +40,8 @@ for side in ['right','left']:
  wall=a+p['bay_width']+p['middle_wall'];e=p['boolean_overlap']
  corridor=handed(box_bounds(wall,wall+p['tray_entry_width'],p['platform_y'],p['bottom_y']+e,p['tray_entry_z'],p['tray_entry_z']+p['tray_entry_width']))
  added=norm(s.cut(old));obstruction=volume(norm(added.intersect(corridor))) if added else 0.
+ rows.append(dict(region='middle web widened zone (v5 F2b, excluded from the shaft section)',native_symmetric_difference_mm3=web_change,status='REPORTED',scope='Deliberate v5 web widening to the cap-bay wall face over the web length.'))
+ rows.append(dict(region='seam wall floor-side fill zone (v5 F3b, excluded from the load sections)',native_symmetric_difference_mm3=seam_change,status='REPORTED',scope='Deliberate v5 seam fill beside the toe.'))
  rows.append(dict(region='cap end wall foot zone (v5 feature, native Z -130..-91)',native_symmetric_difference_mm3=foot_change,status='REPORTED',scope='Deliberate v5 rear foot; see rear_face_v5.py report for the feature volumes.'))
  rows.append(dict(region='main cable entry no new obstruction',added_native_mm3=obstruction,status='PASS' if obstruction<.001 else 'FAIL',scope='Existing15mm opening and lower rectangular route retained; actual cable bundle dimensions remain unprovided.'))
  parts[side]=mesh(out/'artifacts'/f'{side}_body_pocket_cut5_printable_display.npz')

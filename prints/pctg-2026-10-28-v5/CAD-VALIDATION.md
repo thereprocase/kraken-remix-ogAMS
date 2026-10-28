@@ -16,10 +16,10 @@ Nothing here is a physical fit or print certificate.
 | Feed end above native Z 84 identical to the accepted body | 0 mm3 | 0 mm3 |
 | Whole-body sampled wall screen (`revalidate.py --walls`) | PASS, minimum 1.00002 mm | PASS, 1.00003 mm |
 | Reinforcement masks (`reclip_masks.py`) | dense and walls unchanged, 0 mm3 outside the solid | same |
-| Load strips, box lands, cable entry (`check_loadpaths_joint_v5.py`) | shaft, roller, seating land, wall above the foot zone: 0 mm3 change; end-wall foot zone 862.5 mm3 reported | same; foot zone 926.8 mm3 |
+| Load strips, box lands, cable entry (`check_loadpaths_joint_v5.py`) | shaft and roller sections outside the two fill zones, seating land, wall above the foot zone: 0 mm3 change; reported zones: end-wall foot 862.5 mm3, widened web, seam fill | same; foot zone 926.8 mm3 |
 | Seam slide and cross-half bar insertion (v5 bars) | 0 overlap at all sampled positions | same |
 | Layer screen, 0.2 mm contours (`layer_screen.py`) | 1 island, identical to the v4 baseline (board retainer, 0.54 mm2 at Z 200.6) | 2 islands, identical to baseline |
-| Added / removed against the v4 body | +4.54 cm3 / 0 (2 mm3 tessellation noise) | +4.43 cm3 / 0 (4 mm3) |
+| Added / removed against the v4 body | +10.4 cm3 / 0 (tessellation noise only) | +9.6 cm3 / 0 |
 
 The load-path script is the 2026-10-16 `check_loadpaths_joint.py` with one region split: the cap box locating wall is
 checked for identity above native Z -91 and the v5 foot zone below it is reported as a volume. Everything else in that
@@ -72,8 +72,8 @@ kept, outer brim 0.5 mm gap 5 mm wide, 0.3 mm layers, 0.6 mm nozzle, 30 mm/s fir
 
 | | Left | Right |
 |---|---:|---:|
-| Estimated time | 10 h 32 min | 10 h 29 min |
-| PCTG | 494.4 g, 167.1 m | 491.6 g, 166.2 m |
+| Estimated time | 10 h 37 min | 10 h 34 min |
+| PCTG | 497.8 g | 494.1 g |
 | Brim / support | yes / none | yes / none |
 | First layer | body in one island (2165 mm2 of 0.8 mm-wide paths) plus the two support boxes; brim 5 mm at 0.5 mm gap confirmed in the G-code header ([image](images/left-firstlayer.png)) | body in one island (2164 mm2) plus the two boxes ([image](images/right-firstlayer.png)) |
 

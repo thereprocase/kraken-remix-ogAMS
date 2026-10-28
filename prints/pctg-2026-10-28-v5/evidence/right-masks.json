@@ -1,7 +1,7 @@
 {
   "side": "right",
-  "parent_step_sha256": "a1beb7d4b6d6ebbc24c169b262d48a6b9b771407d0be1c506eab21f88bd676b9",
-  "parent_3mf_sha256": "4bb27f80517543abbb63fbb87854e2db767fee71f0fc3fb6fc509fb7e75c4c44",
+  "parent_step_sha256": "3cfc3695ccb6cd89572ec394091487d920b6df1ed29be617f5b3fb0e6182a9d1",
+  "parent_3mf_sha256": "5be2dbf1d2c7e06b87f09d98b4a5cd4231c6c3ab9ed89946c691af477197f509",
   "raw_to_bed_4x4": [
     [
       1,

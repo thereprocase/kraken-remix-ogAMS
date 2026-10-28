@@ -24,8 +24,20 @@
           "status": "PASS"
         },
         {
+          "region": "middle web widened zone (v5 F2b, excluded from the shaft section)",
+          "native_symmetric_difference_mm3": 5793.610265548333,
+          "status": "REPORTED",
+          "scope": "Deliberate v5 web widening to the cap-bay wall face over the web length."
+        },
+        {
+          "region": "seam wall floor-side fill zone (v5 F3b, excluded from the load sections)",
+          "native_symmetric_difference_mm3": 2159.095262702502,
+          "status": "REPORTED",
+          "scope": "Deliberate v5 seam fill beside the toe."
+        },
+        {
           "region": "cap end wall foot zone (v5 feature, native Z -130..-91)",
-          "native_symmetric_difference_mm3": 926.8126561409935,
+          "native_symmetric_difference_mm3": 926.8126561409979,
           "status": "REPORTED",
           "scope": "Deliberate v5 rear foot; see rear_face_v5.py report for the feature volumes."
         },
@@ -62,8 +74,20 @@
           "status": "PASS"
         },
         {
+          "region": "middle web widened zone (v5 F2b, excluded from the shaft section)",
+          "native_symmetric_difference_mm3": 5793.610265428067,
+          "status": "REPORTED",
+          "scope": "Deliberate v5 web widening to the cap-bay wall face over the web length."
+        },
+        {
+          "region": "seam wall floor-side fill zone (v5 F3b, excluded from the load sections)",
+          "native_symmetric_difference_mm3": 3166.6501317952366,
+          "status": "REPORTED",
+          "scope": "Deliberate v5 seam fill beside the toe."
+        },
+        {
           "region": "cap end wall foot zone (v5 feature, native Z -130..-91)",
-          "native_symmetric_difference_mm3": 862.509721416797,
+          "native_symmetric_difference_mm3": 862.5097214167681,
           "status": "REPORTED",
           "scope": "Deliberate v5 rear foot; see rear_face_v5.py report for the feature volumes."
         },
@@ -717,11 +741,11 @@
   "status": "PASS",
   "limits": "Native unchanged20mm Z strips permit reuse of the prior sampled net-section calculation, not reuse of unconverged whole-body FE stiffness. Discrete motion samples; no full AMS box or fully routed flexible cables. No physical warp/strength qualification.",
   "hashes": {
-    "/home/repro/lab/kraken-ams/body-v5-agent/work/v5chk/artifacts/left_body_pocket_cut5_printable.step": "a4ae8fa9aaa3d49ed1cedececcdc2346c1942f3b7d9094eb8698966c97c3f5be",
-    "/home/repro/lab/kraken-ams/body-v5-agent/work/v5chk/artifacts/left_body_pocket_cut5_printable.3mf": "0fc1bf8a6f3a816af2de348c95bd4a2f6f3f572dde95a24c0e2404c42fa43fa3",
-    "/home/repro/lab/kraken-ams/body-v5-agent/work/v5chk/artifacts/left_body_pocket_cut5_printable_display.npz": "3c5286b8c4074e786547e8ff661b4bec0724f8a974eb6fe940fe8f8d753d6592",
-    "/home/repro/lab/kraken-ams/body-v5-agent/work/v5chk/artifacts/right_body_pocket_cut5_printable.step": "a1beb7d4b6d6ebbc24c169b262d48a6b9b771407d0be1c506eab21f88bd676b9",
-    "/home/repro/lab/kraken-ams/body-v5-agent/work/v5chk/artifacts/right_body_pocket_cut5_printable.3mf": "4bb27f80517543abbb63fbb87854e2db767fee71f0fc3fb6fc509fb7e75c4c44",
-    "/home/repro/lab/kraken-ams/body-v5-agent/work/v5chk/artifacts/right_body_pocket_cut5_printable_display.npz": "df01dd2896b55539972fe2b91b14a45f142ae1408a427ca045b7059ea1e99394"
+    "/home/repro/lab/kraken-ams/body-v5-agent/work/v5chk/artifacts/left_body_pocket_cut5_printable.step": "c764cd752db030802fea11643f42217703aacdff84425ecaa0a741857b994351",
+    "/home/repro/lab/kraken-ams/body-v5-agent/work/v5chk/artifacts/left_body_pocket_cut5_printable.3mf": "f7654c937d079bd099cbb75207e11219a2a6122c4517fa6260fcc9480d947ffe",
+    "/home/repro/lab/kraken-ams/body-v5-agent/work/v5chk/artifacts/left_body_pocket_cut5_printable_display.npz": "a3fdd96423f2f4c8dae89402c06413f8d6f06b75acdcdc3c7b47bef078200d0f",
+    "/home/repro/lab/kraken-ams/body-v5-agent/work/v5chk/artifacts/right_body_pocket_cut5_printable.step": "3cfc3695ccb6cd89572ec394091487d920b6df1ed29be617f5b3fb0e6182a9d1",
+    "/home/repro/lab/kraken-ams/body-v5-agent/work/v5chk/artifacts/right_body_pocket_cut5_printable.3mf": "5be2dbf1d2c7e06b87f09d98b4a5cd4231c6c3ab9ed89946c691af477197f509",
+    "/home/repro/lab/kraken-ams/body-v5-agent/work/v5chk/artifacts/right_body_pocket_cut5_printable_display.npz": "623bed0e10c1ff7e3ea3d82adfddc0f5828a1f0a6ec06e1500ff547dbf4642c6"
   }
 }

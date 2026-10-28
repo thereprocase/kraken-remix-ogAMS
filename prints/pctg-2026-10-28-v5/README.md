@@ -24,7 +24,10 @@ a 45 degree taper over 3 mm.
 | Right | 1249 mm2, 1 region | 1016 mm2, 5 islands | 1516 mm2, 1 region |
 
 Added per body: end wall foot about 0.9 cm3 (after the AMS side envelope trims it), middle wall foot 3.1 cm3, seam wall
-foot 0.07 cm3, web flanges 0.08 to 0.17 cm3 each. Nothing is removed. Everything added sits below print Z 35 and above
+foot 0.07 cm3, web flanges 0.08 to 0.17 cm3 each, plus two fills from the owner's slice review: the middle support web
+widened 2.65 mm to the cap-bay wall face from the bed end to 5 mm before the RFID pocket entry (2.9 cm3), and the seam
+wall filled beside its 1.25 mm toe from Y 44 down to the 1.4 mm floor relief over the seam support run (3.0 / 2.2 cm3).
+Both close slots that v4 carried (2.65 mm beside the web, 2.3 mm beside the seam toe). Nothing is removed. Everything added sits below print Z 35 and above
 Y 4.24 (native), on the same corner-clearance line and Y band as humebeam's own walls and our own webs.
 
 ## Drop-in bars
@@ -64,8 +67,8 @@ Seen from the floor side the bodies show several thin slots. They are hardware p
 in humebeam's original, and must stay open: the 1.8 mm RFID board slot between the two skins of the middle wall (open at
 the floor side, the board slides in from below), the 2.91 mm slots under the main-board edge tabs at the feed end, the
 4.8 mm box clip slot, the 2.8 mm box-screw clearance inside the cap-bay rib, the 1.8 mm pilot bores of the hub posts,
-the feeder locator sockets, the roller seat mouths and, on the right body, the ferrite rails. A gap scan of v5 against
-v4 (`source/newgaps.py`) finds no new gap under 5 mm next to the v5 feet or flanges.
+the feeder locator sockets, the roller seat mouths and, on the right body, the ferrite rails. A gap scan (`source/newgaps.py`)
+finds no gap under 4 mm on the tub side of either body below the RFID pocket other than the 1.4 mm seam-toe floor relief.
 
 ## Reproduction
 

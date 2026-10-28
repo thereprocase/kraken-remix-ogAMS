@@ -626,11 +626,11 @@
       "status": "PASS"
     }
   ],
-  "added_mm3": 5798.667881601153,
-  "removed_mm3": 7989.436357997578,
+  "added_mm3": 11703.769484481898,
+  "removed_mm3": 7989.379691868368,
   "scope": "Retained0.05 hardware contacts on cut body plus unchanged bar; two existing cap-tube corridors. Does not certify other cable paths, wall thickness, all surfaces, or printability.",
   "input_sha256": {
-    "/home/repro/lab/kraken-ams/body-v5-agent/work/v5chk/artifacts/left_body_pocket_cut5_printable_display.npz": "3c5286b8c4074e786547e8ff661b4bec0724f8a974eb6fe940fe8f8d753d6592",
+    "/home/repro/lab/kraken-ams/body-v5-agent/work/v5chk/artifacts/left_body_pocket_cut5_printable_display.npz": "a3fdd96423f2f4c8dae89402c06413f8d6f06b75acdcdc3c7b47bef078200d0f",
     "/home/repro/lab/kraken-ams/body-v5-agent/work/full/artifacts/left_M5_gear_edit_insert_cut5_display.npz": "cf70fc3bfa0824b9d88d3eb6b87d8fc3617fff333b2e7a966ea572b81f550e16"
   },
   "status": "PASS"
