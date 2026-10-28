@@ -87,5 +87,20 @@ in a contrast colour. Test-slice results are in [CAD-VALIDATION.md](CAD-VALIDATI
 
 ![Left test slice, first layer: body paths in teal, brim in orange](images/left-firstlayer.png)
 
+### Sliced P1S projects (release pctg-print-2026-10-28)
+
+The release carries one sliced project per body, made with the recipe above in Orca (d80c fork) with the owner's
+profiles: Repro P1S 0.6 nozzle, Repro Normal 0.6 process, filament preset 3D-Fuel Pro PCTG Matte 0.6 (260 C nozzle,
+70 C plate, 17 mm3/s cap, 99.66 % XY shrink compensation, chamber heat soak in the start G-code). Outer walls run at
+60 mm/s to stay below the 80 to 150 mm/s band where the P1S shows vertical fine artifacts.
+
+| Project | Layers | Slicer estimate | Filament |
+|---|---:|---:|---:|
+| `kraken-left-v5-pctg-matte-06-outer60.gcode.3mf` | 816 | 12 h 26 min | 498 g |
+| `kraken-right-v5-pctg-matte-06-outer60.gcode.3mf` | 816 | 12 h 22 min | 494 g |
+
+The left project started printing on 2026-10-28; no v5 body has finished printing yet, so warp, fit in the box and
+the drop-in bar fit are physical checks still open. Check your nozzle, plate and AMS slot before sending.
+
 Original Kraken design: [humebeam](https://www.printables.com/model/1788417-kraken-revolutionary-bambu-lab-ams). Existing
 [license and attribution](../../LICENSE.md) apply.

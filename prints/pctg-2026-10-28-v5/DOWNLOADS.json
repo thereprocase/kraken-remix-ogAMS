@@ -1,66 +1,78 @@
 {
-  "release_tag": "TO BE SET BY THE LEAD AT PUBLICATION (proposed: pctg-print-2026-10-28)",
-  "note": "Hashes are of the files in this folder at commit time; the lead fills url after creating the GitHub release. Sliced plates are the lead's and are not listed here.",
+  "release_tag": "pctg-print-2026-10-28",
+  "note": "Hashes are of the files in this folder at commit time and of the sliced projects attached to the release.",
   "assets": [
     {
       "file": "left-body-v5-model.3mf",
       "sha256": "f7654c937d079bd099cbb75207e11219a2a6122c4517fa6260fcc9480d947ffe",
       "bytes": 1719133,
-      "url": null
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/pctg-print-2026-10-28/left-body-v5-model.3mf"
     },
     {
       "file": "right-body-v5-model.3mf",
       "sha256": "5be2dbf1d2c7e06b87f09d98b4a5cd4231c6c3ab9ed89946c691af477197f509",
       "bytes": 2004900,
-      "url": null
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/pctg-print-2026-10-28/right-body-v5-model.3mf"
     },
     {
       "file": "left-front-bar-v5-model.3mf",
       "sha256": "ddc60362e6e8745e8889d57a1a06db703433b3ae9fdbfaa9a37ffec4cc9377e1",
       "bytes": 25611,
-      "url": null
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/pctg-print-2026-10-28/left-front-bar-v5-model.3mf"
     },
     {
       "file": "right-front-bar-v5-model.3mf",
       "sha256": "eb450a57fd09bae2398dc7d0c6387e06367f41cc73fa52c039c355a5333764f1",
       "bytes": 40763,
-      "url": null
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/pctg-print-2026-10-28/right-front-bar-v5-model.3mf"
     },
     {
       "file": "left-body-v5.step",
       "sha256": "c764cd752db030802fea11643f42217703aacdff84425ecaa0a741857b994351",
       "bytes": 5487687,
-      "url": null
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/pctg-print-2026-10-28/left-body-v5.step"
     },
     {
       "file": "right-body-v5.step",
       "sha256": "3cfc3695ccb6cd89572ec394091487d920b6df1ed29be617f5b3fb0e6182a9d1",
       "bytes": 5935503,
-      "url": null
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/pctg-print-2026-10-28/right-body-v5.step"
     },
     {
       "file": "left-front-bar-v5.step",
       "sha256": "8b6671884e6205307875f781d92e0b24f32858ad3668e4a02052d16bf00073c5",
       "bytes": 225285,
-      "url": null
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/pctg-print-2026-10-28/left-front-bar-v5.step"
     },
     {
       "file": "right-front-bar-v5.step",
       "sha256": "a5eb2e8f489c2641a1d96a372925af91ced522136cba7a2b759b428bbe281d05",
       "bytes": 236634,
-      "url": null
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/pctg-print-2026-10-28/right-front-bar-v5.step"
     },
     {
       "file": "left-front-bar-v5-assembly.step",
       "sha256": "7c563281e20ecccf353f20560e7dac981b85e46b41c48972a2ab533db70a38c3",
       "bytes": 223666,
-      "url": null
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/pctg-print-2026-10-28/left-front-bar-v5-assembly.step"
     },
     {
       "file": "right-front-bar-v5-assembly.step",
       "sha256": "425d03d1563ee972412e6e24d33b81f7cd100a90e2fd65abdc470ff9b2fd181d",
       "bytes": 235013,
-      "url": null
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/pctg-print-2026-10-28/right-front-bar-v5-assembly.step"
+    },
+    {
+      "file": "kraken-left-v5-pctg-matte-06-outer60.gcode.3mf",
+      "sha256": "0d7ade56ad3f72b3855604ff0a1645d4ffa0774c209eb4ea2f26850948c29ac5",
+      "bytes": 12035791,
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/pctg-print-2026-10-28/kraken-left-v5-pctg-matte-06-outer60.gcode.3mf"
+    },
+    {
+      "file": "kraken-right-v5-pctg-matte-06-outer60.gcode.3mf",
+      "sha256": "6160620904fc1c951af877370d9b9bb3d7d510a4338d6c92213b917eb23f4bf0",
+      "bytes": 12768923,
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/pctg-print-2026-10-28/kraken-right-v5-pctg-matte-06-outer60.gcode.3mf"
     }
   ]
 }
