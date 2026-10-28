@@ -1,0 +1,116 @@
+{
+  "status": "PASS",
+  "expected_sizes_mm": [
+    52.1
+  ],
+  "core": "spring",
+  "flange_set": "normal",
+  "spring": {
+    "clearance": 0.2,
+    "fingers": 4,
+    "finger_degrees": 30.0,
+    "slot": 1.0,
+    "finger_thickness": 1.3,
+    "bow": 0.2,
+    "root_above_base": 1.6,
+    "root_overlap": 0.3,
+    "peak_fraction": 0.75,
+    "minimum_core_wall": 0.8
+  },
+  "flanges_mm": {
+    "cap": 0.6,
+    "gear": 2.2
+  },
+  "parameters": {
+    "radial_running_clearance": 0.1,
+    "corner_interference": 0.7,
+    "lead_radial_reduction": 1.9,
+    "lead_height": 2.0,
+    "lip_thickness": 0.4,
+    "flange_radial_reach": 10.25,
+    "maximum_preserved_radius": 22.5,
+    "preserved_region_overlap": 0.1,
+    "circular_segments": 256,
+    "corners": 5,
+    "phase_degrees": 90.0
+  },
+  "sizes": [
+    {
+      "target_hole_mm": 52.1,
+      "source_height_mm": 10.400001000000001,
+      "preserved_radius_mm": 22.5,
+      "support_radius_mm": 25.85,
+      "finger_peak_diameter_mm": 52.5,
+      "finger_inner_radius_mm": 24.55,
+      "core_wall_behind_slot_mm": 1.0500000000000007,
+      "top_scale": 0.9264990328820116,
+      "gear_flange_od_mm": 72.6,
+      "gear_flange_thickness_mm": 2.2,
+      "cap_lip_thickness_mm": 0.6,
+      "fingers": {
+        "gear-side-2.2mm-flange": {
+          "top_mm": 12.200001000000002,
+          "finger_root_z_mm": 3.8000000000000003,
+          "finger_peak_z_mm": 8.600000750000001
+        },
+        "cap-side-0.6mm-lip": {
+          "top_mm": 10.600001,
+          "finger_root_z_mm": 2.2,
+          "finger_peak_z_mm": 7.000000750000001
+        }
+      },
+      "source": "kraken-spool-ring-52-mm-100.3mf",
+      "source_sha256": "bc123f2ad9baf75d370381434c11c60c254031a3d0be5004b7ca253b137ffa8f",
+      "parts": [
+        {
+          "stem": "kraken-spool-ring-52.1-mm-spring-gear-side-2.2mm-flange",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 16323.102275381107,
+          "bounds_mm": [
+            [
+              -36.29999999701977,
+              -36.29999999701977,
+              0.0
+            ],
+            [
+              36.29999999701977,
+              36.29999999701977,
+              12.200001000000002
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.0019124586579280871,
+          "exported_protected_region_difference_mm3": 0.0006467004593460311,
+          "files": {
+            "kraken-spool-ring-52.1-mm-spring-gear-side-2.2mm-flange.stl": "0e4dcaf7fd4c89992fa7a09e4e9d0e84f1e5553d0c149c8b9420de40a428298b",
+            "kraken-spool-ring-52.1-mm-spring-gear-side-2.2mm-flange.3mf": "4b4d23191f36599bb33d5be06a9216be9f86201b5fcda58c3d2ee09ebc676647"
+          }
+        },
+        {
+          "stem": "kraken-spool-ring-52.1-mm-spring-cap-side-0.6mm-lip",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 10499.4518827988,
+          "bounds_mm": [
+            [
+              -28.5,
+              -28.495936,
+              0.0
+            ],
+            [
+              28.5,
+              28.495936,
+              10.600001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.0016508746889217648,
+          "exported_protected_region_difference_mm3": 0.0006392523574617424,
+          "files": {
+            "kraken-spool-ring-52.1-mm-spring-cap-side-0.6mm-lip.stl": "371cb4feb88f3005533f9391395b1c47a7bfd2938232be80d8b15f57acf83a4d",
+            "kraken-spool-ring-52.1-mm-spring-cap-side-0.6mm-lip.3mf": "b04bf84b40002f6130c8f4d0f187422112172378ca9b2740e89d396e7610c733"
+          }
+        }
+      ]
+    }
+  ]
+}

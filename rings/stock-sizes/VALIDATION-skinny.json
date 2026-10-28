@@ -1,0 +1,3444 @@
+{
+  "status": "PASS",
+  "expected_sizes_mm": [
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95
+  ],
+  "core": "pentagon",
+  "flange_set": "skinny",
+  "spring": null,
+  "flanges_mm": {
+    "cap": 0.4,
+    "gear": 0.4
+  },
+  "parameters": {
+    "radial_running_clearance": 0.1,
+    "corner_interference": 0.7,
+    "lead_radial_reduction": 1.9,
+    "lead_height": 2.0,
+    "lip_thickness": 0.4,
+    "flange_radial_reach": 10.25,
+    "maximum_preserved_radius": 22.5,
+    "preserved_region_overlap": 0.1,
+    "circular_segments": 256,
+    "corners": 5,
+    "phase_degrees": 90.0
+  },
+  "sizes": [
+    {
+      "target_hole_mm": 45,
+      "source_height_mm": 10.400001000000001,
+      "preserved_radius_mm": 20.46551724137931,
+      "corner_radius_mm": 23.2,
+      "support_radius_mm": 22.4,
+      "top_scale": 0.9181034482758621,
+      "gear_flange_od_mm": 65.5,
+      "gear_flange_thickness_mm": 0.4,
+      "cap_lip_thickness_mm": 0.4,
+      "source_cap_interface_pass": true,
+      "source_interface_above_base_pass": true,
+      "source_base_bore_section_pass": true,
+      "source": "kraken-spool-ring-45-mm-100.3mf",
+      "source_sha256": "e737b0c46ed63064137d2d728a71cbd6dab4859194e901eabc6b27a4ef31956f",
+      "parts": [
+        {
+          "stem": "kraken-spool-ring-45-mm-pentagon-gear-side-0.4mm-flange",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 5833.449973604338,
+          "bounds_mm": [
+            [
+              -32.75,
+              -32.75,
+              0.0
+            ],
+            [
+              32.75,
+              32.75,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.0011772422836319348,
+          "exported_protected_region_difference_mm3": 0.0005061374658663217,
+          "files": {
+            "kraken-spool-ring-45-mm-pentagon-gear-side-0.4mm-flange.stl": "c9d6ef18bb9a496fef8dbbd6b135dd2505b5f8929e473887acaa5a8fececce20",
+            "kraken-spool-ring-45-mm-pentagon-gear-side-0.4mm-flange.3mf": "09138ca9858b76fcd485db700d4327bf7231e961da914f3861988746d7d49da5"
+          }
+        },
+        {
+          "stem": "kraken-spool-ring-45-mm-pentagon-cap-side-0.4mm-lip",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 5270.917628688119,
+          "bounds_mm": [
+            [
+              -25.0,
+              -24.996437,
+              0.0
+            ],
+            [
+              25.0,
+              24.996437000000007,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.001158740199556577,
+          "exported_protected_region_difference_mm3": 0.0005045949929961734,
+          "files": {
+            "kraken-spool-ring-45-mm-pentagon-cap-side-0.4mm-lip.stl": "1f6b42477d7e5b3cb48bd4f31263bc0f986a5933bf6b5a7ac71d52272801df25",
+            "kraken-spool-ring-45-mm-pentagon-cap-side-0.4mm-lip.3mf": "ebf591ad984e2a11b553c507665a8f3e4ba96480b9d1ba7cb8f685bdc125d994"
+          }
+        }
+      ]
+    },
+    {
+      "target_hole_mm": 46,
+      "source_height_mm": 10.400001000000001,
+      "preserved_radius_mm": 20.964135021097047,
+      "corner_radius_mm": 23.7,
+      "support_radius_mm": 22.9,
+      "top_scale": 0.9198312236286921,
+      "gear_flange_od_mm": 66.5,
+      "gear_flange_thickness_mm": 0.4,
+      "cap_lip_thickness_mm": 0.4,
+      "source_cap_interface_pass": true,
+      "source_interface_above_base_pass": true,
+      "source_base_bore_section_pass": true,
+      "source": "kraken-spool-ring-46-mm-100.3mf",
+      "source_sha256": "fa381dcce354ad8b92bbc8e5e8e99a393e83869bfeceb1e8778d89565ac7fdcc",
+      "parts": [
+        {
+          "stem": "kraken-spool-ring-46-mm-pentagon-gear-side-0.4mm-flange",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 6580.595564423445,
+          "bounds_mm": [
+            [
+              -33.25,
+              -33.25,
+              0.0
+            ],
+            [
+              33.25,
+              33.25,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.0011451585055814108,
+          "exported_protected_region_difference_mm3": 0.0005663506156976335,
+          "files": {
+            "kraken-spool-ring-46-mm-pentagon-gear-side-0.4mm-flange.stl": "fbfad41a046649940a22439e127c50bdf304ee10b7ca52b5075a08af741d0b22",
+            "kraken-spool-ring-46-mm-pentagon-gear-side-0.4mm-flange.3mf": "1beba2c44b76c9ec6b519c4b1d55e41ac9db36097920e60bdaa2e6137b89d626"
+          }
+        },
+        {
+          "stem": "kraken-spool-ring-46-mm-pentagon-cap-side-0.4mm-lip",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 6008.322703277282,
+          "bounds_mm": [
+            [
+              -25.5,
+              -25.496361,
+              0.0
+            ],
+            [
+              25.5,
+              25.496360999999997,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.0011147010347146062,
+          "exported_protected_region_difference_mm3": 0.0005633803627603056,
+          "files": {
+            "kraken-spool-ring-46-mm-pentagon-cap-side-0.4mm-lip.stl": "cd0657d0eb695105a8e90fe5e566eebffb3107020661e28e6e7a2cbcc478a164",
+            "kraken-spool-ring-46-mm-pentagon-cap-side-0.4mm-lip.3mf": "1e1aee70a721aeeeae7a72dffa20229e886d9fdbe98fdbfdbb905d8f7956c63a"
+          }
+        }
+      ]
+    },
+    {
+      "target_hole_mm": 47,
+      "source_height_mm": 10.400001000000001,
+      "preserved_radius_mm": 21.46280991735537,
+      "corner_radius_mm": 24.2,
+      "support_radius_mm": 23.4,
+      "top_scale": 0.9214876033057852,
+      "gear_flange_od_mm": 67.5,
+      "gear_flange_thickness_mm": 0.4,
+      "cap_lip_thickness_mm": 0.4,
+      "source_cap_interface_pass": true,
+      "source_interface_above_base_pass": true,
+      "source_base_bore_section_pass": true,
+      "source": "kraken-spool-ring-47-mm-100.3mf",
+      "source_sha256": "d2c39fe5d6095490d1887e1c26a4e3ca0ce0fa9c77d95de538b2cfe82d9f9dd3",
+      "parts": [
+        {
+          "stem": "kraken-spool-ring-47-mm-pentagon-gear-side-0.4mm-flange",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 7343.954885284181,
+          "bounds_mm": [
+            [
+              -33.75,
+              -33.75,
+              0.0
+            ],
+            [
+              33.75,
+              33.75,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.0013305200909511875,
+          "exported_protected_region_difference_mm3": 0.000641362463325058,
+          "files": {
+            "kraken-spool-ring-47-mm-pentagon-gear-side-0.4mm-flange.stl": "918353f7fe682fa4378b341794df699445bf33848b7eff3a6e2a58610cca4848",
+            "kraken-spool-ring-47-mm-pentagon-gear-side-0.4mm-flange.3mf": "5c81a15d3469711a7f792974a8074ca86f8e012253aa9bd913a84c57b6f09389"
+          }
+        },
+        {
+          "stem": "kraken-spool-ring-47-mm-pentagon-cap-side-0.4mm-lip",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 6761.94116716529,
+          "bounds_mm": [
+            [
+              -26.0,
+              -25.996294,
+              0.0
+            ],
+            [
+              26.0,
+              25.996294000000002,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.001288370683812247,
+          "exported_protected_region_difference_mm3": 0.000641300071197289,
+          "files": {
+            "kraken-spool-ring-47-mm-pentagon-cap-side-0.4mm-lip.stl": "27820d06cec32dd82569e61851a17af7ec47aebd23b77bc5bf63f2a88c4c625b",
+            "kraken-spool-ring-47-mm-pentagon-cap-side-0.4mm-lip.3mf": "144d1e03f289ff90acf1a99e9e549bf7d1ebd10fd9a9a9450c78daa08482c668"
+          }
+        }
+      ]
+    },
+    {
+      "target_hole_mm": 48,
+      "source_height_mm": 10.400001000000001,
+      "preserved_radius_mm": 21.96153846153846,
+      "corner_radius_mm": 24.7,
+      "support_radius_mm": 23.9,
+      "top_scale": 0.9230769230769231,
+      "gear_flange_od_mm": 68.5,
+      "gear_flange_thickness_mm": 0.4,
+      "cap_lip_thickness_mm": 0.4,
+      "source_cap_interface_pass": true,
+      "source_interface_above_base_pass": true,
+      "source_base_bore_section_pass": true,
+      "source": "kraken-spool-ring-48-mm-100.3mf",
+      "source_sha256": "908a7b811d051eeae02d9b2bd5628a54581ce23f15b43c85c057cb48187b8ce2",
+      "parts": [
+        {
+          "stem": "kraken-spool-ring-48-mm-pentagon-gear-side-0.4mm-flange",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 8123.6667787921115,
+          "bounds_mm": [
+            [
+              -34.25,
+              -34.25,
+              0.0
+            ],
+            [
+              34.25,
+              34.25,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.0012921289400652874,
+          "exported_protected_region_difference_mm3": 0.0006703135118273412,
+          "files": {
+            "kraken-spool-ring-48-mm-pentagon-gear-side-0.4mm-flange.stl": "659b71d071209fcfc61800bd27c2f1f403480f4d9478e37b6fb3c51aa00e598d",
+            "kraken-spool-ring-48-mm-pentagon-gear-side-0.4mm-flange.3mf": "eb142dd2adcad16210bbe67d805a6200514d829df25ea30e576b2ec4ac196312"
+          }
+        },
+        {
+          "stem": "kraken-spool-ring-48-mm-pentagon-cap-side-0.4mm-lip",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 7531.912138286443,
+          "bounds_mm": [
+            [
+              -26.5,
+              -26.496222000000003,
+              0.0
+            ],
+            [
+              26.5,
+              26.496221999999996,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.0012663486854062528,
+          "exported_protected_region_difference_mm3": 0.0006696906609195154,
+          "files": {
+            "kraken-spool-ring-48-mm-pentagon-cap-side-0.4mm-lip.stl": "2da02e3ab86127c2f9b4188a162b8f2f788f1f32bf9ca87d31d43868432e0363",
+            "kraken-spool-ring-48-mm-pentagon-cap-side-0.4mm-lip.3mf": "117774fd4e8e74ca92c623854c65917fe31ff823bb757c89d0af0f00ca870feb"
+          }
+        }
+      ]
+    },
+    {
+      "target_hole_mm": 49,
+      "source_height_mm": 10.400001000000001,
+      "preserved_radius_mm": 22.46031746031746,
+      "corner_radius_mm": 25.2,
+      "support_radius_mm": 24.4,
+      "top_scale": 0.9246031746031746,
+      "gear_flange_od_mm": 69.5,
+      "gear_flange_thickness_mm": 0.4,
+      "cap_lip_thickness_mm": 0.4,
+      "source_cap_interface_pass": true,
+      "source_interface_above_base_pass": true,
+      "source_base_bore_section_pass": true,
+      "source": "kraken-spool-ring-49-mm-100.3mf",
+      "source_sha256": "36aa3af62a5fcb759eed350c856cb597702f681025a79efe593d54767b1d8230",
+      "parts": [
+        {
+          "stem": "kraken-spool-ring-49-mm-pentagon-gear-side-0.4mm-flange",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 8919.807861441794,
+          "bounds_mm": [
+            [
+              -34.75,
+              -34.75,
+              0.0
+            ],
+            [
+              34.75,
+              34.75,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.0012422588728113115,
+          "exported_protected_region_difference_mm3": 0.000610337411485218,
+          "files": {
+            "kraken-spool-ring-49-mm-pentagon-gear-side-0.4mm-flange.stl": "7bc285dd83c5ef5412a132fae8bacb398214ced77676a0f70ab967c9487167de",
+            "kraken-spool-ring-49-mm-pentagon-gear-side-0.4mm-flange.3mf": "e41fff019a00f0cd0d06944ea6d8fc5d81e1e58bf4def7f47e9354e21691971a"
+          }
+        },
+        {
+          "stem": "kraken-spool-ring-49-mm-pentagon-cap-side-0.4mm-lip",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 8318.312524154071,
+          "bounds_mm": [
+            [
+              -27.0,
+              -26.996147,
+              0.0
+            ],
+            [
+              27.0,
+              26.996147,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.0011972020454949434,
+          "exported_protected_region_difference_mm3": 0.0006085763131590255,
+          "files": {
+            "kraken-spool-ring-49-mm-pentagon-cap-side-0.4mm-lip.stl": "a3104907dded4a149e63280b70a6af8cdc15169ffa5ae1ff424964f9520cecd1",
+            "kraken-spool-ring-49-mm-pentagon-cap-side-0.4mm-lip.3mf": "86b8cf11f9a97908dad70ade77bd1186c8956862d04658e3e7c72b1e6ad89d70"
+          }
+        }
+      ]
+    },
+    {
+      "target_hole_mm": 50,
+      "source_height_mm": 10.400001000000001,
+      "preserved_radius_mm": 22.5,
+      "corner_radius_mm": 25.7,
+      "support_radius_mm": 24.9,
+      "top_scale": 0.9260700389105059,
+      "gear_flange_od_mm": 70.5,
+      "gear_flange_thickness_mm": 0.4,
+      "cap_lip_thickness_mm": 0.4,
+      "source_cap_interface_pass": true,
+      "source_interface_above_base_pass": true,
+      "source_base_bore_section_pass": true,
+      "source": "kraken-spool-ring-50-mm-100.3mf",
+      "source_sha256": "e74069daff0eea9af0df013a2c13127ce090d1cadf82d8c5083d41be13af2c98",
+      "parts": [
+        {
+          "stem": "kraken-spool-ring-50-mm-pentagon-gear-side-0.4mm-flange",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 9732.190030236976,
+          "bounds_mm": [
+            [
+              -35.25,
+              -35.25,
+              0.0
+            ],
+            [
+              35.25,
+              35.25,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.001253866847746562,
+          "exported_protected_region_difference_mm3": 0.0006328119980214506,
+          "files": {
+            "kraken-spool-ring-50-mm-pentagon-gear-side-0.4mm-flange.stl": "615e45cf51cf308de2203947acfc07f2c51bcb0a69035617042849709cf5b0be",
+            "kraken-spool-ring-50-mm-pentagon-gear-side-0.4mm-flange.3mf": "a07c1d0b0f2c8b52b9ae583496a44a3a45b3add928e597729038a2319ec6ad6a"
+          }
+        },
+        {
+          "stem": "kraken-spool-ring-50-mm-pentagon-cap-side-0.4mm-lip",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 9120.953674935086,
+          "bounds_mm": [
+            [
+              -27.5,
+              -27.496078000000004,
+              0.0
+            ],
+            [
+              27.5,
+              27.496078,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.0012224510248328606,
+          "exported_protected_region_difference_mm3": 0.0006332037836015061,
+          "files": {
+            "kraken-spool-ring-50-mm-pentagon-cap-side-0.4mm-lip.stl": "638119647207d94528bda08c4c4f363d6b483938fb1d161680ecc23ce4b6e6d9",
+            "kraken-spool-ring-50-mm-pentagon-cap-side-0.4mm-lip.3mf": "67988cdb5f6b6693df9af26b945680e7fa474297ec20e20fe91634dc133203fe"
+          }
+        }
+      ]
+    },
+    {
+      "target_hole_mm": 51,
+      "source_height_mm": 10.400001000000001,
+      "preserved_radius_mm": 22.5,
+      "corner_radius_mm": 26.2,
+      "support_radius_mm": 25.4,
+      "top_scale": 0.9274809160305344,
+      "gear_flange_od_mm": 71.5,
+      "gear_flange_thickness_mm": 0.4,
+      "cap_lip_thickness_mm": 0.4,
+      "source_cap_interface_pass": true,
+      "source_interface_above_base_pass": true,
+      "source_base_bore_section_pass": true,
+      "source": "kraken-spool-ring-51-mm-100.3mf",
+      "source_sha256": "0388c7945c5b60727b248f7bcc77d3014c7a0650b924ab62e9da63c926e868de",
+      "parts": [
+        {
+          "stem": "kraken-spool-ring-51-mm-pentagon-gear-side-0.4mm-flange",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 10560.79716160886,
+          "bounds_mm": [
+            [
+              -35.75,
+              -35.75,
+              0.0
+            ],
+            [
+              35.75,
+              35.75,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.0014207537440009137,
+          "exported_protected_region_difference_mm3": 0.0006181217583497067,
+          "files": {
+            "kraken-spool-ring-51-mm-pentagon-gear-side-0.4mm-flange.stl": "904bfb094df03bd2ff81b33eac4ef918a7969dad4852d238e978cfd295cdb2d6",
+            "kraken-spool-ring-51-mm-pentagon-gear-side-0.4mm-flange.3mf": "3b1a64e3c71ca785d2f5a557a63e94f32a31accbed8cd4db19e69925a29cd73b"
+          }
+        },
+        {
+          "stem": "kraken-spool-ring-51-mm-pentagon-cap-side-0.4mm-lip",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 9939.823403472888,
+          "bounds_mm": [
+            [
+              -28.0,
+              -27.996007000000006,
+              0.0
+            ],
+            [
+              28.0,
+              27.996007,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.0013828868031020582,
+          "exported_protected_region_difference_mm3": 0.0006158222723317609,
+          "files": {
+            "kraken-spool-ring-51-mm-pentagon-cap-side-0.4mm-lip.stl": "e14bb4de0625cfe077f29ee03fac6652427cd0a05d80dd6e5afe20fd6676f1f8",
+            "kraken-spool-ring-51-mm-pentagon-cap-side-0.4mm-lip.3mf": "e97559561b5cc2f8ffd6268c7a5ea494c878b78afd13f550b1127fd6dd807b83"
+          }
+        }
+      ]
+    },
+    {
+      "target_hole_mm": 52,
+      "source_height_mm": 10.400001000000001,
+      "preserved_radius_mm": 22.5,
+      "corner_radius_mm": 26.7,
+      "support_radius_mm": 25.9,
+      "top_scale": 0.9288389513108615,
+      "gear_flange_od_mm": 72.5,
+      "gear_flange_thickness_mm": 0.4,
+      "cap_lip_thickness_mm": 0.4,
+      "source_cap_interface_pass": true,
+      "source_interface_above_base_pass": true,
+      "source_base_bore_section_pass": true,
+      "source": "kraken-spool-ring-52-mm-100.3mf",
+      "source_sha256": "bc123f2ad9baf75d370381434c11c60c254031a3d0be5004b7ca253b137ffa8f",
+      "parts": [
+        {
+          "stem": "kraken-spool-ring-52-mm-pentagon-gear-side-0.4mm-flange",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 11406.022776501743,
+          "bounds_mm": [
+            [
+              -36.25,
+              -36.25,
+              0.0
+            ],
+            [
+              36.25,
+              36.25,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.0015685738771253456,
+          "exported_protected_region_difference_mm3": 0.0006782500253018148,
+          "files": {
+            "kraken-spool-ring-52-mm-pentagon-gear-side-0.4mm-flange.stl": "86ba3caf766fe0c39de084d97eee03e92011340bcd8e737ce475d3c9b68a81dc",
+            "kraken-spool-ring-52-mm-pentagon-gear-side-0.4mm-flange.3mf": "e134160160394946aa3967cecad8cc913feab5c1ccb83e48c5015174c6dd23b2"
+          }
+        },
+        {
+          "stem": "kraken-spool-ring-52-mm-pentagon-cap-side-0.4mm-lip",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 10775.304516543472,
+          "bounds_mm": [
+            [
+              -28.5,
+              -28.495936,
+              0.0
+            ],
+            [
+              28.5,
+              28.495936,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.0015344635535108103,
+          "exported_protected_region_difference_mm3": 0.0006793336519637304,
+          "files": {
+            "kraken-spool-ring-52-mm-pentagon-cap-side-0.4mm-lip.stl": "a2e0fd4b6abfb700df91f63fe7e721685ccf6468cab7c98a4763b3630a155cee",
+            "kraken-spool-ring-52-mm-pentagon-cap-side-0.4mm-lip.3mf": "409386f5570febc71c2373818e6470e5e506264ae384bfbbcfa6edd5f31032a9"
+          }
+        }
+      ]
+    },
+    {
+      "target_hole_mm": 53,
+      "source_height_mm": 10.400001000000001,
+      "preserved_radius_mm": 22.5,
+      "corner_radius_mm": 27.2,
+      "support_radius_mm": 26.4,
+      "top_scale": 0.9301470588235294,
+      "gear_flange_od_mm": 73.5,
+      "gear_flange_thickness_mm": 0.4,
+      "cap_lip_thickness_mm": 0.4,
+      "source_cap_interface_pass": true,
+      "source_interface_above_base_pass": true,
+      "source_base_bore_section_pass": true,
+      "source": "kraken-spool-ring-53-mm-100.3mf",
+      "source_sha256": "2c8ebc1c810a91d741183d50ca780147a187ec3c7fad00661a39acb2d668c100",
+      "parts": [
+        {
+          "stem": "kraken-spool-ring-53-mm-pentagon-gear-side-0.4mm-flange",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 12267.37082349653,
+          "bounds_mm": [
+            [
+              -36.75,
+              -36.75,
+              0.0
+            ],
+            [
+              36.75,
+              36.75,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.001431220453840679,
+          "exported_protected_region_difference_mm3": 0.0006455170829006175,
+          "files": {
+            "kraken-spool-ring-53-mm-pentagon-gear-side-0.4mm-flange.stl": "3143db58bccf622c9f69ef34fc938f9449f54930db7131c3f0a55b69bf926ddf",
+            "kraken-spool-ring-53-mm-pentagon-gear-side-0.4mm-flange.3mf": "afd5ba770af456259c0e7022417fdc5577e713ab16bface0c7b934fe41ab3226"
+          }
+        },
+        {
+          "stem": "kraken-spool-ring-53-mm-pentagon-cap-side-0.4mm-lip",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 11626.911344353275,
+          "bounds_mm": [
+            [
+              -29.0,
+              -28.995863,
+              0.0
+            ],
+            [
+              29.0,
+              28.995862999999996,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.0013879207156048368,
+          "exported_protected_region_difference_mm3": 0.0006425611942346683,
+          "files": {
+            "kraken-spool-ring-53-mm-pentagon-cap-side-0.4mm-lip.stl": "c3a387c32b423a1c28c50111d9841a8fdb2e7a2d589fab60c86b0021f0eda360",
+            "kraken-spool-ring-53-mm-pentagon-cap-side-0.4mm-lip.3mf": "b0e1781a6dc3cedd78cab525e457b9e00569f35cc4404f82e6b595f786f92313"
+          }
+        }
+      ]
+    },
+    {
+      "target_hole_mm": 54,
+      "source_height_mm": 10.400001000000001,
+      "preserved_radius_mm": 22.5,
+      "corner_radius_mm": 27.7,
+      "support_radius_mm": 26.9,
+      "top_scale": 0.9314079422382672,
+      "gear_flange_od_mm": 74.5,
+      "gear_flange_thickness_mm": 0.4,
+      "cap_lip_thickness_mm": 0.4,
+      "source_cap_interface_pass": true,
+      "source_interface_above_base_pass": true,
+      "source_base_bore_section_pass": true,
+      "source": "kraken-spool-ring-54-mm-100.3mf",
+      "source_sha256": "1066c0dd7f65370ae5305f94d2c6ebdeb5fb9dd49db0338308c3ac245d02c749",
+      "parts": [
+        {
+          "stem": "kraken-spool-ring-54-mm-pentagon-gear-side-0.4mm-flange",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 13145.182484412846,
+          "bounds_mm": [
+            [
+              -37.25,
+              -37.25,
+              0.0
+            ],
+            [
+              37.25,
+              37.25,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.0016016768204611914,
+          "exported_protected_region_difference_mm3": 0.000704150992578041,
+          "files": {
+            "kraken-spool-ring-54-mm-pentagon-gear-side-0.4mm-flange.stl": "018ca5fa36fa20e0d29a9425e99de363539ac38201e3a23d362d4de43915c52e",
+            "kraken-spool-ring-54-mm-pentagon-gear-side-0.4mm-flange.3mf": "ca8464cb6c079330454983b939a66f4bc6f97f1ae4b2cf8eb95dbb341431a8a4"
+          }
+        },
+        {
+          "stem": "kraken-spool-ring-54-mm-pentagon-cap-side-0.4mm-lip",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 12494.982092803773,
+          "bounds_mm": [
+            [
+              -29.5,
+              -29.495791999999994,
+              0.0
+            ],
+            [
+              29.5,
+              29.495792,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.001567921114931069,
+          "exported_protected_region_difference_mm3": 0.0007059722247338355,
+          "files": {
+            "kraken-spool-ring-54-mm-pentagon-cap-side-0.4mm-lip.stl": "9946961c9495a71122f74216c7fb696fe935723df6fb261f0d6d1b387ee7d1ce",
+            "kraken-spool-ring-54-mm-pentagon-cap-side-0.4mm-lip.3mf": "836fbd25795c4d23a3c96fc0370e862573d39ffa473a9d71fe2cfd708e7c921f"
+          }
+        }
+      ]
+    },
+    {
+      "target_hole_mm": 55,
+      "source_height_mm": 10.400001000000001,
+      "preserved_radius_mm": 22.5,
+      "corner_radius_mm": 28.2,
+      "support_radius_mm": 27.4,
+      "top_scale": 0.9326241134751774,
+      "gear_flange_od_mm": 75.5,
+      "gear_flange_thickness_mm": 0.4,
+      "cap_lip_thickness_mm": 0.4,
+      "source_cap_interface_pass": true,
+      "source_interface_above_base_pass": true,
+      "source_base_bore_section_pass": true,
+      "source": "kraken-spool-ring-55-mm-100.3mf",
+      "source_sha256": "4107e23567976c87801373636546ecbc94dc4919c85f1e3ef1aa8c26a04a7c34",
+      "parts": [
+        {
+          "stem": "kraken-spool-ring-55-mm-pentagon-gear-side-0.4mm-flange",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 14039.19935019556,
+          "bounds_mm": [
+            [
+              -37.75,
+              -37.75,
+              0.0
+            ],
+            [
+              37.75,
+              37.75,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.0016090864017391515,
+          "exported_protected_region_difference_mm3": 0.0006421066923460052,
+          "files": {
+            "kraken-spool-ring-55-mm-pentagon-gear-side-0.4mm-flange.stl": "565afa713b49ea3be5783c448ba0ab42d430e3353b8ea0987578f037672f2981",
+            "kraken-spool-ring-55-mm-pentagon-gear-side-0.4mm-flange.3mf": "8abb874650e93503592048f2ce22e10c6ec57361b4f7881c62d349ccc2ff6571"
+          }
+        },
+        {
+          "stem": "kraken-spool-ring-55-mm-pentagon-cap-side-0.4mm-lip",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 13379.257664080826,
+          "bounds_mm": [
+            [
+              -30.0,
+              -29.995721000000003,
+              0.0
+            ],
+            [
+              30.0,
+              29.995721000000003,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.0015657669329830323,
+          "exported_protected_region_difference_mm3": 0.0006387079263608581,
+          "files": {
+            "kraken-spool-ring-55-mm-pentagon-cap-side-0.4mm-lip.stl": "0a7ac7b7da67406c98c7c67cb89b8c39214b20cbee98fef1c0f32636df50e5c2",
+            "kraken-spool-ring-55-mm-pentagon-cap-side-0.4mm-lip.3mf": "7459f18f5126cd7ae645e9501efee88e048594de9989a780d17afc97a5512816"
+          }
+        }
+      ]
+    },
+    {
+      "target_hole_mm": 56,
+      "source_height_mm": 10.400001000000001,
+      "preserved_radius_mm": 22.5,
+      "corner_radius_mm": 28.7,
+      "support_radius_mm": 27.9,
+      "top_scale": 0.9337979094076656,
+      "gear_flange_od_mm": 76.5,
+      "gear_flange_thickness_mm": 0.4,
+      "cap_lip_thickness_mm": 0.4,
+      "source_cap_interface_pass": true,
+      "source_interface_above_base_pass": true,
+      "source_base_bore_section_pass": true,
+      "source": "kraken-spool-ring-56-mm-100.3mf",
+      "source_sha256": "57d0f2456d79738f88befe76469af248f0d1a6038566acb28f194f97b4032f23",
+      "parts": [
+        {
+          "stem": "kraken-spool-ring-56-mm-pentagon-gear-side-0.4mm-flange",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 14949.550706977765,
+          "bounds_mm": [
+            [
+              -38.25,
+              -38.25,
+              0.0
+            ],
+            [
+              38.25,
+              38.25,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.0014957943211703411,
+          "exported_protected_region_difference_mm3": 0.0006424613399660366,
+          "files": {
+            "kraken-spool-ring-56-mm-pentagon-gear-side-0.4mm-flange.stl": "0fdde9021231ac9fd6f1cc712f50958a05c3d4ad7bc77ecabc7aadb36892738e",
+            "kraken-spool-ring-56-mm-pentagon-gear-side-0.4mm-flange.3mf": "b15ee012e6f5846b838abe5503d51a8613584815748d37a16bf585b1fce892e1"
+          }
+        },
+        {
+          "stem": "kraken-spool-ring-56-mm-pentagon-cap-side-0.4mm-lip",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 14279.867637694162,
+          "bounds_mm": [
+            [
+              -30.5,
+              -30.495649,
+              0.0
+            ],
+            [
+              30.5,
+              30.495649000000004,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.0014599844034907886,
+          "exported_protected_region_difference_mm3": 0.0006390688788029612,
+          "files": {
+            "kraken-spool-ring-56-mm-pentagon-cap-side-0.4mm-lip.stl": "77027ca35ff4c7206479130b3224ff6895d571ec332e3ccb55a70c811a56eab8",
+            "kraken-spool-ring-56-mm-pentagon-cap-side-0.4mm-lip.3mf": "9145e86731e10c08f28923a7cd31b5fd9f40876a0f72ac81ec902fe398138844"
+          }
+        }
+      ]
+    },
+    {
+      "target_hole_mm": 57,
+      "source_height_mm": 10.400001000000001,
+      "preserved_radius_mm": 22.5,
+      "corner_radius_mm": 29.2,
+      "support_radius_mm": 28.4,
+      "top_scale": 0.9349315068493151,
+      "gear_flange_od_mm": 77.5,
+      "gear_flange_thickness_mm": 0.4,
+      "cap_lip_thickness_mm": 0.4,
+      "source_cap_interface_pass": true,
+      "source_interface_above_base_pass": true,
+      "source_base_bore_section_pass": true,
+      "source": "kraken-spool-ring-57-mm-100.3mf",
+      "source_sha256": "800370d3d5c90d5fe705dc480f6e5dd0bbca11d46765687b79fc97483730e98b",
+      "parts": [
+        {
+          "stem": "kraken-spool-ring-57-mm-pentagon-gear-side-0.4mm-flange",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 15876.142384003078,
+          "bounds_mm": [
+            [
+              -38.75,
+              -38.75,
+              0.0
+            ],
+            [
+              38.75,
+              38.75,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.0015746499111536061,
+          "exported_protected_region_difference_mm3": 0.000612986327201792,
+          "files": {
+            "kraken-spool-ring-57-mm-pentagon-gear-side-0.4mm-flange.stl": "7c2275e49fbef65361640a0780223e6e0a2088a4668a4f1c1cf41229e0260f6e",
+            "kraken-spool-ring-57-mm-pentagon-gear-side-0.4mm-flange.3mf": "f1d4b1c260360161f708b9ed587dd7a2d4e334c631a88bfea4160a2897990e1f"
+          }
+        },
+        {
+          "stem": "kraken-spool-ring-57-mm-pentagon-cap-side-0.4mm-lip",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 15196.721779203399,
+          "bounds_mm": [
+            [
+              -31.0,
+              -30.995576999999997,
+              0.0
+            ],
+            [
+              31.0,
+              30.995577,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.001522584545582861,
+          "exported_protected_region_difference_mm3": 0.0006093424033313999,
+          "files": {
+            "kraken-spool-ring-57-mm-pentagon-cap-side-0.4mm-lip.stl": "8588a5e90e9a50f01882ab3226fbab1320f7ece3bfd920028e60024920a8ee1c",
+            "kraken-spool-ring-57-mm-pentagon-cap-side-0.4mm-lip.3mf": "d849c9e1f5b82dd41daf6ea843f7a18aadbfd686963710e69765a0da5070cd1a"
+          }
+        }
+      ]
+    },
+    {
+      "target_hole_mm": 58,
+      "source_height_mm": 10.400001000000001,
+      "preserved_radius_mm": 22.5,
+      "corner_radius_mm": 29.7,
+      "support_radius_mm": 28.9,
+      "top_scale": 0.9360269360269361,
+      "gear_flange_od_mm": 78.5,
+      "gear_flange_thickness_mm": 0.4,
+      "cap_lip_thickness_mm": 0.4,
+      "source_cap_interface_pass": true,
+      "source_interface_above_base_pass": true,
+      "source_base_bore_section_pass": true,
+      "source": "kraken-spool-ring-58-mm-100.3mf",
+      "source_sha256": "161259af709c4e55efd888c4159b2c8ecb8c5f5c6303d006ca1ad37ff9473af1",
+      "parts": [
+        {
+          "stem": "kraken-spool-ring-58-mm-pentagon-gear-side-0.4mm-flange",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 16819.39659947583,
+          "bounds_mm": [
+            [
+              -39.25,
+              -39.25,
+              0.0
+            ],
+            [
+              39.25,
+              39.25,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.0017356216108068154,
+          "exported_protected_region_difference_mm3": 0.0006226932799307148,
+          "files": {
+            "kraken-spool-ring-58-mm-pentagon-gear-side-0.4mm-flange.stl": "397e214b5891f96b9eda854b448dd2fd1ef893b0c7bddbf46ff58857c90885f4",
+            "kraken-spool-ring-58-mm-pentagon-gear-side-0.4mm-flange.3mf": "c9fd9f024ce69dfadf8c2e38f3f9e23682d6ed6295364d8eabeb2f864322ec37"
+          }
+        },
+        {
+          "stem": "kraken-spool-ring-58-mm-pentagon-cap-side-0.4mm-lip",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 16130.230982457546,
+          "bounds_mm": [
+            [
+              -31.5,
+              -31.495504999999994,
+              0.0
+            ],
+            [
+              31.5,
+              31.495505,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.0016907678384912167,
+          "exported_protected_region_difference_mm3": 0.0006189475073805307,
+          "files": {
+            "kraken-spool-ring-58-mm-pentagon-cap-side-0.4mm-lip.stl": "cf779e22f6b7b907ad924abd14920c92b5a8650c890d8d9fbfdfb0cf2c71037f",
+            "kraken-spool-ring-58-mm-pentagon-cap-side-0.4mm-lip.3mf": "968ad9aa54919f3af4ce4f3d1772d3189e30c3834d58cd33396d6497c3ea119f"
+          }
+        }
+      ]
+    },
+    {
+      "target_hole_mm": 59,
+      "source_height_mm": 10.400001000000001,
+      "preserved_radius_mm": 22.5,
+      "corner_radius_mm": 30.2,
+      "support_radius_mm": 29.4,
+      "top_scale": 0.9370860927152318,
+      "gear_flange_od_mm": 79.5,
+      "gear_flange_thickness_mm": 0.4,
+      "cap_lip_thickness_mm": 0.4,
+      "source_cap_interface_pass": true,
+      "source_interface_above_base_pass": true,
+      "source_base_bore_section_pass": true,
+      "source": "kraken-spool-ring-59-mm-100.3mf",
+      "source_sha256": "f4f7331f15835cef0692eab1cbda43707666f914c9a5074c663468c5f935aa72",
+      "parts": [
+        {
+          "stem": "kraken-spool-ring-59-mm-pentagon-gear-side-0.4mm-flange",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 17778.751470828356,
+          "bounds_mm": [
+            [
+              -39.75,
+              -39.75,
+              0.0
+            ],
+            [
+              39.75,
+              39.75,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.0017923539578393695,
+          "exported_protected_region_difference_mm3": 0.0006607092700751838,
+          "files": {
+            "kraken-spool-ring-59-mm-pentagon-gear-side-0.4mm-flange.stl": "3a15c8cdaf2b030457a127baab427b149777f735b7efc0e64bccd53c1129f138",
+            "kraken-spool-ring-59-mm-pentagon-gear-side-0.4mm-flange.3mf": "e5a283e98657d0616edf84b542521488d2b6fdac08d2f9761c460e143491498c"
+          }
+        },
+        {
+          "stem": "kraken-spool-ring-59-mm-pentagon-cap-side-0.4mm-lip",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 17079.844337468672,
+          "bounds_mm": [
+            [
+              -32.0,
+              -31.995438,
+              0.0
+            ],
+            [
+              32.0,
+              31.995438000000004,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.0017526647769374895,
+          "exported_protected_region_difference_mm3": 0.0006606519009150916,
+          "files": {
+            "kraken-spool-ring-59-mm-pentagon-cap-side-0.4mm-lip.stl": "965f192c5a83a549280cb2d7539f2fea25ad5d7a33f93348e88a82a6f71575b5",
+            "kraken-spool-ring-59-mm-pentagon-cap-side-0.4mm-lip.3mf": "772dfb0386002bacb408adcbe1e3d80120c2314bd80c6552e146d27e116065f5"
+          }
+        }
+      ]
+    },
+    {
+      "target_hole_mm": 60,
+      "source_height_mm": 10.400001000000001,
+      "preserved_radius_mm": 22.5,
+      "corner_radius_mm": 30.7,
+      "support_radius_mm": 29.9,
+      "top_scale": 0.9381107491856678,
+      "gear_flange_od_mm": 80.5,
+      "gear_flange_thickness_mm": 0.4,
+      "cap_lip_thickness_mm": 0.4,
+      "source_cap_interface_pass": true,
+      "source_interface_above_base_pass": true,
+      "source_base_bore_section_pass": true,
+      "source": "kraken-spool-ring-60-mm-100.3mf",
+      "source_sha256": "8853edf3e440ade33793b13a3cf960f3ebe36bbedfcca1fce9fd4089e2a3aba1",
+      "parts": [
+        {
+          "stem": "kraken-spool-ring-60-mm-pentagon-gear-side-0.4mm-flange",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 18754.4127745685,
+          "bounds_mm": [
+            [
+              -40.25,
+              -40.25,
+              0.0
+            ],
+            [
+              40.25,
+              40.25,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.0017598606468083272,
+          "exported_protected_region_difference_mm3": 0.0006290601933016014,
+          "files": {
+            "kraken-spool-ring-60-mm-pentagon-gear-side-0.4mm-flange.stl": "0f0861d726be06a37a274859a7b8bd929c54ec3db5a6c7d0893cd3d2d1df07f6",
+            "kraken-spool-ring-60-mm-pentagon-gear-side-0.4mm-flange.3mf": "594284265b1e67a53062f6b305a74407859d31afed4625117eb5857b47c6c5a4"
+          }
+        },
+        {
+          "stem": "kraken-spool-ring-60-mm-pentagon-cap-side-0.4mm-lip",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 18045.768021081163,
+          "bounds_mm": [
+            [
+              -32.5,
+              -32.495363000000005,
+              0.0
+            ],
+            [
+              32.5,
+              32.495363,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.001704622791503031,
+          "exported_protected_region_difference_mm3": 0.0006249643756510937,
+          "files": {
+            "kraken-spool-ring-60-mm-pentagon-cap-side-0.4mm-lip.stl": "4c8e505757ebeeed1556730f2561dab4e7e7740f4477e4b159cf620c1c6ef8b6",
+            "kraken-spool-ring-60-mm-pentagon-cap-side-0.4mm-lip.3mf": "92b5605ee4113f38b30ad3118c1ac53b5fb49b9c521650064de32fbc4dbae755"
+          }
+        }
+      ]
+    },
+    {
+      "target_hole_mm": 61,
+      "source_height_mm": 10.400001000000001,
+      "preserved_radius_mm": 22.5,
+      "corner_radius_mm": 31.2,
+      "support_radius_mm": 30.4,
+      "top_scale": 0.9391025641025641,
+      "gear_flange_od_mm": 81.5,
+      "gear_flange_thickness_mm": 0.4,
+      "cap_lip_thickness_mm": 0.4,
+      "source_cap_interface_pass": true,
+      "source_interface_above_base_pass": true,
+      "source_base_bore_section_pass": true,
+      "source": "kraken-spool-ring-61-mm-100.3mf",
+      "source_sha256": "a28aa18684f7d67cc51048e5520ccda13c625c8257196b711e6c16cafc3d8e54",
+      "parts": [
+        {
+          "stem": "kraken-spool-ring-61-mm-pentagon-gear-side-0.4mm-flange",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 19746.614875439427,
+          "bounds_mm": [
+            [
+              -40.75,
+              -40.75,
+              0.0
+            ],
+            [
+              40.75,
+              40.75,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.0019760915675212853,
+          "exported_protected_region_difference_mm3": 0.0006913919372952155,
+          "files": {
+            "kraken-spool-ring-61-mm-pentagon-gear-side-0.4mm-flange.stl": "a3de60bef739a49a76bca98be8513bbf79d739bcf5a0d524b6e09711af5a9e76",
+            "kraken-spool-ring-61-mm-pentagon-gear-side-0.4mm-flange.3mf": "e1d734a60fc0bc3dbd7d60b1e5ac2e5880971f2930f7aa31113acc869874959b"
+          }
+        },
+        {
+          "stem": "kraken-spool-ring-61-mm-pentagon-cap-side-0.4mm-lip",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 19028.224860075086,
+          "bounds_mm": [
+            [
+              -33.0,
+              -32.995294,
+              0.0
+            ],
+            [
+              33.0,
+              32.995293999999994,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.001923052555825888,
+          "exported_protected_region_difference_mm3": 0.0006917804096911138,
+          "files": {
+            "kraken-spool-ring-61-mm-pentagon-cap-side-0.4mm-lip.stl": "13696e052d07d5de888b40a2c185e7b7875da7160d2e39819ccb697462076bc4",
+            "kraken-spool-ring-61-mm-pentagon-cap-side-0.4mm-lip.3mf": "33f6c8effafb741cfef334ecfeea4565724b12893fab40a49a5e2e1fd399cd8d"
+          }
+        }
+      ]
+    },
+    {
+      "target_hole_mm": 62,
+      "source_height_mm": 10.400001000000001,
+      "preserved_radius_mm": 22.5,
+      "corner_radius_mm": 31.7,
+      "support_radius_mm": 30.9,
+      "top_scale": 0.9400630914826499,
+      "gear_flange_od_mm": 82.5,
+      "gear_flange_thickness_mm": 0.4,
+      "cap_lip_thickness_mm": 0.4,
+      "source_cap_interface_pass": true,
+      "source_interface_above_base_pass": true,
+      "source_base_bore_section_pass": true,
+      "source": "kraken-spool-ring-62-mm-100.3mf",
+      "source_sha256": "994dce0598e4881105cae210cd0a691a488f8f24e06de4ddff4f555210b51bde",
+      "parts": [
+        {
+          "stem": "kraken-spool-ring-62-mm-pentagon-gear-side-0.4mm-flange",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 20754.973113747514,
+          "bounds_mm": [
+            [
+              -41.25,
+              -41.25,
+              0.0
+            ],
+            [
+              41.25,
+              41.25,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.0020357795173365075,
+          "exported_protected_region_difference_mm3": 0.0006496003015731708,
+          "files": {
+            "kraken-spool-ring-62-mm-pentagon-gear-side-0.4mm-flange.stl": "f5a564f0d736c6fa16fea534e5af7eb973feec6c269b542d474c15089a5826ce",
+            "kraken-spool-ring-62-mm-pentagon-gear-side-0.4mm-flange.3mf": "8d0c5ef59d694cddacbf7fc9556f1a9057a80736b1ba0ac9fa30e34e8ce1f0af"
+          }
+        },
+        {
+          "stem": "kraken-spool-ring-62-mm-pentagon-cap-side-0.4mm-lip",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 20026.84138925088,
+          "bounds_mm": [
+            [
+              -33.5,
+              -33.495222999999996,
+              0.0
+            ],
+            [
+              33.5,
+              33.495222999999996,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.0019897896602511555,
+          "exported_protected_region_difference_mm3": 0.0006463680824481657,
+          "files": {
+            "kraken-spool-ring-62-mm-pentagon-cap-side-0.4mm-lip.stl": "62d1bb12243d470e4575df877128f9d3659abaf10bd11751bd77e6d8d39fd779",
+            "kraken-spool-ring-62-mm-pentagon-cap-side-0.4mm-lip.3mf": "02e9e240d0cb5bba358e4fd2d7ae9ba37dffce27dc42a29e6b8fce867570af31"
+          }
+        }
+      ]
+    },
+    {
+      "target_hole_mm": 63,
+      "source_height_mm": 10.400001000000001,
+      "preserved_radius_mm": 22.5,
+      "corner_radius_mm": 32.2,
+      "support_radius_mm": 31.4,
+      "top_scale": 0.9409937888198758,
+      "gear_flange_od_mm": 83.5,
+      "gear_flange_thickness_mm": 0.4,
+      "cap_lip_thickness_mm": 0.4,
+      "source_cap_interface_pass": true,
+      "source_interface_above_base_pass": true,
+      "source_base_bore_section_pass": true,
+      "source": "kraken-spool-ring-63-mm-100.3mf",
+      "source_sha256": "def0c484db99ff9a9b169240605d4e3e01f2353d5660f4c3287a141618d73d0f",
+      "parts": [
+        {
+          "stem": "kraken-spool-ring-63-mm-pentagon-gear-side-0.4mm-flange",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 21779.63753287599,
+          "bounds_mm": [
+            [
+              -41.75,
+              -41.75,
+              0.0
+            ],
+            [
+              41.75,
+              41.75,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.002065940314502383,
+          "exported_protected_region_difference_mm3": 0.0007379148375728441,
+          "files": {
+            "kraken-spool-ring-63-mm-pentagon-gear-side-0.4mm-flange.stl": "b6af9307e601fcb4c85d17cd203bc80b3af261f4edbe54589dd9e78672f87f0c",
+            "kraken-spool-ring-63-mm-pentagon-gear-side-0.4mm-flange.3mf": "80dff4a83c8a9d93d6d7064cc14eaa6854fa46108c08233868fff4774b4396a4"
+          }
+        },
+        {
+          "stem": "kraken-spool-ring-63-mm-pentagon-cap-side-0.4mm-lip",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 21041.771134541726,
+          "bounds_mm": [
+            [
+              -33.9976,
+              -33.9988,
+              0.0
+            ],
+            [
+              33.9976,
+              33.9988,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.0020331975256842006,
+          "exported_protected_region_difference_mm3": 0.0007400302364279203,
+          "files": {
+            "kraken-spool-ring-63-mm-pentagon-cap-side-0.4mm-lip.stl": "88d2e5a2e3fa28ca5cee030cda107a17c74174143a606b4a4cfa8acfe52a5976",
+            "kraken-spool-ring-63-mm-pentagon-cap-side-0.4mm-lip.3mf": "4f30d8f3f0eb227a99fa06e6f02384e43b47848475e813e6b72f55e8041ec3c7"
+          }
+        }
+      ]
+    },
+    {
+      "target_hole_mm": 64,
+      "source_height_mm": 10.400001000000001,
+      "preserved_radius_mm": 22.5,
+      "corner_radius_mm": 32.7,
+      "support_radius_mm": 31.9,
+      "top_scale": 0.9418960244648319,
+      "gear_flange_od_mm": 84.5,
+      "gear_flange_thickness_mm": 0.4,
+      "cap_lip_thickness_mm": 0.4,
+      "source_cap_interface_pass": true,
+      "source_interface_above_base_pass": true,
+      "source_base_bore_section_pass": true,
+      "source": "kraken-spool-ring-64-mm-100.3mf",
+      "source_sha256": "55b2492ef786646b9018da11950a7be9a9b9a465098e58a3410ae94ff5a9b783",
+      "parts": [
+        {
+          "stem": "kraken-spool-ring-64-mm-pentagon-gear-side-0.4mm-flange",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 22820.59669025381,
+          "bounds_mm": [
+            [
+              -42.25,
+              -42.25,
+              0.0
+            ],
+            [
+              42.25,
+              42.25,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.0021787747367772487,
+          "exported_protected_region_difference_mm3": 0.0006771050208350546,
+          "files": {
+            "kraken-spool-ring-64-mm-pentagon-gear-side-0.4mm-flange.stl": "8456dc43c6200014750801251f84481f4162e02b8f3d333dee1f36b18b6c49e3",
+            "kraken-spool-ring-64-mm-pentagon-gear-side-0.4mm-flange.3mf": "0cecd2d1eb1ddcaca04a59351d925e54ec094963abffcd223b3ddd2fb55a23bd"
+          }
+        },
+        {
+          "stem": "kraken-spool-ring-64-mm-pentagon-cap-side-0.4mm-lip",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 22072.988519699225,
+          "bounds_mm": [
+            [
+              -34.497566,
+              -34.498779500000005,
+              0.0
+            ],
+            [
+              34.497566,
+              34.4987795,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.002139661402432824,
+          "exported_protected_region_difference_mm3": 0.0006761281367718265,
+          "files": {
+            "kraken-spool-ring-64-mm-pentagon-cap-side-0.4mm-lip.stl": "3a1e712b39c7c12c4fdd6e7070a720abc9b0b13070985328ba7e9da0566a98cd",
+            "kraken-spool-ring-64-mm-pentagon-cap-side-0.4mm-lip.3mf": "c905be2729f9cb1022d855317029f15ec8a14e8be3047ba9ca32692b022d8694"
+          }
+        }
+      ]
+    },
+    {
+      "target_hole_mm": 65,
+      "source_height_mm": 10.400001000000001,
+      "preserved_radius_mm": 22.5,
+      "corner_radius_mm": 33.2,
+      "support_radius_mm": 32.4,
+      "top_scale": 0.9427710843373495,
+      "gear_flange_od_mm": 85.5,
+      "gear_flange_thickness_mm": 0.4,
+      "cap_lip_thickness_mm": 0.4,
+      "source_cap_interface_pass": true,
+      "source_interface_above_base_pass": true,
+      "source_base_bore_section_pass": true,
+      "source": "kraken-spool-ring-65-mm-100.3mf",
+      "source_sha256": "8e55e52ef1fe3da0a7976d64b0be24a9f613c8b8b9a352e49a80468ba6a39f16",
+      "parts": [
+        {
+          "stem": "kraken-spool-ring-65-mm-pentagon-gear-side-0.4mm-flange",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 23878.217826768807,
+          "bounds_mm": [
+            [
+              -42.75,
+              -42.75,
+              0.0
+            ],
+            [
+              42.75,
+              42.75,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.002228405162074042,
+          "exported_protected_region_difference_mm3": 0.0006325782200506224,
+          "files": {
+            "kraken-spool-ring-65-mm-pentagon-gear-side-0.4mm-flange.stl": "2ff2b05e6367fc33e2617e1a839d53a232596d532815d591fed878f1120d769d",
+            "kraken-spool-ring-65-mm-pentagon-gear-side-0.4mm-flange.3mf": "821ff8f6dfd48251c26f8e1c5ef575e7b7dfef70867421a5878162915e4b94f9"
+          }
+        },
+        {
+          "stem": "kraken-spool-ring-65-mm-pentagon-cap-side-0.4mm-lip",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 23120.864167015843,
+          "bounds_mm": [
+            [
+              -34.99753,
+              -34.9987665,
+              0.0
+            ],
+            [
+              34.99753,
+              34.998766499999995,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.0022068167782114964,
+          "exported_protected_region_difference_mm3": 0.0006305784413154626,
+          "files": {
+            "kraken-spool-ring-65-mm-pentagon-cap-side-0.4mm-lip.stl": "732cbd5793e3de74469814822c053efeb1b08b8be8d57c23b7e7134438c89065",
+            "kraken-spool-ring-65-mm-pentagon-cap-side-0.4mm-lip.3mf": "c444b69dc30fd77867a084f3e7824f81ac8a9de0d96232bf83e54733c8613edf"
+          }
+        }
+      ]
+    },
+    {
+      "target_hole_mm": 66,
+      "source_height_mm": 10.400001000000001,
+      "preserved_radius_mm": 22.5,
+      "corner_radius_mm": 33.7,
+      "support_radius_mm": 32.9,
+      "top_scale": 0.9436201780415431,
+      "gear_flange_od_mm": 86.5,
+      "gear_flange_thickness_mm": 0.4,
+      "cap_lip_thickness_mm": 0.4,
+      "source_cap_interface_pass": true,
+      "source_interface_above_base_pass": true,
+      "source_base_bore_section_pass": true,
+      "source": "kraken-spool-ring-66-mm-100.3mf",
+      "source_sha256": "cb8bb4dc97a98e5b0005161c006ba2385173e87f1249c8cb39b4418d33fb02ae",
+      "parts": [
+        {
+          "stem": "kraken-spool-ring-66-mm-pentagon-gear-side-0.4mm-flange",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 24951.9142530758,
+          "bounds_mm": [
+            [
+              -43.25,
+              -43.25,
+              0.0
+            ],
+            [
+              43.25,
+              43.25,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.0021963827822871033,
+          "exported_protected_region_difference_mm3": 0.0006892003990416428,
+          "files": {
+            "kraken-spool-ring-66-mm-pentagon-gear-side-0.4mm-flange.stl": "7b4214187b6e7cfe4d4de665dbcf579ede447412678785353e690f833579a66e",
+            "kraken-spool-ring-66-mm-pentagon-gear-side-0.4mm-flange.3mf": "f8f16ee2f2c3332523910be6f8bffbd3418f858a6fd0594f92aee93572af71c3"
+          }
+        },
+        {
+          "stem": "kraken-spool-ring-66-mm-pentagon-cap-side-0.4mm-lip",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 24184.818770106038,
+          "bounds_mm": [
+            [
+              -35.497496,
+              -35.49875,
+              0.0
+            ],
+            [
+              35.497496,
+              35.498749999999994,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.002166633728523654,
+          "exported_protected_region_difference_mm3": 0.0006898075068949988,
+          "files": {
+            "kraken-spool-ring-66-mm-pentagon-cap-side-0.4mm-lip.stl": "be0acffe360c87846cf012bc79dfa3305d2454649643e7d89c71410c2a43672b",
+            "kraken-spool-ring-66-mm-pentagon-cap-side-0.4mm-lip.3mf": "8b18fe539d9b65356d131225fb4f9bf0f25c91cd822d3eccbc58fb8456e49dcb"
+          }
+        }
+      ]
+    },
+    {
+      "target_hole_mm": 67,
+      "source_height_mm": 10.400001000000001,
+      "preserved_radius_mm": 22.5,
+      "corner_radius_mm": 34.2,
+      "support_radius_mm": 33.4,
+      "top_scale": 0.9444444444444445,
+      "gear_flange_od_mm": 87.5,
+      "gear_flange_thickness_mm": 0.4,
+      "cap_lip_thickness_mm": 0.4,
+      "source_cap_interface_pass": true,
+      "source_interface_above_base_pass": true,
+      "source_base_bore_section_pass": true,
+      "source": "kraken-spool-ring-67-mm-100.3mf",
+      "source_sha256": "ddbb712c3e96e198cf758ea00359eb3adde3f5e0dcd1fbb25030d2b1f3746ac9",
+      "parts": [
+        {
+          "stem": "kraken-spool-ring-67-mm-pentagon-gear-side-0.4mm-flange",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 26041.916373369124,
+          "bounds_mm": [
+            [
+              -43.75,
+              -43.75,
+              0.0
+            ],
+            [
+              43.75,
+              43.75,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.0024338174337569293,
+          "exported_protected_region_difference_mm3": 0.0006852947549201093,
+          "files": {
+            "kraken-spool-ring-67-mm-pentagon-gear-side-0.4mm-flange.stl": "99854bb2bc19d4bc1f640fa6042ed8338b32fc6d896e7631d5508ea3cab7b223",
+            "kraken-spool-ring-67-mm-pentagon-gear-side-0.4mm-flange.3mf": "077d1f666dc875636a5782cc43361abefd280ebedfca109b7a5c23bc3a5bf7b9"
+          }
+        },
+        {
+          "stem": "kraken-spool-ring-67-mm-pentagon-cap-side-0.4mm-lip",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 25265.08321418832,
+          "bounds_mm": [
+            [
+              -35.997460000000004,
+              -35.998732999999994,
+              0.0
+            ],
+            [
+              35.997460000000004,
+              35.998733,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.002388603475214171,
+          "exported_protected_region_difference_mm3": 0.0006833035077668039,
+          "files": {
+            "kraken-spool-ring-67-mm-pentagon-cap-side-0.4mm-lip.stl": "22c92793ad8287bd7d5a32a94888ca5b79611f9b5b93e5a1b647704890c9feb9",
+            "kraken-spool-ring-67-mm-pentagon-cap-side-0.4mm-lip.3mf": "088687baf9fe8447d9e850b5d87376e8835698e2e3e6f03bab200b6ba5bc3e08"
+          }
+        }
+      ]
+    },
+    {
+      "target_hole_mm": 68,
+      "source_height_mm": 10.400001000000001,
+      "preserved_radius_mm": 22.5,
+      "corner_radius_mm": 34.7,
+      "support_radius_mm": 33.9,
+      "top_scale": 0.9452449567723343,
+      "gear_flange_od_mm": 88.5,
+      "gear_flange_thickness_mm": 0.4,
+      "cap_lip_thickness_mm": 0.4,
+      "source_cap_interface_pass": true,
+      "source_interface_above_base_pass": true,
+      "source_base_bore_section_pass": true,
+      "source": "kraken-spool-ring-68-mm-100.3mf",
+      "source_sha256": "0be5916e56b9da88fdc125bd5b7d6cb1c1817d39fecd6cd6f27b4a8cf8c2224d",
+      "parts": [
+        {
+          "stem": "kraken-spool-ring-68-mm-pentagon-gear-side-0.4mm-flange",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 27148.487511739182,
+          "bounds_mm": [
+            [
+              -44.25,
+              -44.25,
+              0.0
+            ],
+            [
+              44.25,
+              44.25,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.002499223086597139,
+          "exported_protected_region_difference_mm3": 0.0007059583418965749,
+          "files": {
+            "kraken-spool-ring-68-mm-pentagon-gear-side-0.4mm-flange.stl": "0357b98a689d6a1b47c6ffdecec22e56da54990210ffb923175ce85272b8677a",
+            "kraken-spool-ring-68-mm-pentagon-gear-side-0.4mm-flange.3mf": "de3a6af3717ebb046f1466fb521b0803b55669d23661e55540d94f5d4ea4c9ad"
+          }
+        },
+        {
+          "stem": "kraken-spool-ring-68-mm-pentagon-cap-side-0.4mm-lip",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 26361.908661790454,
+          "bounds_mm": [
+            [
+              -36.49857,
+              -36.49813949999999,
+              0.0
+            ],
+            [
+              36.49857,
+              36.4981395,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.0024569221840491946,
+          "exported_protected_region_difference_mm3": 0.0007070167778537113,
+          "files": {
+            "kraken-spool-ring-68-mm-pentagon-cap-side-0.4mm-lip.stl": "2d63eb67b9d3c56e43ed66bdb72e7de28206d42333ca0e07088204b7b6c283ea",
+            "kraken-spool-ring-68-mm-pentagon-cap-side-0.4mm-lip.3mf": "df796e3bb178879bb6d17894555e3cccdd9d2384cfda476858b10547a6e8c01f"
+          }
+        }
+      ]
+    },
+    {
+      "target_hole_mm": 69,
+      "source_height_mm": 10.400001000000001,
+      "preserved_radius_mm": 22.5,
+      "corner_radius_mm": 35.2,
+      "support_radius_mm": 34.4,
+      "top_scale": 0.9460227272727273,
+      "gear_flange_od_mm": 89.5,
+      "gear_flange_thickness_mm": 0.4,
+      "cap_lip_thickness_mm": 0.4,
+      "source_cap_interface_pass": true,
+      "source_interface_above_base_pass": true,
+      "source_base_bore_section_pass": true,
+      "source": "kraken-spool-ring-69-mm-100.3mf",
+      "source_sha256": "a90ffd640a9ac72f6943e67375515e0fbfe070a8499d4fc05c09b8ea8ce2c82a",
+      "parts": [
+        {
+          "stem": "kraken-spool-ring-69-mm-pentagon-gear-side-0.4mm-flange",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 28271.18740825476,
+          "bounds_mm": [
+            [
+              -44.75,
+              -44.75,
+              0.0
+            ],
+            [
+              44.75,
+              44.75,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.0027570344443549697,
+          "exported_protected_region_difference_mm3": 0.0006666803913185322,
+          "files": {
+            "kraken-spool-ring-69-mm-pentagon-gear-side-0.4mm-flange.stl": "187e2b40ae3f3d294f38c4e3f69db15be3285435f76b1d459d30f4a8c0f26fcf",
+            "kraken-spool-ring-69-mm-pentagon-gear-side-0.4mm-flange.3mf": "0ac9cbaabc7f68d6ac8586920410cde817f04c2d41bd4ec469582da5c1ff0ee7"
+          }
+        },
+        {
+          "stem": "kraken-spool-ring-69-mm-pentagon-cap-side-0.4mm-lip",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 27474.866520892712,
+          "bounds_mm": [
+            [
+              -36.99855,
+              -36.998115,
+              0.0
+            ],
+            [
+              36.99855,
+              36.998115,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.00273285900005134,
+          "exported_protected_region_difference_mm3": 0.0006672178002070124,
+          "files": {
+            "kraken-spool-ring-69-mm-pentagon-cap-side-0.4mm-lip.stl": "1f54c29fde3a533d0aebf79839cf49792ea2b07d7b01b513588eb9857f4d9e89",
+            "kraken-spool-ring-69-mm-pentagon-cap-side-0.4mm-lip.3mf": "ea6699f3ac9ca8cc7fca7278d47e79e52e3e7326cb88416cc32437d1ac0af1d0"
+          }
+        }
+      ]
+    },
+    {
+      "target_hole_mm": 70,
+      "source_height_mm": 10.400001000000001,
+      "preserved_radius_mm": 22.5,
+      "corner_radius_mm": 35.7,
+      "support_radius_mm": 34.9,
+      "top_scale": 0.9467787114845939,
+      "gear_flange_od_mm": 90.5,
+      "gear_flange_thickness_mm": 0.4,
+      "cap_lip_thickness_mm": 0.4,
+      "source_cap_interface_pass": true,
+      "source_interface_above_base_pass": true,
+      "source_base_bore_section_pass": true,
+      "source": "kraken-spool-ring-70-mm-100.3mf",
+      "source_sha256": "dcdfcfe371f74049eec06ca116ab50676f784c53b3a1fac61eb43ff1bed5e013",
+      "parts": [
+        {
+          "stem": "kraken-spool-ring-70-mm-pentagon-gear-side-0.4mm-flange",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 29410.2218176528,
+          "bounds_mm": [
+            [
+              -45.25,
+              -45.25,
+              0.0
+            ],
+            [
+              45.25,
+              45.25,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.002964960081996288,
+          "exported_protected_region_difference_mm3": 0.0007208257861758622,
+          "files": {
+            "kraken-spool-ring-70-mm-pentagon-gear-side-0.4mm-flange.stl": "93096c4c89076df85adadf8dcf432075159084f9dd59d456aace71f250bd9037",
+            "kraken-spool-ring-70-mm-pentagon-gear-side-0.4mm-flange.3mf": "0458b4083a8ba017c3320710ec93bfa4d012e8e5c50324fb2350d1b25f207bb4"
+          }
+        },
+        {
+          "stem": "kraken-spool-ring-70-mm-pentagon-cap-side-0.4mm-lip",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 28604.158823086913,
+          "bounds_mm": [
+            [
+              -37.497354,
+              -37.4986785,
+              0.0
+            ],
+            [
+              37.497354,
+              37.4986785,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.002934182938046435,
+          "exported_protected_region_difference_mm3": 0.0007204595215011969,
+          "files": {
+            "kraken-spool-ring-70-mm-pentagon-cap-side-0.4mm-lip.stl": "13617cdf48ed85f507ea4ae51184b423efbe14f51fd3045863441836d32e51e7",
+            "kraken-spool-ring-70-mm-pentagon-cap-side-0.4mm-lip.3mf": "49ddc74ae1b533923ee9293cd0595f556e158cabe1d17523dba718431811b588"
+          }
+        }
+      ]
+    },
+    {
+      "target_hole_mm": 71,
+      "source_height_mm": 10.400001000000001,
+      "preserved_radius_mm": 22.5,
+      "corner_radius_mm": 36.2,
+      "support_radius_mm": 35.4,
+      "top_scale": 0.9475138121546962,
+      "gear_flange_od_mm": 91.5,
+      "gear_flange_thickness_mm": 0.4,
+      "cap_lip_thickness_mm": 0.4,
+      "source_cap_interface_pass": true,
+      "source_interface_above_base_pass": true,
+      "source_base_bore_section_pass": true,
+      "source": "kraken-spool-ring-71-mm-100.3mf",
+      "source_sha256": "74a940f1b528ac7fa807f7cf6bd26e353a0130168db36229187199c4e93ed79d",
+      "parts": [
+        {
+          "stem": "kraken-spool-ring-71-mm-pentagon-gear-side-0.4mm-flange",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 30565.56152188909,
+          "bounds_mm": [
+            [
+              -45.75,
+              -45.75,
+              0.0
+            ],
+            [
+              45.75,
+              45.75,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.0030100228302479084,
+          "exported_protected_region_difference_mm3": 0.0007099436188703425,
+          "files": {
+            "kraken-spool-ring-71-mm-pentagon-gear-side-0.4mm-flange.stl": "cf6e3515f5708b84f93e5d04582de0d2445724dcd7af311e7476312f51d3e5cf",
+            "kraken-spool-ring-71-mm-pentagon-gear-side-0.4mm-flange.3mf": "b198b9e7e74b935280c82f6e10dec2c3d1fcd4ab750a6400f2886eca1bbc9002"
+          }
+        },
+        {
+          "stem": "kraken-spool-ring-71-mm-pentagon-cap-side-0.4mm-lip",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 29749.760795768525,
+          "bounds_mm": [
+            [
+              -37.998509999999996,
+              -37.998062,
+              0.0
+            ],
+            [
+              37.998509999999996,
+              37.998062000000004,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.002974037083445667,
+          "exported_protected_region_difference_mm3": 0.0007077124788322398,
+          "files": {
+            "kraken-spool-ring-71-mm-pentagon-cap-side-0.4mm-lip.stl": "70f8c6e59a05e6ff7a534be9f09f768704998143d13d82d843c706e0fbbd5316",
+            "kraken-spool-ring-71-mm-pentagon-cap-side-0.4mm-lip.3mf": "853f2e47f1adad726fa3de7923126a0977d4a6ebe09f42367af8e8357f2d7537"
+          }
+        }
+      ]
+    },
+    {
+      "target_hole_mm": 72,
+      "source_height_mm": 10.400001000000001,
+      "preserved_radius_mm": 22.5,
+      "corner_radius_mm": 36.7,
+      "support_radius_mm": 35.9,
+      "top_scale": 0.9482288828337875,
+      "gear_flange_od_mm": 92.5,
+      "gear_flange_thickness_mm": 0.4,
+      "cap_lip_thickness_mm": 0.4,
+      "source_cap_interface_pass": true,
+      "source_interface_above_base_pass": true,
+      "source_base_bore_section_pass": true,
+      "source": "kraken-spool-ring-72-mm-100.3mf",
+      "source_sha256": "c9f94f5b2afae2185bc7d773ec503261eca7b7664313a9fadadce8ab07f3bd87",
+      "parts": [
+        {
+          "stem": "kraken-spool-ring-72-mm-pentagon-gear-side-0.4mm-flange",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 31737.196666970733,
+          "bounds_mm": [
+            [
+              -46.25,
+              -46.25,
+              0.0
+            ],
+            [
+              46.25,
+              46.25,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.0029021374730804853,
+          "exported_protected_region_difference_mm3": 0.0006568453670080545,
+          "files": {
+            "kraken-spool-ring-72-mm-pentagon-gear-side-0.4mm-flange.stl": "d934eaccc6a4be1ce9795534fb754314ab54334c510eddce8daca353e80501f2",
+            "kraken-spool-ring-72-mm-pentagon-gear-side-0.4mm-flange.3mf": "9ba23fa9d382f5beee349df272a7eb89e50f6559915cf844cf0923fe24e33379"
+          }
+        },
+        {
+          "stem": "kraken-spool-ring-72-mm-pentagon-cap-side-0.4mm-lip",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 30911.653762611364,
+          "bounds_mm": [
+            [
+              -38.498490000000004,
+              -38.4980375,
+              0.0
+            ],
+            [
+              38.498490000000004,
+              38.498037499999995,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.0028701123118322425,
+          "exported_protected_region_difference_mm3": 0.0006556946142034296,
+          "files": {
+            "kraken-spool-ring-72-mm-pentagon-cap-side-0.4mm-lip.stl": "8a5b36c676a18c5a170f2709af77070c7883494832067ede00ce0beaf678d69f",
+            "kraken-spool-ring-72-mm-pentagon-cap-side-0.4mm-lip.3mf": "dbc16744699e58440b0724452fc6a23e4f4039772df1dadd2724d2ef8454e3cb"
+          }
+        }
+      ]
+    },
+    {
+      "target_hole_mm": 73,
+      "source_height_mm": 10.400001000000001,
+      "preserved_radius_mm": 22.5,
+      "corner_radius_mm": 37.2,
+      "support_radius_mm": 36.4,
+      "top_scale": 0.9489247311827957,
+      "gear_flange_od_mm": 93.5,
+      "gear_flange_thickness_mm": 0.4,
+      "cap_lip_thickness_mm": 0.4,
+      "source_cap_interface_pass": true,
+      "source_interface_above_base_pass": true,
+      "source_base_bore_section_pass": true,
+      "source": "kraken-spool-ring-73-mm-100.3mf",
+      "source_sha256": "3bb1e5fa97bb8450d413e0e1d229a1c8d3ca770aca0075d70bcffdcda8a8a95d",
+      "parts": [
+        {
+          "stem": "kraken-spool-ring-73-mm-pentagon-gear-side-0.4mm-flange",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 32925.52430350418,
+          "bounds_mm": [
+            [
+              -46.75,
+              -46.75,
+              0.0
+            ],
+            [
+              46.75,
+              46.75,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.0031033315344007445,
+          "exported_protected_region_difference_mm3": 0.0007199271537967017,
+          "files": {
+            "kraken-spool-ring-73-mm-pentagon-gear-side-0.4mm-flange.stl": "bb26dea0df4cf3d980ff2678475f43a9ec6f18ffd88540c018b2561a2e9a4bc0",
+            "kraken-spool-ring-73-mm-pentagon-gear-side-0.4mm-flange.3mf": "e9922f74bd35a3b4b5a70837a56418752936c2a17d7aa4dda5540284ed43ade8"
+          }
+        },
+        {
+          "stem": "kraken-spool-ring-73-mm-pentagon-cap-side-0.4mm-lip",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 32090.235296411596,
+          "bounds_mm": [
+            [
+              -38.99847200000001,
+              -38.998013,
+              0.0
+            ],
+            [
+              38.99847200000001,
+              38.998013,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.0030889892992571055,
+          "exported_protected_region_difference_mm3": 0.000720032251883449,
+          "files": {
+            "kraken-spool-ring-73-mm-pentagon-cap-side-0.4mm-lip.stl": "b053723cefe0f55af5cae1f8b3b62fa06708474a30b7a71c0821544710b3a549",
+            "kraken-spool-ring-73-mm-pentagon-cap-side-0.4mm-lip.3mf": "3e4edd98ffaad2cf970604db7569f940079bfaaa52c759006bbf83e9545151cf"
+          }
+        }
+      ]
+    },
+    {
+      "target_hole_mm": 74,
+      "source_height_mm": 10.400001000000001,
+      "preserved_radius_mm": 22.5,
+      "corner_radius_mm": 37.7,
+      "support_radius_mm": 36.9,
+      "top_scale": 0.9496021220159152,
+      "gear_flange_od_mm": 94.5,
+      "gear_flange_thickness_mm": 0.4,
+      "cap_lip_thickness_mm": 0.4,
+      "source_cap_interface_pass": true,
+      "source_interface_above_base_pass": true,
+      "source_base_bore_section_pass": true,
+      "source": "kraken-spool-ring-74-mm-100.3mf",
+      "source_sha256": "55196cfa656a5f93b7c2dce2835644bcaabc4307e484d3df1cc067de980302bc",
+      "parts": [
+        {
+          "stem": "kraken-spool-ring-74-mm-pentagon-gear-side-0.4mm-flange",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 34129.896909375086,
+          "bounds_mm": [
+            [
+              -47.25,
+              -47.25,
+              0.0
+            ],
+            [
+              47.25,
+              47.25,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.003106955296101053,
+          "exported_protected_region_difference_mm3": 0.0007074291034103692,
+          "files": {
+            "kraken-spool-ring-74-mm-pentagon-gear-side-0.4mm-flange.stl": "91a4dd8135da7c0f0d8f38576632cb662d056c32b8f4ae33e83d98e4af517ae1",
+            "kraken-spool-ring-74-mm-pentagon-gear-side-0.4mm-flange.3mf": "932624b258db4e3d4563bb52df1bf66620ad04637d477d06c2acb05883c7cb30"
+          }
+        },
+        {
+          "stem": "kraken-spool-ring-74-mm-pentagon-cap-side-0.4mm-lip",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 33284.86560643422,
+          "bounds_mm": [
+            [
+              -39.498453999999995,
+              -39.4979885,
+              0.0
+            ],
+            [
+              39.498453999999995,
+              39.497988500000005,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.0030733990135113215,
+          "exported_protected_region_difference_mm3": 0.0007080375099930013,
+          "files": {
+            "kraken-spool-ring-74-mm-pentagon-cap-side-0.4mm-lip.stl": "7e93dc9b5991939ea226cab0f1eca06f2dbe4ae351c6bc9bab9f043328c544d5",
+            "kraken-spool-ring-74-mm-pentagon-cap-side-0.4mm-lip.3mf": "18e90a39ec5d6f7738c08d6eac532a3b67f9d522ec3ffb78085df4be05f23e1f"
+          }
+        }
+      ]
+    },
+    {
+      "target_hole_mm": 75,
+      "source_height_mm": 10.400001000000001,
+      "preserved_radius_mm": 22.5,
+      "corner_radius_mm": 38.2,
+      "support_radius_mm": 37.4,
+      "top_scale": 0.9502617801047121,
+      "gear_flange_od_mm": 95.5,
+      "gear_flange_thickness_mm": 0.4,
+      "cap_lip_thickness_mm": 0.4,
+      "source_cap_interface_pass": true,
+      "source_interface_above_base_pass": true,
+      "source_base_bore_section_pass": true,
+      "source": "kraken-spool-ring-75-mm-100.3mf",
+      "source_sha256": "d544b591af58c7e23e92c0bac13f5b3c8c2778f5bdbd1abbe2eac34c186d5cb7",
+      "parts": [
+        {
+          "stem": "kraken-spool-ring-75-mm-pentagon-gear-side-0.4mm-flange",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 35350.57440775106,
+          "bounds_mm": [
+            [
+              -47.75,
+              -47.75,
+              0.0
+            ],
+            [
+              47.75,
+              47.75,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.0033482723952561076,
+          "exported_protected_region_difference_mm3": 0.0006472953759692422,
+          "files": {
+            "kraken-spool-ring-75-mm-pentagon-gear-side-0.4mm-flange.stl": "38c93df9b7e9459fd2765652f773fc4ae64701bb3768a7f26e32bf6c81ad25bf",
+            "kraken-spool-ring-75-mm-pentagon-gear-side-0.4mm-flange.3mf": "f078f8e949c8bd2ad76c9a83693a4c8fb0ed866b6a10e2f5425da240d5581222"
+          }
+        },
+        {
+          "stem": "kraken-spool-ring-75-mm-pentagon-cap-side-0.4mm-lip",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 34495.80525546775,
+          "bounds_mm": [
+            [
+              -39.998431999999994,
+              -39.997960000000006,
+              0.0
+            ],
+            [
+              39.998431999999994,
+              39.99796,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.0033099756451419795,
+          "exported_protected_region_difference_mm3": 0.0006466227027911993,
+          "files": {
+            "kraken-spool-ring-75-mm-pentagon-cap-side-0.4mm-lip.stl": "8ea81af3efc7feb295a80ed5392bacd8b1ba062165b1e8c40f8c41bc1fd3548c",
+            "kraken-spool-ring-75-mm-pentagon-cap-side-0.4mm-lip.3mf": "086c2f4ae308a6b539343e6a530fea97c279c2997882a7f34c6652e8bb33a52e"
+          }
+        }
+      ]
+    },
+    {
+      "target_hole_mm": 76,
+      "source_height_mm": 10.400001000000001,
+      "preserved_radius_mm": 22.5,
+      "corner_radius_mm": 38.7,
+      "support_radius_mm": 37.9,
+      "top_scale": 0.9509043927648579,
+      "gear_flange_od_mm": 96.5,
+      "gear_flange_thickness_mm": 0.4,
+      "cap_lip_thickness_mm": 0.4,
+      "source_cap_interface_pass": true,
+      "source_interface_above_base_pass": true,
+      "source_base_bore_section_pass": true,
+      "source": "kraken-spool-ring-76-mm-100.3mf",
+      "source_sha256": "4f2d974dc12ceb24a8de1088047172c1327e13410693a84cfbe7a9642c3184a2",
+      "parts": [
+        {
+          "stem": "kraken-spool-ring-76-mm-pentagon-gear-side-0.4mm-flange",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 36587.616200419965,
+          "bounds_mm": [
+            [
+              -48.25,
+              -48.25,
+              0.0
+            ],
+            [
+              48.25,
+              48.25,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.0035784481418971855,
+          "exported_protected_region_difference_mm3": 0.0006451124332282955,
+          "files": {
+            "kraken-spool-ring-76-mm-pentagon-gear-side-0.4mm-flange.stl": "e46dc181568de8341150d414dce3abc25e6d29c9ea05177674ba2a83ab7eb963",
+            "kraken-spool-ring-76-mm-pentagon-gear-side-0.4mm-flange.3mf": "ebe65f5533a8ae39e7c7c2e0a2e23d3f8f982659e5ac91e568f93121ea46af90"
+          }
+        },
+        {
+          "stem": "kraken-spool-ring-76-mm-pentagon-cap-side-0.4mm-lip",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 35723.10465417084,
+          "bounds_mm": [
+            [
+              -40.498414,
+              -40.497935500000004,
+              0.0
+            ],
+            [
+              40.498414,
+              40.497935500000004,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.0035235391563958962,
+          "exported_protected_region_difference_mm3": 0.0006442834265058045,
+          "files": {
+            "kraken-spool-ring-76-mm-pentagon-cap-side-0.4mm-lip.stl": "463ce752959ee97de4b820e30b647e704b036d54624716b9e6503d138b034c87",
+            "kraken-spool-ring-76-mm-pentagon-cap-side-0.4mm-lip.3mf": "3133dad3a6f03074fada9f93d4edfd9ff7f483368521eef48b24863f5e9d895b"
+          }
+        }
+      ]
+    },
+    {
+      "target_hole_mm": 77,
+      "source_height_mm": 10.400001000000001,
+      "preserved_radius_mm": 22.5,
+      "corner_radius_mm": 39.2,
+      "support_radius_mm": 38.4,
+      "top_scale": 0.951530612244898,
+      "gear_flange_od_mm": 97.5,
+      "gear_flange_thickness_mm": 0.4,
+      "cap_lip_thickness_mm": 0.4,
+      "source_cap_interface_pass": true,
+      "source_interface_above_base_pass": true,
+      "source_base_bore_section_pass": true,
+      "source": "kraken-spool-ring-77-mm-100.3mf",
+      "source_sha256": "99b2a4dd3f537502e2ed7c8189f574fbc22fb50fda5cc3e583a19d49b58b7697",
+      "parts": [
+        {
+          "stem": "kraken-spool-ring-77-mm-pentagon-gear-side-0.4mm-flange",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 37841.23143732868,
+          "bounds_mm": [
+            [
+              -48.75,
+              -48.75,
+              0.0
+            ],
+            [
+              48.75,
+              48.75,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.003476795000505455,
+          "exported_protected_region_difference_mm3": 0.0007016995177661725,
+          "files": {
+            "kraken-spool-ring-77-mm-pentagon-gear-side-0.4mm-flange.stl": "b4bca473ad41be82ae529a0cf8f9626317371fb363feaa7675361dcfd767e22f",
+            "kraken-spool-ring-77-mm-pentagon-gear-side-0.4mm-flange.3mf": "5950aa60f9447753d3f785a008095a59062d98e00f8445164fff30a06621d57e"
+          }
+        },
+        {
+          "stem": "kraken-spool-ring-77-mm-pentagon-cap-side-0.4mm-lip",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 36966.9734960284,
+          "bounds_mm": [
+            [
+              -40.998391999999996,
+              -40.997911,
+              0.0
+            ],
+            [
+              40.998391999999996,
+              40.997911,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.0034641000371013137,
+          "exported_protected_region_difference_mm3": 0.0006998772257217195,
+          "files": {
+            "kraken-spool-ring-77-mm-pentagon-cap-side-0.4mm-lip.stl": "2116340ae4305f4419fa510b00da4ead98ba2577149c209b07f20ee4f46b97e0",
+            "kraken-spool-ring-77-mm-pentagon-cap-side-0.4mm-lip.3mf": "1f7afcdfb5874684b2a580f26fd6505c6df18b224445d74ecde876ac8acf749b"
+          }
+        }
+      ]
+    },
+    {
+      "target_hole_mm": 78,
+      "source_height_mm": 10.400001000000001,
+      "preserved_radius_mm": 22.5,
+      "corner_radius_mm": 39.7,
+      "support_radius_mm": 38.9,
+      "top_scale": 0.9521410579345089,
+      "gear_flange_od_mm": 98.5,
+      "gear_flange_thickness_mm": 0.4,
+      "cap_lip_thickness_mm": 0.4,
+      "source_cap_interface_pass": true,
+      "source_interface_above_base_pass": true,
+      "source_base_bore_section_pass": true,
+      "source": "kraken-spool-ring-78-mm-100.3mf",
+      "source_sha256": "ba8fd4048c7e08e99b1faf3db9697eba3674875530c908a070accc6679df9642",
+      "parts": [
+        {
+          "stem": "kraken-spool-ring-78-mm-pentagon-gear-side-0.4mm-flange",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 39110.94235558206,
+          "bounds_mm": [
+            [
+              -49.25,
+              -49.25,
+              0.0
+            ],
+            [
+              49.25,
+              49.25,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.003686161217452911,
+          "exported_protected_region_difference_mm3": 0.0007066082251025728,
+          "files": {
+            "kraken-spool-ring-78-mm-pentagon-gear-side-0.4mm-flange.stl": "393f69b920fa3dada5388fc421522e8a5fa2b693996e38e1319f14eebb3ea790",
+            "kraken-spool-ring-78-mm-pentagon-gear-side-0.4mm-flange.3mf": "8dc78aa630f43085d657c9a9068695e1e2c6e2527fd3d0dd2a32a2b0e9666141"
+          }
+        },
+        {
+          "stem": "kraken-spool-ring-78-mm-pentagon-cap-side-0.4mm-lip",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 38226.94190753443,
+          "bounds_mm": [
+            [
+              -41.498374,
+              -41.497887000000006,
+              0.0
+            ],
+            [
+              41.498374,
+              41.497887,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.0036508242498672775,
+          "exported_protected_region_difference_mm3": 0.0007070029888253857,
+          "files": {
+            "kraken-spool-ring-78-mm-pentagon-cap-side-0.4mm-lip.stl": "e2d2ef10319cbc0a0c5f6bac97971435e8db8b13524bdd444dc7f7dfd716447f",
+            "kraken-spool-ring-78-mm-pentagon-cap-side-0.4mm-lip.3mf": "f4d0793398ae096545eab6173f74c554fb6741f0611f05528ee2de29f7607294"
+          }
+        }
+      ]
+    },
+    {
+      "target_hole_mm": 79,
+      "source_height_mm": 10.400001000000001,
+      "preserved_radius_mm": 22.5,
+      "corner_radius_mm": 40.2,
+      "support_radius_mm": 39.4,
+      "top_scale": 0.9527363184079602,
+      "gear_flange_od_mm": 99.5,
+      "gear_flange_thickness_mm": 0.4,
+      "cap_lip_thickness_mm": 0.4,
+      "source_cap_interface_pass": true,
+      "source_interface_above_base_pass": true,
+      "source_base_bore_section_pass": true,
+      "source": "kraken-spool-ring-79-mm-100.3mf",
+      "source_sha256": "edefc72e75f1ef6261a1d5426030bf805581119d1d8a237c53d149b9a85a5ed5",
+      "parts": [
+        {
+          "stem": "kraken-spool-ring-79-mm-pentagon-gear-side-0.4mm-flange",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 40396.987797302965,
+          "bounds_mm": [
+            [
+              -49.75,
+              -49.75,
+              0.0
+            ],
+            [
+              49.75,
+              49.75,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.003656736874706977,
+          "exported_protected_region_difference_mm3": 0.0006830497304396366,
+          "files": {
+            "kraken-spool-ring-79-mm-pentagon-gear-side-0.4mm-flange.stl": "dd39fb00cff948800e433fe1dd2bd8e5426c2e724202b6b14900d71a19ff9b5e",
+            "kraken-spool-ring-79-mm-pentagon-gear-side-0.4mm-flange.3mf": "9f7a48a859544b80860db9486944de31b97d73f1b9d764a411a46d1ee78c6890"
+          }
+        },
+        {
+          "stem": "kraken-spool-ring-79-mm-pentagon-cap-side-0.4mm-lip",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 39503.2447777954,
+          "bounds_mm": [
+            [
+              -41.998352,
+              -41.997858,
+              0.0
+            ],
+            [
+              41.998352,
+              41.997857999999994,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.0036283574779111586,
+          "exported_protected_region_difference_mm3": 0.0006827024798786779,
+          "files": {
+            "kraken-spool-ring-79-mm-pentagon-cap-side-0.4mm-lip.stl": "aee335d777ee43ef32c2f61480d76a4dd099e94fece3a4c7c185788dbfc2be89",
+            "kraken-spool-ring-79-mm-pentagon-cap-side-0.4mm-lip.3mf": "04a458b74c477a1352b56fb6776219210e3a3ca3744295df0fbfe08330f41574"
+          }
+        }
+      ]
+    },
+    {
+      "target_hole_mm": 80,
+      "source_height_mm": 10.400001000000001,
+      "preserved_radius_mm": 22.5,
+      "corner_radius_mm": 40.7,
+      "support_radius_mm": 39.9,
+      "top_scale": 0.9533169533169533,
+      "gear_flange_od_mm": 100.5,
+      "gear_flange_thickness_mm": 0.4,
+      "cap_lip_thickness_mm": 0.4,
+      "source_cap_interface_pass": true,
+      "source_interface_above_base_pass": true,
+      "source_base_bore_section_pass": true,
+      "source": "kraken-spool-ring-80-mm-100.3mf",
+      "source_sha256": "2bd7532225f0d514728714b918237433172ddf46d81d1412164b2bc8f02d70b7",
+      "parts": [
+        {
+          "stem": "kraken-spool-ring-80-mm-pentagon-gear-side-0.4mm-flange",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 41699.33773036928,
+          "bounds_mm": [
+            [
+              -50.25,
+              -50.25,
+              0.0
+            ],
+            [
+              50.25,
+              50.25,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.0035362600633416616,
+          "exported_protected_region_difference_mm3": 0.0006682192462878174,
+          "files": {
+            "kraken-spool-ring-80-mm-pentagon-gear-side-0.4mm-flange.stl": "36b00c0687550d7679767798a2047ff636e33306e219cddb69c99a7d371e2f3a",
+            "kraken-spool-ring-80-mm-pentagon-gear-side-0.4mm-flange.3mf": "678a477eb80774999fa7de0caf1dd5965c08d57e5dde2f2c16c8fbac13fe248b"
+          }
+        },
+        {
+          "stem": "kraken-spool-ring-80-mm-pentagon-cap-side-0.4mm-lip",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 40795.85672620893,
+          "bounds_mm": [
+            [
+              -42.498332000000005,
+              -42.497834,
+              0.0
+            ],
+            [
+              42.498332000000005,
+              42.497834,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.0034956284585953585,
+          "exported_protected_region_difference_mm3": 0.0006658090691870031,
+          "files": {
+            "kraken-spool-ring-80-mm-pentagon-cap-side-0.4mm-lip.stl": "c33b02e2cf30e6d3b31d6c77b1d6ec09b57523d689e4be63ad64a8e5727fa5c4",
+            "kraken-spool-ring-80-mm-pentagon-cap-side-0.4mm-lip.3mf": "c711febef9451dd816fc4dff89d8e5d2032169175060ca2bbd27b5ee7593e5e2"
+          }
+        }
+      ]
+    },
+    {
+      "target_hole_mm": 81,
+      "source_height_mm": 10.400001000000001,
+      "preserved_radius_mm": 22.5,
+      "corner_radius_mm": 41.2,
+      "support_radius_mm": 40.4,
+      "top_scale": 0.9538834951456311,
+      "gear_flange_od_mm": 101.5,
+      "gear_flange_thickness_mm": 0.4,
+      "cap_lip_thickness_mm": 0.4,
+      "source_cap_interface_pass": true,
+      "source_interface_above_base_pass": true,
+      "source_base_bore_section_pass": true,
+      "source": "kraken-spool-ring-81-mm-100.3mf",
+      "source_sha256": "b06ea71798b57a332d0280e82003c1b53b9eacbc4d9840aa5b3ad3e3eb52ed42",
+      "parts": [
+        {
+          "stem": "kraken-spool-ring-81-mm-pentagon-gear-side-0.4mm-flange",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 43018.05217305383,
+          "bounds_mm": [
+            [
+              -50.75,
+              -50.75,
+              0.0
+            ],
+            [
+              50.75,
+              50.75,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.0033312695399977097,
+          "exported_protected_region_difference_mm3": 0.0006787253889378349,
+          "files": {
+            "kraken-spool-ring-81-mm-pentagon-gear-side-0.4mm-flange.stl": "fcad09cf216557a14d0bde5acdc22bb284f801677ab98dfd1e3d1ea3b24c96bd",
+            "kraken-spool-ring-81-mm-pentagon-gear-side-0.4mm-flange.3mf": "926e59c760f22e46772af3ba2a7a33685b7c347c3cd0b096fd26d011898ff221"
+          }
+        },
+        {
+          "stem": "kraken-spool-ring-81-mm-pentagon-cap-side-0.4mm-lip",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 42104.82851741122,
+          "bounds_mm": [
+            [
+              -42.998314,
+              -42.997809,
+              0.0
+            ],
+            [
+              42.998314,
+              42.997809000000004,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.003301878516204974,
+          "exported_protected_region_difference_mm3": 0.0006786514734014098,
+          "files": {
+            "kraken-spool-ring-81-mm-pentagon-cap-side-0.4mm-lip.stl": "8a15fa010c8e1dd86c8cc34a4c614e45ae8e9ee79f3a28c8b430961bae7ae424",
+            "kraken-spool-ring-81-mm-pentagon-cap-side-0.4mm-lip.3mf": "1c342018d568b34e4385049d096660c7d3ddd85aa993c0f5f2fcab5ca9d7b1cb"
+          }
+        }
+      ]
+    },
+    {
+      "target_hole_mm": 82,
+      "source_height_mm": 10.400001000000001,
+      "preserved_radius_mm": 22.5,
+      "corner_radius_mm": 41.7,
+      "support_radius_mm": 40.9,
+      "top_scale": 0.9544364508393286,
+      "gear_flange_od_mm": 102.5,
+      "gear_flange_thickness_mm": 0.4,
+      "cap_lip_thickness_mm": 0.4,
+      "source_cap_interface_pass": true,
+      "source_interface_above_base_pass": true,
+      "source_base_bore_section_pass": true,
+      "source": "kraken-spool-ring-82-mm-100.3mf",
+      "source_sha256": "0b504119ac013d9bce032a6e494013128f2647951fbde22c6a83ac48935467ac",
+      "parts": [
+        {
+          "stem": "kraken-spool-ring-82-mm-pentagon-gear-side-0.4mm-flange",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 44353.359857837626,
+          "bounds_mm": [
+            [
+              -51.25,
+              -51.25,
+              0.0
+            ],
+            [
+              51.25,
+              51.25,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.003916528647996673,
+          "exported_protected_region_difference_mm3": 0.0006434828883398662,
+          "files": {
+            "kraken-spool-ring-82-mm-pentagon-gear-side-0.4mm-flange.stl": "d95e9a752d0d39ac393442fb85bcc3e4c01750aac9fca3a2620f3b9e6c01be63",
+            "kraken-spool-ring-82-mm-pentagon-gear-side-0.4mm-flange.3mf": "346b99acfb0652e8c5e4962b59fa83b1ac1c34e1cd4fc282338c991866ef32a2"
+          }
+        },
+        {
+          "stem": "kraken-spool-ring-82-mm-pentagon-cap-side-0.4mm-lip",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 43430.3893822229,
+          "bounds_mm": [
+            [
+              -43.498294,
+              -43.4977845,
+              0.0
+            ],
+            [
+              43.498294,
+              43.497784499999995,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.0038760617832992285,
+          "exported_protected_region_difference_mm3": 0.0006417089419205235,
+          "files": {
+            "kraken-spool-ring-82-mm-pentagon-cap-side-0.4mm-lip.stl": "f31a66eebdafbdc8eae6cc0d5cd0cb20c32d3058bdd15adf398042eb99c33d71",
+            "kraken-spool-ring-82-mm-pentagon-cap-side-0.4mm-lip.3mf": "7edd0fbf620b3f380a6475126d011a86ff539c0a837571021313884614cbf052"
+          }
+        }
+      ]
+    },
+    {
+      "target_hole_mm": 83,
+      "source_height_mm": 10.400001000000001,
+      "preserved_radius_mm": 22.5,
+      "corner_radius_mm": 42.2,
+      "support_radius_mm": 41.4,
+      "top_scale": 0.9549763033175356,
+      "gear_flange_od_mm": 103.5,
+      "gear_flange_thickness_mm": 0.4,
+      "cap_lip_thickness_mm": 0.4,
+      "source_cap_interface_pass": true,
+      "source_interface_above_base_pass": true,
+      "source_base_bore_section_pass": true,
+      "source": "kraken-spool-ring-83-mm-100.3mf",
+      "source_sha256": "82885a1edd4d3790d373f86a38fca3071dabc07ee649d4464666592975e5c8c0",
+      "parts": [
+        {
+          "stem": "kraken-spool-ring-83-mm-pentagon-gear-side-0.4mm-flange",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 45704.743491957495,
+          "bounds_mm": [
+            [
+              -51.75,
+              -51.75,
+              0.0
+            ],
+            [
+              51.75,
+              51.75,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.004023094292989091,
+          "exported_protected_region_difference_mm3": 0.0006668201426314382,
+          "files": {
+            "kraken-spool-ring-83-mm-pentagon-gear-side-0.4mm-flange.stl": "ff773bdaab53dcead51906e72b3c923bf1783d8a507d929da37e66cf1541e292",
+            "kraken-spool-ring-83-mm-pentagon-gear-side-0.4mm-flange.3mf": "5cb1598543338a5a00d53effe8be3e6a962c3d7fb61601a0a0e97e1d9e819730"
+          }
+        },
+        {
+          "stem": "kraken-spool-ring-83-mm-pentagon-cap-side-0.4mm-lip",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 44772.0302419163,
+          "bounds_mm": [
+            [
+              -43.998273999999995,
+              -43.997756,
+              0.0
+            ],
+            [
+              43.998273999999995,
+              43.997756,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.003995090531726958,
+          "exported_protected_region_difference_mm3": 0.0006646397853455743,
+          "files": {
+            "kraken-spool-ring-83-mm-pentagon-cap-side-0.4mm-lip.stl": "93d25de3484c4165ff6caa708b7f283ecf816f279f6b46d6b0fb4e86bd886bd7",
+            "kraken-spool-ring-83-mm-pentagon-cap-side-0.4mm-lip.3mf": "6edf0008d48e6b7dff119f7be81cc23606fe33f3fb41cb9622394101928721ab"
+          }
+        }
+      ]
+    },
+    {
+      "target_hole_mm": 84,
+      "source_height_mm": 10.400001000000001,
+      "preserved_radius_mm": 22.5,
+      "corner_radius_mm": 42.7,
+      "support_radius_mm": 41.9,
+      "top_scale": 0.9555035128805621,
+      "gear_flange_od_mm": 104.5,
+      "gear_flange_thickness_mm": 0.4,
+      "cap_lip_thickness_mm": 0.4,
+      "source_cap_interface_pass": true,
+      "source_interface_above_base_pass": true,
+      "source_base_bore_section_pass": true,
+      "source": "kraken-spool-ring-84-mm-100.3mf",
+      "source_sha256": "c47633ad65d0ce42662de096ae029285b9e4f660006c0d5f122506213802e71d",
+      "parts": [
+        {
+          "stem": "kraken-spool-ring-84-mm-pentagon-gear-side-0.4mm-flange",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 47072.46169940618,
+          "bounds_mm": [
+            [
+              -52.25,
+              -52.25,
+              0.0
+            ],
+            [
+              52.25,
+              52.25,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.0038521945546346943,
+          "exported_protected_region_difference_mm3": 0.0006990644534466252,
+          "files": {
+            "kraken-spool-ring-84-mm-pentagon-gear-side-0.4mm-flange.stl": "0558a8b19f0eac1351847d747532c95de001899d58eb2a0874856a912cac6afb",
+            "kraken-spool-ring-84-mm-pentagon-gear-side-0.4mm-flange.3mf": "9137b9cb619af5a046f3a5a899b67a0fcb55e7e822241653bae62d470d55a170"
+          }
+        },
+        {
+          "stem": "kraken-spool-ring-84-mm-pentagon-cap-side-0.4mm-lip",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 46130.005604997845,
+          "bounds_mm": [
+            [
+              -44.498254,
+              -44.497732,
+              0.0
+            ],
+            [
+              44.498254,
+              44.497732000000006,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.003827240603831239,
+          "exported_protected_region_difference_mm3": 0.0006998037915983897,
+          "files": {
+            "kraken-spool-ring-84-mm-pentagon-cap-side-0.4mm-lip.stl": "d1c2546a6d55427e50889f4b0d6d86271e19a4a89e4f0824d6c574f6d9f29a23",
+            "kraken-spool-ring-84-mm-pentagon-cap-side-0.4mm-lip.3mf": "3ca0b45b36e24f92aa941ba6ea58c90c62de8f451bdfb420a14e440026e71a12"
+          }
+        }
+      ]
+    },
+    {
+      "target_hole_mm": 85,
+      "source_height_mm": 10.400001000000001,
+      "preserved_radius_mm": 22.5,
+      "corner_radius_mm": 43.2,
+      "support_radius_mm": 42.4,
+      "top_scale": 0.9560185185185186,
+      "gear_flange_od_mm": 105.5,
+      "gear_flange_thickness_mm": 0.4,
+      "cap_lip_thickness_mm": 0.4,
+      "source_cap_interface_pass": true,
+      "source_interface_above_base_pass": true,
+      "source_base_bore_section_pass": true,
+      "source": "kraken-spool-ring-85-mm-100.3mf",
+      "source_sha256": "750df5fff7da2afe6ca3827f8c69b8ae1359ce49ce02b32ef0febfaa790792ef",
+      "parts": [
+        {
+          "stem": "kraken-spool-ring-85-mm-pentagon-gear-side-0.4mm-flange",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 48456.48401332962,
+          "bounds_mm": [
+            [
+              -52.75,
+              -52.75,
+              0.0
+            ],
+            [
+              52.75,
+              52.75,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.004111865919530203,
+          "exported_protected_region_difference_mm3": 0.0007078491231283877,
+          "files": {
+            "kraken-spool-ring-85-mm-pentagon-gear-side-0.4mm-flange.stl": "d36a1a7dd1c278e3b277914daa242a8c229c9a809bba1abb08d3f2fa749b4ddf",
+            "kraken-spool-ring-85-mm-pentagon-gear-side-0.4mm-flange.3mf": "e65ad3277f54268af291d116f114ed81f0364fb67bcbf9dc412a4b2aa59e520d"
+          }
+        },
+        {
+          "stem": "kraken-spool-ring-85-mm-pentagon-cap-side-0.4mm-lip",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 47504.2898469697,
+          "bounds_mm": [
+            [
+              -44.998236000000006,
+              -44.997707000000005,
+              0.0
+            ],
+            [
+              44.998236000000006,
+              44.997707,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.004102480826297563,
+          "exported_protected_region_difference_mm3": 0.0007074610571900336,
+          "files": {
+            "kraken-spool-ring-85-mm-pentagon-cap-side-0.4mm-lip.stl": "8041307e151aaaa096f5bea90218f3c58e0adab9e18934b7446e990c4e8d3ecd",
+            "kraken-spool-ring-85-mm-pentagon-cap-side-0.4mm-lip.3mf": "8183712fca357d67f7d7e1a7626b8cf0a92888aa33b5303628ec33398abe13d0"
+          }
+        }
+      ]
+    },
+    {
+      "target_hole_mm": 86,
+      "source_height_mm": 10.400001000000001,
+      "preserved_radius_mm": 22.5,
+      "corner_radius_mm": 43.7,
+      "support_radius_mm": 42.9,
+      "top_scale": 0.9565217391304348,
+      "gear_flange_od_mm": 106.5,
+      "gear_flange_thickness_mm": 0.4,
+      "cap_lip_thickness_mm": 0.4,
+      "source_cap_interface_pass": true,
+      "source_interface_above_base_pass": true,
+      "source_base_bore_section_pass": true,
+      "source": "kraken-spool-ring-86-mm-100.3mf",
+      "source_sha256": "7eb490377a93d8fdbdae16f267ed412e0fb86d541042ab0a9a125462a40405ec",
+      "parts": [
+        {
+          "stem": "kraken-spool-ring-86-mm-pentagon-gear-side-0.4mm-flange",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 49856.87138895844,
+          "bounds_mm": [
+            [
+              -53.25,
+              -53.25,
+              0.0
+            ],
+            [
+              53.25,
+              53.25,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.004436476040490337,
+          "exported_protected_region_difference_mm3": 0.0006643266887527648,
+          "files": {
+            "kraken-spool-ring-86-mm-pentagon-gear-side-0.4mm-flange.stl": "57db01cdcef0d22a6e5684961db60a6dcaea5f17e28a08c0f96310bce6234499",
+            "kraken-spool-ring-86-mm-pentagon-gear-side-0.4mm-flange.3mf": "e6cf93060767c00f465eb04d0ca80cf701cf3693c5af681950500bacc048423b"
+          }
+        },
+        {
+          "stem": "kraken-spool-ring-86-mm-pentagon-cap-side-0.4mm-lip",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 48894.93424520574,
+          "bounds_mm": [
+            [
+              -45.498218,
+              -45.4976825,
+              0.0
+            ],
+            [
+              45.498218,
+              45.4976825,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.004412676233428508,
+          "exported_protected_region_difference_mm3": 0.0006621143378430696,
+          "files": {
+            "kraken-spool-ring-86-mm-pentagon-cap-side-0.4mm-lip.stl": "18bcf5bc3cb05df05ff1777be8e619c06d461c97a1fa771085be4cd7ceaf5a95",
+            "kraken-spool-ring-86-mm-pentagon-cap-side-0.4mm-lip.3mf": "8e5a960475ce869a34bc1ff4bdf32ec816bbcd0bb12a5a228cfbe95637e77b6c"
+          }
+        }
+      ]
+    },
+    {
+      "target_hole_mm": 87,
+      "source_height_mm": 10.400001000000001,
+      "preserved_radius_mm": 22.5,
+      "corner_radius_mm": 44.2,
+      "support_radius_mm": 43.4,
+      "top_scale": 0.9570135746606335,
+      "gear_flange_od_mm": 107.5,
+      "gear_flange_thickness_mm": 0.4,
+      "cap_lip_thickness_mm": 0.4,
+      "source_cap_interface_pass": true,
+      "source_interface_above_base_pass": true,
+      "source_base_bore_section_pass": true,
+      "source": "kraken-spool-ring-87-mm-100.3mf",
+      "source_sha256": "b4fad08e089d097d1a443f0eff0d9619d881da10888ad6236ecb47f5e1cfda27",
+      "parts": [
+        {
+          "stem": "kraken-spool-ring-87-mm-pentagon-gear-side-0.4mm-flange",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 51273.52760830432,
+          "bounds_mm": [
+            [
+              -53.75,
+              -53.75,
+              0.0
+            ],
+            [
+              53.75,
+              53.75,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.0038881473544126587,
+          "exported_protected_region_difference_mm3": 0.0006211864110060924,
+          "files": {
+            "kraken-spool-ring-87-mm-pentagon-gear-side-0.4mm-flange.stl": "43d66545f38768d3fcc1ba4b907d4c42b988cd08316b4e415816e66b0e4a818a",
+            "kraken-spool-ring-87-mm-pentagon-gear-side-0.4mm-flange.3mf": "854c480f9c662c32bc1d4b0e189646713b9e76362b388cd9279504674c83a767"
+          }
+        },
+        {
+          "stem": "kraken-spool-ring-87-mm-pentagon-cap-side-0.4mm-lip",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 50301.84749036386,
+          "bounds_mm": [
+            [
+              -45.998198,
+              -45.997654,
+              0.0
+            ],
+            [
+              45.998198,
+              45.997654,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.003866285609061591,
+          "exported_protected_region_difference_mm3": 0.0006193453507691701,
+          "files": {
+            "kraken-spool-ring-87-mm-pentagon-cap-side-0.4mm-lip.stl": "fe7c1f3409fb17e7d6c09eb806158a5eb304df6071853f11e9c6c89c94219319",
+            "kraken-spool-ring-87-mm-pentagon-cap-side-0.4mm-lip.3mf": "38ca11c4b15edbb0a9570e554808ff3f9d2ccb28f540ea9a2459f304d22412d5"
+          }
+        }
+      ]
+    },
+    {
+      "target_hole_mm": 88,
+      "source_height_mm": 10.400001000000001,
+      "preserved_radius_mm": 22.5,
+      "corner_radius_mm": 44.7,
+      "support_radius_mm": 43.9,
+      "top_scale": 0.9574944071588367,
+      "gear_flange_od_mm": 108.5,
+      "gear_flange_thickness_mm": 0.4,
+      "cap_lip_thickness_mm": 0.4,
+      "source_cap_interface_pass": true,
+      "source_interface_above_base_pass": true,
+      "source_base_bore_section_pass": true,
+      "source": "kraken-spool-ring-88-mm-100.3mf",
+      "source_sha256": "de588177445a957a86422e9f958af77cf56a0bc403b43272c8b1c2006f1a8db2",
+      "parts": [
+        {
+          "stem": "kraken-spool-ring-88-mm-pentagon-gear-side-0.4mm-flange",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 52706.93071573406,
+          "bounds_mm": [
+            [
+              -54.25,
+              -54.25,
+              0.0
+            ],
+            [
+              54.25,
+              54.25,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.004349443731111322,
+          "exported_protected_region_difference_mm3": 0.0006831222630817036,
+          "files": {
+            "kraken-spool-ring-88-mm-pentagon-gear-side-0.4mm-flange.stl": "896bc8593f78eaaaa33b36328928024be8263b9beeb41d3abc729fd9616af8ed",
+            "kraken-spool-ring-88-mm-pentagon-gear-side-0.4mm-flange.3mf": "cfdb48898d2d9ad3d589f575c1a4f1b47e279ddeaf3e0d928cb055ad41f86a44"
+          }
+        },
+        {
+          "stem": "kraken-spool-ring-88-mm-pentagon-cap-side-0.4mm-lip",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 51725.50335801817,
+          "bounds_mm": [
+            [
+              -46.498176,
+              -46.497629499999995,
+              0.0
+            ],
+            [
+              46.498176,
+              46.4976295,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.004315253616600255,
+          "exported_protected_region_difference_mm3": 0.0006823595284133675,
+          "files": {
+            "kraken-spool-ring-88-mm-pentagon-cap-side-0.4mm-lip.stl": "4324f6196de4f10578256e93ed7fbf2b5727afdd83964a13af2c4df952465ddc",
+            "kraken-spool-ring-88-mm-pentagon-cap-side-0.4mm-lip.3mf": "0c3aa0e8403057324eece099e098b8433d9535108350ea70b39628686acb07c3"
+          }
+        }
+      ]
+    },
+    {
+      "target_hole_mm": 89,
+      "source_height_mm": 10.400001000000001,
+      "preserved_radius_mm": 22.5,
+      "corner_radius_mm": 45.2,
+      "support_radius_mm": 44.4,
+      "top_scale": 0.9579646017699115,
+      "gear_flange_od_mm": 109.5,
+      "gear_flange_thickness_mm": 0.4,
+      "cap_lip_thickness_mm": 0.4,
+      "source_cap_interface_pass": true,
+      "source_interface_above_base_pass": true,
+      "source_base_bore_section_pass": true,
+      "source": "kraken-spool-ring-89-mm-100.3mf",
+      "source_sha256": "7dcd19692cf498de2dafde7a33b578eea5cf687414203db2addf1ac04237cdb0",
+      "parts": [
+        {
+          "stem": "kraken-spool-ring-89-mm-pentagon-gear-side-0.4mm-flange",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 54156.321895037734,
+          "bounds_mm": [
+            [
+              -54.75,
+              -54.75,
+              0.0
+            ],
+            [
+              54.75,
+              54.75,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.004272153131814805,
+          "exported_protected_region_difference_mm3": 0.0006972036259346774,
+          "files": {
+            "kraken-spool-ring-89-mm-pentagon-gear-side-0.4mm-flange.stl": "5470ec31dfe953805e652d15de362eba4606ac8d5005fcb0337e0cedd45047da",
+            "kraken-spool-ring-89-mm-pentagon-gear-side-0.4mm-flange.3mf": "bb1780af55a4d0e154dd681a723174a964d9ec16269718eac1477f93bafc283a"
+          }
+        },
+        {
+          "stem": "kraken-spool-ring-89-mm-pentagon-cap-side-0.4mm-lip",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 53165.151430871294,
+          "bounds_mm": [
+            [
+              -46.998158,
+              -46.997605,
+              0.0
+            ],
+            [
+              46.998158,
+              46.99760499999999,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.004263885777366078,
+          "exported_protected_region_difference_mm3": 0.0006959489858261475,
+          "files": {
+            "kraken-spool-ring-89-mm-pentagon-cap-side-0.4mm-lip.stl": "35f260fef2ed731b604724a94922f7fce061be580cb401f1cca6d777e5d00f7e",
+            "kraken-spool-ring-89-mm-pentagon-cap-side-0.4mm-lip.3mf": "0b36157158caca38c488da6d46c4b6d3f32d01f042a6d8ab3fa61253313653e2"
+          }
+        }
+      ]
+    },
+    {
+      "target_hole_mm": 90,
+      "source_height_mm": 10.400001000000001,
+      "preserved_radius_mm": 22.5,
+      "corner_radius_mm": 45.7,
+      "support_radius_mm": 44.9,
+      "top_scale": 0.9584245076586434,
+      "gear_flange_od_mm": 110.5,
+      "gear_flange_thickness_mm": 0.4,
+      "cap_lip_thickness_mm": 0.4,
+      "source_cap_interface_pass": true,
+      "source_interface_above_base_pass": true,
+      "source_base_bore_section_pass": true,
+      "source": "kraken-spool-ring-90-mm-100.3mf",
+      "source_sha256": "a429def11c2f000f2a2e2a80b839b50a835a6ab5b24856922d678ab8e5fbd663",
+      "parts": [
+        {
+          "stem": "kraken-spool-ring-90-mm-pentagon-gear-side-0.4mm-flange",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 55622.047688936764,
+          "bounds_mm": [
+            [
+              -55.25,
+              -55.25,
+              0.0
+            ],
+            [
+              55.25,
+              55.25,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.004917041003009253,
+          "exported_protected_region_difference_mm3": 0.0007370918361003782,
+          "files": {
+            "kraken-spool-ring-90-mm-pentagon-gear-side-0.4mm-flange.stl": "1fb3b1b670ecfb7bb998c0faf74ef01bd466385479da205414cf7baffd78a29a",
+            "kraken-spool-ring-90-mm-pentagon-gear-side-0.4mm-flange.3mf": "e2fcfffdb8ca5e87ff703caa7ed0321dcbf0dc39f70dd671ff90412cf3ab254b"
+          }
+        },
+        {
+          "stem": "kraken-spool-ring-90-mm-pentagon-cap-side-0.4mm-lip",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 54621.13402207553,
+          "bounds_mm": [
+            [
+              -47.498138,
+              -47.4975805,
+              0.0
+            ],
+            [
+              47.498138,
+              47.4975805,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.004885928435379059,
+          "exported_protected_region_difference_mm3": 0.0007381814649931404,
+          "files": {
+            "kraken-spool-ring-90-mm-pentagon-cap-side-0.4mm-lip.stl": "64d490a811005d3c462e38817c58ad8964700e8b701262ec1b5e62cbf6d0b0f2",
+            "kraken-spool-ring-90-mm-pentagon-cap-side-0.4mm-lip.3mf": "ecadc1eb17d5745f3df2658da80ebdc672d1ad583a9b14f16b44413edd12cfd6"
+          }
+        }
+      ]
+    },
+    {
+      "target_hole_mm": 91,
+      "source_height_mm": 10.400001000000001,
+      "preserved_radius_mm": 22.5,
+      "corner_radius_mm": 46.2,
+      "support_radius_mm": 45.4,
+      "top_scale": 0.9588744588744589,
+      "gear_flange_od_mm": 111.5,
+      "gear_flange_thickness_mm": 0.4,
+      "cap_lip_thickness_mm": 0.4,
+      "source_cap_interface_pass": true,
+      "source_interface_above_base_pass": true,
+      "source_base_bore_section_pass": true,
+      "source": "kraken-spool-ring-91-mm-100.3mf",
+      "source_sha256": "d4683e3495aedb35a5bc3e45343b91eac8067f0757bdd6a27e03dfd66602030f",
+      "parts": [
+        {
+          "stem": "kraken-spool-ring-91-mm-pentagon-gear-side-0.4mm-flange",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 57104.077323140096,
+          "bounds_mm": [
+            [
+              -55.75,
+              -55.75,
+              0.0
+            ],
+            [
+              55.75,
+              55.75,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.004902657978789377,
+          "exported_protected_region_difference_mm3": 0.0006975924298226894,
+          "files": {
+            "kraken-spool-ring-91-mm-pentagon-gear-side-0.4mm-flange.stl": "3c842617c26770b83e248ae348114b934b3a9ef4637c96e940cad49f9e742261",
+            "kraken-spool-ring-91-mm-pentagon-gear-side-0.4mm-flange.3mf": "478738a06f555ccebd994797f5936fc1135f44868b1f334de3a6066df881cfa4"
+          }
+        },
+        {
+          "stem": "kraken-spool-ring-91-mm-pentagon-cap-side-0.4mm-lip",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 56093.42540075731,
+          "bounds_mm": [
+            [
+              -47.99812,
+              -47.997552,
+              0.0
+            ],
+            [
+              47.99812,
+              47.997552000000006,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.004877593006266815,
+          "exported_protected_region_difference_mm3": 0.0006974057763716008,
+          "files": {
+            "kraken-spool-ring-91-mm-pentagon-cap-side-0.4mm-lip.stl": "4ec0dd4946ffad731d52f4eb8c0bf76a5c86f9104d20a67859f44eea9099511a",
+            "kraken-spool-ring-91-mm-pentagon-cap-side-0.4mm-lip.3mf": "5a273a83fba5258c6ae41c9e40e6df50b3f87fea7c37d6ef6956367daeabd60d"
+          }
+        }
+      ]
+    },
+    {
+      "target_hole_mm": 92,
+      "source_height_mm": 10.400001000000001,
+      "preserved_radius_mm": 22.5,
+      "corner_radius_mm": 46.7,
+      "support_radius_mm": 45.9,
+      "top_scale": 0.9593147751605996,
+      "gear_flange_od_mm": 112.5,
+      "gear_flange_thickness_mm": 0.4,
+      "cap_lip_thickness_mm": 0.4,
+      "source_cap_interface_pass": true,
+      "source_interface_above_base_pass": true,
+      "source_base_bore_section_pass": true,
+      "source": "kraken-spool-ring-92-mm-100.3mf",
+      "source_sha256": "7aa91d415fff384ae1f213f4579959103b7b332ea2843f1d4a7e82bd4f68bb5a",
+      "parts": [
+        {
+          "stem": "kraken-spool-ring-92-mm-pentagon-gear-side-0.4mm-flange",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 58602.472356256236,
+          "bounds_mm": [
+            [
+              -56.25,
+              -56.25,
+              0.0
+            ],
+            [
+              56.25,
+              56.25,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.004633390892680177,
+          "exported_protected_region_difference_mm3": 0.0006623479369727149,
+          "files": {
+            "kraken-spool-ring-92-mm-pentagon-gear-side-0.4mm-flange.stl": "6d4518a5c33d3370bb12608d2978894bda3cd9685df2d350b0b399d51ac56578",
+            "kraken-spool-ring-92-mm-pentagon-gear-side-0.4mm-flange.3mf": "69959906b28011dde531bd064c3c17bf184eb32f73558d56b905691966522a3a"
+          }
+        },
+        {
+          "stem": "kraken-spool-ring-92-mm-pentagon-cap-side-0.4mm-lip",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 57582.07717212726,
+          "bounds_mm": [
+            [
+              -48.4981,
+              -48.497528,
+              0.0
+            ],
+            [
+              48.4981,
+              48.497527999999996,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.004617108177117012,
+          "exported_protected_region_difference_mm3": 0.0006606097226314904,
+          "files": {
+            "kraken-spool-ring-92-mm-pentagon-cap-side-0.4mm-lip.stl": "5567cffae47122267bfa64d9b10296c93da11bf72e2b43c08f9618085c0b3b39",
+            "kraken-spool-ring-92-mm-pentagon-cap-side-0.4mm-lip.3mf": "2eba2836d979a9fed9a4d394e72b67465d5737c1c1a1fc859c01fd89c4da578e"
+          }
+        }
+      ]
+    },
+    {
+      "target_hole_mm": 93,
+      "source_height_mm": 10.400001000000001,
+      "preserved_radius_mm": 22.5,
+      "corner_radius_mm": 47.2,
+      "support_radius_mm": 46.4,
+      "top_scale": 0.9597457627118644,
+      "gear_flange_od_mm": 113.5,
+      "gear_flange_thickness_mm": 0.4,
+      "cap_lip_thickness_mm": 0.4,
+      "source_cap_interface_pass": true,
+      "source_interface_above_base_pass": true,
+      "source_base_bore_section_pass": true,
+      "source": "kraken-spool-ring-93-mm-100.3mf",
+      "source_sha256": "c33c5d882cab5d3d0a2fa493a293440ce53528aaaa4f876ae3011d41e8f59263",
+      "parts": [
+        {
+          "stem": "kraken-spool-ring-93-mm-pentagon-gear-side-0.4mm-flange",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 60117.20195604848,
+          "bounds_mm": [
+            [
+              -56.75,
+              -56.75,
+              0.0
+            ],
+            [
+              56.75,
+              56.75,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.0050300606015727806,
+          "exported_protected_region_difference_mm3": 0.000669277798643842,
+          "files": {
+            "kraken-spool-ring-93-mm-pentagon-gear-side-0.4mm-flange.stl": "9bf39a4a1b16ff4cec3e418e7b39a6bb4c77e9f3bec80407959019a865340c9c",
+            "kraken-spool-ring-93-mm-pentagon-gear-side-0.4mm-flange.3mf": "fa9c9b80559a41707d1a7b78e463de46f15fb4c82fc18264afb69cb28b86eef0"
+          }
+        },
+        {
+          "stem": "kraken-spool-ring-93-mm-pentagon-cap-side-0.4mm-lip",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 59087.0634109325,
+          "bounds_mm": [
+            [
+              -48.998078,
+              -48.9975035,
+              0.0
+            ],
+            [
+              48.998078,
+              48.9975035,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.00499822331492787,
+          "exported_protected_region_difference_mm3": 0.0006701103148351754,
+          "files": {
+            "kraken-spool-ring-93-mm-pentagon-cap-side-0.4mm-lip.stl": "74c57b53a80a2896df2f9500a49a4c936f6502c63eccedbb48ed541329f06153",
+            "kraken-spool-ring-93-mm-pentagon-cap-side-0.4mm-lip.3mf": "3d989e6ac28373ff3f924bce9c0162addb19b20f6ff3a43a406e4852ed9c1e0d"
+          }
+        }
+      ]
+    },
+    {
+      "target_hole_mm": 94,
+      "source_height_mm": 10.400001000000001,
+      "preserved_radius_mm": 22.5,
+      "corner_radius_mm": 47.7,
+      "support_radius_mm": 46.9,
+      "top_scale": 0.9601677148846961,
+      "gear_flange_od_mm": 114.5,
+      "gear_flange_thickness_mm": 0.4,
+      "cap_lip_thickness_mm": 0.4,
+      "source_cap_interface_pass": true,
+      "source_interface_above_base_pass": true,
+      "source_base_bore_section_pass": true,
+      "source": "kraken-spool-ring-94-mm-100.3mf",
+      "source_sha256": "faf2b389f8fc867818557d0b8ca2e86c23ebdef79043a1da1b94000fd759b9f2",
+      "parts": [
+        {
+          "stem": "kraken-spool-ring-94-mm-pentagon-gear-side-0.4mm-flange",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 61648.57174051456,
+          "bounds_mm": [
+            [
+              -57.25,
+              -57.25,
+              0.0
+            ],
+            [
+              57.25,
+              57.25,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.004854978223214967,
+          "exported_protected_region_difference_mm3": 0.0006424794564894405,
+          "files": {
+            "kraken-spool-ring-94-mm-pentagon-gear-side-0.4mm-flange.stl": "1bb28cf4c7ae09bfde149cb80a86035d46898b4927ab1b766218fc65e1a07a15",
+            "kraken-spool-ring-94-mm-pentagon-gear-side-0.4mm-flange.3mf": "74bf3ded35aa1c844e31f764d08b4f560e2cc4fa5e297b4262d7bb72f36bda57"
+          }
+        },
+        {
+          "stem": "kraken-spool-ring-94-mm-pentagon-cap-side-0.4mm-lip",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 60608.68551301251,
+          "bounds_mm": [
+            [
+              -49.496508,
+              -49.498255,
+              0.0
+            ],
+            [
+              49.496508,
+              49.498255,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.004809737376473336,
+          "exported_protected_region_difference_mm3": 0.0006407162695227398,
+          "files": {
+            "kraken-spool-ring-94-mm-pentagon-cap-side-0.4mm-lip.stl": "a04ec260748398eb20e05870e469444770d2cc7f91cd44a244bc4e5a94136f6e",
+            "kraken-spool-ring-94-mm-pentagon-cap-side-0.4mm-lip.3mf": "95e5812b399ed393fa2ce3122467a4d3041a1cb5c41e591676c3dcb336547b7e"
+          }
+        }
+      ]
+    },
+    {
+      "target_hole_mm": 95,
+      "source_height_mm": 10.400001000000001,
+      "preserved_radius_mm": 22.5,
+      "corner_radius_mm": 48.2,
+      "support_radius_mm": 47.4,
+      "top_scale": 0.9605809128630706,
+      "gear_flange_od_mm": 115.5,
+      "gear_flange_thickness_mm": 0.4,
+      "cap_lip_thickness_mm": 0.4,
+      "source_cap_interface_pass": true,
+      "source_interface_above_base_pass": true,
+      "source_base_bore_section_pass": true,
+      "source": "kraken-spool-ring-95-mm-100.3mf",
+      "source_sha256": "f2a4187fce0d9f9ae71725ffcd7a434e664babcb4cfe9f5c0f241e147b09c8b7",
+      "parts": [
+        {
+          "stem": "kraken-spool-ring-95-mm-pentagon-gear-side-0.4mm-flange",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 63195.97046636757,
+          "bounds_mm": [
+            [
+              -57.75,
+              -57.75,
+              0.0
+            ],
+            [
+              57.75,
+              57.75,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.004781926102178342,
+          "exported_protected_region_difference_mm3": 0.0007064010620208481,
+          "files": {
+            "kraken-spool-ring-95-mm-pentagon-gear-side-0.4mm-flange.stl": "62b88becbe0bf833f66c6236813c22400f5654d4e8619f075b64f696814df8fc",
+            "kraken-spool-ring-95-mm-pentagon-gear-side-0.4mm-flange.3mf": "d78e0ca3325334b70df3685dca103e1381f79f42d4faad7a71948e567e83f575"
+          }
+        },
+        {
+          "stem": "kraken-spool-ring-95-mm-pentagon-cap-side-0.4mm-lip",
+          "status": "PASS",
+          "mesh_components": 1,
+          "volume_mm3": 62146.34081263821,
+          "bounds_mm": [
+            [
+              -49.99804,
+              -49.9974505,
+              0.0
+            ],
+            [
+              49.99804,
+              49.99745049999999,
+              10.400001000000001
+            ]
+          ],
+          "exported_stl_symmetric_difference_mm3": 0.004708612636024644,
+          "exported_protected_region_difference_mm3": 0.0007049140915432916,
+          "files": {
+            "kraken-spool-ring-95-mm-pentagon-cap-side-0.4mm-lip.stl": "2fdc0c7fe4446051b03d5f365dd15759a2bcee308d2331a4e275b5880ac3d1b0",
+            "kraken-spool-ring-95-mm-pentagon-cap-side-0.4mm-lip.3mf": "c682ddd5c0d3737d6458f6c95d4dc7917e04c8edfd092a0649074d230b1a8ef9"
+          }
+        }
+      ]
+    }
+  ]
+}

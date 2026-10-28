@@ -1,11 +1,36 @@
 {
   "status": "PASS",
-  "scope": "Existing round flange family: mesh validity and byte-identical reproduction; no physical fit qualification",
+  "scope": "Round ring pairs remapped from humebeam's meshes by round_flange.py for both flange sets; mesh validity only, no physical fit qualification. At 1.5 mm the same remap reproduces the earlier published gear-side files byte for byte apart from the STL header.",
+  "flange_sets": {
+    "normal": {
+      "cap": 0.6,
+      "gear": 2.2
+    },
+    "skinny": {
+      "cap": 0.4,
+      "gear": 0.4
+    }
+  },
   "parts": [
     {
-      "file": "models/kraken-spool-ring-45-mm-gear-side-1.5mm-flange.stl",
-      "sha256": "403a42d247fd9273c3b2b36e0386143244f0ca67043c794e02479abf0274d316",
-      "regenerated_byte_identical": true,
+      "file": "models/kraken-spool-ring-45-mm-round-cap-side-0.6mm-lip.stl",
+      "flange_set": "normal",
+      "sha256": "b8ce36f661032e4656c3dd8e606aa37066a68ce6cd0a00ba379dc5f43a7be916",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -25.0,
+        -74.9964370727539,
+        -21.786853790283203,
+        25.0,
+        -25.00356674194336,
+        -11.186853408813477
+      ],
+      "volume_mm3": 5691.858384635242
+    },
+    {
+      "file": "models/kraken-spool-ring-45-mm-round-gear-side-2.2mm-flange.stl",
+      "flange_set": "normal",
+      "sha256": "e8c01fe7a502ad76bef0a0fc90e81eb5dae577792e98345a67613af12774b37d",
       "mesh_components": 1,
       "bounds_mm": [
         -42.49980926513672,
@@ -13,14 +38,29 @@
         -21.786853790283203,
         42.49980926513672,
         -7.506231307983398,
-        -10.286852836608887
+        -9.58685302734375
       ],
-      "volume_mm3": 12042.402499653503
+      "volume_mm3": 15250.259893553892
     },
     {
-      "file": "models/kraken-spool-ring-46-mm-gear-side-1.5mm-flange.stl",
-      "sha256": "407aa594cb19fa6d42501882ef5ff0f32276e31b12a37ec8630da8934cd4ae1c",
-      "regenerated_byte_identical": true,
+      "file": "models/kraken-spool-ring-46-mm-round-cap-side-0.6mm-lip.stl",
+      "flange_set": "normal",
+      "sha256": "1eb51267a0faef3711f99f58b50f92cd6da7442c81f4e54ec91fc6ec2a4c3fdb",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -25.5,
+        -75.4963607788086,
+        -21.786853790283203,
+        25.5,
+        -24.503637313842773,
+        -11.186853408813477
+      ],
+      "volume_mm3": 6449.091790432326
+    },
+    {
+      "file": "models/kraken-spool-ring-46-mm-round-gear-side-2.2mm-flange.stl",
+      "flange_set": "normal",
+      "sha256": "db75ce8dc9544b1f4c68d06f8edba9b2797d89da83301f0eee4f69ce98d06053",
       "mesh_components": 1,
       "bounds_mm": [
         -42.999813079833984,
@@ -28,14 +68,29 @@
         -21.786853790283203,
         42.999813079833984,
         -7.006332874298096,
-        -10.286852836608887
+        -9.58685302734375
       ],
-      "volume_mm3": 12953.473598833823
+      "volume_mm3": 16255.330644335618
     },
     {
-      "file": "models/kraken-spool-ring-47-mm-gear-side-1.5mm-flange.stl",
-      "sha256": "2165e9413a46e7d1ec11cf5804388091ea023f3f7f6f794d1218bf8531b1d31d",
-      "regenerated_byte_identical": true,
+      "file": "models/kraken-spool-ring-47-mm-round-cap-side-0.6mm-lip.stl",
+      "flange_set": "normal",
+      "sha256": "9480670dcae8aa0c347cc9a441c9b474d8bad95c90e0ac3f9b316243019d1792",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -26.0,
+        -75.99629974365234,
+        -21.786853790283203,
+        26.0,
+        -24.003707885742188,
+        -11.186853408813477
+      ],
+      "volume_mm3": 7236.977819660292
+    },
+    {
+      "file": "models/kraken-spool-ring-47-mm-round-gear-side-2.2mm-flange.stl",
+      "flange_set": "normal",
+      "sha256": "a04e38f00c3946f4a810291c86c82902ecbe47fd44179999f821f2c1b7b1b799",
       "mesh_components": 1,
       "bounds_mm": [
         -43.499969482421875,
@@ -43,14 +98,29 @@
         -21.786853790283203,
         43.499969482421875,
         -6.5062150955200195,
-        -10.286852836608887
+        -9.58685302734375
       ],
-      "volume_mm3": 13896.6672988575
+      "volume_mm3": 17293.64774610625
     },
     {
-      "file": "models/kraken-spool-ring-48-mm-gear-side-1.5mm-flange.stl",
-      "sha256": "276531424c178a2f965ee3f2123ad06503f75271a6c36d236fec73c841c0e17f",
-      "regenerated_byte_identical": true,
+      "file": "models/kraken-spool-ring-48-mm-round-cap-side-0.6mm-lip.stl",
+      "flange_set": "normal",
+      "sha256": "89b83d1ec9d3698bc8d1b03b98cf33a90c658518458141e7a00d942a407f12ff",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -26.5,
+        -76.49622344970703,
+        -21.786853790283203,
+        26.5,
+        -23.503780364990234,
+        -11.186853408813477
+      ],
+      "volume_mm3": 8015.852590813283
+    },
+    {
+      "file": "models/kraken-spool-ring-48-mm-round-gear-side-2.2mm-flange.stl",
+      "flange_set": "normal",
+      "sha256": "1a03086fd76889ca19f299237fe7eee1f09fe95d4dab69cc9e3a3e631e844b13",
       "mesh_components": 1,
       "bounds_mm": [
         -43.99960708618164,
@@ -58,14 +128,29 @@
         -21.786853790283203,
         43.99960708618164,
         -6.006655216217041,
-        -10.286852836608887
+        -9.58685302734375
       ],
-      "volume_mm3": 14832.048442633408
+      "volume_mm3": 18325.151400995706
     },
     {
-      "file": "models/kraken-spool-ring-49-mm-gear-side-1.5mm-flange.stl",
-      "sha256": "c749839b777b4219809983c0a4cc1d4938156d0839616ddef444fb072bb7976e",
-      "regenerated_byte_identical": true,
+      "file": "models/kraken-spool-ring-49-mm-round-cap-side-0.6mm-lip.stl",
+      "flange_set": "normal",
+      "sha256": "ad04feb8fba025be9b3f65ee7f902be42b84e4e8b4d8200554c54029d9dfeb1e",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -27.0,
+        -76.99614715576172,
+        -21.786853790283203,
+        27.0,
+        -23.00385093688965,
+        -11.186853408813477
+      ],
+      "volume_mm3": 10394.775131589106
+    },
+    {
+      "file": "models/kraken-spool-ring-49-mm-round-gear-side-2.2mm-flange.stl",
+      "flange_set": "normal",
+      "sha256": "82d45b11b59d3082ec6d825ef8578cde52f0e39428c5e968ccb57c5f88238e55",
       "mesh_components": 1,
       "bounds_mm": [
         -37.499813079833984,
@@ -73,14 +158,29 @@
         -21.786853790283203,
         37.499813079833984,
         -12.505545616149902,
-        -10.286852836608887
+        -9.58685302734375
       ],
-      "volume_mm3": 14664.747879336966
+      "volume_mm3": 16993.143604036584
     },
     {
-      "file": "models/kraken-spool-ring-50-mm-gear-side-1.5mm-flange.stl",
-      "sha256": "b8c935fe2b755a6e806e93339f4b0a1f9c392c63e6d8c66ac0adf9b39f709367",
-      "regenerated_byte_identical": true,
+      "file": "models/kraken-spool-ring-50-mm-round-cap-side-0.6mm-lip.stl",
+      "flange_set": "normal",
+      "sha256": "a8ca3f99ce099d3dcd40c0d30921882eff5de967cbc6b7ba71a4ad056838f441",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -27.5,
+        -77.49607849121094,
+        -21.786853790283203,
+        27.5,
+        -22.503923416137695,
+        -11.186853408813477
+      ],
+      "volume_mm3": 9660.957162748826
+    },
+    {
+      "file": "models/kraken-spool-ring-50-mm-round-gear-side-2.2mm-flange.stl",
+      "flange_set": "normal",
+      "sha256": "8baadf7db1b33aa85c77c7ccd6de2421c70c38f352eb174b93a5422699b2f1d2",
       "mesh_components": 1,
       "bounds_mm": [
         -44.999813079833984,
@@ -88,14 +188,29 @@
         -21.786853790283203,
         44.999813079833984,
         -5.006601333618164,
-        -10.286852836608887
+        -9.58685302734375
       ],
-      "volume_mm3": 16794.79826863035
+      "volume_mm3": 20483.62945152917
     },
     {
-      "file": "models/kraken-spool-ring-51-mm-gear-side-1.5mm-flange.stl",
-      "sha256": "5fb0a8d2031442068ea10d3aad643a4fde26b5f7e84758d58ad0cf7287e8fef4",
-      "regenerated_byte_identical": true,
+      "file": "models/kraken-spool-ring-51-mm-round-cap-side-0.6mm-lip.stl",
+      "flange_set": "normal",
+      "sha256": "000b2584f0732daa0d0c5944bc22334d46b3b10b093896ef22b08e9ffc6df989",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -28.0,
+        -77.99600982666016,
+        -21.786853790283203,
+        28.0,
+        -22.00399398803711,
+        -11.186853408813477
+      ],
+      "volume_mm3": 10528.899417363626
+    },
+    {
+      "file": "models/kraken-spool-ring-51-mm-round-gear-side-2.2mm-flange.stl",
+      "flange_set": "normal",
+      "sha256": "d8edf4104a9143b4414da8ba9d553c8c4e738ea06f3807c004a547e487ba7041",
       "mesh_components": 1,
       "bounds_mm": [
         -45.499839782714844,
@@ -103,14 +218,29 @@
         -21.786853790283203,
         45.499839782714844,
         -4.506643295288086,
-        -10.286852836608887
+        -9.58685302734375
       ],
-      "volume_mm3": 17823.629147457374
+      "volume_mm3": 21611.941290740888
     },
     {
-      "file": "models/kraken-spool-ring-52-mm-gear-side-1.5mm-flange.stl",
-      "sha256": "aa3e351353d8ab422988dbaa37d1913481c39d2fa306735fca8939522e7f7c5f",
-      "regenerated_byte_identical": true,
+      "file": "models/kraken-spool-ring-52-mm-round-cap-side-0.6mm-lip.stl",
+      "flange_set": "normal",
+      "sha256": "23fcc5d6dfe6e68f7a7f33e04abe59c9325c101677df65d08743b4d492f87389",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -28.5,
+        -78.49593353271484,
+        -21.786853790283203,
+        28.5,
+        -21.504064559936523,
+        -11.186853408813477
+      ],
+      "volume_mm3": 11373.985394676485
+    },
+    {
+      "file": "models/kraken-spool-ring-52-mm-round-gear-side-2.2mm-flange.stl",
+      "flange_set": "normal",
+      "sha256": "1a66c7788775094ad300b827547805d1d9564f443d4428ae3935d1ec118cd6a7",
       "mesh_components": 1,
       "bounds_mm": [
         -45.999847412109375,
@@ -118,14 +248,29 @@
         -21.786853790283203,
         45.999847412109375,
         -4.006706237792969,
-        -10.286852836608887
+        -9.58685302734375
       ],
-      "volume_mm3": 18831.05761693158
+      "volume_mm3": 22719.983819933073
     },
     {
-      "file": "models/kraken-spool-ring-53-mm-gear-side-1.5mm-flange.stl",
-      "sha256": "6156e8ccd3070e1280c011887a238c081778714cb4e193101d1c83dca8008fef",
-      "regenerated_byte_identical": true,
+      "file": "models/kraken-spool-ring-53-mm-round-cap-side-0.6mm-lip.stl",
+      "flange_set": "normal",
+      "sha256": "afc9c9cd0b81dc409a4091b15dc19b6b0e70704df993b69693218d0f6ea70719",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -29.0,
+        -78.99586486816406,
+        -21.786853790283203,
+        29.0,
+        -21.004138946533203,
+        -11.186853408813477
+      ],
+      "volume_mm3": 12253.58578220362
+    },
+    {
+      "file": "models/kraken-spool-ring-53-mm-round-gear-side-2.2mm-flange.stl",
+      "flange_set": "normal",
+      "sha256": "617829794afccbe0109932fa5d1c78a038faf0be49663d68e47092f743592883",
       "mesh_components": 1,
       "bounds_mm": [
         -46.49966049194336,
@@ -133,14 +278,29 @@
         -21.786853790283203,
         46.49966049194336,
         -3.5069756507873535,
-        -10.286852836608887
+        -9.58685302734375
       ],
-      "volume_mm3": 19874.30055677385
+      "volume_mm3": 23864.878168354575
     },
     {
-      "file": "models/kraken-spool-ring-54-mm-gear-side-1.5mm-flange.stl",
-      "sha256": "58429b876b5b01199243e20a9ccc997cc2739c60d9b85cd86c7287279509e250",
-      "regenerated_byte_identical": true,
+      "file": "models/kraken-spool-ring-54-mm-round-cap-side-0.6mm-lip.stl",
+      "flange_set": "normal",
+      "sha256": "ec8532ed65831d0d0d6fba65c675031bb76d273290b3715fbb06ce4eac2f1929",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -29.5,
+        -79.49578857421875,
+        -21.786853790283203,
+        29.5,
+        -20.504207611083984,
+        -11.186853408813477
+      ],
+      "volume_mm3": 13147.394259224802
+    },
+    {
+      "file": "models/kraken-spool-ring-54-mm-round-gear-side-2.2mm-flange.stl",
+      "flange_set": "normal",
+      "sha256": "b6213ddfb26ac9960bc43840c49e9cbca1c7d19fe1fdb3fc34d390adcd502ea7",
       "mesh_components": 1,
       "bounds_mm": [
         -46.99984359741211,
@@ -148,14 +308,29 @@
         -21.786853790283203,
         46.99984359741211,
         -3.0068631172180176,
-        -10.286852836608887
+        -9.58685302734375
       ],
-      "volume_mm3": 20933.333033039708
+      "volume_mm3": 25026.742327709268
     },
     {
-      "file": "models/kraken-spool-ring-55-mm-gear-side-1.5mm-flange.stl",
-      "sha256": "3c0a0a6c0f77e5377b6aac1bbbe4a8b89a50020efde9485fce1608b90b78421a",
-      "regenerated_byte_identical": true,
+      "file": "models/kraken-spool-ring-55-mm-round-cap-side-0.6mm-lip.stl",
+      "flange_set": "normal",
+      "sha256": "d63d6e79a2fa195de0cdfbe93e5e6fdc8e6a703e37c74f586685543606aecca9",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -30.0,
+        -79.99571990966797,
+        -21.786853790283203,
+        30.0,
+        -20.0042781829834,
+        -11.186853408813477
+      ],
+      "volume_mm3": 14060.859461349624
+    },
+    {
+      "file": "models/kraken-spool-ring-55-mm-round-gear-side-2.2mm-flange.stl",
+      "flange_set": "normal",
+      "sha256": "eb50690531653e5de86197bfd3ffc3f194536cb2004607793110d9ddea6a78e8",
       "mesh_components": 1,
       "bounds_mm": [
         -47.49984359741211,
@@ -163,14 +338,29 @@
         -21.786853790283203,
         47.49984359741211,
         -2.506927967071533,
-        -10.286852836608887
+        -9.58685302734375
       ],
-      "volume_mm3": 22013.351112368822
+      "volume_mm3": 26210.649482307097
     },
     {
-      "file": "models/kraken-spool-ring-56-mm-gear-side-1.5mm-flange.stl",
-      "sha256": "cd7771254e2dad893204a6f33a3026bc89dd18c4047581a7db5152c2491f1e6f",
-      "regenerated_byte_identical": true,
+      "file": "models/kraken-spool-ring-56-mm-round-cap-side-0.6mm-lip.stl",
+      "flange_set": "normal",
+      "sha256": "2773a2ff15533d4818016119a6aed05f436a55763b1f0a64e1eb31081f37094b",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -30.5,
+        -80.49565124511719,
+        -21.786853790283203,
+        30.5,
+        -19.504350662231445,
+        -11.186853408813477
+      ],
+      "volume_mm3": 14984.837151179336
+    },
+    {
+      "file": "models/kraken-spool-ring-56-mm-round-gear-side-2.2mm-flange.stl",
+      "flange_set": "normal",
+      "sha256": "7dd1586c25c4669fe19054f1f2d8d7fb472e6eedea3ca99e63191b5e6d9dbcd1",
       "mesh_components": 1,
       "bounds_mm": [
         -47.99985122680664,
@@ -178,14 +368,29 @@
         -21.786853790283203,
         47.99985122680664,
         -2.0069994926452637,
-        -10.286852836608887
+        -9.58685302734375
       ],
-      "volume_mm3": 23105.29461624878
+      "volume_mm3": 27407.581156503347
     },
     {
-      "file": "models/kraken-spool-ring-57-mm-gear-side-1.5mm-flange.stl",
-      "sha256": "6c4260f2d7df543fb9e7734db1b1f085303997cdda998a85894a1561e5cabe48",
-      "regenerated_byte_identical": true,
+      "file": "models/kraken-spool-ring-57-mm-round-cap-side-0.6mm-lip.stl",
+      "flange_set": "normal",
+      "sha256": "ca4c26b44cfeefd28bd2cb19cc9b0d027da97042e5e1eab3bb278d78e24116e9",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -31.0,
+        -80.99557495117188,
+        -21.786853790283203,
+        31.0,
+        -19.00442123413086,
+        -11.186853408813477
+      ],
+      "volume_mm3": 15940.479843773672
+    },
+    {
+      "file": "models/kraken-spool-ring-57-mm-round-gear-side-2.2mm-flange.stl",
+      "flange_set": "normal",
+      "sha256": "7d5364cea7000f04c911c395236e221bd6ea2eb9aab7cba3e0f856da7be9914b",
       "mesh_components": 1,
       "bounds_mm": [
         -48.4998664855957,
@@ -193,14 +398,29 @@
         -21.786853790283203,
         48.4998664855957,
         -1.5070598125457764,
-        -10.286852836608887
+        -9.58685302734375
       ],
-      "volume_mm3": 24230.29986715849
+      "volume_mm3": 28638.659214693696
     },
     {
-      "file": "models/kraken-spool-ring-58-mm-gear-side-1.5mm-flange.stl",
-      "sha256": "07bfd82b37d3f9ffcb7abce22ce8cdc01c12a2180ba66d27e14ce058032e491c",
-      "regenerated_byte_identical": true,
+      "file": "models/kraken-spool-ring-58-mm-round-cap-side-0.6mm-lip.stl",
+      "flange_set": "normal",
+      "sha256": "5734405c95821cdf242b5df5f8506df3c69b949f4a11c7cc6fc32ecfe928f846",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -31.5,
+        -81.4955062866211,
+        -21.786853790283203,
+        31.5,
+        -18.504493713378906,
+        -11.186853408813477
+      ],
+      "volume_mm3": 16888.31898458936
+    },
+    {
+      "file": "models/kraken-spool-ring-58-mm-round-gear-side-2.2mm-flange.stl",
+      "flange_set": "normal",
+      "sha256": "7d932c342c56b4c75e20cb1bf3e51ac783e5de02edcff3bfba1953ed6ebd70b9",
       "mesh_components": 1,
       "bounds_mm": [
         -48.998924255371094,
@@ -208,14 +428,29 @@
         -21.786853790283203,
         48.998924255371094,
         -1.00807785987854,
-        -10.286852836608887
+        -9.58685302734375
       ],
-      "volume_mm3": 25348.526746174004
+      "volume_mm3": 29863.893610348394
     },
     {
-      "file": "models/kraken-spool-ring-59-mm-gear-side-1.5mm-flange.stl",
-      "sha256": "f26e684ce7a56812c91210ccac658c76082511c3e9157e5800fe13dc14e732e6",
-      "regenerated_byte_identical": true,
+      "file": "models/kraken-spool-ring-59-mm-round-cap-side-0.6mm-lip.stl",
+      "flange_set": "normal",
+      "sha256": "1c2aee6f42df5804ac02cabd696016844a7cc27cf703831786d1679d864febd3",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -32.0,
+        -81.99543762207031,
+        -21.786853790283203,
+        32.0,
+        -18.00456428527832,
+        -11.186853408813477
+      ],
+      "volume_mm3": 17869.298030245925
+    },
+    {
+      "file": "models/kraken-spool-ring-59-mm-round-gear-side-2.2mm-flange.stl",
+      "flange_set": "normal",
+      "sha256": "fcdb6c13ced9bb5d72ed68050f210934274229fba709ff3c39d5898617d1b808",
       "mesh_components": 1,
       "bounds_mm": [
         -49.499847412109375,
@@ -223,14 +458,29 @@
         -21.786853790283203,
         49.499847412109375,
         -0.5071946382522583,
-        -10.286852836608887
+        -9.58685302734375
       ],
-      "volume_mm3": 26502.137599607595
+      "volume_mm3": 31125.989335966846
     },
     {
-      "file": "models/kraken-spool-ring-60-mm-gear-side-1.5mm-flange.stl",
-      "sha256": "39b2ca5c24da82b44699cf850893d667609baca8e6a21f9318edf09a29fcb0ec",
-      "regenerated_byte_identical": true,
+      "file": "models/kraken-spool-ring-60-mm-round-cap-side-0.6mm-lip.stl",
+      "flange_set": "normal",
+      "sha256": "f4f04b3e386698470694ed09e5285106028db4e6527965725b3fc97c03e3ff25",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -32.5,
+        -82.495361328125,
+        -21.786853790283203,
+        32.5,
+        -17.504634857177734,
+        -11.186853408813477
+      ],
+      "volume_mm3": 18855.684007233205
+    },
+    {
+      "file": "models/kraken-spool-ring-60-mm-round-gear-side-2.2mm-flange.stl",
+      "flange_set": "normal",
+      "sha256": "dcb54fcc299d74f6fb9f9cf1fed78cebdc1f456894e7e94220cff1b103f9b252",
       "mesh_components": 1,
       "bounds_mm": [
         -49.999820709228516,
@@ -238,14 +488,29 @@
         -21.786853790283203,
         49.999820709228516,
         -0.007319880649447441,
-        -10.286852836608887
+        -9.58685302734375
       ],
-      "volume_mm3": 27662.103350758403
+      "volume_mm3": 32395.315009013317
     },
     {
-      "file": "models/kraken-spool-ring-61-mm-gear-side-1.5mm-flange.stl",
-      "sha256": "7b8af5e226ed0366e74e35cd76e8ba87c7cafe1656dc91e8ef91163718771f88",
-      "regenerated_byte_identical": true,
+      "file": "models/kraken-spool-ring-61-mm-round-cap-side-0.6mm-lip.stl",
+      "flange_set": "normal",
+      "sha256": "7f1c4b96e4901a534a3a1a904d4d16137e413e76b7d16bdaaae81e7bbdd7d65a",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -33.0,
+        -82.99529266357422,
+        -21.786853790283203,
+        33.0,
+        -17.00470733642578,
+        -11.186853408813477
+      ],
+      "volume_mm3": 19890.535250888246
+    },
+    {
+      "file": "models/kraken-spool-ring-61-mm-round-gear-side-2.2mm-flange.stl",
+      "flange_set": "normal",
+      "sha256": "6fc4cf1001fd581005f9b493c8ce5d8ad47c0520fd5a8db57ae534f6bf8f51b1",
       "mesh_components": 1,
       "bounds_mm": [
         -50.499855041503906,
@@ -253,14 +518,29 @@
         -21.786853790283203,
         50.499855041503906,
         0.49265947937965393,
-        -10.286852836608887
+        -9.58685302734375
       ],
-      "volume_mm3": 28872.035722023502
+      "volume_mm3": 33715.76467849156
     },
     {
-      "file": "models/kraken-spool-ring-62-mm-gear-side-1.5mm-flange.stl",
-      "sha256": "dbdaaf1f32d60b18126d787ca558274400dd034915ea057e4f727c82a621eaaa",
-      "regenerated_byte_identical": true,
+      "file": "models/kraken-spool-ring-62-mm-round-cap-side-0.6mm-lip.stl",
+      "flange_set": "normal",
+      "sha256": "7f0d2457c6cafff0e96c07908772e10f770f2de877d8952cfd89b6ec51da09e1",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -33.5,
+        -83.49522399902344,
+        -21.786853790283203,
+        33.5,
+        -16.504777908325195,
+        -11.186853408813477
+      ],
+      "volume_mm3": 20901.93393394356
+    },
+    {
+      "file": "models/kraken-spool-ring-62-mm-round-gear-side-2.2mm-flange.stl",
+      "flange_set": "normal",
+      "sha256": "b760a4ed52478b2383f6ee65fcc3b0a579e255619d7095a3c7254d1193c9e824",
       "mesh_components": 1,
       "bounds_mm": [
         -50.999839782714844,
@@ -268,14 +548,29 @@
         -21.786853790283203,
         50.999839782714844,
         0.9925734996795654,
-        -10.286852836608887
+        -9.58685302734375
       ],
-      "volume_mm3": 30059.870450536153
+      "volume_mm3": 35015.178800182344
     },
     {
-      "file": "models/kraken-spool-ring-63-mm-gear-side-1.5mm-flange.stl",
-      "sha256": "4eaedd9773612c9e175aab72a8ed8a07498a0e927de53e9f80efd63bf528461d",
-      "regenerated_byte_identical": true,
+      "file": "models/kraken-spool-ring-63-mm-round-cap-side-0.6mm-lip.stl",
+      "flange_set": "normal",
+      "sha256": "32fc2a4e04686b1a8beb6f247bc21f49bc032cdd06e1eba553eabe50273675d8",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -34.0,
+        -83.9988021850586,
+        -21.786853790283203,
+        33.995201110839844,
+        -16.00119972229004,
+        -11.186853408813477
+      ],
+      "volume_mm3": 21948.3155791792
+    },
+    {
+      "file": "models/kraken-spool-ring-63-mm-round-gear-side-2.2mm-flange.stl",
+      "flange_set": "normal",
+      "sha256": "da8d986a8af888b04364a7db404d884d3d7e8262cab55b67cd87b6e72af6918d",
       "mesh_components": 1,
       "bounds_mm": [
         -51.466407775878906,
@@ -283,14 +578,29 @@
         -21.786853790283203,
         51.49272155761719,
         1.4815177917480469,
-        -10.286852836608887
+        -9.58685302734375
       ],
-      "volume_mm3": 31276.036754709683
+      "volume_mm3": 36340.25413444303
     },
     {
-      "file": "models/kraken-spool-ring-64-mm-gear-side-1.5mm-flange.stl",
-      "sha256": "aa3542af90ee5d38c7c3e78a92fc499faba159c685a89a92f7a375b47634c6d0",
-      "regenerated_byte_identical": true,
+      "file": "models/kraken-spool-ring-64-mm-round-cap-side-0.6mm-lip.stl",
+      "flange_set": "normal",
+      "sha256": "6ff4efb19f0d870c1b0ac10890582c5e3899697482d8ac210355b78ab70a0772",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -34.5,
+        -84.498779296875,
+        -21.786853790283203,
+        34.49513244628906,
+        -15.501216888427734,
+        -11.186853408813477
+      ],
+      "volume_mm3": 23008.12659883049
+    },
+    {
+      "file": "models/kraken-spool-ring-64-mm-round-gear-side-2.2mm-flange.stl",
+      "flange_set": "normal",
+      "sha256": "33cc37d1fb8ca7a4c482060672d28fa614b69e04ad59583cb339b71f74f02cbc",
       "mesh_components": 1,
       "bounds_mm": [
         -51.96592330932617,
@@ -298,14 +608,29 @@
         -21.786853790283203,
         51.9926643371582,
         1.9812380075454712,
-        -10.286852836608887
+        -9.58685302734375
       ],
-      "volume_mm3": 32514.91987067068
+      "volume_mm3": 37692.82627198484
     },
     {
-      "file": "models/kraken-spool-ring-65-mm-gear-side-1.5mm-flange.stl",
-      "sha256": "b526f2787342d4ee4675112968ab261256fbfbc7e0edc5f338ac5b7fe311ec95",
-      "regenerated_byte_identical": true,
+      "file": "models/kraken-spool-ring-65-mm-round-cap-side-0.6mm-lip.stl",
+      "flange_set": "normal",
+      "sha256": "84aacbc27398d16e613057969073993ecd8581472a6895b76fa49ce56db62632",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -35.0,
+        -84.99877166748047,
+        -21.786853790283203,
+        34.995059967041016,
+        -15.001235008239746,
+        -11.186853408813477
+      ],
+      "volume_mm3": 24088.31884768875
+    },
+    {
+      "file": "models/kraken-spool-ring-65-mm-round-gear-side-2.2mm-flange.stl",
+      "flange_set": "normal",
+      "sha256": "04b3b839ef609858ffb43f3214cfc26f8868d1d909049c53a2efecf13b958bb8",
       "mesh_components": 1,
       "bounds_mm": [
         -52.46541976928711,
@@ -313,14 +638,29 @@
         -21.786853790283203,
         52.49258041381836,
         2.4810025691986084,
-        -10.286852836608887
+        -9.58685302734375
       ],
-      "volume_mm3": 33775.626736899896
+      "volume_mm3": 39068.34547051381
     },
     {
-      "file": "models/kraken-spool-ring-66-mm-gear-side-1.5mm-flange.stl",
-      "sha256": "5a924d540b5f93a1be616629e2fd239161c45e9e993056fa82f025fad3dd5863",
-      "regenerated_byte_identical": true,
+      "file": "models/kraken-spool-ring-66-mm-round-cap-side-0.6mm-lip.stl",
+      "flange_set": "normal",
+      "sha256": "bd452228000fa530715f66626094aa889d95b8469acf00b29d1f7ade06af0874",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -35.5,
+        -85.49874877929688,
+        -21.786853790283203,
+        35.494991302490234,
+        -14.501252174377441,
+        -11.186853408813477
+      ],
+      "volume_mm3": 25178.442202140424
+    },
+    {
+      "file": "models/kraken-spool-ring-66-mm-round-gear-side-2.2mm-flange.stl",
+      "flange_set": "normal",
+      "sha256": "066ea9d476dbb91ee8c149c67ca1d483425794d299852e0bf7d9143df7cf8a65",
       "mesh_components": 1,
       "bounds_mm": [
         -52.964942932128906,
@@ -328,14 +668,29 @@
         -21.786853790283203,
         52.992530822753906,
         2.980757713317871,
-        -10.286852836608887
+        -9.58685302734375
       ],
-      "volume_mm3": 35047.650308668046
+      "volume_mm3": 40456.257407676785
     },
     {
-      "file": "models/kraken-spool-ring-67-mm-gear-side-1.5mm-flange.stl",
-      "sha256": "1cb86081fe653509fb93e105569b5a14ee71750b664ada95d250e7c2f1c96a91",
-      "regenerated_byte_identical": true,
+      "file": "models/kraken-spool-ring-67-mm-round-cap-side-0.6mm-lip.stl",
+      "flange_set": "normal",
+      "sha256": "d6d0fac488eb4b7b392bfac45943eac11fb7404bbb929ee4500bc39684fe82f2",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -36.0,
+        -85.99873352050781,
+        -21.786853790283203,
+        35.99491882324219,
+        -14.001270294189453,
+        -11.186853408813477
+      ],
+      "volume_mm3": 26300.91057341641
+    },
+    {
+      "file": "models/kraken-spool-ring-67-mm-round-gear-side-2.2mm-flange.stl",
+      "flange_set": "normal",
+      "sha256": "e8df99c92da4f4afa2ce3209afb6472daa72fe31f370ca0f9fc77ec70afc613f",
       "mesh_components": 1,
       "bounds_mm": [
         -53.464439392089844,
@@ -343,14 +698,29 @@
         -21.786853790283203,
         53.49245071411133,
         3.480494260787964,
-        -10.286852836608887
+        -9.58685302734375
       ],
-      "volume_mm3": 36353.401244002685
+      "volume_mm3": 41878.97515596314
     },
     {
-      "file": "models/kraken-spool-ring-68-mm-gear-side-1.5mm-flange.stl",
-      "sha256": "6a2e26d720bac684065ec1abfdc2c5629cdcbb80ce10daad7e230df4c7c0f87c",
-      "regenerated_byte_identical": true,
+      "file": "models/kraken-spool-ring-68-mm-round-cap-side-0.6mm-lip.stl",
+      "flange_set": "normal",
+      "sha256": "d02b0700242ea324c881365cb49fd9ce357956a9a1d879792b6d76b67d2a97db",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -36.497711181640625,
+        -86.4998550415039,
+        -21.786853790283203,
+        36.499427795410156,
+        -13.50357723236084,
+        -11.186853408813477
+      ],
+      "volume_mm3": 27415.21704985866
+    },
+    {
+      "file": "models/kraken-spool-ring-68-mm-round-gear-side-2.2mm-flange.stl",
+      "flange_set": "normal",
+      "sha256": "760b29e59dac77b0555d2671985ffaf0c8b9399374b423171bd267fd9551c989",
       "mesh_components": 1,
       "bounds_mm": [
         -53.98931884765625,
@@ -358,14 +728,29 @@
         -21.786853790283203,
         53.97977828979492,
         3.993365526199341,
-        -10.286852836608887
+        -9.58685302734375
       ],
-      "volume_mm3": 37654.796891904916
+      "volume_mm3": 43299.57085311152
     },
     {
-      "file": "models/kraken-spool-ring-69-mm-gear-side-1.5mm-flange.stl",
-      "sha256": "c4c9a300738f622e8ac4448a1b4bb7bc87031049c852c78b6316fefd0702e699",
-      "regenerated_byte_identical": true,
+      "file": "models/kraken-spool-ring-69-mm-round-cap-side-0.6mm-lip.stl",
+      "flange_set": "normal",
+      "sha256": "3e14482456feaed3cb8ab34897576468a4e5d2b31f0e512cd2bd8cc2918b6585",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -36.9976806640625,
+        -86.9998550415039,
+        -21.786853790283203,
+        36.999420166015625,
+        -13.003625869750977,
+        -11.186853408813477
+      ],
+      "volume_mm3": 28562.637600148602
+    },
+    {
+      "file": "models/kraken-spool-ring-69-mm-round-gear-side-2.2mm-flange.stl",
+      "flange_set": "normal",
+      "sha256": "07edad3493aaed7e2400a421df48c3a589965c21f543fec57fc2cc50c113533f",
       "mesh_components": 1,
       "bounds_mm": [
         -54.48918151855469,
@@ -373,14 +758,29 @@
         -21.786853790283203,
         54.479496002197266,
         4.493300437927246,
-        -10.286852836608887
+        -9.58685302734375
       ],
-      "volume_mm3": 38988.39623536712
+      "volume_mm3": 44752.37440660468
     },
     {
-      "file": "models/kraken-spool-ring-70-mm-gear-side-1.5mm-flange.stl",
-      "sha256": "7f6db7b6bbd96523ffa6ee1298222bf0f85987fd60bbc0f23fedca9f12f8cc5c",
-      "regenerated_byte_identical": true,
+      "file": "models/kraken-spool-ring-70-mm-round-cap-side-0.6mm-lip.stl",
+      "flange_set": "normal",
+      "sha256": "0a7eab3a2b16252221e96ff5f2f15429345ae2fc972829f5cf7d148f9ad36484",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -37.5,
+        -87.4986801147461,
+        -21.786853790283203,
+        37.49470901489258,
+        -12.501322746276855,
+        -11.186853408813477
+      ],
+      "volume_mm3": 29731.156298972048
+    },
+    {
+      "file": "models/kraken-spool-ring-70-mm-round-gear-side-2.2mm-flange.stl",
+      "flange_set": "normal",
+      "sha256": "45449ad7e2cb83705db51404f5b07e4e479aee9297e3ed6237acfef313bde0fc",
       "mesh_components": 1,
       "bounds_mm": [
         -54.962955474853516,
@@ -388,14 +788,29 @@
         -21.786853790283203,
         54.99223709106445,
         4.979694366455078,
-        -10.286852836608887
+        -9.58685302734375
       ],
-      "volume_mm3": 40342.06487226092
+      "volume_mm3": 46225.20685865149
     },
     {
-      "file": "models/kraken-spool-ring-71-mm-gear-side-1.5mm-flange.stl",
-      "sha256": "c73251634ab158b7727985dbcc939a27875461d0f6e30b44e77c4cc2081f122e",
-      "regenerated_byte_identical": true,
+      "file": "models/kraken-spool-ring-71-mm-round-cap-side-0.6mm-lip.stl",
+      "flange_set": "normal",
+      "sha256": "263f2855ac32b2f7ce56a5b82dc0066339132a66b0471a6799644176f9c0de6d",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -37.997615814208984,
+        -87.99984741210938,
+        -21.786853790283203,
+        37.99940490722656,
+        -12.003724098205566,
+        -11.186853408813477
+      ],
+      "volume_mm3": 30932.304060437047
+    },
+    {
+      "file": "models/kraken-spool-ring-71-mm-round-gear-side-2.2mm-flange.stl",
+      "flange_set": "normal",
+      "sha256": "27bb21213eae2133c3a03ddc11fdceaf39b55cf8fe67484b8cdfa06db61b0507",
       "mesh_components": 1,
       "bounds_mm": [
         -55.48892593383789,
@@ -403,14 +818,29 @@
         -21.786853790283203,
         55.47895812988281,
         5.493166446685791,
-        -10.286852836608887
+        -9.58685302734375
       ],
-      "volume_mm3": 41734.645866837076
+      "volume_mm3": 47740.3163872482
     },
     {
-      "file": "models/kraken-spool-ring-72-mm-gear-side-1.5mm-flange.stl",
-      "sha256": "c14526aa239a8a0f54428a65fdcc537f802ba95409884c1c90bb1c91c6093a10",
-      "regenerated_byte_identical": true,
+      "file": "models/kraken-spool-ring-72-mm-round-cap-side-0.6mm-lip.stl",
+      "flange_set": "normal",
+      "sha256": "d553e657b6eb4297d81068c582b1c8323efca5b5f280cd4da0bca21256a9cd61",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -38.49758529663086,
+        -88.49984741210938,
+        -21.786853790283203,
+        38.49939727783203,
+        -11.503772735595703,
+        -11.186853408813477
+      ],
+      "volume_mm3": 32110.123880221083
+    },
+    {
+      "file": "models/kraken-spool-ring-72-mm-round-gear-side-2.2mm-flange.stl",
+      "flange_set": "normal",
+      "sha256": "ce4b91d2020fa9455d1fa7afef898b15f5d070168cbbf98925481bd14615c429",
       "mesh_components": 1,
       "bounds_mm": [
         -55.98877716064453,
@@ -418,14 +848,29 @@
         -21.786853790283203,
         55.978668212890625,
         5.993091583251953,
-        -10.286852836608887
+        -9.58685302734375
       ],
-      "volume_mm3": 43102.875423445184
+      "volume_mm3": 49231.04382403259
     },
     {
-      "file": "models/kraken-spool-ring-73-mm-gear-side-1.5mm-flange.stl",
-      "sha256": "06e542566a81a3eb8f76586619ccfb5c46aa8d6b73b0d3ee1994ed53da435c5d",
-      "regenerated_byte_identical": true,
+      "file": "models/kraken-spool-ring-73-mm-round-cap-side-0.6mm-lip.stl",
+      "flange_set": "normal",
+      "sha256": "103841aee8d15414ad662defbed63d6276f88d75ac1da482c67057fcb067f8b9",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -38.997554779052734,
+        -88.99984741210938,
+        -21.786853790283203,
+        38.9993896484375,
+        -11.003822326660156,
+        -11.186853408813477
+      ],
+      "volume_mm3": 33323.508005419564
+    },
+    {
+      "file": "models/kraken-spool-ring-73-mm-round-gear-side-2.2mm-flange.stl",
+      "flange_set": "normal",
+      "sha256": "a33ebde36a7ce1b557be9587ff5ce487a41301cba420dc7327875e4e95b2ffdf",
       "mesh_components": 1,
       "bounds_mm": [
         -56.48866653442383,
@@ -433,14 +878,29 @@
         -21.786853790283203,
         56.47841262817383,
         6.493038654327393,
-        -10.286852836608887
+        -9.58685302734375
       ],
-      "volume_mm3": 44508.128719340464
+      "volume_mm3": 50759.92693302358
     },
     {
-      "file": "models/kraken-spool-ring-74-mm-gear-side-1.5mm-flange.stl",
-      "sha256": "65eac2fe3bcf6024e8cfbb6db4c2927357fb1ac16677a8cc9e1e328396d76f1a",
-      "regenerated_byte_identical": true,
+      "file": "models/kraken-spool-ring-74-mm-round-cap-side-0.6mm-lip.stl",
+      "flange_set": "normal",
+      "sha256": "623254172b818012057309b9a5a8dd5b80af7b607285748a16301fa3133453e4",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -39.49752426147461,
+        -89.49984741210938,
+        -21.786853790283203,
+        39.499385833740234,
+        -10.503870964050293,
+        -11.186853408813477
+      ],
+      "volume_mm3": 34549.68537250855
+    },
+    {
+      "file": "models/kraken-spool-ring-74-mm-round-gear-side-2.2mm-flange.stl",
+      "flange_set": "normal",
+      "sha256": "857524aa6118ef36b51a26764210043c750c7aebe081b4de454d723587e00a26",
       "mesh_components": 1,
       "bounds_mm": [
         -56.988529205322266,
@@ -448,14 +908,29 @@
         -21.786853790283203,
         56.9781379699707,
         6.992959022521973,
-        -10.286852836608887
+        -9.58685302734375
       ],
-      "volume_mm3": 45927.53608781728
+      "volume_mm3": 52304.02777397678
     },
     {
-      "file": "models/kraken-spool-ring-75-mm-gear-side-1.5mm-flange.stl",
-      "sha256": "5f3bfca383710da3ad17a9e4e248b1c56c3fc72150657be1ba82759670b2a9f8",
-      "regenerated_byte_identical": true,
+      "file": "models/kraken-spool-ring-75-mm-round-cap-side-0.6mm-lip.stl",
+      "flange_set": "normal",
+      "sha256": "bed430c48f8f01126e079390a29a940608e05dc0633c6c339424c878d9d7c9c6",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -39.99748611450195,
+        -89.99983978271484,
+        -21.786853790283203,
+        39.99937438964844,
+        -10.00391960144043,
+        -11.186853408813477
+      ],
+      "volume_mm3": 35796.08717212599
+    },
+    {
+      "file": "models/kraken-spool-ring-75-mm-round-gear-side-2.2mm-flange.stl",
+      "flange_set": "normal",
+      "sha256": "58277dab75c671ef21bc8640db542ea5db0a544c627b836cd68c08c8ce26c8a3",
       "mesh_components": 1,
       "bounds_mm": [
         -57.48838424682617,
@@ -463,14 +938,29 @@
         -21.786853790283203,
         57.47785568237305,
         7.4928789138793945,
-        -10.286852836608887
+        -9.58685302734375
       ],
-      "volume_mm3": 47368.57400416479
+      "volume_mm3": 53870.84888613776
     },
     {
-      "file": "models/kraken-spool-ring-76-mm-gear-side-1.5mm-flange.stl",
-      "sha256": "7683567f26f41cbbf9948fbc9e26711838ade5334da3ebfdf6d69393fb2e1390",
-      "regenerated_byte_identical": true,
+      "file": "models/kraken-spool-ring-76-mm-round-cap-side-0.6mm-lip.stl",
+      "flange_set": "normal",
+      "sha256": "ccbd6575ce0168b08a1feb9cb8bdeaeaf2bc184ae383cef09067873ba70055d8",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -40.497459411621094,
+        -90.49983978271484,
+        -21.786853790283203,
+        40.499366760253906,
+        -9.503969192504883,
+        -11.186853408813477
+      ],
+      "volume_mm3": 37052.6234719081
+    },
+    {
+      "file": "models/kraken-spool-ring-76-mm-round-gear-side-2.2mm-flange.stl",
+      "flange_set": "normal",
+      "sha256": "cde384c052fa60bc4360032ad3155b10aa92b5e21b303027296703d8aca4458b",
       "mesh_components": 1,
       "bounds_mm": [
         -57.9882698059082,
@@ -478,14 +968,29 @@
         -21.786853790283203,
         57.97759246826172,
         7.9928202629089355,
-        -10.286852836608887
+        -9.58685302734375
       ],
-      "volume_mm3": 48821.17563013854
+      "volume_mm3": 55450.34662472713
     },
     {
-      "file": "models/kraken-spool-ring-77-mm-gear-side-1.5mm-flange.stl",
-      "sha256": "f0a874761cd23aaa04407e66c537593bef04b93dd716e0222a9d9a82bd4da943",
-      "regenerated_byte_identical": true,
+      "file": "models/kraken-spool-ring-77-mm-round-cap-side-0.6mm-lip.stl",
+      "flange_set": "normal",
+      "sha256": "2038c80e02146b4e52beb1a31f28a8f688a8326c66c748ea936f3db343b68a31",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -40.99742889404297,
+        -90.99983978271484,
+        -21.786853790283203,
+        40.99935531616211,
+        -9.00401782989502,
+        -11.186853408813477
+      ],
+      "volume_mm3": 38341.95251873632
+    },
+    {
+      "file": "models/kraken-spool-ring-77-mm-round-gear-side-2.2mm-flange.stl",
+      "flange_set": "normal",
+      "sha256": "81d72422d8630390b3bbc3f08c5b4df1f4921d7422e8066b141b728bf4db861c",
       "mesh_components": 1,
       "bounds_mm": [
         -58.488128662109375,
@@ -493,14 +998,29 @@
         -21.786853790283203,
         58.4773063659668,
         8.492767333984375,
-        -10.286852836608887
+        -9.58685302734375
       ],
-      "volume_mm3": 50308.02318641157
+      "volume_mm3": 57065.219759966356
     },
     {
-      "file": "models/kraken-spool-ring-78-mm-gear-side-1.5mm-flange.stl",
-      "sha256": "76f469dc9f97038d5b69cca986c4a84196b9466b4239f23595f4ac31662e3126",
-      "regenerated_byte_identical": true,
+      "file": "models/kraken-spool-ring-78-mm-round-cap-side-0.6mm-lip.stl",
+      "flange_set": "normal",
+      "sha256": "c4a9bdf3296b4b0aeba22b0806ed1215b8410fac8257f334674957c12492c5d6",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -41.497398376464844,
+        -91.49983978271484,
+        -21.786853790283203,
+        41.49934768676758,
+        -8.504066467285156,
+        -11.186853408813477
+      ],
+      "volume_mm3": 39622.471735424806
+    },
+    {
+      "file": "models/kraken-spool-ring-78-mm-round-gear-side-2.2mm-flange.stl",
+      "flange_set": "normal",
+      "sha256": "63c3d0a1267b77ce3c1084d113935ea2ab34289dda875e0946acc66ea49d70f5",
       "mesh_components": 1,
       "bounds_mm": [
         -58.98801040649414,
@@ -508,14 +1028,29 @@
         -21.786853790283203,
         58.97704315185547,
         8.992709159851074,
-        -10.286852836608887
+        -9.58685302734375
       ],
-      "volume_mm3": 51787.429145494156
+      "volume_mm3": 58673.717977757784
     },
     {
-      "file": "models/kraken-spool-ring-79-mm-gear-side-1.5mm-flange.stl",
-      "sha256": "eedc0b5e054153c7a93f194d5bceb0f9a002fbb9ed4acd6fe32fbdb97b34a56f",
-      "regenerated_byte_identical": true,
+      "file": "models/kraken-spool-ring-79-mm-round-cap-side-0.6mm-lip.stl",
+      "flange_set": "normal",
+      "sha256": "dcc364d54440398efdd9ee58d66737954ae45d211fe0451be8a0db51015ce8d9",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -41.99736404418945,
+        -91.99983215332031,
+        -21.786853790283203,
+        41.99934005737305,
+        -8.00411605834961,
+        -11.186853408813477
+      ],
+      "volume_mm3": 40936.39251511666
+    },
+    {
+      "file": "models/kraken-spool-ring-79-mm-round-gear-side-2.2mm-flange.stl",
+      "flange_set": "normal",
+      "sha256": "903df2f3cdb8f911d0d42ec8088efcee4009a6dfc5a2e91c9a1f86820e93b9bb",
       "mesh_components": 1,
       "bounds_mm": [
         -59.48786163330078,
@@ -523,14 +1058,29 @@
         -21.786853790283203,
         59.47676086425781,
         9.492622375488281,
-        -10.286852836608887
+        -9.58685302734375
       ],
-      "volume_mm3": 53301.65195993255
+      "volume_mm3": 60318.13325094973
     },
     {
-      "file": "models/kraken-spool-ring-80-mm-gear-side-1.5mm-flange.stl",
-      "sha256": "2d7c75373df1b8a5a2c2a15430e2d04211bbed79cc9c25aafc80c1291a2e8342",
-      "regenerated_byte_identical": true,
+      "file": "models/kraken-spool-ring-80-mm-round-cap-side-0.6mm-lip.stl",
+      "flange_set": "normal",
+      "sha256": "a8a1f68b6f45bc3bb783e06a28d823434515fc64d4d3b5708e98d5e09ad3564b",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -42.49733352661133,
+        -92.49983215332031,
+        -21.786853790283203,
+        42.499332427978516,
+        -7.504164218902588,
+        -11.186853408813477
+      ],
+      "volume_mm3": 42246.31312392728
+    },
+    {
+      "file": "models/kraken-spool-ring-80-mm-round-gear-side-2.2mm-flange.stl",
+      "flange_set": "normal",
+      "sha256": "0517d63a65de550072cb960e7ddc635d31f4ed6d0421d1dbc269f28e2b18eb8b",
       "mesh_components": 1,
       "bounds_mm": [
         -59.98772430419922,
@@ -538,14 +1088,29 @@
         -21.786853790283203,
         59.976478576660156,
         9.992562294006348,
-        -10.286852836608887
+        -9.58685302734375
       ],
-      "volume_mm3": 54813.25684788877
+      "volume_mm3": 61961.00793562879
     },
     {
-      "file": "models/kraken-spool-ring-81-mm-gear-side-1.5mm-flange.stl",
-      "sha256": "b753ec36a316d355c847205e52057118675a0267caa2e23785bf75ae4f593931",
-      "regenerated_byte_identical": true,
+      "file": "models/kraken-spool-ring-81-mm-round-cap-side-0.6mm-lip.stl",
+      "flange_set": "normal",
+      "sha256": "710d6bdc823ee6d5bf53331f72c2cef5c5c06781ec3866550f531d4ff906a5d6",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -42.9973030090332,
+        -92.99983215332031,
+        -21.786853790283203,
+        42.999324798583984,
+        -7.004213809967041,
+        -11.186853408813477
+      ],
+      "volume_mm3": 43613.92728849634
+    },
+    {
+      "file": "models/kraken-spool-ring-81-mm-round-gear-side-2.2mm-flange.stl",
+      "flange_set": "normal",
+      "sha256": "cd8f8e1e17945d4f2cae75aa5c45ac75f7cdd704f19d33595a44ca1b5d44a4c9",
       "mesh_components": 1,
       "bounds_mm": [
         -60.487606048583984,
@@ -553,14 +1118,29 @@
         -21.786853790283203,
         60.476219177246094,
         10.492498397827148,
-        -10.286852836608887
+        -9.58685302734375
       ],
-      "volume_mm3": 56383.99565449165
+      "volume_mm3": 63664.13591872523
     },
     {
-      "file": "models/kraken-spool-ring-82-mm-gear-side-1.5mm-flange.stl",
-      "sha256": "88d5000ea2b81ab1c7ac05801a1c47363301016dc75739850088bd632469725a",
-      "regenerated_byte_identical": true,
+      "file": "models/kraken-spool-ring-82-mm-round-cap-side-0.6mm-lip.stl",
+      "flange_set": "normal",
+      "sha256": "31509e6139292826611f01f26326dc77cf89fbfbde317d2f89488df3382f8a7a",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -43.49727249145508,
+        -93.49983215332031,
+        -21.786853790283203,
+        43.49931716918945,
+        -6.504262924194336,
+        -11.186853408813477
+      ],
+      "volume_mm3": 44958.55023470321
+    },
+    {
+      "file": "models/kraken-spool-ring-82-mm-round-gear-side-2.2mm-flange.stl",
+      "flange_set": "normal",
+      "sha256": "98cf1b02a7f9ac7eb3f65851ab14bc5ea19acdcd924508ca6cbdfa241b86f86b",
       "mesh_components": 1,
       "bounds_mm": [
         -60.987464904785156,
@@ -568,14 +1148,29 @@
         -21.786853790283203,
         60.97593307495117,
         10.992430686950684,
-        -10.286852836608887
+        -9.58685302734375
       ],
-      "volume_mm3": 57933.18700616202
+      "volume_mm3": 65346.841993421505
     },
     {
-      "file": "models/kraken-spool-ring-83-mm-gear-side-1.5mm-flange.stl",
-      "sha256": "f814ee338b09c08f7370810121a9c855ea7b499e4d3f5213626bdb46d70cc876",
-      "regenerated_byte_identical": true,
+      "file": "models/kraken-spool-ring-83-mm-round-cap-side-0.6mm-lip.stl",
+      "flange_set": "normal",
+      "sha256": "e45a5fc638a058049a674672a95bb24da42b3c6b9cc9451699014c4bb098932b",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -43.99723815917969,
+        -93.99982452392578,
+        -21.786853790283203,
+        43.99930953979492,
+        -6.004312038421631,
+        -11.186853408813477
+      ],
+      "volume_mm3": 46337.616106884
+    },
+    {
+      "file": "models/kraken-spool-ring-83-mm-round-gear-side-2.2mm-flange.stl",
+      "flange_set": "normal",
+      "sha256": "6b5c5384130ba5cf61c99b8956d3366146c4f8404a2b3753cb44450dddffe37e",
       "mesh_components": 1,
       "bounds_mm": [
         -61.48734664916992,
@@ -583,14 +1178,29 @@
         -21.786853790283203,
         61.47567367553711,
         11.49236011505127,
-        -10.286852836608887
+        -9.58685302734375
       ],
-      "volume_mm3": 59518.20959808388
+      "volume_mm3": 67066.45485416889
     },
     {
-      "file": "models/kraken-spool-ring-84-mm-gear-side-1.5mm-flange.stl",
-      "sha256": "6a7ffb9540c1ec82293c0e2a72caa3dde5e46e062673100f806a3a0c28c6686b",
-      "regenerated_byte_identical": true,
+      "file": "models/kraken-spool-ring-84-mm-round-cap-side-0.6mm-lip.stl",
+      "flange_set": "normal",
+      "sha256": "96789cf07a4ac7f2c6af40f0e93cbfa9b0c679123ccb3f77bcd7bf3c169ad713",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -44.49720764160156,
+        -94.49982452392578,
+        -21.786853790283203,
+        44.499298095703125,
+        -5.504360198974609,
+        -11.186853408813477
+      ],
+      "volume_mm3": 47730.69578364071
+    },
+    {
+      "file": "models/kraken-spool-ring-84-mm-round-gear-side-2.2mm-flange.stl",
+      "flange_set": "normal",
+      "sha256": "2b2d304f2faf5d0be27ca7c4124977e83bbcc6756ad7a40e22e350f29424dc4c",
       "mesh_components": 1,
       "bounds_mm": [
         -61.987205505371094,
@@ -598,14 +1208,29 @@
         -21.786853790283203,
         61.97539138793945,
         11.99229621887207,
-        -10.286852836608887
+        -9.58685302734375
       ],
-      "volume_mm3": 61118.642571285694
+      "volume_mm3": 68802.56955229226
     },
     {
-      "file": "models/kraken-spool-ring-85-mm-gear-side-1.5mm-flange.stl",
-      "sha256": "42dab570cc90a70fe412d4ef5300ecb0b0303314978f2a42878a44d0cd389f8f",
-      "regenerated_byte_identical": true,
+      "file": "models/kraken-spool-ring-85-mm-round-cap-side-0.6mm-lip.stl",
+      "flange_set": "normal",
+      "sha256": "7c85b69f6a79ad9517933ee06e87e92f6810d3c4c4eab2011ae11b74233d92f6",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -44.99717712402344,
+        -94.99982452392578,
+        -21.786853790283203,
+        44.99929428100586,
+        -5.0044097900390625,
+        -11.186853408813477
+      ],
+      "volume_mm3": 49144.22459249016
+    },
+    {
+      "file": "models/kraken-spool-ring-85-mm-round-gear-side-2.2mm-flange.stl",
+      "flange_set": "normal",
+      "sha256": "330ea6c36827a6984c285a8d6afeb46208665a7b8155e273f5473dbe63ff6553",
       "mesh_components": 1,
       "bounds_mm": [
         -62.4870719909668,
@@ -613,14 +1238,29 @@
         -21.786853790283203,
         62.47511672973633,
         12.492216110229492,
-        -10.286852836608887
+        -9.58685302734375
       ],
-      "volume_mm3": 62740.91012802079
+      "volume_mm3": 70561.59808099958
     },
     {
-      "file": "models/kraken-spool-ring-86-mm-gear-side-1.5mm-flange.stl",
-      "sha256": "40fb66716c8ffa497c81237ea8c554d06c3755c217c00e536337cc572a6918dd",
-      "regenerated_byte_identical": true,
+      "file": "models/kraken-spool-ring-86-mm-round-cap-side-0.6mm-lip.stl",
+      "flange_set": "normal",
+      "sha256": "97ad1eb24e523bc022e868f9830cd96643b01ac1b0a390fcc1af7f1e436edda1",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -45.49714660644531,
+        -95.49982452392578,
+        -21.786853790283203,
+        45.49928665161133,
+        -4.504458904266357,
+        -11.186853408813477
+      ],
+      "volume_mm3": 50567.35357364708
+    },
+    {
+      "file": "models/kraken-spool-ring-86-mm-round-gear-side-2.2mm-flange.stl",
+      "flange_set": "normal",
+      "sha256": "1a6e2ac609f5585d5cea1c9f2fa6ac14b98515a9444b7b82dbdcfbbadce7990b",
       "mesh_components": 1,
       "bounds_mm": [
         -62.98695373535156,
@@ -628,14 +1268,29 @@
         -21.786853790283203,
         62.974857330322266,
         12.992156028747559,
-        -10.286852836608887
+        -9.58685302734375
       ],
-      "volume_mm3": 64374.21938710297
+      "volume_mm3": 72332.787825217
     },
     {
-      "file": "models/kraken-spool-ring-87-mm-gear-side-1.5mm-flange.stl",
-      "sha256": "e0c3171a59c68d6dd281bc3b90fa296fb4b346c7a8445a34537934d733264eed",
-      "regenerated_byte_identical": true,
+      "file": "models/kraken-spool-ring-87-mm-round-cap-side-0.6mm-lip.stl",
+      "flange_set": "normal",
+      "sha256": "17d9750cfbf78d9ff96268ca7cd7639621ab5e87615868a303dcdab78d062df7",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -45.99711608886719,
+        -95.99981689453125,
+        -21.786853790283203,
+        45.9992790222168,
+        -4.004508018493652,
+        -11.186853408813477
+      ],
+      "volume_mm3": 52022.155684951824
+    },
+    {
+      "file": "models/kraken-spool-ring-87-mm-round-gear-side-2.2mm-flange.stl",
+      "flange_set": "normal",
+      "sha256": "4be3ba83f9951304f390dfe8af175efd6c991afcc5d17b732fe276e0b10d7cee",
       "mesh_components": 1,
       "bounds_mm": [
         -63.48683547973633,
@@ -643,14 +1298,29 @@
         -21.786853790283203,
         63.47459411621094,
         13.492083549499512,
-        -10.286852836608887
+        -9.58685302734375
       ],
-      "volume_mm3": 66040.62568916455
+      "volume_mm3": 74138.17886397839
     },
     {
-      "file": "models/kraken-spool-ring-88-mm-gear-side-1.5mm-flange.stl",
-      "sha256": "cb59dd0e951a6e9933279a269a1dd2d5afbc4485c0429c803a9811ae1c9876da",
-      "regenerated_byte_identical": true,
+      "file": "models/kraken-spool-ring-88-mm-round-cap-side-0.6mm-lip.stl",
+      "flange_set": "normal",
+      "sha256": "0f37a09e115f77983c69f730a57a3aeeb777f165bdc0a078673a39901f1c5c69",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -46.4970817565918,
+        -96.49981689453125,
+        -21.786853790283203,
+        46.499271392822266,
+        -3.504556894302368,
+        -11.186853408813477
+      ],
+      "volume_mm3": 53469.53125306921
+    },
+    {
+      "file": "models/kraken-spool-ring-88-mm-round-gear-side-2.2mm-flange.stl",
+      "flange_set": "normal",
+      "sha256": "9dd9ab4ae92f3bedb65b347fbee56a18dd4dd12fcb3bffbe3cf900f11cf5d2c6",
       "mesh_components": 1,
       "bounds_mm": [
         -63.98667526245117,
@@ -658,14 +1328,29 @@
         -21.786853790283203,
         63.97429656982422,
         13.992015838623047,
-        -10.286852836608887
+        -9.58685302734375
       ],
-      "volume_mm3": 67701.0411836052
+      "volume_mm3": 75938.70139255331
     },
     {
-      "file": "models/kraken-spool-ring-89-mm-gear-side-1.5mm-flange.stl",
-      "sha256": "365bdbd1fe098a1389bb5a9fce8bb2fa96395f8944e03c5fd1cbb15eb94a7c76",
-      "regenerated_byte_identical": true,
+      "file": "models/kraken-spool-ring-89-mm-round-cap-side-0.6mm-lip.stl",
+      "flange_set": "normal",
+      "sha256": "abdd9c606d5ce85d0ab1377d0a8b9f9c9e32630e04cfd4a30a9e95fd0a1a594d",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -46.99705123901367,
+        -96.99981689453125,
+        -21.786853790283203,
+        46.999263763427734,
+        -3.004606008529663,
+        -11.186853408813477
+      ],
+      "volume_mm3": 54949.928253680286
+    },
+    {
+      "file": "models/kraken-spool-ring-89-mm-round-gear-side-2.2mm-flange.stl",
+      "flange_set": "normal",
+      "sha256": "6d4b17306a8e03b39efe5fb59b776d8da99dd240e63a2790f4cb82d8c0734bb3",
       "mesh_components": 1,
       "bounds_mm": [
         -64.4865493774414,
@@ -673,14 +1358,29 @@
         -21.786853790283203,
         64.47402954101562,
         14.491947174072266,
-        -10.286852836608887
+        -9.58685302734375
       ],
-      "volume_mm3": 69395.85012059264
+      "volume_mm3": 77774.68482268222
     },
     {
-      "file": "models/kraken-spool-ring-90-mm-gear-side-1.5mm-flange.stl",
-      "sha256": "0898b29cf87250f95b6084a3cf46da0fbc95d1fba108b6dd221c9715a2c48667",
-      "regenerated_byte_identical": true,
+      "file": "models/kraken-spool-ring-90-mm-round-cap-side-0.6mm-lip.stl",
+      "flange_set": "normal",
+      "sha256": "902b54484eed80d9a8a58f32044a382187d79f450940c2ba6a9a899cfdd76980",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -47.49702072143555,
+        -97.49981689453125,
+        -21.786853790283203,
+        47.4992561340332,
+        -2.504654884338379,
+        -11.186853408813477
+      ],
+      "volume_mm3": 56443.06366292371
+    },
+    {
+      "file": "models/kraken-spool-ring-90-mm-round-gear-side-2.2mm-flange.stl",
+      "flange_set": "normal",
+      "sha256": "b8fde573bc83c778e73f006413b94c9c0fc8223b5f000f035370de74c3188ef8",
       "mesh_components": 1,
       "bounds_mm": [
         -64.98641204833984,
@@ -688,14 +1388,29 @@
         -21.786853790283203,
         64.97374725341797,
         14.9918851852417,
-        -10.286852836608887
+        -9.58685302734375
       ],
-      "volume_mm3": 71104.81157090797
+      "volume_mm3": 79625.92037971571
     },
     {
-      "file": "models/kraken-spool-ring-91-mm-gear-side-1.5mm-flange.stl",
-      "sha256": "59c419f337d6d26853885b498af1ebafb7deb9cf2c1c08ad083ac2f59b7b145a",
-      "regenerated_byte_identical": true,
+      "file": "models/kraken-spool-ring-91-mm-round-cap-side-0.6mm-lip.stl",
+      "flange_set": "normal",
+      "sha256": "446c3d8a3d95282bda8109e8287bfe06e444c6913a1c8c73c518a1a53035a7e3",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -47.99699020385742,
+        -97.99980926513672,
+        -21.786853790283203,
+        47.99924850463867,
+        -2.004703998565674,
+        -11.186853408813477
+      ],
+      "volume_mm3": 57977.14391761938
+    },
+    {
+      "file": "models/kraken-spool-ring-91-mm-round-gear-side-2.2mm-flange.stl",
+      "flange_set": "normal",
+      "sha256": "9ee52dd7dd45347fa0006f5c6afa0642abfbbfcb8ec363bd6872bcd991f0cd86",
       "mesh_components": 1,
       "bounds_mm": [
         -65.48632049560547,
@@ -703,14 +1418,29 @@
         -21.786853790283203,
         65.4735107421875,
         15.4918212890625,
-        -10.286852836608887
+        -9.58685302734375
       ],
-      "volume_mm3": 72856.12279925439
+      "volume_mm3": 81520.5935503327
     },
     {
-      "file": "models/kraken-spool-ring-92-mm-gear-side-1.5mm-flange.stl",
-      "sha256": "a42a9f53bd871b9eed64e34359ca63875889df7aa2bc8c2136c4af2ac874021a",
-      "regenerated_byte_identical": true,
+      "file": "models/kraken-spool-ring-92-mm-round-cap-side-0.6mm-lip.stl",
+      "flange_set": "normal",
+      "sha256": "c5a40c961f19ed0b89b1285d1e2349db7148698e67103b4a381325debb2e4c26",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -48.4969596862793,
+        -98.49980926513672,
+        -21.786853790283203,
+        48.49924087524414,
+        -1.5047520399093628,
+        -11.186853408813477
+      ],
+      "volume_mm3": 59488.014992298195
+    },
+    {
+      "file": "models/kraken-spool-ring-92-mm-round-gear-side-2.2mm-flange.stl",
+      "flange_set": "normal",
+      "sha256": "46078b396b5e551d2e3cbd0f3a58d0d9bef4dc0a09f4fe97be0ea3b5f0a05cf7",
       "mesh_components": 1,
       "bounds_mm": [
         -65.9861831665039,
@@ -718,14 +1448,29 @@
         -21.786853790283203,
         65.97322845458984,
         15.991759300231934,
-        -10.286852836608887
+        -9.58685302734375
       ],
-      "volume_mm3": 74585.64280111341
+      "volume_mm3": 83394.58452918052
     },
     {
-      "file": "models/kraken-spool-ring-93-mm-gear-side-1.5mm-flange.stl",
-      "sha256": "e987d1a1c872e433f8dadb99d78d1bc324bafbf6073e4c95619e77e77cf2aa2c",
-      "regenerated_byte_identical": true,
+      "file": "models/kraken-spool-ring-93-mm-round-cap-side-0.6mm-lip.stl",
+      "flange_set": "normal",
+      "sha256": "02f8eb8063a7da64a72ee48c74287dadec5d68fe58ee2440ce27af28dedd6d7d",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -48.996925354003906,
+        -98.99980926513672,
+        -21.786853790283203,
+        48.99923324584961,
+        -1.0048010349273682,
+        -11.186853408813477
+      ],
+      "volume_mm3": 61033.53608711443
+    },
+    {
+      "file": "models/kraken-spool-ring-93-mm-round-gear-side-2.2mm-flange.stl",
+      "flange_set": "normal",
+      "sha256": "b3232a6f517b4ab6ec7a6a347cbee02250295afce405bd8248da218c45917c46",
       "mesh_components": 1,
       "bounds_mm": [
         -66.48602294921875,
@@ -733,14 +1478,29 @@
         -21.786853790283203,
         66.47293090820312,
         16.49169158935547,
-        -10.286852836608887
+        -9.58685302734375
       ],
-      "volume_mm3": 76351.22116671021
+      "volume_mm3": 85305.73080718992
     },
     {
-      "file": "models/kraken-spool-ring-94-mm-gear-side-1.5mm-flange.stl",
-      "sha256": "911c4139197337767b6254f6a1579da772ebdb3379f5884dcacb82303ff0c12f",
-      "regenerated_byte_identical": true,
+      "file": "models/kraken-spool-ring-94-mm-round-cap-side-0.6mm-lip.stl",
+      "flange_set": "normal",
+      "sha256": "9cc066e8fb3f495adae8a63fe467ad0f11740d8b52d7d23267f7f328fdcf016c",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -49.5,
+        -99.49825286865234,
+        -21.786853790283203,
+        49.49301528930664,
+        -0.5017459988594055,
+        -11.186853408813477
+      ],
+      "volume_mm3": 62593.416703338466
+    },
+    {
+      "file": "models/kraken-spool-ring-94-mm-round-gear-side-2.2mm-flange.stl",
+      "flange_set": "normal",
+      "sha256": "d1c067d76fbda744e2ae3fe28b7e557e8b183333333802c1fee7087ff1798bf0",
       "mesh_components": 1,
       "bounds_mm": [
         -66.95111083984375,
@@ -748,14 +1508,29 @@
         -21.786853790283203,
         66.99055480957031,
         16.973398208618164,
-        -10.286852836608887
+        -9.58685302734375
       ],
-      "volume_mm3": 78128.69247900251
+      "volume_mm3": 87228.07189982299
     },
     {
-      "file": "models/kraken-spool-ring-95-mm-gear-side-1.5mm-flange.stl",
-      "sha256": "6f89663e824a8fa1af9e68112f5735d0ed8283c2ac0c4d3dd0e11dce9267b6f2",
-      "regenerated_byte_identical": true,
+      "file": "models/kraken-spool-ring-95-mm-round-cap-side-0.6mm-lip.stl",
+      "flange_set": "normal",
+      "sha256": "f3ed73c77f975fb762826f1206c7855793eba3515719aa7f0dfc6d36302c6445",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -49.996864318847656,
+        -99.99980163574219,
+        -21.786853790283203,
+        49.99921417236328,
+        -0.004898999817669392,
+        -11.186853408813477
+      ],
+      "volume_mm3": 64172.78338962612
+    },
+    {
+      "file": "models/kraken-spool-ring-95-mm-round-gear-side-2.2mm-flange.stl",
+      "flange_set": "normal",
+      "sha256": "21ed286c9f88c348d90998ec9a238a1bb0a1027f332654cdc5c1491ef8ef8518",
       "mesh_components": 1,
       "bounds_mm": [
         -67.48577880859375,
@@ -763,9 +1538,1539 @@
         -21.786853790283203,
         67.47240447998047,
         17.49155044555664,
-        -10.286852836608887
+        -9.58685302734375
       ],
-      "volume_mm3": 79934.87930771662
+      "volume_mm3": 89183.86213989052
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-45-mm-round-cap-side-0.4mm-lip.stl",
+      "flange_set": "skinny",
+      "sha256": "b42327fd8e88ea18f89647a3b5eb27ce0e4fddef1af56a2699491183def6ec7b",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -25.0,
+        -74.9964370727539,
+        -21.786853790283203,
+        25.0,
+        -25.00356674194336,
+        -11.386853218078613
+      ],
+      "volume_mm3": 5517.376073909211
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-45-mm-round-gear-side-0.4mm-flange.stl",
+      "flange_set": "skinny",
+      "sha256": "0bd04533f2c287b27169ec8f864c13e9e2dbe41f03ce161cfdc6504160d165b7",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -42.49980926513672,
+        -92.4937744140625,
+        -21.786853790283203,
+        42.49980926513672,
+        -7.506231307983398,
+        -11.386853218078613
+      ],
+      "volume_mm3": 7001.474516659885
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-46-mm-round-cap-side-0.4mm-lip.stl",
+      "flange_set": "skinny",
+      "sha256": "712e7c1567809785eb6aa654c30b3e20d9f650ab20242047477355cb393d2c47",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -25.5,
+        -75.4963607788086,
+        -21.786853790283203,
+        25.5,
+        -24.503637313842773,
+        -11.386853218078613
+      ],
+      "volume_mm3": 6258.746034556676
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-46-mm-round-gear-side-0.4mm-flange.stl",
+      "flange_set": "skinny",
+      "sha256": "8ade08567ce224f13b613279c9b186f6dd481d5345b09aabfb954f9df951129a",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -42.999813079833984,
+        -92.99366760253906,
+        -21.786853790283203,
+        42.999813079833984,
+        -7.006332874298096,
+        -11.386853218078613
+      ],
+      "volume_mm3": 7764.8316901476
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-47-mm-round-cap-side-0.4mm-lip.stl",
+      "flange_set": "skinny",
+      "sha256": "f1165eb6cf7113a16742172b7b14524594e68f01d770e3da495d7bc52410b29c",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -26.0,
+        -75.99629974365234,
+        -21.786853790283203,
+        26.0,
+        -24.003707885742188,
+        -11.386853218078613
+      ],
+      "volume_mm3": 7030.4559463666665
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-47-mm-round-gear-side-0.4mm-flange.stl",
+      "flange_set": "skinny",
+      "sha256": "bcccdfa96fa9464e8c48c3b9b1be54ce324b9c477b13fbc92e5e25db5b2bcb39",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -43.499969482421875,
+        -93.49378967285156,
+        -21.786853790283203,
+        43.499969482421875,
+        -6.5062150955200195,
+        -11.386853218078613
+      ],
+      "volume_mm3": 8558.545590332671
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-48-mm-round-cap-side-0.4mm-lip.stl",
+      "flange_set": "skinny",
+      "sha256": "9aa484fde517d93032b0c105053fa03f94bf721d796e6d811e324b244dca365d",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -26.5,
+        -76.49622344970703,
+        -21.786853790283203,
+        26.5,
+        -23.503780364990234,
+        -11.386853218078613
+      ],
+      "volume_mm3": 7792.840495095097
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-48-mm-round-gear-side-0.4mm-flange.stl",
+      "flange_set": "skinny",
+      "sha256": "1945791f52194b1e11ab37d8a01f633aac8f1f61ea7cfde2917704c58de8ed19",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -43.99960708618164,
+        -93.99334716796875,
+        -21.786853790283203,
+        43.99960708618164,
+        -6.006655216217041,
+        -11.386853218078613
+      ],
+      "volume_mm3": 9342.876863282703
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-49-mm-round-cap-side-0.4mm-lip.stl",
+      "flange_set": "skinny",
+      "sha256": "6d2c2b4ac4d516b30fee446c7a0e5d9efd6a328231e8ecbc654559566ffce8ac",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -27.0,
+        -76.99614715576172,
+        -21.786853790283203,
+        27.0,
+        -23.00385093688965,
+        -11.386853218078613
+      ],
+      "volume_mm3": 10154.957354799168
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-49-mm-round-gear-side-0.4mm-flange.stl",
+      "flange_set": "skinny",
+      "sha256": "6d4915285c4e0656700d2cdcaf67c566785c0b3fa620273563f8c8cf871b5376",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -37.499813079833984,
+        -87.49444580078125,
+        -21.786853790283203,
+        37.499813079833984,
+        -12.505545616149902,
+        -11.386853218078613
+      ],
+      "volume_mm3": 11005.834502593407
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-50-mm-round-cap-side-0.4mm-lip.stl",
+      "flange_set": "skinny",
+      "sha256": "0212fb139f5c360ccd51da4560d840b1bec4f39559f0175340204191bc1a8dba",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -27.5,
+        -77.49607849121094,
+        -21.786853790283203,
+        27.5,
+        -22.503923416137695,
+        -11.386853218078613
+      ],
+      "volume_mm3": 9404.020810026836
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-50-mm-round-gear-side-0.4mm-flange.stl",
+      "flange_set": "skinny",
+      "sha256": "d36a17ca6e47f096513d549379afe2174bcd4d4d5342f00ae7a69eefc4a7435b",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -44.999813079833984,
+        -94.99340057373047,
+        -21.786853790283203,
+        44.999813079833984,
+        -5.006601333618164,
+        -11.386853218078613
+      ],
+      "volume_mm3": 10998.053404243217
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-51-mm-round-cap-side-0.4mm-lip.stl",
+      "flange_set": "skinny",
+      "sha256": "350dfc7fb980a568b7a684cfb569dd6661201faa64462869ff506dcdf5f91883",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -28.0,
+        -77.99600982666016,
+        -21.786853790283203,
+        28.0,
+        -22.00399398803711,
+        -11.386853218078613
+      ],
+      "volume_mm3": 10254.534720412463
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-51-mm-round-gear-side-0.4mm-flange.stl",
+      "flange_set": "skinny",
+      "sha256": "a4ecc06bbff95c5f6d3a22a7bf3b93d19e0561aeb75bacd831a86082135f4896",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -45.499839782714844,
+        -95.49336242675781,
+        -21.786853790283203,
+        45.499839782714844,
+        -4.506643295288086,
+        -11.386853218078613
+      ],
+      "volume_mm3": 11870.556884636422
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-52-mm-round-cap-side-0.4mm-lip.stl",
+      "flange_set": "skinny",
+      "sha256": "ee3aa5dc99bd69e2365c148347bd431185b8efb027e661c0c418d253847609aa",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -28.5,
+        -78.49593353271484,
+        -21.786853790283203,
+        28.5,
+        -21.504064559936523,
+        -11.386853218078613
+      ],
+      "volume_mm3": 11081.867612851087
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-52-mm-round-gear-side-0.4mm-flange.stl",
+      "flange_set": "skinny",
+      "sha256": "ebb6d9920772050dfc272543fae406f78bf6fafd151407e7892bf5627ba8ef7b",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -45.999847412109375,
+        -95.99329376220703,
+        -21.786853790283203,
+        45.999847412109375,
+        -4.006706237792969,
+        -11.386853218078613
+      ],
+      "volume_mm3": 12719.877356632513
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-53-mm-round-cap-side-0.4mm-lip.stl",
+      "flange_set": "skinny",
+      "sha256": "05159e42760799899e512bb4220416b9e15494ea45c1b70e30ac2b4b92ffa5f8",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -29.0,
+        -78.99586486816406,
+        -21.786853790283203,
+        29.0,
+        -21.004138946533203,
+        -11.386853218078613
+      ],
+      "volume_mm3": 11943.407289945439
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-53-mm-round-gear-side-0.4mm-flange.stl",
+      "flange_set": "skinny",
+      "sha256": "07dc2fc6bdc4edddb8ad325a29cba694d95b7d5b424214a541459f4d9f6819c6",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -46.49966049194336,
+        -96.49302673339844,
+        -21.786853790283203,
+        46.49966049194336,
+        -3.5069756507873535,
+        -11.386853218078613
+      ],
+      "volume_mm3": 13603.382163143062
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-54-mm-round-cap-side-0.4mm-lip.stl",
+      "flange_set": "skinny",
+      "sha256": "8cf62e0f3178e6328289b967458428ea55bc127beb50783d19a9092c44cdce6a",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -29.5,
+        -79.49578857421875,
+        -21.786853790283203,
+        29.5,
+        -20.504207611083984,
+        -11.386853218078613
+      ],
+      "volume_mm3": 12818.83915997402
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-54-mm-round-gear-side-0.4mm-flange.stl",
+      "flange_set": "skinny",
+      "sha256": "08ca428866e8781261bd7463b85bc03bfdd6cc0638765a71a2d8cc3b57c29438",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -46.99984359741211,
+        -96.99313354492188,
+        -21.786853790283203,
+        46.99984359741211,
+        -3.0068631172180176,
+        -11.386853218078613
+      ],
+      "volume_mm3": 14500.821778347676
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-55-mm-round-cap-side-0.4mm-lip.stl",
+      "flange_set": "skinny",
+      "sha256": "af337ec4fe5a60d1b207f784d731a258fbc69daccade095fd12b54b137133513",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -30.0,
+        -79.99571990966797,
+        -21.786853790283203,
+        30.0,
+        -20.0042781829834,
+        -11.386853218078613
+      ],
+      "volume_mm3": 13713.615443361077
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-55-mm-round-gear-side-0.4mm-flange.stl",
+      "flange_set": "skinny",
+      "sha256": "11b6928696e84f4002bbcf07594401c8b2f8c00023760f2e29a92adb28dbdde7",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -47.49984359741211,
+        -97.49307250976562,
+        -21.786853790283203,
+        47.49984359741211,
+        -2.506927967071533,
+        -11.386853218078613
+      ],
+      "volume_mm3": 15417.585426240727
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-56-mm-round-cap-side-0.4mm-lip.stl",
+      "flange_set": "skinny",
+      "sha256": "0b850db8f98d6c79690c86bea6620527037c5c64cc8e276e408faf29355deea8",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -30.5,
+        -80.49565124511719,
+        -21.786853790283203,
+        30.5,
+        -19.504350662231445,
+        -11.386853218078613
+      ],
+      "volume_mm3": 14618.590118470978
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-56-mm-round-gear-side-0.4mm-flange.stl",
+      "flange_set": "skinny",
+      "sha256": "03545d0249a0d011b8df31e14ac5bf444bd74bdd3f36bba4ddbe73901dab0f6e",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -47.99985122680664,
+        -97.99299621582031,
+        -21.786853790283203,
+        47.99985122680664,
+        -2.0069994926452637,
+        -11.386853218078613
+      ],
+      "volume_mm3": 16344.547324396457
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-57-mm-round-cap-side-0.4mm-lip.stl",
+      "flange_set": "skinny",
+      "sha256": "e01ef67f9428271d7b6a824b358218b9f19a8257ad769de2705a494a8d05a704",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -31.0,
+        -80.99557495117188,
+        -21.786853790283203,
+        31.0,
+        -19.00442123413086,
+        -11.386853218078613
+      ],
+      "volume_mm3": 15554.920644422982
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-57-mm-round-gear-side-0.4mm-flange.stl",
+      "flange_set": "skinny",
+      "sha256": "43dbe0b274a4f1e38e2da6dd21541437d87b1e2ed44042ad967718d302f3d5c8",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -48.4998664855957,
+        -98.49293518066406,
+        -21.786853790283203,
+        48.4998664855957,
+        -1.5070598125457764,
+        -11.386853218078613
+      ],
+      "volume_mm3": 17302.86654566009
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-58-mm-round-cap-side-0.4mm-lip.stl",
+      "flange_set": "skinny",
+      "sha256": "1629ad886197e65517bfd0fb25f671d2dfa6460ac216b5143ef1494ebc933160",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -31.5,
+        -81.4955062866211,
+        -21.786853790283203,
+        31.5,
+        -18.504493713378906,
+        -11.386853218078613
+      ],
+      "volume_mm3": 16483.121681179462
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-58-mm-round-gear-side-0.4mm-flange.stl",
+      "flange_set": "skinny",
+      "sha256": "c1d60acdd104f02b26e92e70b537a14bf22f47c11f9ba0cb915f11b80d3cf668",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -48.998924255371094,
+        -98.9919204711914,
+        -21.786853790283203,
+        48.998924255371094,
+        -1.00807785987854,
+        -11.386853218078613
+      ],
+      "volume_mm3": 18252.93854554301
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-59-mm-round-cap-side-0.4mm-lip.stl",
+      "flange_set": "skinny",
+      "sha256": "9308ad302fa288c5ffa6dc6d8b34ff640f0b4203108522bf5822a5959204826b",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -32.0,
+        -81.99543762207031,
+        -21.786853790283203,
+        32.0,
+        -18.00456428527832,
+        -11.386853218078613
+      ],
+      "volume_mm3": 17444.155408960774
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-59-mm-round-gear-side-0.4mm-flange.stl",
+      "flange_set": "skinny",
+      "sha256": "ed1d73ce863d5b298da8e54d532cfd9811a21df3283024ffc0aa84ab2ce77cfe",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -49.499847412109375,
+        -99.49281311035156,
+        -21.786853790283203,
+        49.499847412109375,
+        -0.5071946382522583,
+        -11.386853218078613
+      ],
+      "volume_mm3": 19236.072980809724
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-60-mm-round-cap-side-0.4mm-lip.stl",
+      "flange_set": "skinny",
+      "sha256": "561abc8670f82e0d6bf9798515443dca3597730d29ce5107b73aa9b6c86b026c",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -32.5,
+        -82.495361328125,
+        -21.786853790283203,
+        32.5,
+        -17.504634857177734,
+        -11.386853218078613
+      ],
+      "volume_mm3": 18410.286999912292
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-60-mm-round-gear-side-0.4mm-flange.stl",
+      "flange_set": "skinny",
+      "sha256": "49af8f1079921257b8042b1a11cca7861f4d305cebfb7894595b6c5870d43cfa",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -49.999820709228516,
+        -99.99267578125,
+        -21.786853790283203,
+        49.999820709228516,
+        -0.007319880649447441,
+        -11.386853218078613
+      ],
+      "volume_mm3": 20224.187211404
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-61-mm-round-cap-side-0.4mm-lip.stl",
+      "flange_set": "skinny",
+      "sha256": "633bcef6f31353275c87177bbce76ffc1b332fae6fc07d39ecaaca57b52d1d19",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -33.0,
+        -82.99529266357422,
+        -21.786853790283203,
+        33.0,
+        -17.00470733642578,
+        -11.386853218078613
+      ],
+      "volume_mm3": 19424.55762682999
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-61-mm-round-gear-side-0.4mm-flange.stl",
+      "flange_set": "skinny",
+      "sha256": "d9f29dcd4eddac8a636802b81e1e5492a807fc96f55847497af7e0e3cdf7d3f1",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -50.499855041503906,
+        -100.49266052246094,
+        -21.786853790283203,
+        50.499855041503906,
+        0.49265947937965393,
+        -11.386853218078613
+      ],
+      "volume_mm3": 21260.449352255408
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-62-mm-round-cap-side-0.4mm-lip.stl",
+      "flange_set": "skinny",
+      "sha256": "fbc565a6a7dc7b53867b6ab35a98aa2870909b581f76c534ea75379665cd765d",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -33.5,
+        -83.49522399902344,
+        -21.786853790283203,
+        33.5,
+        -16.504777908325195,
+        -11.386853218078613
+      ],
+      "volume_mm3": 20415.06869779807
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-62-mm-round-gear-side-0.4mm-flange.stl",
+      "flange_set": "skinny",
+      "sha256": "6554246f510df4f75c84ebca3683c8e473bf90b2b2f444269a109941aaa3c6c1",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -50.999839782714844,
+        -100.9925765991211,
+        -21.786853790283203,
+        50.999839782714844,
+        0.9925734996795654,
+        -11.386853218078613
+      ],
+      "volume_mm3": 22272.944836841943
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-63-mm-round-cap-side-0.4mm-lip.stl",
+      "flange_set": "skinny",
+      "sha256": "e7ba153b09db40bdf2a7f33283ddefcb41d8b22e187d525d5046f9fcfddeeb00",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -34.0,
+        -83.9988021850586,
+        -21.786853790283203,
+        33.995201110839844,
+        -16.00119972229004,
+        -11.386853218078613
+      ],
+      "volume_mm3": 21440.25298693028
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-63-mm-round-gear-side-0.4mm-flange.stl",
+      "flange_set": "skinny",
+      "sha256": "66192afa394c144dcddec893927e535adc7a86b06b82ca6167ede25bde96226e",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -51.466407775878906,
+        -101.48152160644531,
+        -21.786853790283203,
+        51.49272155761719,
+        1.4815177917480469,
+        -11.386853218078613
+      ],
+      "volume_mm3": 23317.968177553652
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-64-mm-round-cap-side-0.4mm-lip.stl",
+      "flange_set": "skinny",
+      "sha256": "93992e46fe67c06860226c6a398aac15b5cb31f6f785385934395370b2f533d7",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -34.5,
+        -84.498779296875,
+        -21.786853790283203,
+        34.49513244628906,
+        -15.501216888427734,
+        -11.386853218078613
+      ],
+      "volume_mm3": 22478.548187259927
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-64-mm-round-gear-side-0.4mm-flange.stl",
+      "flange_set": "skinny",
+      "sha256": "a12d3798bc725417156a91e9eb790f796f50a078b31fea057a6a38ef6315aa29",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -51.96592330932617,
+        -101.98123168945312,
+        -21.786853790283203,
+        51.9926643371582,
+        1.9812380075454712,
+        -11.386853218078613
+      ],
+      "volume_mm3": 24378.196888412138
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-65-mm-round-cap-side-0.4mm-lip.stl",
+      "flange_set": "skinny",
+      "sha256": "86e3a002a4499eaa360eca734f00adbb4a8a2d5769e219533c7d6ffb23469fc3",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -35.0,
+        -84.99877166748047,
+        -21.786853790283203,
+        34.995059967041016,
+        -15.001235008239746,
+        -11.386853218078613
+      ],
+      "volume_mm3": 23536.90310006975
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-65-mm-round-gear-side-0.4mm-flange.stl",
+      "flange_set": "skinny",
+      "sha256": "ce0798ceaf6e0d36cbd1e76448e916d4004e0cb0d8942012e45daf96d5e223be",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -52.46541976928711,
+        -102.48100280761719,
+        -21.786853790283203,
+        52.49258041381836,
+        2.4810025691986084,
+        -11.386853218078613
+      ],
+      "volume_mm3": 25458.48418937256
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-66-mm-round-cap-side-0.4mm-lip.stl",
+      "flange_set": "skinny",
+      "sha256": "05e5d7c292fee0d39156edf683e005a92ed92b5ad586132f5e114fcff16b78e2",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -35.5,
+        -85.49874877929688,
+        -21.786853790283203,
+        35.494991302490234,
+        -14.501252174377441,
+        -11.386853218078613
+      ],
+      "volume_mm3": 24604.882388389935
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-66-mm-round-gear-side-0.4mm-flange.stl",
+      "flange_set": "skinny",
+      "sha256": "d16e27ae73663269437ff6fd1ed991d4b498b763b8e250f9b93ef27267e4cf04",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -52.964942932128906,
+        -102.98075866699219,
+        -21.786853790283203,
+        52.992530822753906,
+        2.980757713317871,
+        -11.386853218078613
+      ],
+      "volume_mm3": 26548.397271909922
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-67-mm-round-cap-side-0.4mm-lip.stl",
+      "flange_set": "skinny",
+      "sha256": "014846b89c67e4787bf469b61c082e414ea353e6fb73dc56efdb2c7227578556",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -36.0,
+        -85.99873352050781,
+        -21.786853790283203,
+        35.99491882324219,
+        -14.001270294189453,
+        -11.386853218078613
+      ],
+      "volume_mm3": 25704.897162685007
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-67-mm-round-gear-side-0.4mm-flange.stl",
+      "flange_set": "skinny",
+      "sha256": "91e6879e3475d4f703ab59e7a4e8e329a1d7ed30de9897620c880c3a44f4f93e",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -53.464439392089844,
+        -103.48049926757812,
+        -21.786853790283203,
+        53.49245071411133,
+        3.480494260787964,
+        -11.386853218078613
+      ],
+      "volume_mm3": 27670.34302129227
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-68-mm-round-cap-side-0.4mm-lip.stl",
+      "flange_set": "skinny",
+      "sha256": "0532d1baefbc31953fa35ff9c3051576038b0d997a974ec14fb55fb9ba742e7b",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -36.497711181640625,
+        -86.4998550415039,
+        -21.786853790283203,
+        36.499427795410156,
+        -13.50357723236084,
+        -11.386853218078613
+      ],
+      "volume_mm3": 26796.423720029303
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-68-mm-round-gear-side-0.4mm-flange.stl",
+      "flange_set": "skinny",
+      "sha256": "2965a93bd3bb48f59463115adac6a6405c5be5e77b155671f59c4e71adf539a2",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -53.98931884765625,
+        -103.97434997558594,
+        -21.786853790283203,
+        53.97977828979492,
+        3.993365526199341,
+        -11.386853218078613
+      ],
+      "volume_mm3": 28784.424075117135
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-69-mm-round-cap-side-0.4mm-lip.stl",
+      "flange_set": "skinny",
+      "sha256": "2a2485429483a55fd844d230cc87add5878b5986669a6105a6e7333dc37e13d3",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -36.9976806640625,
+        -86.9998550415039,
+        -21.786853790283203,
+        36.999420166015625,
+        -13.003625869750977,
+        -11.386853218078613
+      ],
+      "volume_mm3": 27920.757940678162
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-69-mm-round-gear-side-0.4mm-flange.stl",
+      "flange_set": "skinny",
+      "sha256": "1c9d4b02951a980c453c1fcabf9da4ed06977d6cdd961dc970373f17ef2cf2ff",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -54.48918151855469,
+        -104.4739990234375,
+        -21.786853790283203,
+        54.479496002197266,
+        4.493300437927246,
+        -11.386853218078613
+      ],
+      "volume_mm3": 29930.70231406073
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-70-mm-round-cap-side-0.4mm-lip.stl",
+      "flange_set": "skinny",
+      "sha256": "9ac5974d0d34dc01eec91df95a951f5e69641b757da25a2543e95cf680b8b9a9",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -37.5,
+        -87.4986801147461,
+        -21.786853790283203,
+        37.49470901489258,
+        -12.501322746276855,
+        -11.386853218078613
+      ],
+      "volume_mm3": 29065.876206773337
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-70-mm-round-gear-side-0.4mm-flange.stl",
+      "flange_set": "skinny",
+      "sha256": "c3c10771d810ed004a6817558bb64888dd32c0bf6c28ddec1a4bdb55b45268f6",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -54.962955474853516,
+        -104.97969818115234,
+        -21.786853790283203,
+        54.99223709106445,
+        4.979694366455078,
+        -11.386853218078613
+      ],
+      "volume_mm3": 31097.113321876623
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-71-mm-round-cap-side-0.4mm-lip.stl",
+      "flange_set": "skinny",
+      "sha256": "d091752bbd1231b74b96ddfea805e42de334fde2d7309fe1b6dfbc0a3093d31d",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -37.997615814208984,
+        -87.99984741210938,
+        -21.786853790283203,
+        37.99940490722656,
+        -12.003724098205566,
+        -11.386853218078613
+      ],
+      "volume_mm3": 30243.314595931828
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-71-mm-round-gear-side-0.4mm-flange.stl",
+      "flange_set": "skinny",
+      "sha256": "b479831202989c20eb0d7eb26efa20ab1e25d7c7fb9283c9f713a81bb25bffbf",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -55.48892593383789,
+        -105.47329711914062,
+        -21.786853790283203,
+        55.47895812988281,
+        5.493166446685791,
+        -11.386853218078613
+      ],
+      "volume_mm3": 32297.149267294793
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-72-mm-round-cap-side-0.4mm-lip.stl",
+      "flange_set": "skinny",
+      "sha256": "a1284e6fd98e8ecd382e11b1d9229cf431b749b69f344671cd3ad3dc410d6193",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -38.49758529663086,
+        -88.49984741210938,
+        -21.786853790283203,
+        38.49939727783203,
+        -11.503772735595703,
+        -11.386853218078613
+      ],
+      "volume_mm3": 31397.10578500376
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-72-mm-round-gear-side-0.4mm-flange.stl",
+      "flange_set": "skinny",
+      "sha256": "93c98f602cc1b2c6dc7dc46e12c8faeebb63edf8a2a55cff83d726984b51d4ed",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -55.98877716064453,
+        -105.97293853759766,
+        -21.786853790283203,
+        55.978668212890625,
+        5.993091583251953,
+        -11.386853218078613
+      ],
+      "volume_mm3": 33472.88196017538
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-73-mm-round-cap-side-0.4mm-lip.stl",
+      "flange_set": "skinny",
+      "sha256": "83f429790a28dca25cb024774f4fdd53025b349f1b0a77059e9df0ffb8eeee9b",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -38.997554779052734,
+        -88.99984741210938,
+        -21.786853790283203,
+        38.9993896484375,
+        -11.003822326660156,
+        -11.386853218078613
+      ],
+      "volume_mm3": 32586.139203401977
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-73-mm-round-gear-side-0.4mm-flange.stl",
+      "flange_set": "skinny",
+      "sha256": "8ec915be67942ba680c28882c1d68949be93b808a419bb560226049e09162edb",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -56.48866653442383,
+        -106.47260284423828,
+        -21.786853790283203,
+        56.47841262817383,
+        6.493038654327393,
+        -11.386853218078613
+      ],
+      "volume_mm3": 34683.85960552441
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-74-mm-round-cap-side-0.4mm-lip.stl",
+      "flange_set": "skinny",
+      "sha256": "040b01c1d775c59c8eaf8b50bc21266ca11409a556fa9b7ee9e1810d788eae58",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -39.49752426147461,
+        -89.49984741210938,
+        -21.786853790283203,
+        39.499385833740234,
+        -10.503870964050293,
+        -11.386853218078613
+      ],
+      "volume_mm3": 33787.65972647332
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-74-mm-round-gear-side-0.4mm-flange.stl",
+      "flange_set": "skinny",
+      "sha256": "ec8e99b2c2c6ebc0857a25d4161a21f18be080909a2b4f105706542e86d49fbd",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -56.988529205322266,
+        -106.97224426269531,
+        -21.786853790283203,
+        56.9781379699707,
+        6.992959022521973,
+        -11.386853218078613
+      ],
+      "volume_mm3": 35907.3198446
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-75-mm-round-cap-side-0.4mm-lip.stl",
+      "flange_set": "skinny",
+      "sha256": "cd83ee37da98b387f281138f647ec6dc9bd673e9013c8f986e63ca3647883610",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -39.99748611450195,
+        -89.99983978271484,
+        -21.786853790283203,
+        39.99937438964844,
+        -10.00391960144043,
+        -11.386853218078613
+      ],
+      "volume_mm3": 35009.09502548694
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-75-mm-round-gear-side-0.4mm-flange.stl",
+      "flange_set": "skinny",
+      "sha256": "f9c8323fcfd1a128a1529a931667146975da340c7011e2a6e27bb50dba4b9f9c",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -57.48838424682617,
+        -107.47187805175781,
+        -21.786853790283203,
+        57.47785568237305,
+        7.4928789138793945,
+        -11.386853218078613
+      ],
+      "volume_mm3": 37150.69826095987
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-76-mm-round-cap-side-0.4mm-lip.stl",
+      "flange_set": "skinny",
+      "sha256": "2272fa98eb3a927a95d814a7643729f0eb0af90c7c8d0155d400a0a106d20557",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -40.497459411621094,
+        -90.49983978271484,
+        -21.786853790283203,
+        40.499366760253906,
+        -9.503969192504883,
+        -11.386853218078613
+      ],
+      "volume_mm3": 36240.3462782931
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-76-mm-round-gear-side-0.4mm-flange.stl",
+      "flange_set": "skinny",
+      "sha256": "3147920e273174cc75724e9e6da1d1dd84409cb39a8c012915ae9224e9838ca7",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -57.9882698059082,
+        -107.9715347290039,
+        -21.786853790283203,
+        57.97759246826172,
+        7.9928202629089355,
+        -11.386853218078613
+      ],
+      "volume_mm3": 38403.891491210416
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-77-mm-round-cap-side-0.4mm-lip.stl",
+      "flange_set": "skinny",
+      "sha256": "b5e1a482746a6dc1794ec5c6603a063ff02b12bc4003e95c18c47cb87a0c98e7",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -40.99742889404297,
+        -90.99983978271484,
+        -21.786853790283203,
+        40.99935531616211,
+        -9.00401782989502,
+        -11.386853218078613
+      ],
+      "volume_mm3": 37504.06792017639
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-77-mm-round-gear-side-0.4mm-flange.stl",
+      "flange_set": "skinny",
+      "sha256": "58a6d60597aca1749bf4d6b4712032c784aadd9a44441d98231fd6531aca5124",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -58.488128662109375,
+        -108.47119903564453,
+        -21.786853790283203,
+        58.4773063659668,
+        8.492767333984375,
+        -11.386853218078613
+      ],
+      "volume_mm3": 39689.555784456854
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-78-mm-round-cap-side-0.4mm-lip.stl",
+      "flange_set": "skinny",
+      "sha256": "e847c51cb3b869141286a69aebf8c97e1352b6d89023d337e919970425fa5ad3",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -41.497398376464844,
+        -91.49983978271484,
+        -21.786853790283203,
+        41.49934768676758,
+        -8.504066467285156,
+        -11.386853218078613
+      ],
+      "volume_mm3": 38758.673881913644
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-78-mm-round-gear-side-0.4mm-flange.stl",
+      "flange_set": "skinny",
+      "sha256": "f13bc55dd2880fca717291cfa0283430a32c5dc28a33fb7a77d5a6cfaae2ab8b",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -58.98801040649414,
+        -108.97086334228516,
+        -21.786853790283203,
+        58.97704315185547,
+        8.992709159851074,
+        -11.386853218078613
+      ],
+      "volume_mm3": 40966.102245300666
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-79-mm-round-cap-side-0.4mm-lip.stl",
+      "flange_set": "skinny",
+      "sha256": "f21f6b2cdfcfee0ee385995ca19a2e8a28d96164a385a7c8a8408baef733520a",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -41.99736404418945,
+        -91.99983215332031,
+        -21.786853790283203,
+        41.99934005737305,
+        -8.00411605834961,
+        -11.386853218078613
+      ],
+      "volume_mm3": 40046.36733674355
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-79-mm-round-gear-side-0.4mm-flange.stl",
+      "flange_set": "skinny",
+      "sha256": "4af313205416074a6675f4607cb6e84823dc442ec09feedf9a6f07d10283aeda",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -59.48786163330078,
+        -109.47048950195312,
+        -21.786853790283203,
+        59.47676086425781,
+        9.492622375488281,
+        -11.386853218078613
+      ],
+      "volume_mm3": 42275.73671682077
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-80-mm-round-cap-side-0.4mm-lip.stl",
+      "flange_set": "skinny",
+      "sha256": "c2fc81f9fb0cd7eb9982dde041a784ad42bdb9a78b9224efd5924fb151c3c679",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -42.49733352661133,
+        -92.49983215332031,
+        -21.786853790283203,
+        42.499332427978516,
+        -7.504164218902588,
+        -11.386853218078613
+      ],
+      "volume_mm3": 41329.75180232971
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-80-mm-round-gear-side-0.4mm-flange.stl",
+      "flange_set": "skinny",
+      "sha256": "fcd52e731fd1391a42992840c38e0e19eace0d883618fb54f81d3cd8a2d1c088",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -59.98772430419922,
+        -109.97014617919922,
+        -21.786853790283203,
+        59.976478576660156,
+        9.992562294006348,
+        -11.386853218078613
+      ],
+      "volume_mm3": 43581.06023873122
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-81-mm-round-cap-side-0.4mm-lip.stl",
+      "flange_set": "skinny",
+      "sha256": "fc8b817bdac4e5bd756f267affa5d3a88567208425b07238023c04921ed4dce3",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -42.9973030090332,
+        -92.99983215332031,
+        -21.786853790283203,
+        42.999324798583984,
+        -7.004213809967041,
+        -11.386853218078613
+      ],
+      "volume_mm3": 42670.51041704358
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-81-mm-round-gear-side-0.4mm-flange.stl",
+      "flange_set": "skinny",
+      "sha256": "c5ada9e0c5592e5d8ef7a439e06bdddb9004b07eb625f36d9c081ef410f9622b",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -60.487606048583984,
+        -110.46980285644531,
+        -21.786853790283203,
+        60.476219177246094,
+        10.492498397827148,
+        -11.386853218078613
+      ],
+      "volume_mm3": 44943.75870111336
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-82-mm-round-cap-side-0.4mm-lip.stl",
+      "flange_set": "skinny",
+      "sha256": "cd99dea3c0f773817ddfeeb0baec9288ff704a8d5d9e684945ce27ea167cdeac",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -43.49727249145508,
+        -93.49983215332031,
+        -21.786853790283203,
+        43.49931716918945,
+        -6.504262924194336,
+        -11.386853218078613
+      ],
+      "volume_mm3": 43987.95510685074
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-82-mm-round-gear-side-0.4mm-flange.stl",
+      "flange_set": "skinny",
+      "sha256": "a604e65ac1f6e69e4fea496e0e73f75f57ca6ae1e1a0ae54771b3c776e9c6a9e",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -60.987464904785156,
+        -110.96945190429688,
+        -21.786853790283203,
+        60.97593307495117,
+        10.992430686950684,
+        -11.386853218078613
+      ],
+      "volume_mm3": 46283.140987868734
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-83-mm-round-cap-side-0.4mm-lip.stl",
+      "flange_set": "skinny",
+      "sha256": "7d2ad57d1f69f68b9ea3629e51c8a80973210603b12c710f988d9d58f515f370",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -43.99723815917969,
+        -93.99982452392578,
+        -21.786853790283203,
+        43.99930953979492,
+        -6.004312038421631,
+        -11.386853218078613
+      ],
+      "volume_mm3": 45339.53721985098
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-83-mm-round-gear-side-0.4mm-flange.stl",
+      "flange_set": "skinny",
+      "sha256": "160899754895b88c7e74509de9887ad571301f6e0c136294914674c361f46098",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -61.48734664916992,
+        -111.4690933227539,
+        -21.786853790283203,
+        61.47567367553711,
+        11.49236011505127,
+        -11.386853218078613
+      ],
+      "volume_mm3": 47656.66434075
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-84-mm-round-cap-side-0.4mm-lip.stl",
+      "flange_set": "skinny",
+      "sha256": "10daecaeb42aec91443244cb9d17767286609fae341b3428d744544efac4f50e",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -44.49720764160156,
+        -94.49982452392578,
+        -21.786853790283203,
+        44.499298095703125,
+        -5.504360198974609,
+        -11.386853218078613
+      ],
+      "volume_mm3": 46704.81907231486
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-84-mm-round-gear-side-0.4mm-flange.stl",
+      "flange_set": "skinny",
+      "sha256": "ecda07deb8751f37a95bec03ba8edf51c57204b6a6f43a1c04e8c79a4175734c",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -61.987205505371094,
+        -111.96874237060547,
+        -21.786853790283203,
+        61.97539138793945,
+        11.99229621887207,
+        -11.386853218078613
+      ],
+      "volume_mm3": 49043.88293278257
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-85-mm-round-cap-side-0.4mm-lip.stl",
+      "flange_set": "skinny",
+      "sha256": "761fbfca48d00c3beb53f76a7074ada80404da016cf51753c3b2399dedf43151",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -44.99717712402344,
+        -94.99982452392578,
+        -21.786853790283203,
+        44.99929428100586,
+        -5.0044097900390625,
+        -11.386853218078613
+      ],
+      "volume_mm3": 48090.24098408833
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-85-mm-round-gear-side-0.4mm-flange.stl",
+      "flange_set": "skinny",
+      "sha256": "a9263a995e1b4b5c5515c392b8e1b06514cfacaffc392bfb644f80a370c93ca8",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -62.4870719909668,
+        -112.4683837890625,
+        -21.786853790283203,
+        62.47511672973633,
+        12.492216110229492,
+        -11.386853218078613
+      ],
+      "volume_mm3": 50451.24018217109
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-86-mm-round-cap-side-0.4mm-lip.stl",
+      "flange_set": "skinny",
+      "sha256": "efcd18ad6cd6090b08d55cf538f2a913729e60c7e1edbb18bf29327a799ed3bd",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -45.49714660644531,
+        -95.49982452392578,
+        -21.786853790283203,
+        45.49928665161133,
+        -4.504458904266357,
+        -11.386853218078613
+      ],
+      "volume_mm3": 49484.943911935494
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-86-mm-round-gear-side-0.4mm-flange.stl",
+      "flange_set": "skinny",
+      "sha256": "98ead66152ea113d66aa281d5e3d284d7b48f96a5b361fe775024cfed90fb323",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -62.98695373535156,
+        -112.9680404663086,
+        -21.786853790283203,
+        62.974857330322266,
+        12.992156028747559,
+        -11.386853218078613
+      ],
+      "volume_mm3": 51867.87986733234
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-87-mm-round-cap-side-0.4mm-lip.stl",
+      "flange_set": "skinny",
+      "sha256": "fc6946107f9a741ee13f0a96be794594d176a7d99a669d400886cdbc1a034e94",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -45.99711608886719,
+        -95.99981689453125,
+        -21.786853790283203,
+        45.9992790222168,
+        -4.004508018493652,
+        -11.386853218078613
+      ],
+      "volume_mm3": 50911.00588101238
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-87-mm-round-gear-side-0.4mm-flange.stl",
+      "flange_set": "skinny",
+      "sha256": "e84e3081220abc153e3550c452e0ab1f70caf7f43e7cd2782f60d71e3c189aef",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -63.48683547973633,
+        -113.46768188476562,
+        -21.786853790283203,
+        63.47459411621094,
+        13.492083549499512,
+        -11.386853218078613
+      ],
+      "volume_mm3": 53315.88136635846
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-88-mm-round-cap-side-0.4mm-lip.stl",
+      "flange_set": "skinny",
+      "sha256": "b0a664ee08d8cd29eac19634167118357aa8b0a7896049af8483b74a489b6c33",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -46.4970817565918,
+        -96.49981689453125,
+        -21.786853790283203,
+        46.499271392822266,
+        -3.504556894302368,
+        -11.386853218078613
+      ],
+      "volume_mm3": 52329.31822314979
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-88-mm-round-gear-side-0.4mm-flange.stl",
+      "flange_set": "skinny",
+      "sha256": "b3166b1a543c216dce4350a8b0979956a45281ee3fef4cf6c31fccf75737ee16",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -63.98667526245117,
+        -113.96733093261719,
+        -21.786853790283203,
+        63.97429656982422,
+        13.992015838623047,
+        -11.386853218078613
+      ],
+      "volume_mm3": 54756.128429016
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-89-mm-round-cap-side-0.4mm-lip.stl",
+      "flange_set": "skinny",
+      "sha256": "4466275a763651592dc997ca52c1bc8f51470341f54d8096ef67ab1526822fe9",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -46.99705123901367,
+        -96.99981689453125,
+        -21.786853790283203,
+        46.999263763427734,
+        -3.004606008529663,
+        -11.386853218078613
+      ],
+      "volume_mm3": 53780.34688021586
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-89-mm-round-gear-side-0.4mm-flange.stl",
+      "flange_set": "skinny",
+      "sha256": "df669519e5618590e8235e085e7c571d2476f9a027503f33cc6c0c7c55ecc867",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -64.4865493774414,
+        -114.46697998046875,
+        -21.786853790283203,
+        64.47402954101562,
+        14.491947174072266,
+        -11.386853218078613
+      ],
+      "volume_mm3": 56229.09151673342
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-90-mm-round-cap-side-0.4mm-lip.stl",
+      "flange_set": "skinny",
+      "sha256": "e7e3876eb38a957a4ea420b1211898c78b9691f9d53ccd4c3ed6021a9aa551b0",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -47.49702072143555,
+        -97.49981689453125,
+        -21.786853790283203,
+        47.4992561340332,
+        -2.504654884338379,
+        -11.386853218078613
+      ],
+      "volume_mm3": 55243.799862684835
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-90-mm-round-gear-side-0.4mm-flange.stl",
+      "flange_set": "skinny",
+      "sha256": "8f2c0ef62643ce62f735ad62dc7d0c7af534803ad2a45c428cc01e0545021332",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -64.98641204833984,
+        -114.96663665771484,
+        -21.786853790283203,
+        64.97374725341797,
+        14.9918851852417,
+        -11.386853218078613
+      ],
+      "volume_mm3": 57714.47912984306
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-91-mm-round-cap-side-0.4mm-lip.stl",
+      "flange_set": "skinny",
+      "sha256": "effc53ce327ee632b66850c95e7446b63db3b461838102b4b6fb240635e7ddf6",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -47.99699020385742,
+        -97.99980926513672,
+        -21.786853790283203,
+        47.99924850463867,
+        -2.004703998565674,
+        -11.386853218078613
+      ],
+      "volume_mm3": 56747.8889876799
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-91-mm-round-gear-side-0.4mm-flange.stl",
+      "flange_set": "skinny",
+      "sha256": "07ae8d50fed1c7153a111a29024fb3ea3ed8a3c4fb684abc6de6effb2b4e75e0",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -65.48632049560547,
+        -115.4662857055664,
+        -21.786853790283203,
+        65.4735107421875,
+        15.4918212890625,
+        -11.386853218078613
+      ],
+      "volume_mm3": 59240.50708796663
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-92-mm-round-cap-side-0.4mm-lip.stl",
+      "flange_set": "skinny",
+      "sha256": "b7512ddfcf86b3870d0d450edc8516fa9aed0211d6633fcf2cf5ff1fe61e9f07",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -48.4969596862793,
+        -98.49980926513672,
+        -21.786853790283203,
+        48.49924087524414,
+        -1.5047520399093628,
+        -11.386853218078613
+      ],
+      "volume_mm3": 58228.449418263364
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-92-mm-round-gear-side-0.4mm-flange.stl",
+      "flange_set": "skinny",
+      "sha256": "bcc30439370b1950f4d940525a83b3eda6b8a08be13c6e602750ced7cd211fb4",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -65.9861831665039,
+        -115.9659423828125,
+        -21.786853790283203,
+        65.97322845458984,
+        15.991759300231934,
+        -11.386853218078613
+      ],
+      "volume_mm3": 60743.00104437241
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-93-mm-round-cap-side-0.4mm-lip.stl",
+      "flange_set": "skinny",
+      "sha256": "8687e6b1b65904f9f22f37b7872bf36bf663bd6e15190d7ca1f9aba762599c89",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -48.996925354003906,
+        -98.99980926513672,
+        -21.786853790283203,
+        48.99923324584961,
+        -1.0048010349273682,
+        -11.386853218078613
+      ],
+      "volume_mm3": 59743.34576422927
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-93-mm-round-gear-side-0.4mm-flange.stl",
+      "flange_set": "skinny",
+      "sha256": "681e4990cb227782908ab1a0328a8e5e3d21f61ad63a64fded8f3f68a6184373",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -66.48602294921875,
+        -116.46559143066406,
+        -21.786853790283203,
+        66.47293090820312,
+        16.49169158935547,
+        -11.386853218078613
+      ],
+      "volume_mm3": 62279.82958279953
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-94-mm-round-cap-side-0.4mm-lip.stl",
+      "flange_set": "skinny",
+      "sha256": "e836553ba90a4d099eca0c45ad808159415e035035e07a90911ec36bcc93a970",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -49.5,
+        -99.49825286865234,
+        -21.786853790283203,
+        49.49301528930664,
+        -0.5017459988594055,
+        -11.386853218078613
+      ],
+      "volume_mm3": 61272.27811934346
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-94-mm-round-gear-side-0.4mm-flange.stl",
+      "flange_set": "skinny",
+      "sha256": "15bb8f6b31a936507fb8a9e240f79cc84cbb9f9b438b4d31b0fc0eda773977b3",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -66.95111083984375,
+        -116.97340393066406,
+        -21.786853790283203,
+        66.99055480957031,
+        16.973398208618164,
+        -11.386853218078613
+      ],
+      "volume_mm3": 63829.648128929366
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-95-mm-round-cap-side-0.4mm-lip.stl",
+      "flange_set": "skinny",
+      "sha256": "775d0ebaa2f6f0a91460b103d6f6c6cc47abea5bda86c82c02a2bf09bb9e8efc",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -49.996864318847656,
+        -99.99980163574219,
+        -21.786853790283203,
+        49.99921417236328,
+        -0.004898999817669392,
+        -11.386853218078613
+      ],
+      "volume_mm3": 62820.39186795042
+    },
+    {
+      "file": "models-skinny/kraken-spool-ring-95-mm-round-gear-side-0.4mm-flange.stl",
+      "flange_set": "skinny",
+      "sha256": "bdad2d018a266d8dc123a04ce19969b47cbeba9b87ae071a2a00c42ea8c65f2b",
+      "mesh_components": 1,
+      "bounds_mm": [
+        -67.48577880859375,
+        -117.46488189697266,
+        -21.786853790283203,
+        67.47240447998047,
+        17.49155044555664,
+        -11.386853218078613
+      ],
+      "volume_mm3": 65400.743661314955
     }
   ]
 }

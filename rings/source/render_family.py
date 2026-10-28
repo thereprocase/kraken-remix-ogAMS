@@ -17,7 +17,7 @@ def triangles(path):
 def main():
     fig = plt.figure(figsize=(12, 7.2), facecolor='#f3f5f7')
     for column, size in enumerate(['45', '55.5', '95']):
-        for row, side in enumerate(['gear-side-1.5mm-flange', 'cap-side']):
+        for row, side in enumerate(['gear-side-2.2mm-flange', 'cap-side-0.6mm-lip']):
             folder = ROOT/'models' if size == '55.5' else ROOT/'stock-sizes/models'
             points = triangles(folder/f'kraken-spool-ring-{size}-mm-pentagon-{side}.stl')
             normal = np.cross(points[:, 1]-points[:, 0], points[:, 2]-points[:, 0])

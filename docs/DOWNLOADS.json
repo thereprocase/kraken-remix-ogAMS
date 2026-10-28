@@ -14,628 +14,1325 @@
       "bytes": 255888
     },
     {
-      "file": "kraken-spool-ring-45-mm-pentagon-cap-side.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-45-mm-pentagon-cap-side.step.gz",
-      "sha256": "5401131cf39eab81814795199c1c8d60b85bd0108c86269aa33990f47fb7b5e6",
+      "file": "kraken-spool-ring-45-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-45-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "sha256": "61c9a04886d90b2b46b7e9282e3b47f6a41ce9bd97a958a30b932c649bb4bc50",
       "bytes": 3984834
     },
     {
-      "file": "kraken-spool-ring-45-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-45-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "sha256": "f40abb04ebc8ca58f978809a581ff13614810f5931b572790ff5e23439efc635",
-      "bytes": 4847041
+      "file": "kraken-spool-ring-45-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-45-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "sha256": "c1acbd96f33e258ae5dab728802b83f08fb7b5360d79a742ae9aa6de243d45f3",
+      "bytes": 4723114
     },
     {
-      "file": "kraken-spool-ring-46-mm-pentagon-cap-side.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-46-mm-pentagon-cap-side.step.gz",
-      "sha256": "d575e259d3bf9c8a354afb9dc950089c5c388d73771d87312a9e1a891d9795ca",
-      "bytes": 3958205
+      "file": "kraken-spool-ring-45-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-45-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "sha256": "a47190143f12d9acc82033446d5786d817832a3c3ef3051cd2d5384adf37c58c",
+      "bytes": 4850409
     },
     {
-      "file": "kraken-spool-ring-46-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-46-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "sha256": "d8fdd0896ce99d23bd60ba582873054f1d7da60814c8af81f733be126707cc19",
-      "bytes": 4797356
+      "file": "kraken-spool-ring-45-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-45-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "sha256": "945b4ed4a193c7d7fda96911db9a16558f99bdcfdebc9e39622cb4629504f43f",
+      "bytes": 4846423
     },
     {
-      "file": "kraken-spool-ring-47-mm-pentagon-cap-side.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-47-mm-pentagon-cap-side.step.gz",
-      "sha256": "86519c0a34120648e69b2e62ece2dcefe7183c17364890d7fcf18983dcbbe734",
+      "file": "kraken-spool-ring-46-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-46-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "sha256": "9360a0b06e2c6f38d336a54eaf4b1bba0e8c6692cf65366aa51260a3f9c56dd4",
+      "bytes": 3958206
+    },
+    {
+      "file": "kraken-spool-ring-46-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-46-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "sha256": "26a0dfac915a40e324a248e2b63149b676bc059df62ace31e88d725f4bc75bf8",
+      "bytes": 4677025
+    },
+    {
+      "file": "kraken-spool-ring-46-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-46-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "sha256": "2a884c684a3f329d6cca7d3904f5ee105db880c363cc16e6d47d3a2b3af32c68",
+      "bytes": 4802295
+    },
+    {
+      "file": "kraken-spool-ring-46-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-46-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "sha256": "7553c1ce4391611bd45a8e492795a9fc9cbfa0d6d3f7a74e55ae5bd5de35fe42",
+      "bytes": 4799601
+    },
+    {
+      "file": "kraken-spool-ring-47-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-47-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "sha256": "bd2d37802938de43036d19c25d68df11bd884c32e78318a5e0ec524815255a45",
       "bytes": 3958805
     },
     {
-      "file": "kraken-spool-ring-47-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-47-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "sha256": "fb25dd98c7b0cce372d8a94606d653c3078feafe55aa5fb7c3bba1d6c11266a6",
-      "bytes": 4774368
+      "file": "kraken-spool-ring-47-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-47-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "sha256": "6d91a2acc2c25c80d69fe95bf63303f7665dd390004d8f321eac2c0816d96269",
+      "bytes": 4678078
     },
     {
-      "file": "kraken-spool-ring-48-mm-pentagon-cap-side.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-48-mm-pentagon-cap-side.step.gz",
-      "sha256": "25eca5f5119b876f29c87457888d473dc1e2e9a9e4df9f4bca327411fff23e7d",
+      "file": "kraken-spool-ring-47-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-47-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "sha256": "85c36c31767f0694aa09899f6327deca5e41d9bd97e43f80367fdd535ef82066",
+      "bytes": 4779589
+    },
+    {
+      "file": "kraken-spool-ring-47-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-47-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "sha256": "fcc6e3e0d6f2cf5536e50396c43a39f66da051b5af2e06eee55ee5bd49ff18da",
+      "bytes": 4779366
+    },
+    {
+      "file": "kraken-spool-ring-48-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-48-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "sha256": "732eb9497a1284fc1b50b1a9057742bf7209cf56b4e8fcef8f87a8f51ca7b479",
       "bytes": 3947354
     },
     {
-      "file": "kraken-spool-ring-48-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-48-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "sha256": "d2f366ad4048aee19283db778be849e33c496d194ba5446988177dab6733792f",
-      "bytes": 4752708
+      "file": "kraken-spool-ring-48-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-48-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "sha256": "81314a230a0a53d710ddaeccf5f5442778ce839a1b7435ef89f9c32bd3cb2c93",
+      "bytes": 4662535
     },
     {
-      "file": "kraken-spool-ring-49-mm-pentagon-cap-side.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-49-mm-pentagon-cap-side.step.gz",
-      "sha256": "18b27253fbd619ed3608cbf8d9d40255c175d2d6d9b3b8b7887efba243c3580d",
+      "file": "kraken-spool-ring-48-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-48-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "sha256": "f0aad0d4fa0de55143f573b7338b24be3747b2f5e7c030c68a71cca7c55cf7a9",
+      "bytes": 4756824
+    },
+    {
+      "file": "kraken-spool-ring-48-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-48-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "sha256": "a68cfa45c22e200b87865d93dd8d4eb824018e89fae723335a457c19446772c0",
+      "bytes": 4755118
+    },
+    {
+      "file": "kraken-spool-ring-49-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-49-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "sha256": "ddc466d0095a52f5b2ba868c580fa0024ef1bbed01d9dcec0e9f8d4e2031e543",
       "bytes": 3917423
     },
     {
-      "file": "kraken-spool-ring-49-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-49-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "sha256": "10a37ee2a1abd959178085263fd8f6faa1e36148a978377560673be91b2d1dd6",
-      "bytes": 4733814
+      "file": "kraken-spool-ring-49-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-49-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "sha256": "5339f17948491dc90965d234303c81db0686059f1800837d2031f8400aa160e0",
+      "bytes": 4632443
     },
     {
-      "file": "kraken-spool-ring-50-mm-pentagon-cap-side.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-50-mm-pentagon-cap-side.step.gz",
-      "sha256": "161860f84bfa9199fd3f07039c8e97a5be01b704f998e66e3caa8b0ee0f8b807",
-      "bytes": 3897021
+      "file": "kraken-spool-ring-49-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-49-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "sha256": "26e5d1335dd46cbdae2a6adcdba187d013f59b1633c485c33285e30475e8aa12",
+      "bytes": 4737070
     },
     {
-      "file": "kraken-spool-ring-50-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-50-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "sha256": "95dc6b1669c76ef20e12d775b5d95792991c7f35ff97a653b1b6923aa5cae4e1",
-      "bytes": 4714338
+      "file": "kraken-spool-ring-49-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-49-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "sha256": "9a5d2e5fd70a9f55982f1335d1028b206fcbea3473f17451aeb10031eaa97f2a",
+      "bytes": 4737516
     },
     {
-      "file": "kraken-spool-ring-51-mm-pentagon-cap-side.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-51-mm-pentagon-cap-side.step.gz",
-      "sha256": "06ee4d26cbd3237649ee2fd0105fbae2156047ad653d3952bf9175cfb073cf24",
+      "file": "kraken-spool-ring-50-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-50-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "sha256": "88a1711e8ba7cfc4c5783e1bd648c69eca39ec9cf6c2fdc74bb807a338ec352a",
+      "bytes": 3897022
+    },
+    {
+      "file": "kraken-spool-ring-50-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-50-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "sha256": "3138ee9d199d6b5f8f06458d7352229cd85ab10dcd4aa545d7babd9a880d2923",
+      "bytes": 4610477
+    },
+    {
+      "file": "kraken-spool-ring-50-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-50-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "sha256": "7b13b712e6ecba269488af5c4885881f37b663cacc12f87e2651500f67ef389a",
+      "bytes": 4717318
+    },
+    {
+      "file": "kraken-spool-ring-50-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-50-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "sha256": "46aa7a4e2c9680548961ee1773780440e0b9fd54f87828f2a9b5f70619817638",
+      "bytes": 4715122
+    },
+    {
+      "file": "kraken-spool-ring-51-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-51-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "sha256": "827faef5e47dbfe266cd8cd48864a179509362e946066827b8de86b1cbddfd43",
       "bytes": 4125331
     },
     {
-      "file": "kraken-spool-ring-51-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-51-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "sha256": "1dc2960a43bf6345989feb047bed3256fe4cc277688e05ad52e5d482b5c28c2a",
-      "bytes": 4917161
+      "file": "kraken-spool-ring-51-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-51-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "sha256": "5e080a5258f3dce2c6342a2e3584329f851e6bfa994c4d6ba6bc7e0bdd7b477b",
+      "bytes": 4821787
     },
     {
-      "file": "kraken-spool-ring-52-mm-pentagon-cap-side.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-52-mm-pentagon-cap-side.step.gz",
-      "sha256": "55aa4fb73e8847ad677ad0881e054481f5e0bfc40053be7f3e4c0eacc9d225ae",
+      "file": "kraken-spool-ring-51-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-51-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "sha256": "7d4328be5258732b74d1186f2859978e66d55b3f4e0712b186acd070486bb444",
+      "bytes": 4922436
+    },
+    {
+      "file": "kraken-spool-ring-51-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-51-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "sha256": "7f38a13505fdc9d4a301c60570065624775fe2c6a0d97aec88a37f026c08cf80",
+      "bytes": 4922677
+    },
+    {
+      "file": "kraken-spool-ring-52-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-52-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "sha256": "6c0e70b60ec3762e9a5fe673e432482e4349779e983570c6c99d9fe38d16b273",
       "bytes": 3894935
     },
     {
-      "file": "kraken-spool-ring-52-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-52-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "sha256": "eda10977d4df5c7034bad7c1df7f9a5194da1e46f34b234e8dbb48de6aaae3fc",
-      "bytes": 4676813
+      "file": "kraken-spool-ring-52-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-52-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "sha256": "d106d1791a3cef320db635f68c094c3c5885673d46c420ac0d82f28acb883c7f",
+      "bytes": 4579089
     },
     {
-      "file": "kraken-spool-ring-53-mm-pentagon-cap-side.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-53-mm-pentagon-cap-side.step.gz",
-      "sha256": "047762c9e96e865c7bca73bac09aacac2d6206a4dc6ec4e4d6041788a69fd720",
-      "bytes": 3882922
+      "file": "kraken-spool-ring-52-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-52-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "sha256": "1d90c03841ce1ff5b0bf2b7cfb50e82df1d80d7c6a3f59e9c7dcd3b8c4804062",
+      "bytes": 4685318
     },
     {
-      "file": "kraken-spool-ring-53-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-53-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "sha256": "0833c1deaa0babf17192cd58c0adaf3f9dc6a0fa02fe125ba2e7a72c6e59bb74",
-      "bytes": 4677167
+      "file": "kraken-spool-ring-52-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-52-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "sha256": "2f8d49fb48b0c9fd3abd9fa0cf1659eb62841bb917165d21dd8a407dc3abd05f",
+      "bytes": 4678273
     },
     {
-      "file": "kraken-spool-ring-54-mm-pentagon-cap-side.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-54-mm-pentagon-cap-side.step.gz",
-      "sha256": "f3bfd2e0be1c9e7dcc29e34aa7053f076b1cdca0a085376ca51d3601820aee31",
+      "file": "kraken-spool-ring-52.1-mm-spring-cap-side-0.4mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-52.1-mm-spring-cap-side-0.4mm-lip.step.gz",
+      "sha256": "6314a4cb0839002906e98e9fd21fb10f2b8c124ef018259a00dc2f50c7a99ec6",
+      "bytes": 4302839
+    },
+    {
+      "file": "kraken-spool-ring-52.1-mm-spring-cap-side-0.6mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-52.1-mm-spring-cap-side-0.6mm-lip.step.gz",
+      "sha256": "632c885e1d44f468e44f62975bd0f9e31c859a0d484d73fcd171ae2f39b795f1",
+      "bytes": 4985171
+    },
+    {
+      "file": "kraken-spool-ring-52.1-mm-spring-gear-side-0.4mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-52.1-mm-spring-gear-side-0.4mm-flange.step.gz",
+      "sha256": "d54f323e0c78551d1b75d3ecc4db621c5669844a3994cf8c503a6b1fd8618494",
+      "bytes": 5091826
+    },
+    {
+      "file": "kraken-spool-ring-52.1-mm-spring-gear-side-2.2mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-52.1-mm-spring-gear-side-2.2mm-flange.step.gz",
+      "sha256": "c8cff27f0a520cbbf5bfdcaaf2f43f7c84658ba674cbcea3e306446ce30c594f",
+      "bytes": 5093202
+    },
+    {
+      "file": "kraken-spool-ring-53-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-53-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "sha256": "71e82dc3d35be73e43b097712e6ab70cf136e9e1d0c1c3f873a3897f2d8099a8",
+      "bytes": 3882923
+    },
+    {
+      "file": "kraken-spool-ring-53-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-53-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "sha256": "c08a22b4ffc0ff4665bebfd0a1689d3e8263bed40568cb933e7a605d32021663",
+      "bytes": 4571353
+    },
+    {
+      "file": "kraken-spool-ring-53-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-53-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "sha256": "a73a48fd3763f813a20c80811c1d53b61ce06bbfb9ff3aaf710549a9ef60a9ad",
+      "bytes": 4689361
+    },
+    {
+      "file": "kraken-spool-ring-53-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-53-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "sha256": "ac37f50e70d209e2097e093714deeba4e989d6aeb311eaa7e99c15ceb6fe318b",
+      "bytes": 4682506
+    },
+    {
+      "file": "kraken-spool-ring-53.4-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-53.4-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "sha256": "e9cc5eef02852d4473957c51c7c7ac0df843239e94d014e762a7189bf00e26d7",
+      "bytes": 3881208
+    },
+    {
+      "file": "kraken-spool-ring-53.4-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-53.4-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "sha256": "26597cc48f40382c55e65d3731bee0ef6dbdda6775ba978810f8b0e0c72d37b4",
+      "bytes": 4570434
+    },
+    {
+      "file": "kraken-spool-ring-53.4-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-53.4-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "sha256": "76a2db842d341cb7676b440e6b06063fc8d1a71dadbe9dd9d447d19fc0d2aee5",
+      "bytes": 4687489
+    },
+    {
+      "file": "kraken-spool-ring-53.4-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-53.4-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "sha256": "15bcc0db82f63d134f287f592691fc7b268d800c340b6be585847ddb27e83e3e",
+      "bytes": 4681934
+    },
+    {
+      "file": "kraken-spool-ring-54-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-54-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "sha256": "31cafae6638ee7827459bbd1dc20555bc8a18788d6824d51ec7cbc97953430ca",
       "bytes": 3863932
     },
     {
-      "file": "kraken-spool-ring-54-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-54-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "sha256": "827ec5a55c0a428f661b3ec5876d81281e8e10d10d21b6b31916e2f27219863b",
-      "bytes": 4669098
+      "file": "kraken-spool-ring-54-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-54-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "sha256": "a4a4a69e075e99924fd2d2a1d070209fca77afd79683558963dcb76ce6dfaf75",
+      "bytes": 4546065
     },
     {
-      "file": "kraken-spool-ring-55-mm-pentagon-cap-side.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-55-mm-pentagon-cap-side.step.gz",
-      "sha256": "09ccbd268dc983a9c16a0b28601bc31900166ea9181973cb43f5303a998e2630",
-      "bytes": 3863986
+      "file": "kraken-spool-ring-54-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-54-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "sha256": "e9c48db51825b4af0ec529bdc7c1bbbb9a85d785181795313de3c7a8b0c88ba5",
+      "bytes": 4679038
     },
     {
-      "file": "kraken-spool-ring-55-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-55-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "sha256": "ccf9ade6c3f93c954a42e89998f95a9b8b94789e75f7b3d3743dd7e448241d8d",
-      "bytes": 4668518
+      "file": "kraken-spool-ring-54-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-54-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "sha256": "7b69b6d6da2d3f4e60548670794b9691b0a35539757aa81fbc3a6eced52c3f21",
+      "bytes": 4675907
     },
     {
-      "file": "kraken-spool-ring-56-mm-pentagon-cap-side.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-56-mm-pentagon-cap-side.step.gz",
-      "sha256": "9152e9a684d31d067a05077462ac2c278e8533ad76d2b2c3fd8a10d434083759",
+      "file": "kraken-spool-ring-55-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-55-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "sha256": "2de7a3107eb2d6960c782739a08def138f21917e4f603a72f6b07a907b05008a",
+      "bytes": 3863987
+    },
+    {
+      "file": "kraken-spool-ring-55-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-55-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "sha256": "cccca2027bf31a42bc2b7fdd9a735aeacdf5b9aece945a569ed06c056e20f63b",
+      "bytes": 4545947
+    },
+    {
+      "file": "kraken-spool-ring-55-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-55-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "sha256": "e89c90665eee4e481ee5a9d6dba76d33e1a3435f5973d7610ca5a356cb1f8079",
+      "bytes": 4675521
+    },
+    {
+      "file": "kraken-spool-ring-55-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-55-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "sha256": "4fcd7b1a361b5dfd8072c12e392866127ca55ed357193db6d48256f158638c6b",
+      "bytes": 4674544
+    },
+    {
+      "file": "kraken-spool-ring-55.5-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-55.5-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "sha256": "a803509314450d9571825c39e81a3c317725466d048dc2c59fe2fe1ad290678d",
+      "bytes": 3865125
+    },
+    {
+      "file": "kraken-spool-ring-55.5-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-55.5-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "sha256": "a623f39989d940adaa5bc2fccb0c19b6b0f69ef2d80556f9126a9e334a00e178",
+      "bytes": 4545232
+    },
+    {
+      "file": "kraken-spool-ring-55.5-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-55.5-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "sha256": "7f9884b787b4eb5ebbb63437bf30ec22b0a6693356a6a94e2a32a4dcb414542e",
+      "bytes": 4676653
+    },
+    {
+      "file": "kraken-spool-ring-55.5-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-55.5-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "sha256": "b7ca1c3471203f85b97694437b96e8799098a6a0ceedb636241a6ba96b0b023e",
+      "bytes": 4672222
+    },
+    {
+      "file": "kraken-spool-ring-56-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-56-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "sha256": "bac1d50889cf4792a976e62e7b8cddd916449535996e91bb226503dffc07796f",
       "bytes": 3869545
     },
     {
-      "file": "kraken-spool-ring-56-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-56-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "sha256": "aac1f1405bc877cbd30d01ada0d88459331a05569a23790ddbcc571cbbb46720",
-      "bytes": 4666832
+      "file": "kraken-spool-ring-56-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-56-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "sha256": "e00ab9208810f278c77268e493e21c68dbbc9fcd53831c180e5366401243bad7",
+      "bytes": 4551580
     },
     {
-      "file": "kraken-spool-ring-57-mm-pentagon-cap-side.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-57-mm-pentagon-cap-side.step.gz",
-      "sha256": "1cd62d4c4ed4e08304219a97f9b050d49cd99f471139bc2dbe20c5be4212ad49",
+      "file": "kraken-spool-ring-56-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-56-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "sha256": "3aee537ec1314aadd88aaeb3d75b47db77b415ed5c9d9083e333625bbe42c93e",
+      "bytes": 4676688
+    },
+    {
+      "file": "kraken-spool-ring-56-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-56-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "sha256": "fe2656e066edc1c2d97721008b0c43502a3e1bb4cc83431e4eca0ce5ed3e446b",
+      "bytes": 4666887
+    },
+    {
+      "file": "kraken-spool-ring-57-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-57-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "sha256": "b41b7b02a20f08f9968c18488415925b8e5cb8d45c169996b510d70d3b2bf9e6",
       "bytes": 4086995
     },
     {
-      "file": "kraken-spool-ring-57-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-57-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "sha256": "fc3966955b3937b442f74aea9f133ed1bcb0cf449c00085708af47dd00989a92",
-      "bytes": 4870165
+      "file": "kraken-spool-ring-57-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-57-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "sha256": "e7a5fc18a29d1b5393360bb5d20945091d09c25235d3c7178acdc341ac4af132",
+      "bytes": 4765252
     },
     {
-      "file": "kraken-spool-ring-58-mm-pentagon-cap-side.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-58-mm-pentagon-cap-side.step.gz",
-      "sha256": "0dbbc8f34c471a3a6b30baa22fac8b26300b5d7418d53c3ec72bd9663febb2ca",
+      "file": "kraken-spool-ring-57-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-57-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "sha256": "1e2811ad1b5a42936ea2626f123f0859997772b828fddcae7e1c63ff9023916c",
+      "bytes": 4878098
+    },
+    {
+      "file": "kraken-spool-ring-57-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-57-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "sha256": "f46aee4a330da980653db40f81e5ab1c8e5312f2b8eba12b26dca3d49351cc54",
+      "bytes": 4874503
+    },
+    {
+      "file": "kraken-spool-ring-58-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-58-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "sha256": "4404ffab470af2a45274a0dcc2550ca84ef9879d5843576da84b0ab63ba0973d",
       "bytes": 3885733
     },
     {
-      "file": "kraken-spool-ring-58-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-58-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "sha256": "89789e9e800349ed27a8d979912ccf179c7143698fc6d399ce46fd706a7ec6a4",
-      "bytes": 4639243
+      "file": "kraken-spool-ring-58-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-58-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "sha256": "651b4ec61c4cd3fadc4f2ccc6d235c504fcb31cb92d1a153c67b1087cfd47de2",
+      "bytes": 4552732
     },
     {
-      "file": "kraken-spool-ring-59-mm-pentagon-cap-side.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-59-mm-pentagon-cap-side.step.gz",
-      "sha256": "95733b6d432aa699545c2c7c6164e6f075528ff53ff68576eb0e0efedbc07f15",
+      "file": "kraken-spool-ring-58-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-58-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "sha256": "ff1dc408f251cb9316ba8b9fe8fff6f2b36ecc980ae2d5cf8b4db35196a62e11",
+      "bytes": 4648961
+    },
+    {
+      "file": "kraken-spool-ring-58-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-58-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "sha256": "5974239ac4e6d002edff720ed8105f36fd72275f53bd66cbb9d00aa031699c64",
+      "bytes": 4644894
+    },
+    {
+      "file": "kraken-spool-ring-59-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-59-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "sha256": "516776b0bf0ad0c4adbde42e58dd0beb0b34bb774221aa3fe434c9c484b98703",
       "bytes": 3894970
     },
     {
-      "file": "kraken-spool-ring-59-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-59-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "sha256": "a74e86aa231dc2915c962b521681a82f238249ce394e2a86b091c26d1d71fd17",
-      "bytes": 4644976
+      "file": "kraken-spool-ring-59-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-59-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "sha256": "aac99d1a40c07946366b97de2478e4010026e6945519755de0d7ea8a828e1cb0",
+      "bytes": 4562587
     },
     {
-      "file": "kraken-spool-ring-60-mm-pentagon-cap-side.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-60-mm-pentagon-cap-side.step.gz",
-      "sha256": "69604441de3e8b2329d2ee5aa2e9f64062272cd8fd49319cbd044c26474faa79",
+      "file": "kraken-spool-ring-59-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-59-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "sha256": "de722710b7eb3e84177908ac2e2f12d241c93dc3741d920490bed925a53379f7",
+      "bytes": 4646749
+    },
+    {
+      "file": "kraken-spool-ring-59-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-59-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "sha256": "f5da19d8948c1c74d940d833b7490a615a1bb4ebeb011e3e86c7ac9910e31257",
+      "bytes": 4646203
+    },
+    {
+      "file": "kraken-spool-ring-60-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-60-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "sha256": "f9488f69c4652e346d2b3f13a720a5b1c9361f8a9436c9544bfcc5fdf492bca2",
       "bytes": 3882285
     },
     {
-      "file": "kraken-spool-ring-60-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-60-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "sha256": "3fe632bc8235a44c6327357db11476aa5053193bb9def5412c10473a63d7740e",
-      "bytes": 4654219
+      "file": "kraken-spool-ring-60-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-60-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "sha256": "6d90c70ca0cd7b3d36139d7a9f4671c4a6fc12ef0e3b91e2e26243af03dcb6c3",
+      "bytes": 4554587
     },
     {
-      "file": "kraken-spool-ring-61-mm-pentagon-cap-side.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-61-mm-pentagon-cap-side.step.gz",
-      "sha256": "4fcf9c13b6661083599a0489c0c701e5b4bedbebef2791467a05fe354ef4687e",
+      "file": "kraken-spool-ring-60-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-60-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "sha256": "87510d5a28e211fd818cfc45fa77419ca6e32391a73f2e6de6205f269dab863a",
+      "bytes": 4660589
+    },
+    {
+      "file": "kraken-spool-ring-60-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-60-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "sha256": "001b647bff27269c450f8249c2143bbc0dc0cba87209353635ce84c39fc43bd4",
+      "bytes": 4660227
+    },
+    {
+      "file": "kraken-spool-ring-61-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-61-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "sha256": "91557f2e31b77b7c6577d2ed837dea69698dbf01d8d55cfac58e92fb587b2a9c",
       "bytes": 3884544
     },
     {
-      "file": "kraken-spool-ring-61-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-61-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "sha256": "b0c222b61b7fc97a2a112a89d655b11fa68df019ae21bad4a40d92efa78a9b73",
-      "bytes": 4646100
+      "file": "kraken-spool-ring-61-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-61-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "sha256": "97e63202b925c931ca5a96ff0a25319528ac2df219273a06681cbbbd6a9b43c4",
+      "bytes": 4541025
     },
     {
-      "file": "kraken-spool-ring-62-mm-pentagon-cap-side.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-62-mm-pentagon-cap-side.step.gz",
-      "sha256": "50b422c140b60c8dab64bb71284cbc8ce7a7461656d8b0b71ddd43da0a46e4d0",
+      "file": "kraken-spool-ring-61-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-61-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "sha256": "3a868cf7dcc5a94b4540e523d4111ed173b310fe43d7e71ba3b53a8847b2c84f",
+      "bytes": 4650659
+    },
+    {
+      "file": "kraken-spool-ring-61-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-61-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "sha256": "22183952b2bbcad4ea53941ea19cd69f014ac24e37a1744e292c74be8110940d",
+      "bytes": 4653430
+    },
+    {
+      "file": "kraken-spool-ring-62-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-62-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "sha256": "28322e2f51ad097137ceff6bc3250d9f8d3eb8af3e4f01df9210b6268ea10aee",
       "bytes": 3875240
     },
     {
-      "file": "kraken-spool-ring-62-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-62-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "sha256": "e191d3bb91bec0246941f034670a2802f06c97e8f09f8779586c5978ccf1c940",
-      "bytes": 4653599
+      "file": "kraken-spool-ring-62-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-62-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "sha256": "9f5598df7b403d9152aa89d95b1a0cdd729dcc75bea427c09afb2e935ae1c462",
+      "bytes": 4536201
     },
     {
-      "file": "kraken-spool-ring-63-mm-pentagon-cap-side.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-63-mm-pentagon-cap-side.step.gz",
-      "sha256": "229c79b3282f8559d5f412babca37badd93f8598908ef6b2126178a5c63606d8",
+      "file": "kraken-spool-ring-62-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-62-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "sha256": "d1ad17078a113d62d2a9759f0aa1bf6fc62f6041593d8b3a99b291142779cdc3",
+      "bytes": 4656223
+    },
+    {
+      "file": "kraken-spool-ring-62-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-62-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "sha256": "4bcd36e97585a6d4316abb66af295ac35865dcc45d61d0602ca517ee2c01a4c8",
+      "bytes": 4660939
+    },
+    {
+      "file": "kraken-spool-ring-63-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-63-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "sha256": "402700e4678363447809746c6f4781d72076d53878f06abd7f53092e4dc9bb1c",
       "bytes": 3862960
     },
     {
-      "file": "kraken-spool-ring-63-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-63-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "sha256": "2662b7f9f697d50927f6089e34133920af4e97b1f0f48f1cd076a49ebf88f6f4",
-      "bytes": 4603743
+      "file": "kraken-spool-ring-63-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-63-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "sha256": "9f9be867f9d49fe3660ddfdb72d84e9cc2eb8d76b09023735a94e78a29d30341",
+      "bytes": 4489762
     },
     {
-      "file": "kraken-spool-ring-64-mm-pentagon-cap-side.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-64-mm-pentagon-cap-side.step.gz",
-      "sha256": "dcda2e90f8059210f6551200ba9c4e932b9b3dd836d7ad4c57a87df1f35cf06e",
+      "file": "kraken-spool-ring-63-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-63-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "sha256": "bfa99952d9ac44f32a15d142bc50ce40966a6bd281306a2e012c58b4d477325f",
+      "bytes": 4607778
+    },
+    {
+      "file": "kraken-spool-ring-63-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-63-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "sha256": "95417dd5fa933c5d268bcad70d4ed4a1c59634ec75f00c95644ad25ce26c339a",
+      "bytes": 4607865
+    },
+    {
+      "file": "kraken-spool-ring-64-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-64-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "sha256": "1a239ca306a34c0f0fb4e7c6f15ecaad7fb1ab03f2918b02bf721b6f95b02c88",
       "bytes": 4065021
     },
     {
-      "file": "kraken-spool-ring-64-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-64-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "sha256": "8f3ba2a838003bb72fbb1fb3b4ae81fd1fdadcc7276feac3312dbf11d474c88a",
-      "bytes": 4804668
+      "file": "kraken-spool-ring-64-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-64-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "sha256": "cfc82ad28f8de8c94e746880b13dc046686cecbfcca485b4a36782f85dd4c7f5",
+      "bytes": 4683509
     },
     {
-      "file": "kraken-spool-ring-65-mm-pentagon-cap-side.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-65-mm-pentagon-cap-side.step.gz",
-      "sha256": "30f0698d911341b6961b75a40b84d2137fe166a86795fbfa14d16e856a64a713",
+      "file": "kraken-spool-ring-64-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-64-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "sha256": "2e548cdb50673ec85578750a4f979346820bbfef9e9d52849bf380ac715ec5a3",
+      "bytes": 4813800
+    },
+    {
+      "file": "kraken-spool-ring-64-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-64-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "sha256": "33efca3691d4d4783f776cd8f8f48cb553c5ad037563e2ea6df1415e98b08ad2",
+      "bytes": 4810432
+    },
+    {
+      "file": "kraken-spool-ring-65-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-65-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "sha256": "b7002738972fc28dafd1235ed6cfc148a4cb8b3894c042fb20d39f8a11a2dcb6",
       "bytes": 3856921
     },
     {
-      "file": "kraken-spool-ring-65-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-65-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "sha256": "d835c45f2bea82142492553ce6f107923d6151290a371b9b8ccfb073d94b6089",
-      "bytes": 4589107
+      "file": "kraken-spool-ring-65-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-65-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "sha256": "85a7b9f2aba073597d63152a8befb5918670c6b865e5090701c2c23801172231",
+      "bytes": 4473147
     },
     {
-      "file": "kraken-spool-ring-66-mm-pentagon-cap-side.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-66-mm-pentagon-cap-side.step.gz",
-      "sha256": "f11f2418e1ee48a1440eaccc4ca4e02c2a25d6fcfb6025e1f7ecf5ed201deea8",
+      "file": "kraken-spool-ring-65-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-65-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "sha256": "dc91e7af819c2f0a06b56c63546275febf538faa6ffd02531418cfc2ac3b29d9",
+      "bytes": 4594307
+    },
+    {
+      "file": "kraken-spool-ring-65-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-65-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "sha256": "a4ae0b806e32f8a15f0e7c6cbf3b142a68c5712a924f0067493e5da946d3b807",
+      "bytes": 4588553
+    },
+    {
+      "file": "kraken-spool-ring-66-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-66-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "sha256": "1a6f1a21e858680ac21e4acc4c660170685ce2cc6b87497650736bb33002a47c",
       "bytes": 3861417
     },
     {
-      "file": "kraken-spool-ring-66-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-66-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "sha256": "6e40e3c814e40ac1086a5a2c6d8481dfed826b2c2b00a8c6dc255b2bd59182ea",
-      "bytes": 4585640
+      "file": "kraken-spool-ring-66-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-66-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "sha256": "35c6f47ed2f2d733ea0fc5caad18d38801439115308f6b79d6552e0577927e82",
+      "bytes": 4469690
     },
     {
-      "file": "kraken-spool-ring-67-mm-pentagon-cap-side.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-67-mm-pentagon-cap-side.step.gz",
-      "sha256": "42749f5610aaf0e6f30f6452f75d9f39428dcdf54bdb89e73a52cafb795a0e61",
+      "file": "kraken-spool-ring-66-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-66-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "sha256": "08be3654b7ea55abbe2cd6b47e556ffaec41b34619f14cb3734dfa46c19864f0",
+      "bytes": 4592657
+    },
+    {
+      "file": "kraken-spool-ring-66-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-66-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "sha256": "08c6cfbaf2bea2b858e29b609aece3ba842acb3126cdb7e2007ed9f961213f3b",
+      "bytes": 4586366
+    },
+    {
+      "file": "kraken-spool-ring-67-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-67-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "sha256": "84073b6c7a9a3984f6d490397d797265c8a77039d78b808c0adedea45af25726",
       "bytes": 3855116
     },
     {
-      "file": "kraken-spool-ring-67-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-67-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "sha256": "3a90653db2ff454bc7aa614103fc7ebbe4f284d94ff146a9c20cd982cbfab975",
-      "bytes": 4589313
+      "file": "kraken-spool-ring-67-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-67-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "sha256": "063795a12e35e7b05ccfc0acdf0f155e427e4e32b22379185a9ac4f4f720b808",
+      "bytes": 4472753
     },
     {
-      "file": "kraken-spool-ring-68-mm-pentagon-cap-side.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-68-mm-pentagon-cap-side.step.gz",
-      "sha256": "fe87757bf528192d0d228f057639a0da2ec667895076774029ee9509bb7f1488",
+      "file": "kraken-spool-ring-67-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-67-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "sha256": "475bd54c9a2d4cc3fe0b81d846b0ee4ae61aed0d60c13fa6cbda5b46f04207b2",
+      "bytes": 4589749
+    },
+    {
+      "file": "kraken-spool-ring-67-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-67-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "sha256": "631df529d139f60d9cc8bfd40753911429cb4d82194cd205e6131a2395edc678",
+      "bytes": 4586554
+    },
+    {
+      "file": "kraken-spool-ring-68-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-68-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "sha256": "5ce6454416e077ce5c1db869dd7136cbaee431d3292cb15d72b324511a7f30af",
       "bytes": 3847997
     },
     {
-      "file": "kraken-spool-ring-68-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-68-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "sha256": "b871e5300288e66d4feb5dea53ac7b22f76595b80115af7d22cadf4d5751342f",
-      "bytes": 4567925
+      "file": "kraken-spool-ring-68-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-68-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "sha256": "e8f2ea774fe309be195dbd1ee574b4224ef8463dbc9daebccdcafade4d771f87",
+      "bytes": 4449413
     },
     {
-      "file": "kraken-spool-ring-69-mm-pentagon-cap-side.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-69-mm-pentagon-cap-side.step.gz",
-      "sha256": "a1bf0cc5701f7a2baacab485b3f4a996f51ee860435f6106fbe0dcfe4e132e54",
+      "file": "kraken-spool-ring-68-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-68-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "sha256": "ba71f04202e6c3b7fc07bfe4e5fd4d5bec291075d8a24ae0b4cfb42698067c14",
+      "bytes": 4569557
+    },
+    {
+      "file": "kraken-spool-ring-68-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-68-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "sha256": "f373ad17b48440a3db7ffb60ce94d61493a2f832818a36f994e27974481d38e5",
+      "bytes": 4570514
+    },
+    {
+      "file": "kraken-spool-ring-69-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-69-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "sha256": "718248bfe4e5a06810070d8141e80d07a0d2c70d311f6c2b1a0f24ff933ba299",
       "bytes": 3858938
     },
     {
-      "file": "kraken-spool-ring-69-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-69-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "sha256": "28b1c89313f20f2f71b1adaf2c866ab640c2594fadefc95074cc0b7af2b67fc3",
-      "bytes": 4564481
+      "file": "kraken-spool-ring-69-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-69-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "sha256": "c9af00ca6e049c8815e446089d251027686e3f97f67f95cec8e8efef099409ed",
+      "bytes": 4464166
     },
     {
-      "file": "kraken-spool-ring-70-mm-pentagon-cap-side.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-70-mm-pentagon-cap-side.step.gz",
-      "sha256": "b96e3c996adc63c44433d2cceeb20b57cbf8fd760a3cdf5a40a559e1334a8ed2",
-      "bytes": 3856139
+      "file": "kraken-spool-ring-69-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-69-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "sha256": "56d5fcbf3aabad04f022026350ba91a15a21c23ebed7051160cb5e8feb0bf4b8",
+      "bytes": 4564147
     },
     {
-      "file": "kraken-spool-ring-70-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-70-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "sha256": "fd4e8ddb10f3a458afee230fa298dae93a6e0110ce9cbb36ef6fc08682cc760e",
-      "bytes": 4555527
+      "file": "kraken-spool-ring-69-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-69-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "sha256": "3d519ac024793903741953458706f1cddcfedbf28631bfb9b434065dbc6d9c23",
+      "bytes": 4567840
     },
     {
-      "file": "kraken-spool-ring-71-mm-pentagon-cap-side.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-71-mm-pentagon-cap-side.step.gz",
-      "sha256": "7507c44148621e1e4a0965201a0cda5d5ff632edf1e60b87abffaacbd4eb9e5f",
+      "file": "kraken-spool-ring-70-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-70-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "sha256": "a56bf20ed32aae158886b64c03feddc2b893a6c6b6a319b4be2a33c6fefc398d",
+      "bytes": 3856140
+    },
+    {
+      "file": "kraken-spool-ring-70-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-70-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "sha256": "25cf7f0c1395ab34ff4cbfe28e8a04a174e6a0dea973e92f8442e7a3d73c5345",
+      "bytes": 4468514
+    },
+    {
+      "file": "kraken-spool-ring-70-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-70-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "sha256": "a8ff93b8d4117ca36268fc02a08f7e6d39b473c2a6dc570952c5dd0a5036e192",
+      "bytes": 4561670
+    },
+    {
+      "file": "kraken-spool-ring-70-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-70-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "sha256": "db4a971c52bee8066958d8bd59593f3a09c5804641a67d64bccafae31507c87c",
+      "bytes": 4557425
+    },
+    {
+      "file": "kraken-spool-ring-71-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-71-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "sha256": "b56032fc9ba04baf275024da13d3839913cb26482a89e04f303b858f39ff153d",
       "bytes": 3850702
     },
     {
-      "file": "kraken-spool-ring-71-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-71-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "sha256": "14b747deaada4020b7a280a9f5909b6c9b2deb4ed217c961a0661fee59953b6b",
-      "bytes": 4548453
+      "file": "kraken-spool-ring-71-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-71-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "sha256": "7e1643ce0eb535fe992112a59fa999e4f9edd709eaa3eb3f05641e35b877a7fe",
+      "bytes": 4457495
     },
     {
-      "file": "kraken-spool-ring-72-mm-pentagon-cap-side.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-72-mm-pentagon-cap-side.step.gz",
-      "sha256": "f43445dd578f0d2b11a8bdd314261b594184070b9576e791b2d24ae4608358a6",
+      "file": "kraken-spool-ring-71-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-71-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "sha256": "4ad38835f1e0bb0c343f1190c36ffb31b95c304d153ef79c00e091f6008fc073",
+      "bytes": 4558209
+    },
+    {
+      "file": "kraken-spool-ring-71-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-71-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "sha256": "c2fcffd572fba39c291fe27ad413648223d0e0661ec89b5e37c76e07957afbb5",
+      "bytes": 4555808
+    },
+    {
+      "file": "kraken-spool-ring-72-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-72-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "sha256": "caf8382b5215c9a4b84f780c28ebaf5b80990c97153f5d2cd715db3f45e473d5",
       "bytes": 4026946
     },
     {
-      "file": "kraken-spool-ring-72-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-72-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "sha256": "057d986b3e4c74643ac26c676f0516f80dfe22c8cd328666c431226b1b2580f2",
-      "bytes": 4744990
+      "file": "kraken-spool-ring-72-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-72-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "sha256": "19574f09dd37c0f5b03b9606af6a9574a4a7b2f206cd9bb0a497a22927be94a8",
+      "bytes": 4630784
     },
     {
-      "file": "kraken-spool-ring-73-mm-pentagon-cap-side.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-73-mm-pentagon-cap-side.step.gz",
-      "sha256": "70a08e82cf8f67c6c0fee11a320bb509b675d70d53f758bbfa7ecb3d9265a1c7",
+      "file": "kraken-spool-ring-72-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-72-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "sha256": "e57e1037926350cf328620aa4c7e8001fb1cd0de413bba58f0af744430f26b3b",
+      "bytes": 4751947
+    },
+    {
+      "file": "kraken-spool-ring-72-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-72-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "sha256": "dc256c141e53ceb8210aa3482126f6dce5b4e0c96fb9659923aa37c286f62cf6",
+      "bytes": 4751338
+    },
+    {
+      "file": "kraken-spool-ring-73-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-73-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "sha256": "a71a45cbc11a365f38b8bffccf035938365e216219c659ab46ca422b82f8af42",
       "bytes": 3832986
     },
     {
-      "file": "kraken-spool-ring-73-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-73-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "sha256": "e78dab956cca121ac62955d0b1dda0ef1717e79aaee2725565932700e13da5d4",
-      "bytes": 4540826
+      "file": "kraken-spool-ring-73-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-73-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "sha256": "517642a2fba624d34a572cfd52c3e7f97726ac5afec03b1ac8d0f3d4b7a23083",
+      "bytes": 4422913
     },
     {
-      "file": "kraken-spool-ring-74-mm-pentagon-cap-side.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-74-mm-pentagon-cap-side.step.gz",
-      "sha256": "5fb47b3ec1ed20c2f410651d46bfd1cd2532cd69f57beb7ea8dab3c83c660996",
-      "bytes": 3844389
+      "file": "kraken-spool-ring-73-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-73-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "sha256": "2eeb2669dc48e744e70cba7a3e3c967c5b20674e3f8e69044bc8ea3449db408a",
+      "bytes": 4542802
     },
     {
-      "file": "kraken-spool-ring-74-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-74-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "sha256": "a68588229403d1cee6f04b10121a8f0a3eed3eadc7eddcba3b067df5695bc34c",
-      "bytes": 4550157
+      "file": "kraken-spool-ring-73-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-73-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "sha256": "7fce2d54829c93cc1444c44df57678e3e3ccfd469c96482c1fc06d644dc2b9a0",
+      "bytes": 4543708
     },
     {
-      "file": "kraken-spool-ring-75-mm-pentagon-cap-side.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-75-mm-pentagon-cap-side.step.gz",
-      "sha256": "6507c03b31b78e85ed8e51ab9d3493f523be5f4b23160eee238f416916c97df8",
-      "bytes": 3853657
+      "file": "kraken-spool-ring-74-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-74-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "sha256": "e7cc2bce6782d0274030ff26cd75cf67c63861a8e4ca3a3edf9832a4d72f0d4a",
+      "bytes": 3844388
     },
     {
-      "file": "kraken-spool-ring-75-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-75-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "sha256": "8e950130711b4676bbbe21d7bbd2c59e3e1e89d933870a3cfbcfd9e3541be323",
-      "bytes": 4553265
+      "file": "kraken-spool-ring-74-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-74-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "sha256": "21d296825f94871749b29be7eee0d85a75f221770c4722071a7c2ae015f4cf15",
+      "bytes": 4433132
     },
     {
-      "file": "kraken-spool-ring-76-mm-pentagon-cap-side.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-76-mm-pentagon-cap-side.step.gz",
-      "sha256": "77924028571e03aa3ee7bd4c9b148511a1facc73f2d3e7f6cd6c56d0eef1662f",
+      "file": "kraken-spool-ring-74-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-74-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "sha256": "a6f1b7e18e1da3e8e7d1681c0db788ea3f82fa4b8d35e576c43df2df03acdac7",
+      "bytes": 4552591
+    },
+    {
+      "file": "kraken-spool-ring-74-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-74-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "sha256": "13298aac806cc90f3845961cf0d5eb98c75b32da344f99388cac0333fc0bc0a6",
+      "bytes": 4555831
+    },
+    {
+      "file": "kraken-spool-ring-75-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-75-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "sha256": "9d1f341ee4a5949aef5c71b9c0b7f22c3d678e971899170db0e1ad57c7145144",
+      "bytes": 3853655
+    },
+    {
+      "file": "kraken-spool-ring-75-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-75-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "sha256": "ddd1a59ea01f3dcc7e8b08bfdf769ff8804b6063bf9bae1423dca38b0ca417ea",
+      "bytes": 4440837
+    },
+    {
+      "file": "kraken-spool-ring-75-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-75-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "sha256": "7c18ed70de22005c8503ec33a74d5597a2927f018b4e36fdb66cccf2f7685173",
+      "bytes": 4554665
+    },
+    {
+      "file": "kraken-spool-ring-75-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-75-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "sha256": "0556c83b3e8fb7bfeb777508363fdf48cc30a695ae377b863c8c3058b77f4813",
+      "bytes": 4555798
+    },
+    {
+      "file": "kraken-spool-ring-76-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-76-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "sha256": "9a8e8fbfc913b0e22d030a57aa50d82a06b75d40552131959721fc8547127034",
       "bytes": 3857151
     },
     {
-      "file": "kraken-spool-ring-76-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-76-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "sha256": "d4476930570bb3ab54d330de2b5c748e4525a7aac8adb4898db6d446da2099a1",
-      "bytes": 4556421
+      "file": "kraken-spool-ring-76-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-76-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "sha256": "a2d43e029e79711f8eaf53abd5b0dbd9a8a389e6864437123d5933cab4051a14",
+      "bytes": 4447194
     },
     {
-      "file": "kraken-spool-ring-77-mm-pentagon-cap-side.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-77-mm-pentagon-cap-side.step.gz",
-      "sha256": "d5b85fa0eb27502e6f8d131a41af858b92e2607c579470f32fa0d33726c7644b",
+      "file": "kraken-spool-ring-76-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-76-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "sha256": "7976b29dcccef8f61c1a716affa7d75acf6e1e3fd2d33a8940be16ab921c6d7f",
+      "bytes": 4554331
+    },
+    {
+      "file": "kraken-spool-ring-76-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-76-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "sha256": "c6670c01c27e92cd65586302c152990abe5ee7ae24bf2994085762b74d87db64",
+      "bytes": 4558427
+    },
+    {
+      "file": "kraken-spool-ring-77-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-77-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "sha256": "9e7c0c88ee5269f5b40635994dae0df583bba645c01710b66657f2518d3777f8",
       "bytes": 3861762
     },
     {
-      "file": "kraken-spool-ring-77-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-77-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "sha256": "389e3cccb33faedc7257fd9e22f14ece0b1038d857229b6fa4d8c3050f1f6ba0",
-      "bytes": 4536297
+      "file": "kraken-spool-ring-77-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-77-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "sha256": "8db6ef779e42bb376b5c82fb5d8afb697ad47dae6a2032303069c1447fb060c3",
+      "bytes": 4445808
     },
     {
-      "file": "kraken-spool-ring-78-mm-pentagon-cap-side.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-78-mm-pentagon-cap-side.step.gz",
-      "sha256": "646b83742ee9d2bc1938f42621f0eb84266d48d0da7a9648cb7dc00990fc46da",
+      "file": "kraken-spool-ring-77-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-77-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "sha256": "d447d57ad68eb5e9284234d3340a83e8c052fbd5b44e65d90b6e9ec3cff1e75f",
+      "bytes": 4540593
+    },
+    {
+      "file": "kraken-spool-ring-77-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-77-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "sha256": "922b5e52401cdbeea9ad776c4949d9c8d11bfd51d2ddea4cb74e1ad9104cae43",
+      "bytes": 4539110
+    },
+    {
+      "file": "kraken-spool-ring-78-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-78-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "sha256": "f0124c40dc2c588f9952b82ec3bdde594a83741e15720d04b11a394467ec3d74",
       "bytes": 3851736
     },
     {
-      "file": "kraken-spool-ring-78-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-78-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "sha256": "88deff156f8d2a18807e5056d69728cfb1a55af7b6ad7c8ebd8a215db6d00afe",
-      "bytes": 4537332
+      "file": "kraken-spool-ring-78-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-78-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "sha256": "89ac82c9d1e480bf7e8d579f33494a9a9b7aeaa1075d34b89389669fc0e3aa77",
+      "bytes": 4435037
     },
     {
-      "file": "kraken-spool-ring-79-mm-pentagon-cap-side.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-79-mm-pentagon-cap-side.step.gz",
-      "sha256": "064cc92013cdd3d53cb88ad43d2e23a945e6c964d5673621146aeb6768b0c334",
-      "bytes": 3855807
+      "file": "kraken-spool-ring-78-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-78-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "sha256": "8985a1f6dba8f8d7f884f65833653949d37f2a9c763542055718585cd86754de",
+      "bytes": 4540754
     },
     {
-      "file": "kraken-spool-ring-79-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-79-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "sha256": "a51ef1cd60da0aad8c3d1e3596b63081483ce0c2083e965bd6cb2820bd6b668e",
-      "bytes": 4540993
+      "file": "kraken-spool-ring-78-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-78-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "sha256": "bc885691f148ac0c392c123f8564d1e5add805c2bb9994a5f970533b4a477714",
+      "bytes": 4539971
     },
     {
-      "file": "kraken-spool-ring-80-mm-pentagon-cap-side.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-80-mm-pentagon-cap-side.step.gz",
-      "sha256": "c37db980bbc3984b1e01e339035cda0be917d6b7371663042061786230e64a26",
+      "file": "kraken-spool-ring-79-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-79-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "sha256": "6bd06427d98c362c7a29291cf9c8ae329b037918044fe935d43794993ab88622",
+      "bytes": 3855808
+    },
+    {
+      "file": "kraken-spool-ring-79-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-79-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "sha256": "f76aac17836710b6b9143736503016609e88af712a1ba9c682e2fd72be0a431c",
+      "bytes": 4435533
+    },
+    {
+      "file": "kraken-spool-ring-79-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-79-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "sha256": "9c7777f9e08083d24806d148016222ea35465322912fc921e3271a660824f862",
+      "bytes": 4543563
+    },
+    {
+      "file": "kraken-spool-ring-79-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-79-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "sha256": "092e9f2746d170d9624eaf8c37d714375c55044b5d34d13edbfcd87ada263389",
+      "bytes": 4540477
+    },
+    {
+      "file": "kraken-spool-ring-80-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-80-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "sha256": "cbab6cee2b2a5dc66ff20a3517750ebe3e69a0140548e96734bdd269d4448f4d",
       "bytes": 3848183
     },
     {
-      "file": "kraken-spool-ring-80-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-80-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "sha256": "40f6ab5dcf6e94cd8b11696cc65b609a98a98c9e938b12ecc6cc79787962b19d",
-      "bytes": 4534351
+      "file": "kraken-spool-ring-80-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-80-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "sha256": "458dd4540014b3a8fa55779a1a304829b035f1415868d7927cd3da0b7c39a6fe",
+      "bytes": 4426821
     },
     {
-      "file": "kraken-spool-ring-81-mm-pentagon-cap-side.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-81-mm-pentagon-cap-side.step.gz",
-      "sha256": "21aef1e44538739366ba697a9a21517765445b4396287fb1b8408049f5b158e0",
+      "file": "kraken-spool-ring-80-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-80-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "sha256": "81fbdabc072b664b0dea4e5b632e470c0d30897dcec2620cf341dc4a92bd0239",
+      "bytes": 4539354
+    },
+    {
+      "file": "kraken-spool-ring-80-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-80-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "sha256": "2315d14bcfcd003b2dfc419e88891db4f86f452af6fea02f838a146eef7aa8ef",
+      "bytes": 4534400
+    },
+    {
+      "file": "kraken-spool-ring-81-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-81-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "sha256": "ad3be3ea77a24bb67adc0237ae1312f425e3068d135aff217b882dd5ba6a11b3",
       "bytes": 3882093
     },
     {
-      "file": "kraken-spool-ring-81-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-81-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "sha256": "a211e47e469f43eb65f3680ec3b48051e25a45a95924f7c35738e594e017b12f",
-      "bytes": 4572462
+      "file": "kraken-spool-ring-81-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-81-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "sha256": "a8635342c3fcf19fc9c5cf07aab4984e70fad8187579239d632fad82f108f579",
+      "bytes": 4461075
     },
     {
-      "file": "kraken-spool-ring-82-mm-pentagon-cap-side.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-82-mm-pentagon-cap-side.step.gz",
-      "sha256": "6c7785c7d7f12da67c0c28ce7779c299707180ba141ddc4c65ebf993d8e0e31d",
-      "bytes": 3884715
+      "file": "kraken-spool-ring-81-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-81-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "sha256": "57f3c7ba803c0c3be6dbf5ad661bd628e9715c13ee4da2bef1905e38191b1fc0",
+      "bytes": 4574061
     },
     {
-      "file": "kraken-spool-ring-82-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-82-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "sha256": "0a54371870f75fb31c00f377f6013c22a259a60d31faf165df6a21adb57b0663",
-      "bytes": 4562536
+      "file": "kraken-spool-ring-81-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-81-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "sha256": "ac9be28748d6dfaa89fc1fa69ab9cedb27bbfffd5f58da0c6c724d31a88e96c7",
+      "bytes": 4575819
     },
     {
-      "file": "kraken-spool-ring-83-mm-pentagon-cap-side.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-83-mm-pentagon-cap-side.step.gz",
-      "sha256": "01bf7324ccf02632dae6078d248b10dd5d90c12f4dd6dddfe6ecdfa33c936fda",
+      "file": "kraken-spool-ring-82-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-82-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "sha256": "ba858cd37c73ab6f17c8589c23c7cf029c8083ab43ba6e5b6fc00bd713a18de4",
+      "bytes": 3884714
+    },
+    {
+      "file": "kraken-spool-ring-82-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-82-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "sha256": "7bdb3ea0a52c751150b9fb531aea7dd7550216f50e8fefcf819d940a308072a8",
+      "bytes": 4452394
+    },
+    {
+      "file": "kraken-spool-ring-82-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-82-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "sha256": "b1198a1b5c8dab10f496a72c2afa5612c33d286e84e2ea0305351405203c6aae",
+      "bytes": 4566699
+    },
+    {
+      "file": "kraken-spool-ring-82-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-82-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "sha256": "d90332de9d97d789f3aea6e9e46f879591dabc65f0a34c31a6cb3e792dd172df",
+      "bytes": 4565445
+    },
+    {
+      "file": "kraken-spool-ring-83-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-83-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "sha256": "42329089d8df203edab15616a039a4be0ad96177f372b4cc63f526baf129048b",
       "bytes": 3883712
     },
     {
-      "file": "kraken-spool-ring-83-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-83-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "sha256": "5ff88fe4916fdb0f620d5511719f564b99cdcfbc18f4c83b01e8de514b1659dd",
-      "bytes": 4565206
+      "file": "kraken-spool-ring-83-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-83-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "sha256": "cfd91f4136f6469f0ea4587f42af19780803913bc51617afbaa597477e04d691",
+      "bytes": 4445332
     },
     {
-      "file": "kraken-spool-ring-84-mm-pentagon-cap-side.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-84-mm-pentagon-cap-side.step.gz",
-      "sha256": "aef15134eb3de109f498c69341304f525db873eeb5cae91330747390986063c7",
-      "bytes": 3882911
+      "file": "kraken-spool-ring-83-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-83-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "sha256": "cd4b7e1ca0019618ae60affe5ef905c752e7e61615a1e4c94cd38180296a90ca",
+      "bytes": 4568805
     },
     {
-      "file": "kraken-spool-ring-84-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-84-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "sha256": "bbf12f90fb910ad834b0a926911148d4860b997583e475c662369c03eb9c155c",
-      "bytes": 4574575
+      "file": "kraken-spool-ring-83-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-83-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "sha256": "9b0eb261ea20de15c189a58f5cc990b900e278a921c2fb7b50d927b27a9f529c",
+      "bytes": 4564907
     },
     {
-      "file": "kraken-spool-ring-85-mm-pentagon-cap-side.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-85-mm-pentagon-cap-side.step.gz",
-      "sha256": "7060c4ae02e648934daac23673e10ce0afd2fd2ffd1b4ee999e10f0821cf6420",
-      "bytes": 3859702
+      "file": "kraken-spool-ring-84-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-84-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "sha256": "0429c294c2c4a39e09ed1ad8fbf9902ad8911333121503955592f14bccaf725c",
+      "bytes": 3882915
     },
     {
-      "file": "kraken-spool-ring-85-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-85-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "sha256": "7de466a8c36bff2476f5914ecd9fe1209ea9e795f2136d27ec8a6bfa22e36725",
-      "bytes": 4553287
+      "file": "kraken-spool-ring-84-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-84-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "sha256": "231436379ef803386ccf4d98a93c3ba8dedef61418c67f9721b072304b408ce1",
+      "bytes": 4446888
     },
     {
-      "file": "kraken-spool-ring-86-mm-pentagon-cap-side.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-86-mm-pentagon-cap-side.step.gz",
-      "sha256": "c8f3d87f4aee4ecef4f2a37d8b4f846710b50c5d9361c04e6248a367db45324b",
+      "file": "kraken-spool-ring-84-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-84-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "sha256": "7b588c4f7dcb1a0bd8346920b0d2ab98e280a34658cf811028e60aac9a8631a9",
+      "bytes": 4573409
+    },
+    {
+      "file": "kraken-spool-ring-84-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-84-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "sha256": "8174403513b8e4c1f77670324e301ef6f196250eae5f0653cb2a3bd80e4b38f1",
+      "bytes": 4574255
+    },
+    {
+      "file": "kraken-spool-ring-85-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-85-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "sha256": "5885527a5a362e786b35e237d93770c25b584a2cf1d56fb1c364b8f503f22b47",
+      "bytes": 3859703
+    },
+    {
+      "file": "kraken-spool-ring-85-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-85-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "sha256": "c4f8a938d965b8157800a737c06184efaa81c78e24f6b4e8fb462ce663166d78",
+      "bytes": 4418500
+    },
+    {
+      "file": "kraken-spool-ring-85-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-85-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "sha256": "4c4036a7fb959253419375e7d4699a83e636eee2285885a0a63b8caba70dfe5d",
+      "bytes": 4550506
+    },
+    {
+      "file": "kraken-spool-ring-85-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-85-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "sha256": "e7df15c9e023e36b668c9c88f68c6c3d65aa6390c908a9cdbbd1a3153a1ad1c9",
+      "bytes": 4555491
+    },
+    {
+      "file": "kraken-spool-ring-86-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-86-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "sha256": "67cf661ffa23dec217159ab1e62e152217df8bed0fb07f6759e5ba1a112a6606",
       "bytes": 3866577
     },
     {
-      "file": "kraken-spool-ring-86-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-86-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "sha256": "7a6e082a4673dab35e1d9292840c6e5dae4353c0c72631bb66cbe95a07a3ee55",
-      "bytes": 4563369
+      "file": "kraken-spool-ring-86-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-86-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "sha256": "b6de224754f5ca57da073c8a963fcb394663ba48c2efc03997e38a4130c9ae92",
+      "bytes": 4426794
     },
     {
-      "file": "kraken-spool-ring-87-mm-pentagon-cap-side.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-87-mm-pentagon-cap-side.step.gz",
-      "sha256": "7caa80793e821b6ff609c7565a23c226dddef8c0f1ba5c263163c782a2054de5",
+      "file": "kraken-spool-ring-86-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-86-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "sha256": "f44e1b36bb69a6203fa884517f0f334d15e10a8f6865b2f57815c6af726363d6",
+      "bytes": 4556613
+    },
+    {
+      "file": "kraken-spool-ring-86-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-86-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "sha256": "06985e6e225052a1b15d1aaed0bc58e633ca8a0fbe0ca654a2a21ad396d5fa59",
+      "bytes": 4562142
+    },
+    {
+      "file": "kraken-spool-ring-87-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-87-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "sha256": "0bcf0bb28fad5b92f42d88d66839bddfd13b239b1e05b73d816710ea255fdaee",
       "bytes": 4052177
     },
     {
-      "file": "kraken-spool-ring-87-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-87-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "sha256": "c150febe460a9735fd5eab501e72fa3457116c99c033605a5a27da5d81c29bae",
-      "bytes": 4731926
+      "file": "kraken-spool-ring-87-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-87-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "sha256": "25a5610549c39ea9447bf3424016bcb9919bf5c83476cc30249fb54459cd567c",
+      "bytes": 4612684
     },
     {
-      "file": "kraken-spool-ring-88-mm-pentagon-cap-side.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-88-mm-pentagon-cap-side.step.gz",
-      "sha256": "fb2a0e5a1c2e606951fee6e2970c3d7bd0e779652d9ab7e4f985936e39f2f9df",
+      "file": "kraken-spool-ring-87-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-87-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "sha256": "1f3009585b7d845837077b16e67b93c2de5e99f6dab8285cccf15a77de7cef48",
+      "bytes": 4733924
+    },
+    {
+      "file": "kraken-spool-ring-87-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-87-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "sha256": "1cbcf63bf70d886186ffbd8fd4d1e4a5271ca9f02f11e9020677fbc96edd90ea",
+      "bytes": 4737092
+    },
+    {
+      "file": "kraken-spool-ring-88-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-88-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "sha256": "64700866603265a1f21b5f3609830504e8395f8228d1507a21dc4496aca6cc18",
       "bytes": 3882494
     },
     {
-      "file": "kraken-spool-ring-88-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-88-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "sha256": "0428deffd34a64cc05c8f5dc1b6ac1759102ca68cf097dec19e29ce33a0180a5",
-      "bytes": 4543094
+      "file": "kraken-spool-ring-88-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-88-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "sha256": "f64b57f4b2e3e62f4867c2b9294cff7a4ee1cc1fd40af05de7ee49017cd10d31",
+      "bytes": 4437467
     },
     {
-      "file": "kraken-spool-ring-89-mm-pentagon-cap-side.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-89-mm-pentagon-cap-side.step.gz",
-      "sha256": "77c39841a1ceb5bce9f901c2a625595505709157e772ece8fee5a6d9701bbcf1",
-      "bytes": 3873715
+      "file": "kraken-spool-ring-88-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-88-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "sha256": "8cf8d04616f64fa3d4fe86251e9fd87ed8a2aa4a47290729a1b3c30a32c47b3a",
+      "bytes": 4542193
     },
     {
-      "file": "kraken-spool-ring-89-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-89-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "sha256": "5fd64576e09c6c7f321d45fae051929e4bf339ac4fae79e7c78cb6ba728fb01b",
-      "bytes": 4538321
+      "file": "kraken-spool-ring-88-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-88-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "sha256": "c4a88843d83f40b0ee5a6fa27654f1c82797641cea3118a6ec0fd81c021e2db0",
+      "bytes": 4547507
     },
     {
-      "file": "kraken-spool-ring-90-mm-pentagon-cap-side.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-90-mm-pentagon-cap-side.step.gz",
-      "sha256": "6b074334c058f427271d29869e29a9c725604f2dd814d66e029a47fcb99ae1bf",
+      "file": "kraken-spool-ring-89-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-89-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "sha256": "098fedf03eecfceec11e3c4e6c72c332e57f7f3f692f6a8a11be7bf81ea25d23",
+      "bytes": 3873716
+    },
+    {
+      "file": "kraken-spool-ring-89-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-89-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "sha256": "0698144d0f062ba6ed84c2455b56d46a339ba3946c0286bfcadc4fc1ddf7d02a",
+      "bytes": 4426850
+    },
+    {
+      "file": "kraken-spool-ring-89-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-89-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "sha256": "4f80a897c808ddfab3f72117399a26cb28196c132f31f3ca15a1d13f5b950bf7",
+      "bytes": 4535942
+    },
+    {
+      "file": "kraken-spool-ring-89-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-89-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "sha256": "690ff98132bf62ef71902fb6e70c32ed3cf085a4f78c2ee5b71ca9f93bb50c94",
+      "bytes": 4540867
+    },
+    {
+      "file": "kraken-spool-ring-90-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-90-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "sha256": "a5eb2607447a409214fb0f8699febf635b4891561434cb8c80042ec71985170f",
       "bytes": 3896121
     },
     {
-      "file": "kraken-spool-ring-90-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-90-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "sha256": "f001b873852ad38d929b157b6544e3e549e4506e7c7f4db7057289b2bb2220e7",
-      "bytes": 4548482
+      "file": "kraken-spool-ring-90-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-90-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "sha256": "e0ff70dc01b02df5d1d1b88f1cb27d52409689d329f082d052343faa27089403",
+      "bytes": 4442039
     },
     {
-      "file": "kraken-spool-ring-91-mm-pentagon-cap-side.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-91-mm-pentagon-cap-side.step.gz",
-      "sha256": "2aa9dbbf11b8ad3a45524c9afbc0da4f3c1a6aad3bfedebb793370e30ee2b332",
+      "file": "kraken-spool-ring-90-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-90-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "sha256": "bc60ac554dcb873d5e68181ea78938068b9fdcc7e36743858b520d0cd4fbde95",
+      "bytes": 4547053
+    },
+    {
+      "file": "kraken-spool-ring-90-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-90-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "sha256": "51336c8f0d9c356e7064cd578050eb128ba599f29ab4de97c0c4591c40a5f7e1",
+      "bytes": 4551533
+    },
+    {
+      "file": "kraken-spool-ring-91-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-91-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "sha256": "5490e62f3dc5d9e7d059d97447f444c60a7e52e44c6db99feb8c2f3f87c90c66",
       "bytes": 3881422
     },
     {
-      "file": "kraken-spool-ring-91-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-91-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "sha256": "8b1063a9f8e2fa84a37e17ba2343c152481a56f302b4c4a69cb037c8023cc09a",
-      "bytes": 4535986
+      "file": "kraken-spool-ring-91-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-91-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "sha256": "9cf5a72105c1cd53668cfd4d0e47bfdcea035d54782d84d7186316c3fe3861f1",
+      "bytes": 4425497
     },
     {
-      "file": "kraken-spool-ring-92-mm-pentagon-cap-side.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-92-mm-pentagon-cap-side.step.gz",
-      "sha256": "2dce73493c213a6149ff6edd4b3bd36ae3906c5b46c5759ef172c28ada683989",
+      "file": "kraken-spool-ring-91-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-91-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "sha256": "2f1b460740b0c1f20aa9dab5f92b8c18ce817621f41e9260e30ddb8794c5a04e",
+      "bytes": 4536898
+    },
+    {
+      "file": "kraken-spool-ring-91-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-91-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "sha256": "f9d1052e2adc897238ab7a22d8e842a5c9f75835848008b0f78debba199bcc05",
+      "bytes": 4541199
+    },
+    {
+      "file": "kraken-spool-ring-92-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-92-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "sha256": "aa42faef2783afe80ce9937d60c9bf9f3b9779341adde145281986f998832179",
       "bytes": 3885564
     },
     {
-      "file": "kraken-spool-ring-92-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-92-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "sha256": "b27d30e0a7ab4611d1e93d8b5a380ba7f5a1a39ed45950bc2f34e426938f2004",
-      "bytes": 4548347
+      "file": "kraken-spool-ring-92-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-92-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "sha256": "8f5f830c6bb507af9191add8b07647c0248fc887f31079d6e2d907d49d768a4d",
+      "bytes": 4431953
     },
     {
-      "file": "kraken-spool-ring-93-mm-pentagon-cap-side.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-93-mm-pentagon-cap-side.step.gz",
-      "sha256": "48d720f2af3cb2e8d8b940f254341fba263241386c7ac322c3e770742f6763cc",
+      "file": "kraken-spool-ring-92-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-92-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "sha256": "407b573faf53f59be4f2f23219d60696ae18f5326071bee0df2ea803ea3aa8b0",
+      "bytes": 4548294
+    },
+    {
+      "file": "kraken-spool-ring-92-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-92-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "sha256": "9779c253c1815c2223267300f901a45f67f4128de9745b19a7c27e31425a53dc",
+      "bytes": 4552381
+    },
+    {
+      "file": "kraken-spool-ring-93-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-93-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "sha256": "fc2bfb815423ae077dca6b8ffd67474e1ebef1810648726e481af93f73737761",
       "bytes": 3872165
     },
     {
-      "file": "kraken-spool-ring-93-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-93-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "sha256": "94a0152f48633eecacf8ead12db687f5f446a400cb9794557aaef5c8d614dec1",
-      "bytes": 4531349
+      "file": "kraken-spool-ring-93-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-93-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "sha256": "8b8065b490ba92245f9017fa74c990429632cc345b0bdbcbf0b482a3c7c2d307",
+      "bytes": 4419871
     },
     {
-      "file": "kraken-spool-ring-94-mm-pentagon-cap-side.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-94-mm-pentagon-cap-side.step.gz",
-      "sha256": "68dc21446f0fcb635913a66259fb23ee6a7801925ee2df3961f51b602c47ac3a",
+      "file": "kraken-spool-ring-93-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-93-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "sha256": "70a0e55fc06e999adf6c62175c7b5657921e6b142725c9120f872f7970e98e23",
+      "bytes": 4528147
+    },
+    {
+      "file": "kraken-spool-ring-93-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-93-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "sha256": "38fad1da8bbca514a778fdfbfc64aea40042913e54a5c7c519f2fba617e4239c",
+      "bytes": 4532499
+    },
+    {
+      "file": "kraken-spool-ring-94-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-94-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "sha256": "c1a434d31136db8df4ed35f5c8ddba0f3ab83cbd6e3f93a01fa68439282f7428",
       "bytes": 3873193
     },
     {
-      "file": "kraken-spool-ring-94-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-94-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "sha256": "0b949eb5236d74d6512e2e70a6373e05a33c377baf20362aa555ce559b5ee9c6",
-      "bytes": 4518348
+      "file": "kraken-spool-ring-94-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-94-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "sha256": "8f93cc740fb5c86515943d2048668f9ec5004b1352ee71ce13afdb84798f19d9",
+      "bytes": 4414813
     },
     {
-      "file": "kraken-spool-ring-95-mm-pentagon-cap-side.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-95-mm-pentagon-cap-side.step.gz",
-      "sha256": "a4d1c075d2436531f05fc648ee827a6a5b23a7bccbf0d1154a26edf097976535",
+      "file": "kraken-spool-ring-94-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-94-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "sha256": "32852df7d1b3bc53ae934a691c8e08eb4230fc214e1d4cbf0a93427bc6d0a1cb",
+      "bytes": 4516521
+    },
+    {
+      "file": "kraken-spool-ring-94-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-94-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "sha256": "d314df866d014956b96d70ad103a4c767e8be67ed0d04b724e775239d8f4096d",
+      "bytes": 4521666
+    },
+    {
+      "file": "kraken-spool-ring-95-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-95-mm-pentagon-cap-side-0.4mm-lip.step.gz",
+      "sha256": "c34a8375a30847ee71df472d0aea1ca6cd88ca840a3141e982627f56a0c8e488",
       "bytes": 3882418
     },
     {
-      "file": "kraken-spool-ring-95-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/kraken-spool-ring-95-mm-pentagon-gear-side-1.5mm-flange.step.gz",
-      "sha256": "b8b17ae9049e710ce41be307395527b4e9c3d8f9d6bf06dce464c221f5b27377",
-      "bytes": 4516490
+      "file": "kraken-spool-ring-95-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-95-mm-pentagon-cap-side-0.6mm-lip.step.gz",
+      "sha256": "8c28b9c9dde66721dc9a28f6eb64b25ec4f1d0e5500f4422790edcf0c0c489ad",
+      "bytes": 4421249
     },
     {
-      "file": "pentagon-stock-sizes-stl-3mf.zip",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/pentagon-stock-sizes-stl-3mf.zip",
-      "sha256": "9559f62f0adc3f004f274e35bce9ff238073e269a99a00dca31e2be680bd9dc8",
-      "bytes": 47174501
+      "file": "kraken-spool-ring-95-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-95-mm-pentagon-gear-side-0.4mm-flange.step.gz",
+      "sha256": "037aeb3d1632e78c8429f4d2b298a87ddf730fb389c9d345a7d3a1d55b09d216",
+      "bytes": 4515747
     },
     {
-      "file": "round-flanges-stl.zip",
-      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/cad-library-2026-10-15/round-flanges-stl.zip",
-      "sha256": "7267b4a0e3bbe1794ffbcd7eca41aeaf6fe56d291605fd6bd58ab01f11c16758",
-      "bytes": 16670357
+      "file": "kraken-spool-ring-95-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-ring-95-mm-pentagon-gear-side-2.2mm-flange.step.gz",
+      "sha256": "ba3158ca520911a34a17b4fb5fbe48082c9ebe3843068b6ad479ae0c5fb50b15",
+      "bytes": 4516827
+    },
+    {
+      "file": "kraken-spool-rings-round-normal-stl.zip",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-rings-round-normal-stl.zip",
+      "sha256": "cc44212f80d8528642e5f9e7b49e8413efa774edb3923982014940d226345c80",
+      "bytes": 33081309
+    },
+    {
+      "file": "kraken-spool-rings-round-skinny-stl.zip",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/kraken-spool-rings-round-skinny-stl.zip",
+      "sha256": "f83343c820d85608d235d40d59de50b0e3ef10f7f063a75e3e22f933a54d1075",
+      "bytes": 32896221
+    },
+    {
+      "file": "pentagon-stock-sizes-normal-stl-3mf.zip",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/pentagon-stock-sizes-normal-stl-3mf.zip",
+      "sha256": "968200012d940e933d06fb6d8a669b56dfdc978ad0d5b6ea035c61ae79786952",
+      "bytes": 50348382
+    },
+    {
+      "file": "pentagon-stock-sizes-skinny-stl-3mf.zip",
+      "url": "https://github.com/thereprocase/kraken-remix-ogAMS/releases/download/rings-2026-10-28/pentagon-stock-sizes-skinny-stl-3mf.zip",
+      "sha256": "1f25ea5d17f834b1a30fb1369929fe495fcc6902881114d55dcf2bf52d8f723e",
+      "bytes": 47430400
     }
-  ]
+  ],
+  "ring_release_tag": "rings-2026-10-28"
 }

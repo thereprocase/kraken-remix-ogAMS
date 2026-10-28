@@ -31,11 +31,12 @@ The main downloads below are the **clearance-pocket bodies with removable front 
 | Collection | What it contains |
 |---|---|
 | [All body versions](docs/BODY-VARIANTS.md) | Standard or gear-pocket walls; full-height one-piece bodies or shortened bodies with bars |
-| [Pentagon flange pairs, every stock size](rings/stock-sizes/README.md) | Matched cap/gear rings for 45–95 mm cardboard-spool centre holes, in 1 mm steps |
-| [55.5 mm Polymaker pair](rings/README.md) | The existing specific-size pair, preserved unchanged |
+| [Pentagon flange pairs, every stock size](rings/stock-sizes/README.md) | Matched cap/gear rings for 45–95 mm cardboard-spool centre holes, in 1 mm steps; normal (2.2 mm gear flange, 0.6 mm cap lip) and skinny (0.4 mm) sets |
+| [55.5 mm Polymaker pair](rings/README.md) | The specific-size pair for Polymaker cardboard spools, both flange sets |
 | [Ring, nut and gear generator](https://thereprocase.github.io/kraken-rings/) | Any ring size to 0.1 mm, a thicker-flange nut and custom spoked gears, built in the browser |
+| [Spring pairs for hard plastic spools](rings/hard-spool/README.md) | Round spigot with four spring fingers that hold the ring in a rigid hub; 52.1 mm ready-made, 51.6–95 mm in the generator |
 | [53.4 mm Elegoo pair](rings/brand-sizes/README.md) | For Elegoo Rapid PETG cardboard spools; the [rings page](rings/README.md#which-size-to-print) lists which size to print for other brands |
-| [Round gear-side flanges](rings/round-flanges/README.md) | Earlier 45–95 mm round centering rings with wider flanges |
+| [Round ring pairs](rings/round-flanges/README.md) | Earlier 45–95 mm round centering rings with 20 mm gear flanges, both flange sets |
 | [Front-bar fit coupons](coupons/README.md) | Small single-key clearance samples and 84 mm two-key alignment pairs |
 | [Eight-spoke spool gear](gear/README.md) | The selected replacement gear, source and comparative evidence |
 | [Reloadable Bambu-refill spool prototype](reloadable-spool/revisions/uniform-flange-6mm/README.md) | Two added parts for the existing eight-spoke gear and stock nut; installed drive clearance, real-core fit and clamping remain unverified |
