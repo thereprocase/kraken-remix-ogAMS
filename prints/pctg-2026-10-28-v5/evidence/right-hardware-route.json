@@ -1,0 +1,685 @@
+{
+  "side": "right",
+  "hardware_pass": 109,
+  "hardware_total": 109,
+  "hardware": [
+    {
+      "id": "R-SP-1",
+      "samples": 82,
+      "max_error_mm": 0.017992088382268324,
+      "status": "PASS"
+    },
+    {
+      "id": "R-SP-1-BOSS-LAND",
+      "samples": 62,
+      "max_error_mm": 0.01266539692562568,
+      "status": "PASS"
+    },
+    {
+      "id": "R-SP-1-BOSS-TAPER",
+      "samples": 123,
+      "max_error_mm": 0.009119692280549176,
+      "status": "PASS"
+    },
+    {
+      "id": "R-SP-1-DEPTH",
+      "samples": 93,
+      "max_error_mm": 0.023275604259339437,
+      "status": "PASS"
+    },
+    {
+      "id": "R-ROLLER-1",
+      "samples": 82,
+      "max_error_mm": 0.006592623933711894,
+      "status": "PASS"
+    },
+    {
+      "id": "R-ROLLER-1-SHOULDER",
+      "samples": 81,
+      "max_error_mm": 0.004406000000003019,
+      "status": "PASS"
+    },
+    {
+      "id": "R-ROLLER-1-FRONT-LAND",
+      "samples": 82,
+      "max_error_mm": 0.02082933010967204,
+      "status": "PASS"
+    },
+    {
+      "id": "R-ROLLER-1-DEPTH",
+      "samples": 216,
+      "max_error_mm": 0.03778792344075368,
+      "status": "PASS"
+    },
+    {
+      "id": "R-SP-2",
+      "samples": 82,
+      "max_error_mm": 0.0077379993887961105,
+      "status": "PASS"
+    },
+    {
+      "id": "R-SP-2-BOSS-LAND",
+      "samples": 62,
+      "max_error_mm": 0.01253185857259903,
+      "status": "PASS"
+    },
+    {
+      "id": "R-SP-2-BOSS-TAPER",
+      "samples": 123,
+      "max_error_mm": 0.0031646290208341738,
+      "status": "PASS"
+    },
+    {
+      "id": "R-SP-2-DEPTH",
+      "samples": 93,
+      "max_error_mm": 0.023203209985635073,
+      "status": "PASS"
+    },
+    {
+      "id": "R-ROLLER-2",
+      "samples": 82,
+      "max_error_mm": 0.006646548323743651,
+      "status": "PASS"
+    },
+    {
+      "id": "R-ROLLER-2-SHOULDER",
+      "samples": 81,
+      "max_error_mm": 0.005056874171675293,
+      "status": "PASS"
+    },
+    {
+      "id": "R-ROLLER-2-FRONT-LAND",
+      "samples": 82,
+      "max_error_mm": 0.040618899115045834,
+      "status": "PASS"
+    },
+    {
+      "id": "R-ROLLER-2-DEPTH",
+      "samples": 216,
+      "max_error_mm": 0.037743375020847736,
+      "status": "PASS"
+    },
+    {
+      "id": "R-SP-3",
+      "samples": 82,
+      "max_error_mm": 0.018618916290184577,
+      "status": "PASS"
+    },
+    {
+      "id": "R-SP-3-BOSS-LAND",
+      "samples": 62,
+      "max_error_mm": 0.012531858572598935,
+      "status": "PASS"
+    },
+    {
+      "id": "R-SP-3-BOSS-TAPER",
+      "samples": 123,
+      "max_error_mm": 0.008837069338143981,
+      "status": "PASS"
+    },
+    {
+      "id": "R-SP-3-DEPTH",
+      "samples": 93,
+      "max_error_mm": 0.023203209985635163,
+      "status": "PASS"
+    },
+    {
+      "id": "R-ROLLER-3",
+      "samples": 82,
+      "max_error_mm": 0.006595187738725829,
+      "status": "PASS"
+    },
+    {
+      "id": "R-ROLLER-3-SHOULDER",
+      "samples": 81,
+      "max_error_mm": 0.005056874171675366,
+      "status": "PASS"
+    },
+    {
+      "id": "R-ROLLER-3-FRONT-LAND",
+      "samples": 82,
+      "max_error_mm": 0.0406188991150458,
+      "status": "PASS"
+    },
+    {
+      "id": "R-ROLLER-3-DEPTH",
+      "samples": 216,
+      "max_error_mm": 0.037743375020847826,
+      "status": "PASS"
+    },
+    {
+      "id": "R-SP-4",
+      "samples": 82,
+      "max_error_mm": 0.007737999388795937,
+      "status": "PASS"
+    },
+    {
+      "id": "R-SP-4-BOSS-LAND",
+      "samples": 62,
+      "max_error_mm": 0.012531858572600165,
+      "status": "PASS"
+    },
+    {
+      "id": "R-SP-4-BOSS-TAPER",
+      "samples": 123,
+      "max_error_mm": 0.0031646290208347636,
+      "status": "PASS"
+    },
+    {
+      "id": "R-SP-4-DEPTH",
+      "samples": 93,
+      "max_error_mm": 0.023203209985635763,
+      "status": "PASS"
+    },
+    {
+      "id": "R-ROLLER-4",
+      "samples": 82,
+      "max_error_mm": 0.006646548323743686,
+      "status": "PASS"
+    },
+    {
+      "id": "R-ROLLER-4-SHOULDER",
+      "samples": 81,
+      "max_error_mm": 0.00505687417167846,
+      "status": "PASS"
+    },
+    {
+      "id": "R-ROLLER-4-FRONT-LAND",
+      "samples": 82,
+      "max_error_mm": 0.027912088325407366,
+      "status": "PASS"
+    },
+    {
+      "id": "R-ROLLER-4-DEPTH",
+      "samples": 216,
+      "max_error_mm": 0.03774337502084816,
+      "status": "PASS"
+    },
+    {
+      "id": "R-FD1-A1-PILOT",
+      "samples": 360,
+      "max_error_mm": 0.005791200078970004,
+      "status": "PASS"
+    },
+    {
+      "id": "R-FD1-A1-SHOULDER",
+      "samples": 216,
+      "max_error_mm": 0.006507199980638876,
+      "status": "PASS"
+    },
+    {
+      "id": "R-FD1-A1-LAND",
+      "samples": 144,
+      "max_error_mm": 0.04999903511830776,
+      "status": "PASS"
+    },
+    {
+      "id": "R-FD1-B1-PILOT",
+      "samples": 360,
+      "max_error_mm": 0.006021480978220537,
+      "status": "PASS"
+    },
+    {
+      "id": "R-FD1-B1-SHOULDER",
+      "samples": 216,
+      "max_error_mm": 0.006602987053168289,
+      "status": "PASS"
+    },
+    {
+      "id": "R-FD1-B1-LAND",
+      "samples": 144,
+      "max_error_mm": 0.04962963409562935,
+      "status": "PASS"
+    },
+    {
+      "id": "R-FD1-A2-PILOT",
+      "samples": 360,
+      "max_error_mm": 0.005791200078969383,
+      "status": "PASS"
+    },
+    {
+      "id": "R-FD1-A2-SHOULDER",
+      "samples": 216,
+      "max_error_mm": 0.006507199980638876,
+      "status": "PASS"
+    },
+    {
+      "id": "R-FD1-A2-LAND",
+      "samples": 144,
+      "max_error_mm": 0.04988610627585274,
+      "status": "PASS"
+    },
+    {
+      "id": "R-FD1-B2-PILOT",
+      "samples": 360,
+      "max_error_mm": 0.0060214809782187335,
+      "status": "PASS"
+    },
+    {
+      "id": "R-FD1-B2-SHOULDER",
+      "samples": 216,
+      "max_error_mm": 0.006602987053161768,
+      "status": "PASS"
+    },
+    {
+      "id": "R-FD1-B2-LAND",
+      "samples": 144,
+      "max_error_mm": 0.04962963409562935,
+      "status": "PASS"
+    },
+    {
+      "id": "R-FD2-A1-PILOT",
+      "samples": 360,
+      "max_error_mm": 0.005791200078969383,
+      "status": "PASS"
+    },
+    {
+      "id": "R-FD2-A1-SHOULDER",
+      "samples": 216,
+      "max_error_mm": 0.006526696727249956,
+      "status": "PASS"
+    },
+    {
+      "id": "R-FD2-A1-LAND",
+      "samples": 144,
+      "max_error_mm": 0.04966384941341627,
+      "status": "PASS"
+    },
+    {
+      "id": "R-FD2-B1-PILOT",
+      "samples": 360,
+      "max_error_mm": 0.006021480978217724,
+      "status": "PASS"
+    },
+    {
+      "id": "R-FD2-B1-SHOULDER",
+      "samples": 216,
+      "max_error_mm": 0.006526696727254669,
+      "status": "PASS"
+    },
+    {
+      "id": "R-FD2-B1-LAND",
+      "samples": 144,
+      "max_error_mm": 0.04962963409562935,
+      "status": "PASS"
+    },
+    {
+      "id": "R-FD2-A2-PILOT",
+      "samples": 360,
+      "max_error_mm": 0.005791200078969383,
+      "status": "PASS"
+    },
+    {
+      "id": "R-FD2-A2-SHOULDER",
+      "samples": 216,
+      "max_error_mm": 0.006507199980638876,
+      "status": "PASS"
+    },
+    {
+      "id": "R-FD2-A2-LAND",
+      "samples": 144,
+      "max_error_mm": 0.04988610627585274,
+      "status": "PASS"
+    },
+    {
+      "id": "R-FD2-B2-PILOT",
+      "samples": 360,
+      "max_error_mm": 0.0060214809782187335,
+      "status": "PASS"
+    },
+    {
+      "id": "R-FD2-B2-SHOULDER",
+      "samples": 216,
+      "max_error_mm": 0.006602987053161768,
+      "status": "PASS"
+    },
+    {
+      "id": "R-FD2-B2-LAND",
+      "samples": 144,
+      "max_error_mm": 0.04816008812938138,
+      "status": "PASS"
+    },
+    {
+      "id": "R-BOX-SCREW-BORE",
+      "samples": 216,
+      "max_error_mm": 0.004041531634406225,
+      "status": "PASS"
+    },
+    {
+      "id": "R-BOX-SCREW-HEAD",
+      "samples": 216,
+      "max_error_mm": 0.007569331061985186,
+      "status": "PASS"
+    },
+    {
+      "id": "R-BOX-SCREW-HEAD-SEAT",
+      "samples": 216,
+      "max_error_mm": 0.008358468356827051,
+      "status": "PASS"
+    },
+    {
+      "id": "R-BOX-SCREW-LAND",
+      "samples": 288,
+      "max_error_mm": 0.006711503231825107,
+      "status": "PASS"
+    },
+    {
+      "id": "R-HUB-1-PILOT",
+      "samples": 360,
+      "max_error_mm": 0.04596563777874087,
+      "status": "PASS"
+    },
+    {
+      "id": "R-HUB-1-DEPTH",
+      "samples": 216,
+      "max_error_mm": 0.014960834072331414,
+      "status": "PASS"
+    },
+    {
+      "id": "R-HUB-1-OD",
+      "samples": 144,
+      "max_error_mm": 0.012460460461194605,
+      "status": "PASS"
+    },
+    {
+      "id": "R-HUB-1-LAND",
+      "samples": 216,
+      "max_error_mm": 0.002653264338652179,
+      "status": "PASS"
+    },
+    {
+      "id": "R-HUB-2-PILOT",
+      "samples": 360,
+      "max_error_mm": 0.04120410252507106,
+      "status": "PASS"
+    },
+    {
+      "id": "R-HUB-2-DEPTH",
+      "samples": 216,
+      "max_error_mm": 0.03730720732015768,
+      "status": "PASS"
+    },
+    {
+      "id": "R-HUB-2-OD",
+      "samples": 122,
+      "max_error_mm": 0.03974807830437466,
+      "status": "PASS"
+    },
+    {
+      "id": "R-HUB-2-LAND",
+      "samples": 183,
+      "max_error_mm": 0.047622356405676976,
+      "status": "PASS"
+    },
+    {
+      "id": "R-PCB-S1-PILOT",
+      "samples": 216,
+      "max_error_mm": 0.004903958418127914,
+      "status": "PASS"
+    },
+    {
+      "id": "R-PCB-S1-LAND",
+      "samples": 144,
+      "max_error_mm": 0.002135409824809126,
+      "status": "PASS"
+    },
+    {
+      "id": "R-PCB-S2-PILOT",
+      "samples": 216,
+      "max_error_mm": 0.00501719265083475,
+      "status": "PASS"
+    },
+    {
+      "id": "R-PCB-S2-LAND",
+      "samples": 144,
+      "max_error_mm": 0.0019786408949241116,
+      "status": "PASS"
+    },
+    {
+      "id": "R-BOX-PAD-1",
+      "samples": 81,
+      "max_error_mm": 0.0023499999999998526,
+      "status": "PASS"
+    },
+    {
+      "id": "R-BOX-PAD-2",
+      "samples": 81,
+      "max_error_mm": 0.04628694446479347,
+      "status": "PASS"
+    },
+    {
+      "id": "R-PCB-EDGE-1-LIP",
+      "samples": 49,
+      "max_error_mm": 0.0,
+      "status": "PASS"
+    },
+    {
+      "id": "R-PCB-EDGE-1-SIDE",
+      "samples": 49,
+      "max_error_mm": 0.0020000000000024447,
+      "status": "PASS"
+    },
+    {
+      "id": "R-PCB-EDGE-2-LIP",
+      "samples": 49,
+      "max_error_mm": 0.0,
+      "status": "PASS"
+    },
+    {
+      "id": "R-PCB-EDGE-2-SIDE",
+      "samples": 49,
+      "max_error_mm": 0.0020000000000024447,
+      "status": "PASS"
+    },
+    {
+      "id": "R-BOX-LOCATE-1",
+      "samples": 81,
+      "max_error_mm": 0.0021658108326414426,
+      "status": "PASS"
+    },
+    {
+      "id": "R-BOX-LOCATE-2",
+      "samples": 81,
+      "max_error_mm": 0.02337475732495043,
+      "status": "PASS"
+    },
+    {
+      "id": "R-BOX-CLIP-LOW",
+      "samples": 81,
+      "max_error_mm": 0.002349999999999852,
+      "status": "PASS"
+    },
+    {
+      "id": "R-BOX-CLIP-HIGH",
+      "samples": 81,
+      "max_error_mm": 0.002349999999999852,
+      "status": "PASS"
+    },
+    {
+      "id": "R-BOX-CLIP-STOP",
+      "samples": 81,
+      "max_error_mm": 0.00016999999999711693,
+      "status": "PASS"
+    },
+    {
+      "id": "R-JOINT-LOWER-FLANK--1",
+      "samples": 130,
+      "max_error_mm": 0.001285569089153337,
+      "status": "PASS"
+    },
+    {
+      "id": "R-JOINT-LOWER-FLANK-+1",
+      "samples": 130,
+      "max_error_mm": 0.001285569089153337,
+      "status": "PASS"
+    },
+    {
+      "id": "R-JOINT-UPPER-FLANK--1",
+      "samples": 135,
+      "max_error_mm": 0.002342294009248143,
+      "status": "PASS"
+    },
+    {
+      "id": "R-JOINT-UPPER-FLANK-+1",
+      "samples": 135,
+      "max_error_mm": 0.0023422940092473056,
+      "status": "PASS"
+    },
+    {
+      "id": "R-RFID-FACE-1",
+      "samples": 49,
+      "max_error_mm": 0.004999999999999893,
+      "status": "PASS"
+    },
+    {
+      "id": "R-RFID-FACE-2",
+      "samples": 49,
+      "max_error_mm": 0.005000000000000005,
+      "status": "PASS"
+    },
+    {
+      "id": "R-RFID-ACCESS-FACE",
+      "samples": 49,
+      "max_error_mm": 0.014010000000000022,
+      "status": "PASS"
+    },
+    {
+      "id": "R-BOX-BOTTOM-RIB",
+      "samples": 121,
+      "max_error_mm": 0.02406497482756104,
+      "status": "PASS"
+    },
+    {
+      "id": "R-FD1-KEY-SOCKET",
+      "samples": 405,
+      "max_error_mm": 0.004004000000000119,
+      "status": "PASS"
+    },
+    {
+      "id": "R-FD2-KEY-SOCKET",
+      "samples": 405,
+      "max_error_mm": 0.0040039999999947895,
+      "status": "PASS"
+    },
+    {
+      "id": "R-FD1-BODY-GUIDE-1",
+      "samples": 81,
+      "max_error_mm": 0.004005999999996846,
+      "status": "PASS"
+    },
+    {
+      "id": "R-FD1-WEB-RAMP-1",
+      "samples": 25,
+      "max_error_mm": 0.0021213203435594815,
+      "status": "PASS"
+    },
+    {
+      "id": "R-FD1-BODY-GUIDE-2",
+      "samples": 81,
+      "max_error_mm": 0.004005999999996846,
+      "status": "PASS"
+    },
+    {
+      "id": "R-FD1-WEB-RAMP-2",
+      "samples": 25,
+      "max_error_mm": 0.0021213203435594334,
+      "status": "PASS"
+    },
+    {
+      "id": "R-FD2-BODY-GUIDE-1",
+      "samples": 81,
+      "max_error_mm": 0.004005999999996846,
+      "status": "PASS"
+    },
+    {
+      "id": "R-FD2-WEB-RAMP-1",
+      "samples": 25,
+      "max_error_mm": 0.00212132034355953,
+      "status": "PASS"
+    },
+    {
+      "id": "R-FD2-BODY-GUIDE-2",
+      "samples": 81,
+      "max_error_mm": 0.004005999999996846,
+      "status": "PASS"
+    },
+    {
+      "id": "R-FD2-WEB-RAMP-2",
+      "samples": 25,
+      "max_error_mm": 0.0021213203435594334,
+      "status": "PASS"
+    },
+    {
+      "id": "R-BOX-OUTER-RAIL",
+      "samples": 41,
+      "max_error_mm": 0.0021974903971664593,
+      "status": "PASS"
+    },
+    {
+      "id": "R-RFID-ROOF-1",
+      "samples": 38,
+      "max_error_mm": 0.018274230263546524,
+      "status": "PASS"
+    },
+    {
+      "id": "R-RFID-ROOF-2",
+      "samples": 31,
+      "max_error_mm": 0.023466408253164716,
+      "status": "PASS"
+    },
+    {
+      "id": "R-RFID-CORNER-STOP",
+      "samples": 81,
+      "max_error_mm": 0.0007500000000035812,
+      "status": "PASS"
+    },
+    {
+      "id": "R-FERRITE-1-BODY-SIDE",
+      "samples": 81,
+      "max_error_mm": 0.003999000000007414,
+      "status": "PASS"
+    },
+    {
+      "id": "R-FERRITE-2-BODY-SIDE",
+      "samples": 81,
+      "max_error_mm": 0.0040050000000064765,
+      "status": "PASS"
+    },
+    {
+      "id": "R-FERRITE-1-LIP",
+      "samples": 81,
+      "max_error_mm": 0.048278499499259366,
+      "status": "PASS"
+    },
+    {
+      "id": "R-FERRITE-2-LIP",
+      "samples": 81,
+      "max_error_mm": 0.04827849949925938,
+      "status": "PASS"
+    }
+  ],
+  "routes": [
+    {
+      "type": "cap PTFE",
+      "OD_mm": 4,
+      "bend_radius_mm": 10.0,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "type": "cap PTFE",
+      "OD_mm": 4,
+      "bend_radius_mm": 20.0,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    }
+  ],
+  "added_mm3": 5690.050069209295,
+  "removed_mm3": 7053.722753487482,
+  "scope": "Retained0.05 hardware contacts on cut body plus unchanged bar; two existing cap-tube corridors. Does not certify other cable paths, wall thickness, all surfaces, or printability.",
+  "input_sha256": {
+    "/home/repro/lab/kraken-ams/body-v5-agent/work/v5chk/artifacts/right_body_pocket_cut5_printable_display.npz": "df01dd2896b55539972fe2b91b14a45f142ae1408a427ca045b7059ea1e99394",
+    "/home/repro/lab/kraken-ams/body-v5-agent/work/full/artifacts/right_M5_gear_edit_insert_cut5_display.npz": "56ca79a031a7cc8be6f54809fffdb5684e502d602d73b5139377f5cedcc308e3"
+  },
+  "status": "PASS"
+}

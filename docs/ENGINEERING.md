@@ -40,11 +40,14 @@ No total safe tilt, measured runout, maximum speed, or dynamic life is claimed. 
 
 ## Why the front bars fit this way
 
-Each half has one bar, two repeated square keys and a broad seating shoulder. The keys are 6.0 mm wide/deep, on 84.0 mm centres; sockets are 6.3 mm for 0.15 mm running clearance per side. A 0.4 mm tip lead guides entry. Matching 0.8 mm, 45° root tapers register X/Y with zero nominal seated taper gap. The shoulder sets Z.
+Each half has one bar, two repeated square keys and a broad seating shoulder. The keys are 6.0 mm wide/deep, on 84.0 mm centres, with a 0.4 mm tip lead and 0.8 mm, 45° root tapers. The body's shoulder is Z116.95; key tips end at Z119.95, making the body 244.9 mm tall. The bar restores the original Z124.95 feed end and prints flat as an 8 mm-tall part with its shoulder at Z0.
 
-The body's shoulder is Z116.95; key tips end at Z119.95, making the body 244.9 mm tall. The bar restores the original Z124.95 feed end, with 3 mm overlap below the key-tip plane. It prints flat as an 8 mm-tall part; the supplied print model places its shoulder at Z0. The key pockets have a 6.3 mm roof span, so bridge performance still needs practical checking.
+Two bar generations share those keys:
 
-After installation, the front locating tabs engage the AMS box and are intended to retain the bars; no new fastener is added. Fit the bars while the joined bodies are loosely placed, **before final front-tab engagement and body-screw tightening**. Removal requires releasing that capture and any circuit-board edge holders crossing the body/bar split. The local path checks support a 3.15 mm lift to clear the keys; no full AMS-box solid was available, so whole-unit installation and hand/tool access remain unverified.
+- **Slide-on bars (cad-library-2026-10-15, asa-print-2026-10-16):** blind 6.3 mm sockets, 0.15 mm running clearance per side, zero-gap root tapers on all four flanks. The bar slides on along the body's long axis (3.15 mm travel) and must be fitted before the front box tabs engage.
+- **Drop-in bars (v5, [prints/pctg-2026-10-28-v5](../prints/pctg-2026-10-28-v5/README.md)):** each socket is a U-slot open to the bar's floor-side edge, 6.6 mm wide and 3.3 mm deep (0.30 mm per side, the clearance that slid by hand on the owner's P1S fit ladder), with zero-gap 45° tapers on the two side flanks only. The closed flank follows the key's root collar 0.70 mm above it, so the bar rests on the box floor and can be nudged past the key position by hand; it never hangs on the keys. The joined halves go into the box without the bars, each bar drops onto its keys from above, and a 3 mm forward slide puts the box front tabs into the bars' existing clip slots, which then hold bars and bodies down. The main board goes in after the bars and comes out first. A body with the released keys accepts either bar.
+
+The key pockets have a 6.3 or 6.6 mm roof span, so bridge performance still needs practical checking. No full AMS-box solid was available, so whole-unit installation, the 3 mm slide allowance and hand/tool access remain unverified; the drop-in sequence assumes at least 3.3 mm of free box depth with the bars on.
 
 ## Modeling and evidence boundaries
 

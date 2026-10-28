@@ -1,0 +1,727 @@
+{
+  "native_regions": [
+    {
+      "side": "right",
+      "checks": [
+        {
+          "region": "shaft load section",
+          "native_symmetric_difference_mm3": 0.0,
+          "status": "PASS"
+        },
+        {
+          "region": "roller load section",
+          "native_symmetric_difference_mm3": 0.0,
+          "status": "PASS"
+        },
+        {
+          "region": "cap box locating wall above the v5 foot zone",
+          "native_symmetric_difference_mm3": 0.0,
+          "status": "PASS"
+        },
+        {
+          "region": "broad box seating land",
+          "native_symmetric_difference_mm3": 0.0,
+          "status": "PASS"
+        },
+        {
+          "region": "cap end wall foot zone (v5 feature, native Z -130..-91)",
+          "native_symmetric_difference_mm3": 926.8126561409935,
+          "status": "REPORTED",
+          "scope": "Deliberate v5 rear foot; see rear_face_v5.py report for the feature volumes."
+        },
+        {
+          "region": "main cable entry no new obstruction",
+          "added_native_mm3": 0.0,
+          "status": "PASS",
+          "scope": "Existing15mm opening and lower rectangular route retained; actual cable bundle dimensions remain unprovided."
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "side": "left",
+      "checks": [
+        {
+          "region": "shaft load section",
+          "native_symmetric_difference_mm3": 0.0,
+          "status": "PASS"
+        },
+        {
+          "region": "roller load section",
+          "native_symmetric_difference_mm3": 0.0,
+          "status": "PASS"
+        },
+        {
+          "region": "cap box locating wall above the v5 foot zone",
+          "native_symmetric_difference_mm3": 0.0,
+          "status": "PASS"
+        },
+        {
+          "region": "broad box seating land",
+          "native_symmetric_difference_mm3": 0.0,
+          "status": "PASS"
+        },
+        {
+          "region": "cap end wall foot zone (v5 feature, native Z -130..-91)",
+          "native_symmetric_difference_mm3": 862.509721416797,
+          "status": "REPORTED",
+          "scope": "Deliberate v5 rear foot; see rear_face_v5.py report for the feature volumes."
+        },
+        {
+          "region": "main cable entry no new obstruction",
+          "added_native_mm3": 0.0,
+          "status": "PASS",
+          "scope": "Existing15mm opening and lower rectangular route retained; actual cable bundle dimensions remain unprovided."
+        }
+      ],
+      "status": "PASS"
+    }
+  ],
+  "seam_slide": [
+    {
+      "offset_z_mm": -200.0,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "offset_z_mm": -150.0,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "offset_z_mm": -100.0,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "offset_z_mm": -50.0,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "offset_z_mm": -20.0,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "offset_z_mm": -10.0,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "offset_z_mm": -5.0,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "offset_z_mm": -2.0,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "offset_z_mm": 0.0,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    }
+  ],
+  "cross_half_insert_path": [
+    {
+      "side": "right",
+      "travel_mm": 0.0,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "left",
+      "travel_mm": 0.0,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "right",
+      "travel_mm": 0.25,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "left",
+      "travel_mm": 0.25,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "right",
+      "travel_mm": 0.5,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "left",
+      "travel_mm": 0.5,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "right",
+      "travel_mm": 0.75,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "left",
+      "travel_mm": 0.75,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "right",
+      "travel_mm": 1.0,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "left",
+      "travel_mm": 1.0,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "right",
+      "travel_mm": 1.25,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "left",
+      "travel_mm": 1.25,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "right",
+      "travel_mm": 1.5,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "left",
+      "travel_mm": 1.5,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "right",
+      "travel_mm": 1.75,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "left",
+      "travel_mm": 1.75,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "right",
+      "travel_mm": 2.0,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "left",
+      "travel_mm": 2.0,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "right",
+      "travel_mm": 2.25,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "left",
+      "travel_mm": 2.25,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "right",
+      "travel_mm": 2.5,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "left",
+      "travel_mm": 2.5,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "right",
+      "travel_mm": 2.75,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "left",
+      "travel_mm": 2.75,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "right",
+      "travel_mm": 3.0,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "left",
+      "travel_mm": 3.0,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "right",
+      "travel_mm": 3.25,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "left",
+      "travel_mm": 3.25,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "right",
+      "travel_mm": 3.5,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "left",
+      "travel_mm": 3.5,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "right",
+      "travel_mm": 3.75,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "left",
+      "travel_mm": 3.75,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "right",
+      "travel_mm": 4.0,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "left",
+      "travel_mm": 4.0,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "right",
+      "travel_mm": 4.25,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "left",
+      "travel_mm": 4.25,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "right",
+      "travel_mm": 4.5,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "left",
+      "travel_mm": 4.5,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "right",
+      "travel_mm": 4.75,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "left",
+      "travel_mm": 4.75,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "right",
+      "travel_mm": 5.0,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "left",
+      "travel_mm": 5.0,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "right",
+      "travel_mm": 5.25,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "left",
+      "travel_mm": 5.25,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "right",
+      "travel_mm": 5.5,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "left",
+      "travel_mm": 5.5,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "right",
+      "travel_mm": 5.75,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "left",
+      "travel_mm": 5.75,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "right",
+      "travel_mm": 6.0,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "left",
+      "travel_mm": 6.0,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "right",
+      "travel_mm": 6.25,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "left",
+      "travel_mm": 6.25,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "right",
+      "travel_mm": 6.5,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "left",
+      "travel_mm": 6.5,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "right",
+      "travel_mm": 6.75,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "left",
+      "travel_mm": 6.75,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "right",
+      "travel_mm": 7.0,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "left",
+      "travel_mm": 7.0,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "right",
+      "travel_mm": 7.25,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "left",
+      "travel_mm": 7.25,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "right",
+      "travel_mm": 7.5,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "left",
+      "travel_mm": 7.5,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "right",
+      "travel_mm": 7.75,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "left",
+      "travel_mm": 7.75,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "right",
+      "travel_mm": 8.0,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "left",
+      "travel_mm": 8.0,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "right",
+      "travel_mm": 8.25,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "left",
+      "travel_mm": 8.25,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "right",
+      "travel_mm": 8.5,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "left",
+      "travel_mm": 8.5,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "right",
+      "travel_mm": 8.75,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "left",
+      "travel_mm": 8.75,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "right",
+      "travel_mm": 9.0,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "left",
+      "travel_mm": 9.0,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "right",
+      "travel_mm": 9.25,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "left",
+      "travel_mm": 9.25,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "right",
+      "travel_mm": 9.5,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "left",
+      "travel_mm": 9.5,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "right",
+      "travel_mm": 9.75,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "left",
+      "travel_mm": 9.75,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "right",
+      "travel_mm": 10.0,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "left",
+      "travel_mm": 10.0,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "right",
+      "travel_mm": 10.25,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "left",
+      "travel_mm": 10.25,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "right",
+      "travel_mm": 10.5,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "left",
+      "travel_mm": 10.5,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "right",
+      "travel_mm": 10.75,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "left",
+      "travel_mm": 10.75,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "right",
+      "travel_mm": 11.0,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "left",
+      "travel_mm": 11.0,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "right",
+      "travel_mm": 11.25,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "left",
+      "travel_mm": 11.25,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "right",
+      "travel_mm": 11.5,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "left",
+      "travel_mm": 11.5,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "right",
+      "travel_mm": 11.75,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "left",
+      "travel_mm": 11.75,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "right",
+      "travel_mm": 12.0,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "side": "left",
+      "travel_mm": 12.0,
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    }
+  ],
+  "status": "PASS",
+  "limits": "Native unchanged20mm Z strips permit reuse of the prior sampled net-section calculation, not reuse of unconverged whole-body FE stiffness. Discrete motion samples; no full AMS box or fully routed flexible cables. No physical warp/strength qualification.",
+  "hashes": {
+    "/home/repro/lab/kraken-ams/body-v5-agent/work/v5chk/artifacts/left_body_pocket_cut5_printable.step": "a4ae8fa9aaa3d49ed1cedececcdc2346c1942f3b7d9094eb8698966c97c3f5be",
+    "/home/repro/lab/kraken-ams/body-v5-agent/work/v5chk/artifacts/left_body_pocket_cut5_printable.3mf": "0fc1bf8a6f3a816af2de348c95bd4a2f6f3f572dde95a24c0e2404c42fa43fa3",
+    "/home/repro/lab/kraken-ams/body-v5-agent/work/v5chk/artifacts/left_body_pocket_cut5_printable_display.npz": "3c5286b8c4074e786547e8ff661b4bec0724f8a974eb6fe940fe8f8d753d6592",
+    "/home/repro/lab/kraken-ams/body-v5-agent/work/v5chk/artifacts/right_body_pocket_cut5_printable.step": "a1beb7d4b6d6ebbc24c169b262d48a6b9b771407d0be1c506eab21f88bd676b9",
+    "/home/repro/lab/kraken-ams/body-v5-agent/work/v5chk/artifacts/right_body_pocket_cut5_printable.3mf": "4bb27f80517543abbb63fbb87854e2db767fee71f0fc3fb6fc509fb7e75c4c44",
+    "/home/repro/lab/kraken-ams/body-v5-agent/work/v5chk/artifacts/right_body_pocket_cut5_printable_display.npz": "df01dd2896b55539972fe2b91b14a45f142ae1408a427ca045b7059ea1e99394"
+  }
+}

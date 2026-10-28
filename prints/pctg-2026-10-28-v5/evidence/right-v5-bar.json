@@ -1,0 +1,72 @@
+{
+  "side": "right",
+  "status": "V5_BAR_CANDIDATE",
+  "parameters": {
+    "cut_height": 5.0,
+    "rail_width": 6.0,
+    "rail_depth": 6.0,
+    "rail_engagement": 3.0,
+    "fit_clearance": 0.3,
+    "seating_taper": 0.8,
+    "tip_lead": 0.4,
+    "rail_wall_margin": 4.0,
+    "top_clearance": 0.7,
+    "reach": 25.0
+  },
+  "source": "/home/repro/lab/kraken-ams/body-v5-agent/work/full/artifacts/right_M5_gear_edit.step",
+  "source_sha256": "8deef5c3f0a6389fcd23dcd3295487b0633402669436f46c3048f65b7d68a08d",
+  "split": {
+    "shoulder_plane": 116.95,
+    "rail_tip": 119.95,
+    "rail_centers_canonical": [
+      -13.069999999999997,
+      70.93
+    ]
+  },
+  "split_body_vs_accepted_cut5_symmetric_difference_mm3": 1.5306681963190877e-05,
+  "keys_unchanged": true,
+  "bar_volume_mm3": 12813.42297127109,
+  "bar_valid": true,
+  "drop_in_checks": [
+    {
+      "key_bbox": [
+        -16.8700008392334,
+        45.08000183105469,
+        116.94999694824219,
+        -9.270000457763672,
+        52.68000030517578,
+        119.94999694824219
+      ],
+      "max_interference_mm3_along_drop": 1.3141446311036971e-05,
+      "float_free_mm3": 1.013815313304934e-05,
+      "float_stop_mm3": 5.133013196134173,
+      "pass_": true,
+      "bar_material_in_slot_below_key_mm3": 0.0
+    },
+    {
+      "key_bbox": [
+        67.12999725341797,
+        45.08000183105469,
+        116.94999694824219,
+        74.7300033569336,
+        52.68000030517578,
+        119.94999694824219
+      ],
+      "max_interference_mm3_along_drop": 4.440892098500626e-16,
+      "float_free_mm3": 0.0,
+      "float_stop_mm3": 5.133000965360648,
+      "pass_": true,
+      "bar_material_in_slot_below_key_mm3": 0.0
+    }
+  ],
+  "flat_transform": "Translate Z by negative shoulder_plane; no rotation",
+  "elapsed_s": 87.90202116966248,
+  "files": {
+    "right_bar_slot_v5.step": "425d03d1563ee972412e6e24d33b81f7cd100a90e2fd65abdc470ff9b2fd181d",
+    "right_bar_slot_v5.3mf": "55f97f468b88fcddf420ea2bd358784e78ef247c85e16fbf9b76d26429ddecf6",
+    "right_bar_slot_v5_display.npz": "120471aae2421ac49b9ab6f50475d6e2b34893010f45effd8042182ed2223787",
+    "right_bar_slot_v5_flat.step": "a5eb2e8f489c2641a1d96a372925af91ced522136cba7a2b759b428bbe281d05",
+    "right_bar_slot_v5_flat.3mf": "eb450a57fd09bae2398dc7d0c6387e06367f41cc73fa52c039c355a5333764f1",
+    "right_bar_slot_v5_flat_display.npz": "18f3a0aff1873f8d279f142ffd0166807bff61826076fa2d797a5cdfc3c0c696"
+  }
+}

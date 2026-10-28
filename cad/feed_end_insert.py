@@ -41,6 +41,27 @@ def key_pair(cx,p,d):
     return key,union([running,seat])
 
 
+def slot_pair(cx,p,d):
+    """The released key with a drop-in U-slot instead of a blind socket (v5 bars).
+
+    The slot is open to the bar's floor-side (+Y) edge: running clearance d['fit_clearance']
+    on the two X flanks, zero-gap 45 degree seat tapers on those flanks only, and a closed
+    flank that follows the key's root collar d['slot_top_clearance'] above it, so the bar
+    rests on the box floor and never hangs on the keys.
+    """
+    key,_=key_pair(cx,p,{**d,'fit_clearance':INSERT['fit_clearance']})
+    tip=p['z_feed']-d['cut_height'];root=tip-d['rail_engagement'];collar=root+d['seating_taper']
+    fit=d['fit_clearance'];tc=d['slot_top_clearance'];ybig=p['platform_y']+p['platform_depth']+d['slot_reach']
+    cy=p['platform_y']+p['platform_depth']/2
+    def wire(z,xoff,topoff):
+        w=d['rail_width']/2+xoff;h=d['rail_depth']/2+topoff
+        pts=[(cx-w,cy-h,z),(cx+w,cy-h,z),(cx+w,ybig,z),(cx-w,ybig,z)]
+        return Wire([Edge.make_line(a,b) for a,b in zip(pts,pts[1:]+pts[:1])])
+    running=Solid.extrude(Face(wire(root,fit,tc)),(0,0,d['rail_engagement']+fit))
+    seat=Solid.make_loft([wire(root,d['seating_taper'],d['seating_taper']+tc),wire(collar,0,tc)],ruled=True)
+    return key,union([running,seat])
+
+
 def split_body(original,parameters,d=INSERT):
     p=resolve_design(parameters);stop=p['z_feed']-d['cut_height'];shoulder=stop-d['rail_engagement']
     assert 0<d['fit_clearance']<d['seating_taper']<d['rail_engagement']
@@ -60,8 +81,9 @@ def split_body(original,parameters,d=INSERT):
     body=norm(original.intersect(lower));insert=norm(original.intersect(upper))
     setback=d['rail_width']/2+d['seating_taper']+d['rail_wall_margin']
     centers=[p['bay_datum']+p['bay_width']-setback+i*p['pitch'] for i in range(p['bay_count'])]
+    pair=slot_pair if d.get('slot_top_clearance') is not None else key_pair
     for center in centers:
-        key,socket=key_pair(center,p,d);key=handed(key);socket=handed(socket)
+        key,socket=pair(center,p,d);key=handed(key);socket=handed(socket)
         assert cut(key,original).volume<1e-5,'Key leaves original platform envelope'
         body=union([body,key]);insert=cut(insert,socket)
     for name,s in [('cut body',body),('insert',insert)]:
@@ -113,7 +135,7 @@ def run(side,variant,d=INSERT,from_accepted=False):
     print(f'Building {side} {stage} cut/insert',flush=True)
     original=import_step(ROOT/'artifacts'/f'{side}_{stage}.step') if from_accepted else build(parameters,stage,variant=='pocket')
     body,insert,details=split_body(original,parameters,d)
-    suffix=f"cut{d['cut_height']:g}";label=f'{stage}_{suffix}'
+    suffix=f"cut{d['cut_height']:g}"+('_dropin' if d.get('slot_top_clearance') is not None else '');label=f'{stage}_{suffix}'
     reports={}
     for name,s in [(label,body),(f'{stage}_insert_{suffix}',insert)]:
         print(f'Exporting {side} {name}',flush=True)
@@ -139,4 +161,9 @@ if __name__=='__main__':
     parser.add_argument('variant',choices=['standard','pocket']);parser.add_argument('--from-accepted',action='store_true')
     parser.add_argument('--cut-height',type=float,default=INSERT['cut_height'])
     parser.add_argument('--fit-clearance',type=float,default=INSERT['fit_clearance'])
-    args=parser.parse_args();run(args.side,args.variant,{**INSERT,'cut_height':args.cut_height,'fit_clearance':args.fit_clearance},args.from_accepted)
+    parser.add_argument('--drop-in',type=float,default=None,metavar='TOP_CLEARANCE',
+                        help='v5 drop-in bar: U-slots open to the floor edge with this vertical clearance above the key (0.7 released)')
+    args=parser.parse_args()
+    d={**INSERT,'cut_height':args.cut_height,'fit_clearance':args.fit_clearance}
+    if args.drop_in is not None:d.update(slot_top_clearance=args.drop_in,slot_reach=25.0)
+    run(args.side,args.variant,d,args.from_accepted)

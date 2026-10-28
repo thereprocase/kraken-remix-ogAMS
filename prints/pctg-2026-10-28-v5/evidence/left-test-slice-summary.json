@@ -1,0 +1,36 @@
+{
+	"plates": [
+		{
+			"estimated_time_s": 37903.0,
+			"feature_types": [
+				"Inner wall",
+				"Outer wall",
+				"Overhang wall",
+				"Sparse infill",
+				"Internal solid infill",
+				"Top surface",
+				"Bottom surface",
+				"Bridge",
+				"Internal Bridge",
+				"Brim",
+				"Custom"
+			],
+			"filaments": [
+				{
+					"color": "#F2D7DC",
+					"id": 1,
+					"length_m": 167.104,
+					"type": "PCTG",
+					"weight_g": 494.377
+				}
+			],
+			"has_brim": true,
+			"has_skirt": false,
+			"has_support": false,
+			"objects": [
+				"left-body"
+			],
+			"plate": 1
+		}
+	]
+}

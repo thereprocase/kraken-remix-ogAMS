@@ -1,0 +1,28 @@
+{
+  "surface_samples": 263309,
+  "mesh_triangles": 155734,
+  "area_sampling_mm2": 2.0,
+  "raw_ray_minimum_mm": 0.00021259166534624098,
+  "supported_wall_minimum_mm": 0.6499999999999915,
+  "nonexempt_wall_minimum_mm": 1.0000183417857968,
+  "required_continuous_wall_mm": 1.0,
+  "numerical_tolerance_mm": 0.01,
+  "patch_radius_mm": 0.75,
+  "classified_near_threshold_samples": 4510,
+  "edge_and_bevel_samples": {
+    "nonopposing": 3592,
+    "edge_or_narrow_feature": 872
+  },
+  "parallel_face_angle_limit_degrees": 15.0,
+  "source_matched_hardware_exception": {
+    "id": "ROLLER-4-BLIND-STOP",
+    "samples": 45,
+    "minimum_mm": 0.6499999999999915,
+    "source_minimum_mm": 0.6299215999999888,
+    "reason": "Blind roller depth and outer seam face are mating datums; retain source 0.65mm end web."
+  },
+  "thin_wall_samples": 0,
+  "thin_wall_clusters": [],
+  "status": "PASS",
+  "input_sha256": "3c5286b8c4074e786547e8ff661b4bec0724f8a974eb6fe940fe8f8d753d6592"
+}

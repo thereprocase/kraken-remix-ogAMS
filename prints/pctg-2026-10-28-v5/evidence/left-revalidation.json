@@ -1,0 +1,238 @@
+{
+  "side": "left",
+  "export_status": "PASS",
+  "install_status": "PASS",
+  "native_valid": true,
+  "native_solids": 1,
+  "step_to_mesh_sampled_bidirectional_error_mm": 0.049109634949669065,
+  "unchanged_feed_end_native_symmetric_difference_mm3": 0,
+  "unchanged_feed_end_region_z_mm": [
+    84,
+    130
+  ],
+  "cut_height_mm": 244.9,
+  "insert_path": [
+    {
+      "travel_mm": 0.0,
+      "overlap_mm3": -4.38420399664352e-15
+    },
+    {
+      "travel_mm": 0.25,
+      "overlap_mm3": 0.0
+    },
+    {
+      "travel_mm": 0.5,
+      "overlap_mm3": 0.0
+    },
+    {
+      "travel_mm": 0.75,
+      "overlap_mm3": 0.0
+    },
+    {
+      "travel_mm": 1.0,
+      "overlap_mm3": 0.0
+    },
+    {
+      "travel_mm": 1.25,
+      "overlap_mm3": 0.0
+    },
+    {
+      "travel_mm": 1.5,
+      "overlap_mm3": 0.0
+    },
+    {
+      "travel_mm": 1.75,
+      "overlap_mm3": 0.0
+    },
+    {
+      "travel_mm": 2.0,
+      "overlap_mm3": 0.0
+    },
+    {
+      "travel_mm": 2.25,
+      "overlap_mm3": 0.0
+    },
+    {
+      "travel_mm": 2.5,
+      "overlap_mm3": 0.0
+    },
+    {
+      "travel_mm": 2.75,
+      "overlap_mm3": 0.0
+    },
+    {
+      "travel_mm": 3.0,
+      "overlap_mm3": 0.0
+    },
+    {
+      "travel_mm": 3.25,
+      "overlap_mm3": 0.0
+    },
+    {
+      "travel_mm": 3.5,
+      "overlap_mm3": 0.0
+    },
+    {
+      "travel_mm": 3.75,
+      "overlap_mm3": 0.0
+    },
+    {
+      "travel_mm": 4.0,
+      "overlap_mm3": 0.0
+    },
+    {
+      "travel_mm": 4.25,
+      "overlap_mm3": 0.0
+    },
+    {
+      "travel_mm": 4.5,
+      "overlap_mm3": 0.0
+    },
+    {
+      "travel_mm": 4.75,
+      "overlap_mm3": 0.0
+    },
+    {
+      "travel_mm": 5.0,
+      "overlap_mm3": 0.0
+    },
+    {
+      "travel_mm": 5.25,
+      "overlap_mm3": 0.0
+    },
+    {
+      "travel_mm": 5.5,
+      "overlap_mm3": 0.0
+    },
+    {
+      "travel_mm": 5.75,
+      "overlap_mm3": 0.0
+    },
+    {
+      "travel_mm": 6.0,
+      "overlap_mm3": 0.0
+    },
+    {
+      "travel_mm": 6.25,
+      "overlap_mm3": 0.0
+    },
+    {
+      "travel_mm": 6.5,
+      "overlap_mm3": 0.0
+    },
+    {
+      "travel_mm": 6.75,
+      "overlap_mm3": 0.0
+    },
+    {
+      "travel_mm": 7.0,
+      "overlap_mm3": 0.0
+    },
+    {
+      "travel_mm": 7.25,
+      "overlap_mm3": 0.0
+    },
+    {
+      "travel_mm": 7.5,
+      "overlap_mm3": 0.0
+    },
+    {
+      "travel_mm": 7.75,
+      "overlap_mm3": 0.0
+    },
+    {
+      "travel_mm": 8.0,
+      "overlap_mm3": 0.0
+    },
+    {
+      "travel_mm": 8.25,
+      "overlap_mm3": 0.0
+    },
+    {
+      "travel_mm": 8.5,
+      "overlap_mm3": 0.0
+    },
+    {
+      "travel_mm": 8.75,
+      "overlap_mm3": 0.0
+    },
+    {
+      "travel_mm": 9.0,
+      "overlap_mm3": 0.0
+    },
+    {
+      "travel_mm": 9.25,
+      "overlap_mm3": 0.0
+    },
+    {
+      "travel_mm": 9.5,
+      "overlap_mm3": 0.0
+    },
+    {
+      "travel_mm": 9.75,
+      "overlap_mm3": 0.0
+    },
+    {
+      "travel_mm": 10.0,
+      "overlap_mm3": 0.0
+    },
+    {
+      "travel_mm": 10.25,
+      "overlap_mm3": 0.0
+    },
+    {
+      "travel_mm": 10.5,
+      "overlap_mm3": 0.0
+    },
+    {
+      "travel_mm": 10.75,
+      "overlap_mm3": 0.0
+    },
+    {
+      "travel_mm": 11.0,
+      "overlap_mm3": 0.0
+    },
+    {
+      "travel_mm": 11.25,
+      "overlap_mm3": 0.0
+    },
+    {
+      "travel_mm": 11.5,
+      "overlap_mm3": 0.0
+    },
+    {
+      "travel_mm": 11.75,
+      "overlap_mm3": 0.0
+    },
+    {
+      "travel_mm": 12.0,
+      "overlap_mm3": 0.0
+    }
+  ],
+  "added_mm3": 5798.667881601153,
+  "removed_mm3": 7989.436357997578,
+  "added_bounds": [
+    -85.13,
+    -56.80849,
+    -124.95,
+    85.12,
+    61.08,
+    119.95
+  ],
+  "removed_bounds": [
+    -85.13,
+    -62.39,
+    -124.95,
+    85.12,
+    61.08,
+    119.95
+  ],
+  "provenance": {
+    "/home/repro/lab/kraken-ams/body-v5-agent/work/v5chk/artifacts/left_body_pocket_cut5_printable_display.npz": "3c5286b8c4074e786547e8ff661b4bec0724f8a974eb6fe940fe8f8d753d6592",
+    "/home/repro/lab/kraken-ams/body-v5-agent/work/full/artifacts/left_M5_gear_edit_cut5_display.npz": "ee3ef514cae6efffd205442c085ba0e4e8a769f0c0bf3e92931cd379cb4a5938",
+    "/home/repro/lab/kraken-ams/body-v5-agent/work/full/artifacts/left_M5_gear_edit_insert_cut5_display.npz": "cf70fc3bfa0824b9d88d3eb6b87d8fc3617fff333b2e7a966ea572b81f550e16",
+    "/home/repro/lab/kraken-ams/body-v5-agent/work/v5chk/artifacts/left_body_pocket_cut5_printable.step": "a4ae8fa9aaa3d49ed1cedececcdc2346c1942f3b7d9094eb8698966c97c3f5be"
+  },
+  "limits": "Sampled export fidelity; no full AMS-box solid or physical tolerance certification. Native identity above Z84 preserves all cut5 and bar interface geometry; separate hardware and tube gates still apply.",
+  "status": "PASS"
+}

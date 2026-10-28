@@ -12,6 +12,10 @@ This repository targets the **original Bambu Lab AMS**. Its reference body files
 
 Blue: the two main bodies. Orange: the two removable front bars, shown lifted away from their installed positions. The render uses the downloadable models.
 
+## v5 bodies and drop-in bars (2026-10-28)
+
+The [v5 print package](prints/pctg-2026-10-28-v5/README.md) gives both bodies square feet on the bed end so they print without a brim comb (left bed face 2026 mm2 in one region instead of 1415 mm2 in five islands; right 1516 instead of 1016), and replaces the slide-on front bars with drop-in bars that go onto the same keys from above after the bodies are in the box. The hardware interfaces, cut5 keys, gear pocket and v4 underside are unchanged; the v4 and earlier files stay as released.
+
 ## What changes, and why
 
 **More space beside the large gear.** Each Kraken spool holder has a large gear that meshes with the small drive gear at its feeder. The large gear runs close to a body wall. This remix adds a shallow, tapered recess to that wall to give the gear rim more room if it moves toward the wall. We call that recess the **gear-clearance pocket**. It is separate from the bearing seats that locate the spool holder, and it does not change the gear teeth.

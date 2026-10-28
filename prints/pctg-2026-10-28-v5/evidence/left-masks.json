@@ -1,0 +1,106 @@
+{
+  "side": "left",
+  "parent_step_sha256": "a4ae8fa9aaa3d49ed1cedececcdc2346c1942f3b7d9094eb8698966c97c3f5be",
+  "parent_3mf_sha256": "0fc1bf8a6f3a816af2de348c95bd4a2f6f3f572dde95a24c0e2404c42fa43fa3",
+  "raw_to_bed_4x4": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      124.95
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "placement": "Transform parent and modifiers together; no independent centering or dropping. Native raw coordinates retained.",
+  "base_settings": {
+    "wall_loops": 2,
+    "sparse_infill_density": "15%"
+  },
+  "bars": "Accepted flat bars remain unchanged; uniform 4 walls /30% infill, no modifiers.",
+  "modifiers": [
+    {
+      "kind": "dense",
+      "action": "unchanged exact mask files",
+      "removed_from_mask_mm3": 0,
+      "native_outside_parent_mm3": 0,
+      "native_valid": true,
+      "native_solids": 19,
+      "sampled_bidirectional_export_error_mm": 0.04916088577073037,
+      "settings": {
+        "wall_loops": 4,
+        "sparse_infill_density": "100%"
+      },
+      "source_sha256": {
+        "step": "f49a3607a744351e7090e034a9bf42a62307c7f9e944f91099e22958bfbbe812",
+        "stl": "c4c3ef087e6c35ec0255db22109439cd795a8a9ad8ab0572cb10e3e18184403e",
+        "npz": "0beb7aa9f738234b9b88291d358109f18e0b9ab52a8fcef0129d5508d8d06a82"
+      },
+      "files": {
+        "step": {
+          "path": "masks/left-body-dense.step",
+          "sha256": "f49a3607a744351e7090e034a9bf42a62307c7f9e944f91099e22958bfbbe812"
+        },
+        "stl": {
+          "path": "masks/left-body-dense.stl",
+          "sha256": "c4c3ef087e6c35ec0255db22109439cd795a8a9ad8ab0572cb10e3e18184403e"
+        },
+        "npz": {
+          "path": "masks/left-body-dense.npz",
+          "sha256": "0beb7aa9f738234b9b88291d358109f18e0b9ab52a8fcef0129d5508d8d06a82"
+        }
+      }
+    },
+    {
+      "kind": "walls",
+      "action": "unchanged exact mask files",
+      "removed_from_mask_mm3": 0,
+      "native_outside_parent_mm3": 0,
+      "native_valid": true,
+      "native_solids": 7,
+      "sampled_bidirectional_export_error_mm": 0.049461449227450036,
+      "settings": {
+        "wall_loops": 4,
+        "sparse_infill_density": "15%"
+      },
+      "source_sha256": {
+        "step": "8054b0e5903f1ab32b2ae43d16ca045bbc26a3d100e1f11e37dbe3f7f511cf9e",
+        "stl": "9c531cd54038331efc572a0b5428d1a98ffc34cb1b956753ec8f8a89c9496133",
+        "npz": "7c61f91a9fbd339863eef0006ea776f23c19cacc0b3e9d42c747f0c8a7953115"
+      },
+      "files": {
+        "step": {
+          "path": "masks/left-body-walls.step",
+          "sha256": "8054b0e5903f1ab32b2ae43d16ca045bbc26a3d100e1f11e37dbe3f7f511cf9e"
+        },
+        "stl": {
+          "path": "masks/left-body-walls.stl",
+          "sha256": "9c531cd54038331efc572a0b5428d1a98ffc34cb1b956753ec8f8a89c9496133"
+        },
+        "npz": {
+          "path": "masks/left-body-walls.npz",
+          "sha256": "7c61f91a9fbd339863eef0006ea776f23c19cacc0b3e9d42c747f0c8a7953115"
+        }
+      }
+    }
+  ],
+  "native_mask_overlap_mm3": 0,
+  "status": "PASS",
+  "limits": "New ferrite braces and feeder channel backing use base recipe; existing protected hardware roots retain original masks. Geometry validation does not certify slicer settings or ASA physical strength."
+}
