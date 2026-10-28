@@ -58,6 +58,15 @@ Body 3MFs are in native coordinates with no transform, the same frame as `left-b
 place them as the v4 release did (identity rotation, Z +124.95 to the bed). The released reinforcement masks apply unchanged (reclip check: 0 mm3 of every mask lies outside the v5 solids), with
 the same placement as the v4 release. Bars print with 4 walls / 30 % and no modifiers.
 
+## Narrow slots that belong there
+
+Seen from the floor side the bodies show several thin slots. They are hardware pockets, identical in the v4 release and
+in humebeam's original, and must stay open: the 1.8 mm RFID board slot between the two skins of the middle wall (open at
+the floor side, the board slides in from below), the 2.91 mm slots under the main-board edge tabs at the feed end, the
+4.8 mm box clip slot, the 2.8 mm box-screw clearance inside the cap-bay rib, the 1.8 mm pilot bores of the hub posts,
+the feeder locator sockets, the roller seat mouths and, on the right body, the ferrite rails. A gap scan of v5 against
+v4 (`source/newgaps.py`) finds no new gap under 5 mm next to the v5 feet or flanges.
+
 ## Reproduction
 
 Bodies: the attic v4 pipeline reproduction (`source/build_candidate.py` on the accepted cut5 STEP) followed by

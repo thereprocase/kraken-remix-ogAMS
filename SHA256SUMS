@@ -122,7 +122,7 @@ ed0ef05709e5441523a0852a6f8b8a682bc18190daaed4ddc7901db110ca5343  prints/asa-202
 46048c844cb14fbde84ac0c1faefd3025310266cf75362d33f3f9ac18e742d85  prints/asa-2026-10-16/right-toolpaths.png
 52ff368e0a7c2d2b0315d194f315fbeafbe343cd503c9e1a3cbac68c72571d20  prints/pctg-2026-10-28-v5/CAD-VALIDATION.md
 7de623f41ac17cbd526e929688c074711e50eaeb78947991ec4b2ca36b598aad  prints/pctg-2026-10-28-v5/DOWNLOADS.json
-d86fa264f508d504edd3e43cbd64a7948c3c939ff87e6b48b05e788a4640f294  prints/pctg-2026-10-28-v5/README.md
+b775b97acc336a8dff5a69d5d36cccb9c6b7135e0a3f1214271904e3bf25c752  prints/pctg-2026-10-28-v5/README.md
 f4799d4ccfbe727a16b38cb676ada4a65c1286728424bc7ce49e2e96bb3500c2  prints/pctg-2026-10-28-v5/evidence/layer_screen.json
 8b1d306115e95c1b252879733917934200d78e6a2b912deccd0fb6aa83dd0037  prints/pctg-2026-10-28-v5/evidence/left-deviation.json
 4cf9d717d8a6546307ec22976c951750725551209547f8f16b5eeb83c4356219  prints/pctg-2026-10-28-v5/evidence/left-hardware-route.json
@@ -164,6 +164,7 @@ a5eb2e8f489c2641a1d96a372925af91ced522136cba7a2b759b428bbe281d05  prints/pctg-20
 874f0d2b4185bba8b6e5dc592c7f27585790e8752f547ad19b04b445b2bc63ae  prints/pctg-2026-10-28-v5/source/check_loadpaths_joint_v5.py
 69b62c57d6f83f00847c4f42dc493c5be833c4c8dba6143354f5df874c6d5e2e  prints/pctg-2026-10-28-v5/source/deviation_check.py
 d0a5dd51c46a50312daecb5eb1b704faec14c425c4dd00c6f1fe26c59eafa03b  prints/pctg-2026-10-28-v5/source/firstlayer.py
+253688a0507031544ae2cec1cdb06d58623e279ba1918ca827c4759ed150d093  prints/pctg-2026-10-28-v5/source/newgaps.py
 2b56a10e1deb92b6e2c1269d2be18251c65673791f038498639892d291758814  prints/pctg-2026-10-28-v5/source/prepare_v5.py
 5e09d09ff4980ef54bd2c8ec997f06f67f6ca69487ac1bfbb43e91b69d4f21e4  prints/pctg-2026-10-28-v5/source/rear_face_v5.py
 bd5c1bca9b739f4795002e36d747aca82f1f0a5cfdaadc2a3ca771d4a59ebd6d  prints/pctg-2026-10-28-v5/source/run_checks.sh
